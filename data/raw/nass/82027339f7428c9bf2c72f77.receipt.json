@@ -1,0 +1,8 @@
+{
+  "url": "https://quickstats.nass.usda.gov/api/api_GET/?short_desc=CORN%2C+GRAIN+-+YIELD%2C+MEASURED+IN+BU+%2F+ACRE&agg_level_desc=COUNTY&state_alpha=KS&year__GE=2014&year__LE=2023&source_desc=SURVEY&format=JSON&county_name=RILEY",
+  "sha256": "781ab0d37e2f5949631ef1bae1d4eb2fdb6e29b1a436769e6e70c1ded56f895e",
+  "fetched_at_utc": "2026-11-15T03:11:50.897283+00:00",
+  "source": "USDA NASS Quick Stats",
+  "series": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+  "level": "COUNTY"
+}

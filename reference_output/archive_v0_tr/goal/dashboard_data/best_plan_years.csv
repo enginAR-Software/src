@@ -1,0 +1,181 @@
+parcel_id,region,strategy,plan_year,crop,crop_tr,planting_start,planting_end,profit_usd_per_acre
+USKS01:r1:c2,USKS01,en_karli,2027,Sorghum,Sorgum,2027-04-14,2027-08-01,28.15419161800523
+USKS01:r1:c2,USKS01,en_karli,2028,Sorghum,Sorgum,2028-04-22,2028-07-31,28.15419161800523
+USKS01:r1:c2,USKS01,en_karli,2029,Winter Wheat,Kışlık buğday,2028-10-11,2028-10-25,-31.923996864050455
+USKS01:r1:c2,USKS01,en_karli,2030,Sorghum,Sorgum,2030-04-22,2030-07-31,28.15419161800523
+USKS01:r1:c2,USKS01,en_karli,2031,Sorghum,Sorgum,2031-04-22,2031-07-31,28.15419161800523
+USKS01:r1:c2,USKS01,en_karli,2032,Winter Wheat,Kışlık buğday,2031-10-11,2031-10-25,-31.923996864050455
+USKS01:r1:c3,USKS01,en_karli,2027,Sorghum,Sorgum,2027-04-14,2027-08-01,28.15419161800523
+USKS01:r1:c3,USKS01,en_karli,2028,Sorghum,Sorgum,2028-04-22,2028-07-31,28.15419161800523
+USKS01:r1:c3,USKS01,en_karli,2029,Winter Wheat,Kışlık buğday,2028-10-11,2028-10-25,-31.923996864050455
+USKS01:r1:c3,USKS01,en_karli,2030,Sorghum,Sorgum,2030-04-22,2030-07-31,28.15419161800523
+USKS01:r1:c3,USKS01,en_karli,2031,Sorghum,Sorgum,2031-04-22,2031-07-31,28.15419161800523
+USKS01:r1:c3,USKS01,en_karli,2032,Winter Wheat,Kışlık buğday,2031-10-11,2031-10-25,-31.923996864050455
+USKS01:r1:c4,USKS01,en_karli,2027,Sorghum,Sorgum,2027-04-14,2027-08-01,28.15419161800523
+USKS01:r1:c4,USKS01,en_karli,2028,Sorghum,Sorgum,2028-04-22,2028-07-31,28.15419161800523
+USKS01:r1:c4,USKS01,en_karli,2029,Winter Wheat,Kışlık buğday,2028-10-11,2028-10-25,-31.923996864050455
+USKS01:r1:c4,USKS01,en_karli,2030,Sorghum,Sorgum,2030-04-22,2030-07-31,28.15419161800523
+USKS01:r1:c4,USKS01,en_karli,2031,Sorghum,Sorgum,2031-04-22,2031-07-31,28.15419161800523
+USKS01:r1:c4,USKS01,en_karli,2032,Winter Wheat,Kışlık buğday,2031-10-11,2031-10-25,-31.923996864050455
+USKS01:r2:c2,USKS01,en_karli,2027,Sorghum,Sorgum,2027-04-14,2027-08-01,28.15419161800523
+USKS01:r2:c2,USKS01,en_karli,2028,Sorghum,Sorgum,2028-04-22,2028-07-31,28.15419161800523
+USKS01:r2:c2,USKS01,en_karli,2029,Winter Wheat,Kışlık buğday,2028-10-11,2028-10-25,-31.923996864050455
+USKS01:r2:c2,USKS01,en_karli,2030,Sorghum,Sorgum,2030-04-22,2030-07-31,28.15419161800523
+USKS01:r2:c2,USKS01,en_karli,2031,Sorghum,Sorgum,2031-04-22,2031-07-31,28.15419161800523
+USKS01:r2:c2,USKS01,en_karli,2032,Winter Wheat,Kışlık buğday,2031-10-11,2031-10-25,-31.923996864050455
+USKS01:r3:c0,USKS01,en_karli,2027,Sorghum,Sorgum,2027-04-14,2027-08-01,28.15419161800523
+USKS01:r3:c0,USKS01,en_karli,2028,Sorghum,Sorgum,2028-04-22,2028-07-31,28.15419161800523
+USKS01:r3:c0,USKS01,en_karli,2029,Winter Wheat,Kışlık buğday,2028-10-11,2028-10-25,-31.923996864050455
+USKS01:r3:c0,USKS01,en_karli,2030,Sorghum,Sorgum,2030-04-22,2030-07-31,28.15419161800523
+USKS01:r3:c0,USKS01,en_karli,2031,Sorghum,Sorgum,2031-04-22,2031-07-31,28.15419161800523
+USKS01:r3:c0,USKS01,en_karli,2032,Winter Wheat,Kışlık buğday,2031-10-11,2031-10-25,-31.923996864050455
+USKS01:r3:c2,USKS01,en_karli,2027,Sorghum,Sorgum,2027-04-14,2027-08-01,28.15419161800523
+USKS01:r3:c2,USKS01,en_karli,2028,Sorghum,Sorgum,2028-04-22,2028-07-31,28.15419161800523
+USKS01:r3:c2,USKS01,en_karli,2029,Winter Wheat,Kışlık buğday,2028-10-11,2028-10-25,-31.923996864050455
+USKS01:r3:c2,USKS01,en_karli,2030,Sorghum,Sorgum,2030-04-22,2030-07-31,28.15419161800523
+USKS01:r3:c2,USKS01,en_karli,2031,Sorghum,Sorgum,2031-04-22,2031-07-31,28.15419161800523
+USKS01:r3:c2,USKS01,en_karli,2032,Winter Wheat,Kışlık buğday,2031-10-11,2031-10-25,-31.923996864050455
+USKS01:r3:c3,USKS01,en_karli,2027,Sorghum,Sorgum,2027-04-14,2027-08-01,28.15419161800523
+USKS01:r3:c3,USKS01,en_karli,2028,Sorghum,Sorgum,2028-04-22,2028-07-31,28.15419161800523
+USKS01:r3:c3,USKS01,en_karli,2029,Winter Wheat,Kışlık buğday,2028-10-11,2028-10-25,-31.923996864050455
+USKS01:r3:c3,USKS01,en_karli,2030,Sorghum,Sorgum,2030-04-22,2030-07-31,28.15419161800523
+USKS01:r3:c3,USKS01,en_karli,2031,Sorghum,Sorgum,2031-04-22,2031-07-31,28.15419161800523
+USKS01:r3:c3,USKS01,en_karli,2032,Winter Wheat,Kışlık buğday,2031-10-11,2031-10-25,-31.923996864050455
+USKS01:r3:c4,USKS01,en_karli,2027,Sorghum,Sorgum,2027-04-14,2027-08-01,28.15419161800523
+USKS01:r3:c4,USKS01,en_karli,2028,Sorghum,Sorgum,2028-04-22,2028-07-31,28.15419161800523
+USKS01:r3:c4,USKS01,en_karli,2029,Winter Wheat,Kışlık buğday,2028-10-11,2028-10-25,-31.923996864050455
+USKS01:r3:c4,USKS01,en_karli,2030,Sorghum,Sorgum,2030-04-22,2030-07-31,28.15419161800523
+USKS01:r3:c4,USKS01,en_karli,2031,Sorghum,Sorgum,2031-04-22,2031-07-31,28.15419161800523
+USKS01:r3:c4,USKS01,en_karli,2032,Winter Wheat,Kışlık buğday,2031-10-11,2031-10-25,-31.923996864050455
+USKS01:r4:c3,USKS01,en_karli,2027,Sorghum,Sorgum,2027-04-14,2027-08-01,28.15419161800523
+USKS01:r4:c3,USKS01,en_karli,2028,Sorghum,Sorgum,2028-04-22,2028-07-31,28.15419161800523
+USKS01:r4:c3,USKS01,en_karli,2029,Winter Wheat,Kışlık buğday,2028-10-11,2028-10-25,-31.923996864050455
+USKS01:r4:c3,USKS01,en_karli,2030,Sorghum,Sorgum,2030-04-22,2030-07-31,28.15419161800523
+USKS01:r4:c3,USKS01,en_karli,2031,Sorghum,Sorgum,2031-04-22,2031-07-31,28.15419161800523
+USKS01:r4:c3,USKS01,en_karli,2032,Winter Wheat,Kışlık buğday,2031-10-11,2031-10-25,-31.923996864050455
+USOR03:r0:c1,USOR03,en_karli,2027,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r0:c1,USOR03,en_karli,2028,Winter Wheat,Kışlık buğday,2027-10-06,2027-10-20,69.14970313594958
+USOR03:r0:c1,USOR03,en_karli,2029,Winter Wheat,Kışlık buğday,2028-10-06,2028-10-20,69.14970313594958
+USOR03:r0:c1,USOR03,en_karli,2030,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r0:c1,USOR03,en_karli,2031,Winter Wheat,Kışlık buğday,2030-10-06,2030-10-20,69.14970313594958
+USOR03:r0:c1,USOR03,en_karli,2032,Winter Wheat,Kışlık buğday,2031-10-06,2031-10-20,69.14970313594958
+USOR03:r0:c2,USOR03,en_karli,2027,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r0:c2,USOR03,en_karli,2028,Winter Wheat,Kışlık buğday,2027-10-06,2027-10-20,69.14970313594958
+USOR03:r0:c2,USOR03,en_karli,2029,Winter Wheat,Kışlık buğday,2028-10-06,2028-10-20,69.14970313594958
+USOR03:r0:c2,USOR03,en_karli,2030,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r0:c2,USOR03,en_karli,2031,Winter Wheat,Kışlık buğday,2030-10-06,2030-10-20,69.14970313594958
+USOR03:r0:c2,USOR03,en_karli,2032,Winter Wheat,Kışlık buğday,2031-10-06,2031-10-20,69.14970313594958
+USOR03:r0:c3,USOR03,en_karli,2027,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r0:c3,USOR03,en_karli,2028,Winter Wheat,Kışlık buğday,2027-10-06,2027-10-20,69.14970313594958
+USOR03:r0:c3,USOR03,en_karli,2029,Winter Wheat,Kışlık buğday,2028-10-06,2028-10-20,69.14970313594958
+USOR03:r0:c3,USOR03,en_karli,2030,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r0:c3,USOR03,en_karli,2031,Winter Wheat,Kışlık buğday,2030-10-06,2030-10-20,69.14970313594958
+USOR03:r0:c3,USOR03,en_karli,2032,Winter Wheat,Kışlık buğday,2031-10-06,2031-10-20,69.14970313594958
+USOR03:r0:c4,USOR03,en_karli,2027,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r0:c4,USOR03,en_karli,2028,Winter Wheat,Kışlık buğday,2027-10-06,2027-10-20,69.14970313594958
+USOR03:r0:c4,USOR03,en_karli,2029,Winter Wheat,Kışlık buğday,2028-10-06,2028-10-20,69.14970313594958
+USOR03:r0:c4,USOR03,en_karli,2030,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r0:c4,USOR03,en_karli,2031,Winter Wheat,Kışlık buğday,2030-10-06,2030-10-20,69.14970313594958
+USOR03:r0:c4,USOR03,en_karli,2032,Winter Wheat,Kışlık buğday,2031-10-06,2031-10-20,69.14970313594958
+USOR03:r1:c0,USOR03,en_karli,2027,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r1:c0,USOR03,en_karli,2028,Winter Wheat,Kışlık buğday,2027-10-06,2027-10-20,69.14970313594958
+USOR03:r1:c0,USOR03,en_karli,2029,Winter Wheat,Kışlık buğday,2028-10-06,2028-10-20,69.14970313594958
+USOR03:r1:c0,USOR03,en_karli,2030,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r1:c0,USOR03,en_karli,2031,Winter Wheat,Kışlık buğday,2030-10-06,2030-10-20,69.14970313594958
+USOR03:r1:c0,USOR03,en_karli,2032,Winter Wheat,Kışlık buğday,2031-10-06,2031-10-20,69.14970313594958
+USOR03:r1:c1,USOR03,en_karli,2027,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r1:c1,USOR03,en_karli,2028,Winter Wheat,Kışlık buğday,2027-10-06,2027-10-20,69.14970313594958
+USOR03:r1:c1,USOR03,en_karli,2029,Winter Wheat,Kışlık buğday,2028-10-06,2028-10-20,69.14970313594958
+USOR03:r1:c1,USOR03,en_karli,2030,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r1:c1,USOR03,en_karli,2031,Winter Wheat,Kışlık buğday,2030-10-06,2030-10-20,69.14970313594958
+USOR03:r1:c1,USOR03,en_karli,2032,Winter Wheat,Kışlık buğday,2031-10-06,2031-10-20,69.14970313594958
+USOR03:r1:c2,USOR03,en_karli,2027,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r1:c2,USOR03,en_karli,2028,Winter Wheat,Kışlık buğday,2027-10-06,2027-10-20,69.14970313594958
+USOR03:r1:c2,USOR03,en_karli,2029,Winter Wheat,Kışlık buğday,2028-10-06,2028-10-20,69.14970313594958
+USOR03:r1:c2,USOR03,en_karli,2030,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r1:c2,USOR03,en_karli,2031,Winter Wheat,Kışlık buğday,2030-10-06,2030-10-20,69.14970313594958
+USOR03:r1:c2,USOR03,en_karli,2032,Winter Wheat,Kışlık buğday,2031-10-06,2031-10-20,69.14970313594958
+USOR03:r1:c3,USOR03,en_karli,2027,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r1:c3,USOR03,en_karli,2028,Winter Wheat,Kışlık buğday,2027-10-06,2027-10-20,69.14970313594958
+USOR03:r1:c3,USOR03,en_karli,2029,Winter Wheat,Kışlık buğday,2028-10-06,2028-10-20,69.14970313594958
+USOR03:r1:c3,USOR03,en_karli,2030,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r1:c3,USOR03,en_karli,2031,Winter Wheat,Kışlık buğday,2030-10-06,2030-10-20,69.14970313594958
+USOR03:r1:c3,USOR03,en_karli,2032,Winter Wheat,Kışlık buğday,2031-10-06,2031-10-20,69.14970313594958
+USOR03:r1:c4,USOR03,en_karli,2027,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r1:c4,USOR03,en_karli,2028,Winter Wheat,Kışlık buğday,2027-10-06,2027-10-20,69.14970313594958
+USOR03:r1:c4,USOR03,en_karli,2029,Winter Wheat,Kışlık buğday,2028-10-06,2028-10-20,69.14970313594958
+USOR03:r1:c4,USOR03,en_karli,2030,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r1:c4,USOR03,en_karli,2031,Winter Wheat,Kışlık buğday,2030-10-06,2030-10-20,69.14970313594958
+USOR03:r1:c4,USOR03,en_karli,2032,Winter Wheat,Kışlık buğday,2031-10-06,2031-10-20,69.14970313594958
+USOR03:r2:c0,USOR03,en_karli,2027,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r2:c0,USOR03,en_karli,2028,Winter Wheat,Kışlık buğday,2027-10-06,2027-10-20,69.14970313594958
+USOR03:r2:c0,USOR03,en_karli,2029,Winter Wheat,Kışlık buğday,2028-10-06,2028-10-20,69.14970313594958
+USOR03:r2:c0,USOR03,en_karli,2030,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r2:c0,USOR03,en_karli,2031,Winter Wheat,Kışlık buğday,2030-10-06,2030-10-20,69.14970313594958
+USOR03:r2:c0,USOR03,en_karli,2032,Winter Wheat,Kışlık buğday,2031-10-06,2031-10-20,69.14970313594958
+USOR03:r2:c1,USOR03,en_karli,2027,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r2:c1,USOR03,en_karli,2028,Winter Wheat,Kışlık buğday,2027-10-06,2027-10-20,69.14970313594958
+USOR03:r2:c1,USOR03,en_karli,2029,Winter Wheat,Kışlık buğday,2028-10-06,2028-10-20,69.14970313594958
+USOR03:r2:c1,USOR03,en_karli,2030,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r2:c1,USOR03,en_karli,2031,Winter Wheat,Kışlık buğday,2030-10-06,2030-10-20,69.14970313594958
+USOR03:r2:c1,USOR03,en_karli,2032,Winter Wheat,Kışlık buğday,2031-10-06,2031-10-20,69.14970313594958
+USOR03:r2:c2,USOR03,en_karli,2027,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r2:c2,USOR03,en_karli,2028,Winter Wheat,Kışlık buğday,2027-10-06,2027-10-20,69.14970313594958
+USOR03:r2:c2,USOR03,en_karli,2029,Winter Wheat,Kışlık buğday,2028-10-06,2028-10-20,69.14970313594958
+USOR03:r2:c2,USOR03,en_karli,2030,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r2:c2,USOR03,en_karli,2031,Winter Wheat,Kışlık buğday,2030-10-06,2030-10-20,69.14970313594958
+USOR03:r2:c2,USOR03,en_karli,2032,Winter Wheat,Kışlık buğday,2031-10-06,2031-10-20,69.14970313594958
+USOR03:r2:c3,USOR03,en_karli,2027,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r2:c3,USOR03,en_karli,2028,Winter Wheat,Kışlık buğday,2027-10-06,2027-10-20,69.14970313594958
+USOR03:r2:c3,USOR03,en_karli,2029,Winter Wheat,Kışlık buğday,2028-10-06,2028-10-20,69.14970313594958
+USOR03:r2:c3,USOR03,en_karli,2030,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r2:c3,USOR03,en_karli,2031,Winter Wheat,Kışlık buğday,2030-10-06,2030-10-20,69.14970313594958
+USOR03:r2:c3,USOR03,en_karli,2032,Winter Wheat,Kışlık buğday,2031-10-06,2031-10-20,69.14970313594958
+USOR03:r2:c4,USOR03,en_karli,2027,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r2:c4,USOR03,en_karli,2028,Winter Wheat,Kışlık buğday,2027-10-06,2027-10-20,69.14970313594958
+USOR03:r2:c4,USOR03,en_karli,2029,Winter Wheat,Kışlık buğday,2028-10-06,2028-10-20,69.14970313594958
+USOR03:r2:c4,USOR03,en_karli,2030,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r2:c4,USOR03,en_karli,2031,Winter Wheat,Kışlık buğday,2030-10-06,2030-10-20,69.14970313594958
+USOR03:r2:c4,USOR03,en_karli,2032,Winter Wheat,Kışlık buğday,2031-10-06,2031-10-20,69.14970313594958
+USOR03:r3:c0,USOR03,en_karli,2027,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r3:c0,USOR03,en_karli,2028,Winter Wheat,Kışlık buğday,2027-10-06,2027-10-20,69.14970313594958
+USOR03:r3:c0,USOR03,en_karli,2029,Winter Wheat,Kışlık buğday,2028-10-06,2028-10-20,69.14970313594958
+USOR03:r3:c0,USOR03,en_karli,2030,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r3:c0,USOR03,en_karli,2031,Winter Wheat,Kışlık buğday,2030-10-06,2030-10-20,69.14970313594958
+USOR03:r3:c0,USOR03,en_karli,2032,Winter Wheat,Kışlık buğday,2031-10-06,2031-10-20,69.14970313594958
+USOR03:r3:c2,USOR03,en_karli,2027,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r3:c2,USOR03,en_karli,2028,Winter Wheat,Kışlık buğday,2027-10-06,2027-10-20,69.14970313594958
+USOR03:r3:c2,USOR03,en_karli,2029,Winter Wheat,Kışlık buğday,2028-10-06,2028-10-20,69.14970313594958
+USOR03:r3:c2,USOR03,en_karli,2030,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r3:c2,USOR03,en_karli,2031,Winter Wheat,Kışlık buğday,2030-10-06,2030-10-20,69.14970313594958
+USOR03:r3:c2,USOR03,en_karli,2032,Winter Wheat,Kışlık buğday,2031-10-06,2031-10-20,69.14970313594958
+USOR03:r3:c3,USOR03,en_karli,2027,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r3:c3,USOR03,en_karli,2028,Winter Wheat,Kışlık buğday,2027-10-06,2027-10-20,69.14970313594958
+USOR03:r3:c3,USOR03,en_karli,2029,Winter Wheat,Kışlık buğday,2028-10-06,2028-10-20,69.14970313594958
+USOR03:r3:c3,USOR03,en_karli,2030,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r3:c3,USOR03,en_karli,2031,Winter Wheat,Kışlık buğday,2030-10-06,2030-10-20,69.14970313594958
+USOR03:r3:c3,USOR03,en_karli,2032,Winter Wheat,Kışlık buğday,2031-10-06,2031-10-20,69.14970313594958
+USOR03:r3:c4,USOR03,en_karli,2027,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r3:c4,USOR03,en_karli,2028,Winter Wheat,Kışlık buğday,2027-10-06,2027-10-20,69.14970313594958
+USOR03:r3:c4,USOR03,en_karli,2029,Winter Wheat,Kışlık buğday,2028-10-06,2028-10-20,69.14970313594958
+USOR03:r3:c4,USOR03,en_karli,2030,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r3:c4,USOR03,en_karli,2031,Winter Wheat,Kışlık buğday,2030-10-06,2030-10-20,69.14970313594958
+USOR03:r3:c4,USOR03,en_karli,2032,Winter Wheat,Kışlık buğday,2031-10-06,2031-10-20,69.14970313594958
+USOR03:r4:c0,USOR03,en_karli,2027,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r4:c0,USOR03,en_karli,2028,Winter Wheat,Kışlık buğday,2027-10-06,2027-10-20,69.14970313594958
+USOR03:r4:c0,USOR03,en_karli,2029,Winter Wheat,Kışlık buğday,2028-10-06,2028-10-20,69.14970313594958
+USOR03:r4:c0,USOR03,en_karli,2030,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r4:c0,USOR03,en_karli,2031,Winter Wheat,Kışlık buğday,2030-10-06,2030-10-20,69.14970313594958
+USOR03:r4:c0,USOR03,en_karli,2032,Winter Wheat,Kışlık buğday,2031-10-06,2031-10-20,69.14970313594958
+USOR03:r4:c1,USOR03,en_karli,2027,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r4:c1,USOR03,en_karli,2028,Winter Wheat,Kışlık buğday,2027-10-06,2027-10-20,69.14970313594958
+USOR03:r4:c1,USOR03,en_karli,2029,Winter Wheat,Kışlık buğday,2028-10-06,2028-10-20,69.14970313594958
+USOR03:r4:c1,USOR03,en_karli,2030,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r4:c1,USOR03,en_karli,2031,Winter Wheat,Kışlık buğday,2030-10-06,2030-10-20,69.14970313594958
+USOR03:r4:c1,USOR03,en_karli,2032,Winter Wheat,Kışlık buğday,2031-10-06,2031-10-20,69.14970313594958
+USOR03:r4:c2,USOR03,en_karli,2027,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r4:c2,USOR03,en_karli,2028,Winter Wheat,Kışlık buğday,2027-10-06,2027-10-20,69.14970313594958
+USOR03:r4:c2,USOR03,en_karli,2029,Winter Wheat,Kışlık buğday,2028-10-06,2028-10-20,69.14970313594958
+USOR03:r4:c2,USOR03,en_karli,2030,Fallow/Idle Cropland,Nadas,,,-45.5
+USOR03:r4:c2,USOR03,en_karli,2031,Winter Wheat,Kışlık buğday,2030-10-06,2030-10-20,69.14970313594958
+USOR03:r4:c2,USOR03,en_karli,2032,Winter Wheat,Kışlık buğday,2031-10-06,2031-10-20,69.14970313594958

@@ -1,0 +1,173 @@
+{
+  "version": 1,
+  "objective": "Preparation.md: the economically most efficient crop rotation per parcel. Objective = total expected profit over the plan years (USD/acre).",
+  "plan_start_year": 2027,
+  "years": 6,
+  "max_consecutive_same_crop": 2,
+  "min_wheat_seasons": 1,
+  "wheat_focused_min_share": 0.5,
+  "allowed_crops": {
+    "USKS01": [
+      "Corn",
+      "Soybeans",
+      "Sorghum",
+      "Winter Wheat"
+    ],
+    "USOR03": [
+      "Winter Wheat",
+      "Fallow/Idle Cropland",
+      "Peas",
+      "Spring Wheat"
+    ],
+    "KS": [
+      "Corn",
+      "Soybeans",
+      "Sorghum",
+      "Winter Wheat",
+      "Spring Wheat"
+    ],
+    "NE": [
+      "Corn",
+      "Soybeans",
+      "Sorghum",
+      "Winter Wheat",
+      "Spring Wheat"
+    ],
+    "SD": [
+      "Corn",
+      "Soybeans",
+      "Sorghum",
+      "Winter Wheat",
+      "Spring Wheat"
+    ],
+    "ND": [
+      "Corn",
+      "Soybeans",
+      "Sorghum",
+      "Winter Wheat",
+      "Spring Wheat"
+    ],
+    "OK": [
+      "Corn",
+      "Soybeans",
+      "Sorghum",
+      "Winter Wheat",
+      "Spring Wheat"
+    ],
+    "TX": [
+      "Corn",
+      "Soybeans",
+      "Sorghum",
+      "Winter Wheat",
+      "Spring Wheat"
+    ],
+    "CO": [
+      "Corn",
+      "Soybeans",
+      "Sorghum",
+      "Winter Wheat",
+      "Spring Wheat"
+    ],
+    "MN": [
+      "Corn",
+      "Soybeans",
+      "Sorghum",
+      "Winter Wheat",
+      "Spring Wheat"
+    ],
+    "IA": [
+      "Corn",
+      "Soybeans",
+      "Sorghum",
+      "Winter Wheat",
+      "Spring Wheat"
+    ]
+  },
+  "p_fertilizer_price_usd_per_kg_p": 3.91,
+  "p_fertilizer_price_source": "USDA AMS Illinois Production Cost Report prices, farmdoc daily (Paulson et al., 11 August 2026): DAP 912.22 $/ton, anhydrous ammonia 915.50 $/ton (7 August 2026). Computation: DAP 18-46-0; P = 46% P2O5 × 0.4364 = 0.2008 kg P/kg DAP. After subtracting the nitrogen value of DAP (0.18 × ammonia price per kg N), the remainder is divided by P: 3.91 $/kg P. https://farmdocdaily.illinois.edu/2026/08/fertilizer-and-fuel-prices-higher-heading-into-fall-2026.html",
+  "fallow_cost_usd_per_acre": 45.5,
+  "fallow_cost_source": "Oregon State University Enterprise Budget AEB 0045 (2014), Table 1: summer-fallow establishment and maintenance operations (rotary mower, chisel plow, culti-weeder, herbicide), variable cash cost 45.50 $/acre. Fixed costs are not allocated to these operations; 2014 prices. https://wpcdn.web.wsu.edu/extension/uploads/sites/54/2013/12/EnterpriseBudget_Camelina_Dryland_SpringFallow_OregonExt.pdf",
+  "rotation_effects": [
+    {
+      "region": "USOR03",
+      "previous": "Winter Wheat",
+      "crop": "Winter Wheat",
+      "yield_multiplier": 0.618,
+      "source": "Maaz et al. (2017), Frontiers in Environmental Science 5:23, Table 4: in Pacific Northwest trials, winter-wheat yield after a cereal (including wheat) = 0.79 × yield after fallow − 695 kg/ha (n = 12). With the Oregon after-fallow yield of 60.2 bu/acre ≈ 4048 kg/ha, multiplier = 0.618. Trials are mostly from years below 350 mm; Pendleton (≈406 mm) is wetter, so the real loss may be smaller. https://doi.org/10.3389/fenvs.2017.00023"
+    },
+    {
+      "region": "USOR03",
+      "previous": "Spring Wheat",
+      "crop": "Winter Wheat",
+      "yield_multiplier": 0.618,
+      "source": "Maaz et al. (2017), Frontiers in Environmental Science 5:23, Table 4: in Pacific Northwest trials, winter-wheat yield after a cereal (including wheat) = 0.79 × yield after fallow − 695 kg/ha (n = 12). With the Oregon after-fallow yield of 60.2 bu/acre ≈ 4048 kg/ha, multiplier = 0.618. Trials are mostly from years below 350 mm; Pendleton (≈406 mm) is wetter, so the real loss may be smaller. https://doi.org/10.3389/fenvs.2017.00023"
+    }
+  ],
+  "rotation_effects_help": "Example format: {\"previous\": \"Fallow/Idle Cropland\", \"crop\": \"Winter Wheat\", \"yield_multiplier\": 1.0, \"source\": \"publication or official source\"}. Rows without a source are rejected.",
+  "nass": {
+    "years": [
+      2014,
+      2023
+    ],
+    "regions": {
+      "USKS01": {
+        "state_alpha": "KS",
+        "county_name": "RILEY"
+      },
+      "USOR03": {
+        "state_alpha": "OR",
+        "county_name": "UMATILLA"
+      },
+      "KS": {
+        "state_alpha": "KS"
+      },
+      "NE": {
+        "state_alpha": "NE"
+      },
+      "SD": {
+        "state_alpha": "SD"
+      },
+      "ND": {
+        "state_alpha": "ND"
+      },
+      "OK": {
+        "state_alpha": "OK"
+      },
+      "TX": {
+        "state_alpha": "TX"
+      },
+      "CO": {
+        "state_alpha": "CO"
+      },
+      "MN": {
+        "state_alpha": "MN"
+      },
+      "IA": {
+        "state_alpha": "IA"
+      }
+    },
+    "regions_note": "Counties were assigned by hand from NAPESHM coordinates (USKS01: Manhattan, KS → Riley; USOR03: Pendleton, OR → Umatilla). Verify before use."
+  },
+  "fallow_requirement": {
+    "USOR03": {
+      "max_years_without_fallow": 2,
+      "source": "USDA ARS, Williams (CBARC Pendleton): rotations in the region follow rainfall zones — below 13 inches wheat–fallow, 13–18 inches wheat–spring cereal–fallow, above 18 inches annual cropping. Pendleton (CBARC) 73-year mean crop-year precipitation is 406 mm (about 16 inches; Machado et al. 2007). Hence at most 2 years without fallow. https://www.ars.usda.gov/ARSUserFiles/6112/soilLossFromLongtermWinter.pdf ; https://agsci.oregonstate.edu/sites/agscid7/files/cbarc/attachments/still2340.pdf"
+    }
+  },
+  "input_notes": [
+    "Kansas values are statewide KFMA farm records; they are not specific to Riley County.",
+    "KFMA and OSU costs include the fertilizer the farm actually bought. The profit computation additionally deducts the cost of replacing all removed P, so profit is conservative (P may be partly double counted).",
+    "No current official data were found for peas and spring wheat in Oregon; plans containing these crops are not computed.",
+    "Profit is economic profit including opportunity costs (return to management), not cash profit."
+  ],
+  "price_scenarios": [
+    0.8,
+    1.0,
+    1.2
+  ],
+  "price_scenarios_note": "±20% of source prices; a sensitivity assumption, not a forecast.",
+  "corridor_parcels": {
+    "use_zone": "suitable_future",
+    "note": "Corridor parcels: USDA CDL points that were cropland in every year 2019–2023, in cells of the 2040–2049 suitable zone (probability ≥ threshold). Economic region = the point's state (US Census boundaries)."
+  }
+}

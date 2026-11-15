@@ -1,0 +1,6 @@
+system_id,system_name,start_position,wheat_seasons,sum_abs_cumulative_p_change,peak_abs_cumulative_p_change,final_cumulative_p_change,total_source_mean_p_application
+AAFC-Sys1,Canola-Soybean-Wheat,3,2,55.62000000000001,19.000000000000004,19.000000000000004,37.0
+AAFC-Sys1,Canola-Soybean-Wheat,1,2,63.820000000000014,19.000000000000004,19.000000000000004,37.0
+AAFC-Sys1,Canola-Soybean-Wheat,2,2,80.06000000000002,19.000000000000004,19.000000000000004,37.0
+AAFC-Sys2,Wheat-Canola,1,3,83.58,24.51,24.51,39.0
+AAFC-Sys2,Wheat-Canola,2,3,87.99,24.51,24.51,39.0

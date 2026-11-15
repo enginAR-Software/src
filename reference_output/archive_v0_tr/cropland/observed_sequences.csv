@@ -1,0 +1,51 @@
+sitecode,point_id,first_year,last_year,complete,classified_years,wheat_years,code_sequence,class_sequence
+USKS01,USKS01:r0:c0,2018,2023,True,6,0,37 → 37 → 37 → 37 → 37 → 176,Other Hay/Non Alfalfa → Other Hay/Non Alfalfa → Other Hay/Non Alfalfa → Other Hay/Non Alfalfa → Other Hay/Non Alfalfa → Grassland/Pasture
+USKS01,USKS01:r0:c1,2018,2023,True,6,0,141 → 5 → 1 → 5 → 1 → 5,Deciduous Forest → Soybeans → Corn → Soybeans → Corn → Soybeans
+USKS01,USKS01:r0:c2,2018,2023,True,6,0,1 → 5 → 121 → 5 → 1 → 5,Corn → Soybeans → Developed/Open Space → Soybeans → Corn → Soybeans
+USKS01,USKS01:r0:c3,2018,2023,True,6,0,141 → 141 → 176 → 141 → 141 → 141,Deciduous Forest → Deciduous Forest → Grassland/Pasture → Deciduous Forest → Deciduous Forest → Deciduous Forest
+USKS01,USKS01:r0:c4,2018,2023,True,6,0,176 → 176 → 176 → 176 → 176 → 176,Grassland/Pasture → Grassland/Pasture → Grassland/Pasture → Grassland/Pasture → Grassland/Pasture → Grassland/Pasture
+USKS01,USKS01:r1:c0,2018,2023,True,6,0,141 → 141 → 176 → 141 → 141 → 141,Deciduous Forest → Deciduous Forest → Grassland/Pasture → Deciduous Forest → Deciduous Forest → Deciduous Forest
+USKS01,USKS01:r1:c1,2018,2023,True,6,0,141 → 141 → 141 → 141 → 141 → 141,Deciduous Forest → Deciduous Forest → Deciduous Forest → Deciduous Forest → Deciduous Forest → Deciduous Forest
+USKS01,USKS01:r1:c2,2018,2023,True,6,0,5 → 4 → 5 → 5 → 5 → 5,Soybeans → Sorghum → Soybeans → Soybeans → Soybeans → Soybeans
+USKS01,USKS01:r1:c3,2018,2023,True,6,0,5 → 1 → 5 → 1 → 5 → 1,Soybeans → Corn → Soybeans → Corn → Soybeans → Corn
+USKS01,USKS01:r1:c4,2018,2023,True,6,0,1 → 5 → 1 → 5 → 1 → 5,Corn → Soybeans → Corn → Soybeans → Corn → Soybeans
+USKS01,USKS01:r2:c0,2018,2023,True,6,0,111 → 111 → 141 → 111 → 111 → 111,Open Water → Open Water → Deciduous Forest → Open Water → Open Water → Open Water
+USKS01,USKS01:r2:c1,2018,2023,True,6,0,176 → 176 → 176 → 176 → 176 → 176,Grassland/Pasture → Grassland/Pasture → Grassland/Pasture → Grassland/Pasture → Grassland/Pasture → Grassland/Pasture
+USKS01,USKS01:r2:c2,2018,2023,True,6,2,5 → 4 → 24 → 1 → 26 → 1,Soybeans → Sorghum → Winter Wheat → Corn → Dbl Crop WinWht/Soybeans → Corn
+USKS01,USKS01:r2:c3,2018,2023,True,6,0,5 → 4 → 1 → 5 → 59 → 59,Soybeans → Sorghum → Corn → Soybeans → Sod/Grass Seed → Sod/Grass Seed
+USKS01,USKS01:r2:c4,2018,2023,True,6,0,122 → 176 → 122 → 121 → 121 → 121,Developed/Low Intensity → Grassland/Pasture → Developed/Low Intensity → Developed/Open Space → Developed/Open Space → Developed/Open Space
+USKS01,USKS01:r3:c0,2018,2023,True,6,0,5 → 1 → 5 → 1 → 5 → 1,Soybeans → Corn → Soybeans → Corn → Soybeans → Corn
+USKS01,USKS01:r3:c1,2018,2023,True,6,0,141 → 141 → 141 → 176 → 141 → 176,Deciduous Forest → Deciduous Forest → Deciduous Forest → Grassland/Pasture → Deciduous Forest → Grassland/Pasture
+USKS01,USKS01:r3:c2,2018,2023,True,6,0,1 → 5 → 1 → 5 → 1 → 5,Corn → Soybeans → Corn → Soybeans → Corn → Soybeans
+USKS01,USKS01:r3:c3,2018,2023,True,6,0,5 → 36 → 36 → 36 → 36 → 36,Soybeans → Alfalfa → Alfalfa → Alfalfa → Alfalfa → Alfalfa
+USKS01,USKS01:r3:c4,2018,2023,True,6,0,5 → 1 → 5 → 1 → 5 → 1,Soybeans → Corn → Soybeans → Corn → Soybeans → Corn
+USKS01,USKS01:r4:c0,2018,2023,True,6,0,122 → 122 → 123 → 122 → 122 → 122,Developed/Low Intensity → Developed/Low Intensity → Developed/Med Intensity → Developed/Low Intensity → Developed/Low Intensity → Developed/Low Intensity
+USKS01,USKS01:r4:c1,2018,2023,True,6,0,111 → 111 → 111 → 111 → 111 → 111,Open Water → Open Water → Open Water → Open Water → Open Water → Open Water
+USKS01,USKS01:r4:c2,2018,2023,True,6,0,176 → 176 → 5 → 176 → 176 → 176,Grassland/Pasture → Grassland/Pasture → Soybeans → Grassland/Pasture → Grassland/Pasture → Grassland/Pasture
+USKS01,USKS01:r4:c3,2018,2023,True,6,0,5 → 5 → 4 → 5 → 4 → 5,Soybeans → Soybeans → Sorghum → Soybeans → Sorghum → Soybeans
+USKS01,USKS01:r4:c4,2018,2023,True,6,0,195 → 176 → 141 → 176 → 176 → 176,Herbaceous Wetlands → Grassland/Pasture → Deciduous Forest → Grassland/Pasture → Grassland/Pasture → Grassland/Pasture
+USOR03,USOR03:r0:c0,2018,2023,True,6,0,152 → 176 → 176 → 176 → 176 → 176,Shrubland → Grassland/Pasture → Grassland/Pasture → Grassland/Pasture → Grassland/Pasture → Grassland/Pasture
+USOR03,USOR03:r0:c1,2018,2023,True,6,3,61 → 24 → 61 → 24 → 61 → 24,Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat
+USOR03,USOR03:r0:c2,2018,2023,True,6,3,61 → 24 → 61 → 24 → 61 → 24,Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat
+USOR03,USOR03:r0:c3,2018,2023,True,6,3,61 → 24 → 61 → 24 → 61 → 24,Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat
+USOR03,USOR03:r0:c4,2018,2023,True,6,3,61 → 24 → 61 → 24 → 61 → 24,Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat
+USOR03,USOR03:r1:c0,2018,2023,True,6,3,24 → 61 → 24 → 61 → 24 → 61,Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland
+USOR03,USOR03:r1:c1,2018,2023,True,6,3,24 → 61 → 24 → 61 → 24 → 61,Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland
+USOR03,USOR03:r1:c2,2018,2023,True,6,3,61 → 24 → 61 → 24 → 61 → 24,Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat
+USOR03,USOR03:r1:c3,2018,2023,True,6,3,53 → 24 → 53 → 24 → 61 → 24,Peas → Winter Wheat → Peas → Winter Wheat → Fallow/Idle Cropland → Winter Wheat
+USOR03,USOR03:r1:c4,2018,2023,True,6,3,24 → 61 → 24 → 61 → 24 → 61,Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland
+USOR03,USOR03:r2:c0,2018,2023,True,6,3,24 → 61 → 24 → 61 → 24 → 61,Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland
+USOR03,USOR03:r2:c1,2018,2023,True,6,3,24 → 61 → 24 → 61 → 24 → 61,Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland
+USOR03,USOR03:r2:c2,2018,2023,True,6,4,53 → 24 → 23 → 24 → 61 → 24,Peas → Winter Wheat → Spring Wheat → Winter Wheat → Fallow/Idle Cropland → Winter Wheat
+USOR03,USOR03:r2:c3,2018,2023,True,6,3,61 → 24 → 61 → 24 → 61 → 24,Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat
+USOR03,USOR03:r2:c4,2018,2023,True,6,3,61 → 24 → 61 → 24 → 24 → 61,Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Winter Wheat → Fallow/Idle Cropland
+USOR03,USOR03:r3:c0,2018,2023,True,6,3,61 → 24 → 61 → 24 → 61 → 24,Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat
+USOR03,USOR03:r3:c1,2018,2023,True,6,0,152 → 152 → 152 → 152 → 152 → 152,Shrubland → Shrubland → Shrubland → Shrubland → Shrubland → Shrubland
+USOR03,USOR03:r3:c2,2018,2023,True,6,3,24 → 53 → 24 → 53 → 24 → 205,Winter Wheat → Peas → Winter Wheat → Peas → Winter Wheat → Triticale
+USOR03,USOR03:r3:c3,2018,2023,True,6,3,61 → 24 → 61 → 24 → 61 → 24,Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat
+USOR03,USOR03:r3:c4,2018,2023,True,6,3,61 → 24 → 61 → 24 → 24 → 61,Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Winter Wheat → Fallow/Idle Cropland
+USOR03,USOR03:r4:c0,2018,2023,True,6,3,24 → 61 → 24 → 61 → 24 → 61,Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland
+USOR03,USOR03:r4:c1,2018,2023,True,6,0,36 → 36 → 37 → 36 → 36 → 36,Alfalfa → Alfalfa → Other Hay/Non Alfalfa → Alfalfa → Alfalfa → Alfalfa
+USOR03,USOR03:r4:c2,2018,2023,True,6,3,24 → 61 → 24 → 61 → 24 → 61,Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland
+USOR03,USOR03:r4:c3,2018,2023,True,6,1,61 → 152 → 61 → 61 → 24 → 61,Fallow/Idle Cropland → Shrubland → Fallow/Idle Cropland → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland
+USOR03,USOR03:r4:c4,2018,2023,True,6,0,176 → 176 → 37 → 176 → 176 → 176,Grassland/Pasture → Grassland/Pasture → Other Hay/Non Alfalfa → Grassland/Pasture → Grassland/Pasture → Grassland/Pasture

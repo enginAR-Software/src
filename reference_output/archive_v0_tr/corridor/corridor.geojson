@@ -1,0 +1,67 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.624501,
+          45.721236
+        ]
+      },
+      "properties": {
+        "cell_id": "USOR03",
+        "block": "USOR03",
+        "baseline_t_mean_c": 12.875301650540694,
+        "baseline_gdd0_annual": 4702.768371513944,
+        "baseline_tmax_jun_jul_c": 29.69204918032787,
+        "baseline_prec_annual_mm": 386.28773477518496,
+        "baseline_prec_oct_jun_mm": 352.6583269082498,
+        "future_t_mean_c": 13.824069535480195,
+        "future_gdd0_annual": 5049.241397834141,
+        "future_tmax_jun_jul_c": 30.839770491803275,
+        "future_prec_annual_mm": 413.64848746081503,
+        "future_prec_oct_jun_mm": 377.2134530706836,
+        "cropland_points": 23,
+        "wheat_points": 21,
+        "suitability_baseline": null,
+        "suitability_future": null,
+        "suitability_change": null,
+        "suitable_baseline": null,
+        "suitable_future": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.636037,
+          39.123775
+        ]
+      },
+      "properties": {
+        "cell_id": "USKS01",
+        "block": "USKS01",
+        "baseline_t_mean_c": 15.1971656232214,
+        "baseline_gdd0_annual": 5572.94999146272,
+        "baseline_tmax_jun_jul_c": 33.16359016393443,
+        "baseline_prec_annual_mm": 907.5911610700058,
+        "baseline_prec_oct_jun_mm": 614.9761757902852,
+        "future_t_mean_c": 16.297509261897975,
+        "future_gdd0_annual": 5958.082074665147,
+        "future_tmax_jun_jul_c": 34.18596721311475,
+        "future_prec_annual_mm": 909.9825384724992,
+        "future_prec_oct_jun_mm": 622.329281575898,
+        "cropland_points": 14,
+        "wheat_points": 1,
+        "suitability_baseline": null,
+        "suitability_future": null,
+        "suitability_change": null,
+        "suitable_baseline": null,
+        "suitable_future": null
+      }
+    }
+  ]
+}

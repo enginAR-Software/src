@@ -1,0 +1,8 @@
+{
+  "url": "https://quickstats.nass.usda.gov/api/api_GET/?short_desc=CORN%2C+GRAIN+-+PRICE+RECEIVED%2C+MEASURED+IN+%24+%2F+BU&agg_level_desc=STATE&state_alpha=KS&year__GE=2014&year__LE=2023&source_desc=SURVEY&format=JSON&reference_period_desc=MARKETING+YEAR&freq_desc=ANNUAL",
+  "sha256": "b288db42f57d6f6373aa7d1d0232344d93956bbedb66a2c1dbf66a1b3b1bf87a",
+  "fetched_at_utc": "2026-11-15T03:11:59.285952+00:00",
+  "source": "USDA NASS Quick Stats",
+  "series": "CORN, GRAIN - PRICE RECEIVED, MEASURED IN $ / BU",
+  "level": "STATE"
+}

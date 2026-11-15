@@ -1,0 +1,24 @@
+{
+  "aligned_soil_plots": 12,
+  "unlinked_soil_plots": 24,
+  "source_seasons": 26,
+  "source_soil_plots": 36,
+  "linked_weather_groups": 1,
+  "weather_groups": [
+    "USOR03:2018-10-15:2019-04-14"
+  ],
+  "aligned_rows_with_complete_weather": 12,
+  "unlinked_reasons": {
+    "sampling_date_missing": 24
+  },
+  "dynamic_soil_model_ready": false,
+  "reasons": [
+    "Single-campaign soil targets: no before/after soil measurements per plot.",
+    "Crop yields and nutrient removal amounts are not identified from harvest residue percentages.",
+    "P/K amendment amounts and N fixation/losses are unresolved.",
+    "Management dates are treatment-level; exact plot sampling times and experimental blocks are unresolved.",
+    "Shared site weather must not be treated as independent climate observations per plot."
+  ],
+  "feature_timing": "Only complete days strictly before soil sampling; targets are not initial soil features.",
+  "nutrient_scope": "Explicit documented N subtotal only; zero subtotal is not proof of zero total fertilizer input."
+}

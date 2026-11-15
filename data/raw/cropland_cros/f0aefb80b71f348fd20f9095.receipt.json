@@ -1,0 +1,8 @@
+{
+  "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/rasterAttributeTable?f=json",
+  "operation": "rasterAttributeTable",
+  "sha256": "8b5cec2ff965a2d1f7f1205111b3a0fbe3cce5ed82cb0ef6a446ae304fe0b699",
+  "bytes": 38504,
+  "fetched_at_utc": "2026-11-15T00:53:49.701256+00:00",
+  "source": "USDA NASS Cropland Data Layer / CroplandCROS"
+}

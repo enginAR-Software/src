@@ -1,0 +1,15 @@
+{
+  "mode": "reference_scenario",
+  "location": "Agrifoods Canada",
+  "start_year": 2027,
+  "years": 6,
+  "allowed_crops": ["Wheat", "Canola", "Soybean"],
+  "minimum_wheat_seasons": 2,
+  "minimum_distinct_crop_labels": 2,
+  "max_annual_p_application": 15,
+  "max_abs_cumulative_p_change": 30,
+  "budget_basis": "field_tp",
+  "require_complete_cycles": true,
+  "previous_crop": "",
+  "top_k": 3
+}

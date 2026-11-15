@@ -1,0 +1,28 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.624501,
+          45.721236
+        ]
+      },
+      "properties": {
+        "sitecode": "USOR03",
+        "kind": "projection",
+        "scenario": "ssp245",
+        "period": "2027-01-01/2027-12-31",
+        "requested_days": 365,
+        "temperature_days": 360,
+        "precipitation_days": 360,
+        "mean_temperature_c": 12.822166666666666,
+        "precipitation_sum_mm": null,
+        "complete_temperature": false,
+        "complete_precipitation": false
+      }
+    }
+  ]
+}

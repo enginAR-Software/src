@@ -1,0 +1,177 @@
+{
+  "goal": "Kuzey Amerika'da yetiştirilen buğdayın iklim değişikliğine bağlı olarak ve çeşitli verilere bakılarak göç edeceği en uygun bölgeyi kestirmek; izlediği yol boyunca parsellere ayrılan bölgeler için ekonomik anlamda en verimli ekim rotasyonunu hesaplayan matematiksel bir model eğitmek; çiftçiye her yıl ne zaman ve hangi ürünü ekeceğini söyleyerek işini kolaylaştırmak.",
+  "components": {
+    "A": "Buğdayın iklim değişikliğiyle kayacağı en uygun bölge",
+    "B": "Yol boyunca parsellere ayırma",
+    "C": "Parsel başına ekonomik açıdan en verimli rotasyon",
+    "D": "Eğitilmiş matematiksel model",
+    "E": "Her yıl ne ve ne zaman ekileceği"
+  },
+  "status": {
+    "A": {
+      "status": "veri_bekleniyor",
+      "produced": "Hücre bazında referans → gelecek iklim farkı hesaplandı; kayma vektörü için eğitilmiş model gerekli",
+      "next": "python3 -m fieldshift_data corridor --online (koridor ızgarasını NASA ve USDA'dan indirir)"
+    },
+    "B": {
+      "status": "calisiyor",
+      "produced": "30 parsel (tüm yılları tarım sınıfı olan CDL noktaları); 20 nokta tarım dışı",
+      "next": "Koridor indirildiğinde parseller koridor hücrelerinden de üretilebilir"
+    },
+    "C": {
+      "status": "calisiyor",
+      "produced": "Kâr optimizasyonu ve 3 strateji hesaplandı",
+      "next": "config/economics_inputs.csv'yi kaynaklarıyla doldurun veya FIELDSHIFT_NASS_KEY ile economics --online çalıştırın"
+    },
+    "D": {
+      "status": "egitim_verisi_yetersiz",
+      "produced": "Farklı iklimli hücre sayısı 2 < 12; Buğday görülen hücre 2 < 3; Buğdaysız tarım hücresi 2 < 3",
+      "next": "corridor --online ile en az 12 farklı iklimli hücre"
+    },
+    "E": {
+      "status": "calisiyor",
+      "produced": "Ekim gereken 54 bölge-ürün-yılın 30 tanesinde tam pencere, 7 tanesinde yalnız başlangıç veya düşük güven; kuralı olmayan ürün: Dbl Crop WinWht/Soybeans, Triticale",
+      "next": "Kaynak eşikleri config/crop_calendar.json'da; yerel toprak sıcaklığıyla doğrulayın"
+    }
+  },
+  "plan_years": [
+    2027,
+    2028,
+    2029,
+    2030,
+    2031,
+    2032
+  ],
+  "parcels": 30,
+  "excluded_points": 20,
+  "corridor_output": "corridor_20261115T023002Z_f12c320f",
+  "corridor": {
+    "source": "pilot_sites_offline",
+    "source_note": "Koridor ızgarası önbellekte yok veya indirilemedi (Bu iklim isteği önbellekte yok. İlk indirme için --online kullanın.). Paketteki iki pilot alanla çalışıldı.",
+    "readiness": {
+      "cells_with_cropland": 2,
+      "distinct_climate_cells": 2,
+      "positive_cells": 2,
+      "negative_cells": 2,
+      "required": {
+        "cells": 12,
+        "positive": 3,
+        "negative": 3
+      },
+      "trained": false,
+      "reasons": [
+        "Farklı iklimli hücre sayısı 2 < 12",
+        "Buğday görülen hücre 2 < 3",
+        "Buğdaysız tarım hücresi 2 < 3"
+      ]
+    },
+    "validation": null,
+    "shift": null
+  },
+  "economics": {
+    "config_sha256": "5de3216088127f5625c0da1d4429321a24056faf788019a3317e97d9632bc4f1",
+    "inputs_sha256": "a74836bb5f471f5d939cd1674140ff053627bc80fcdd83e936f3a2a78a6e8fc8",
+    "nass_series_cached": 0,
+    "nass_problems": [
+      "USKS01/Corn verim (COUNTY): NASS sorgusu önbellekte yok; economics --online ve FIELDSHIFT_NASS_KEY gerekir.",
+      "USKS01/Corn verim (STATE): NASS sorgusu önbellekte yok; economics --online ve FIELDSHIFT_NASS_KEY gerekir.",
+      "USKS01/Corn fiyat: NASS sorgusu önbellekte yok; economics --online ve FIELDSHIFT_NASS_KEY gerekir.",
+      "USKS01/Soybeans verim (COUNTY): NASS sorgusu önbellekte yok; economics --online ve FIELDSHIFT_NASS_KEY gerekir.",
+      "USKS01/Soybeans verim (STATE): NASS sorgusu önbellekte yok; economics --online ve FIELDSHIFT_NASS_KEY gerekir.",
+      "USKS01/Soybeans fiyat: NASS sorgusu önbellekte yok; economics --online ve FIELDSHIFT_NASS_KEY gerekir.",
+      "USKS01/Sorghum verim (COUNTY): NASS sorgusu önbellekte yok; economics --online ve FIELDSHIFT_NASS_KEY gerekir.",
+      "USKS01/Sorghum verim (STATE): NASS sorgusu önbellekte yok; economics --online ve FIELDSHIFT_NASS_KEY gerekir.",
+      "USKS01/Sorghum fiyat: NASS sorgusu önbellekte yok; economics --online ve FIELDSHIFT_NASS_KEY gerekir.",
+      "USKS01/Winter Wheat verim (COUNTY): NASS sorgusu önbellekte yok; economics --online ve FIELDSHIFT_NASS_KEY gerekir.",
+      "USKS01/Winter Wheat verim (STATE): NASS sorgusu önbellekte yok; economics --online ve FIELDSHIFT_NASS_KEY gerekir.",
+      "USKS01/Winter Wheat fiyat: NASS sorgusu önbellekte yok; economics --online ve FIELDSHIFT_NASS_KEY gerekir.",
+      "USOR03/Winter Wheat verim (COUNTY): NASS sorgusu önbellekte yok; economics --online ve FIELDSHIFT_NASS_KEY gerekir.",
+      "USOR03/Winter Wheat verim (STATE): NASS sorgusu önbellekte yok; economics --online ve FIELDSHIFT_NASS_KEY gerekir.",
+      "USOR03/Winter Wheat fiyat: NASS sorgusu önbellekte yok; economics --online ve FIELDSHIFT_NASS_KEY gerekir.",
+      "USOR03/Spring Wheat verim (COUNTY): NASS sorgusu önbellekte yok; economics --online ve FIELDSHIFT_NASS_KEY gerekir.",
+      "USOR03/Spring Wheat verim (STATE): NASS sorgusu önbellekte yok; economics --online ve FIELDSHIFT_NASS_KEY gerekir.",
+      "USOR03/Spring Wheat fiyat: NASS sorgusu önbellekte yok; economics --online ve FIELDSHIFT_NASS_KEY gerekir."
+    ],
+    "p_removal_kg_per_ha": {
+      "Corn": {
+        "kg_p_per_ha": 31.46,
+        "systems": 27,
+        "min": 8.73,
+        "max": 70.83,
+        "source": "P-FLUX (Williams ve diğ. 2021) sistem ortalamalarının medyanı; P kaldırması verimle değişir"
+      },
+      "Soybeans": {
+        "kg_p_per_ha": 18.825000000000003,
+        "systems": 22,
+        "min": 3.09,
+        "max": 27.0,
+        "source": "P-FLUX (Williams ve diğ. 2021) sistem ortalamalarının medyanı; P kaldırması verimle değişir"
+      },
+      "Sorghum": {
+        "kg_p_per_ha": 16.98,
+        "systems": 1,
+        "min": 16.98,
+        "max": 16.98,
+        "source": "P-FLUX (Williams ve diğ. 2021) sistem ortalamalarının medyanı; P kaldırması verimle değişir"
+      },
+      "Winter Wheat": {
+        "kg_p_per_ha": 12.02,
+        "systems": 16,
+        "min": 1.0,
+        "max": 38.06,
+        "source": "P-FLUX (Williams ve diğ. 2021) sistem ortalamalarının medyanı; P kaldırması verimle değişir"
+      },
+      "Spring Wheat": {
+        "kg_p_per_ha": 30.53,
+        "systems": 3,
+        "min": 12.97,
+        "max": 30.69,
+        "source": "P-FLUX (Williams ve diğ. 2021) sistem ortalamalarının medyanı; P kaldırması verimle değişir"
+      },
+      "Canola": {
+        "kg_p_per_ha": 3.1,
+        "systems": 2,
+        "min": 2.73,
+        "max": 3.47,
+        "source": "P-FLUX (Williams ve diğ. 2021) sistem ortalamalarının medyanı; P kaldırması verimle değişir"
+      },
+      "Alfalfa": {
+        "kg_p_per_ha": 27.03333333333333,
+        "systems": 6,
+        "min": 10.72,
+        "max": 37.160000000000004,
+        "source": "P-FLUX (Williams ve diğ. 2021) sistem ortalamalarının medyanı; P kaldırması verimle değişir"
+      },
+      "Barley": {
+        "kg_p_per_ha": 26.47,
+        "systems": 4,
+        "min": 25.66,
+        "max": 31.22,
+        "source": "P-FLUX (Williams ve diğ. 2021) sistem ortalamalarının medyanı; P kaldırması verimle değişir"
+      }
+    },
+    "rotation_effects": []
+  },
+  "calendar_sha256": "f1b85b32d5be821c7fce89a18707c8515b8a9971f6435989d764f1837fa28472",
+  "climate_missing_chunks": {
+    "USKS01": [],
+    "USOR03": []
+  },
+  "validation_note": "Oregon USOR03 kaynak kaydında kışlık buğday 15 Ekim 2018'de ekilmiştir; aynı yıl için hesaplanan pencere bununla karşılaştırılır.",
+  "oregon_2019_window": {
+    "crop": "Winter Wheat",
+    "plan_year": 2019,
+    "status": "ok",
+    "start": "2018-10-06",
+    "end": "2018-10-20",
+    "basis": "NASA projeksiyon normali 2015–2024; 24 gün (Aralık sonu) yılların %80'inden azından (gerçek yıl eksik: 2018 Ağustos–Aralık günleri eksik (4 gün))",
+    "detail": "Ekim 2018 sonbaharı; hasat yılı 2019"
+  },
+  "limitations": [
+    "Mevcut rotasyon, 2018–2023 CDL dizisinin döngüsel devamı olarak varsayılır.",
+    "Bölge içindeki parseller aynı ilçe verimi, fiyatı ve maliyetini paylaşır; parsel farkı yalnız geçmiş ürün sırasından gelir.",
+    "Rotasyonun verime etkisi (ör. nadasın su biriktirmesi, baklagilin azot katkısı) yalnız kaynaklı rotation_effects satırlarıyla hesaba girer; varsayılan listede yoktur.",
+    "Ekim pencereleri hava sıcaklığını toprak sıcaklığına vekil alır ve NEX-GDDP ensemble ortalamasına dayanır.",
+    "Bu araç karar desteğidir; çiftçinin ve yerel uzmanın yargısının yerine geçmez."
+  ]
+}

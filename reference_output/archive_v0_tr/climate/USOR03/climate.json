@@ -1,0 +1,220 @@
+{
+  "request": {
+    "sitecode": "USOR03",
+    "latitude": 45.721236,
+    "longitude": -118.624501,
+    "kind": "projection",
+    "scenario": "ssp245",
+    "model": "ensemble",
+    "start": "2027-01-01",
+    "end": "2027-12-31",
+    "url": "https://power.larc.nasa.gov/api/projection/daily/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CPRECTOTCORR&community=AG&longitude=-118.624501&latitude=45.721236&start=20270101&end=20271231&format=JSON&time-standard=UTC&scenario=ssp245&model=ensemble"
+  },
+  "provenance": {
+    "request": {
+      "sitecode": "USOR03",
+      "latitude": 45.721236,
+      "longitude": -118.624501,
+      "kind": "projection",
+      "scenario": "ssp245",
+      "model": "ensemble",
+      "start": "2027-01-01",
+      "end": "2027-12-31",
+      "url": "https://power.larc.nasa.gov/api/projection/daily/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CPRECTOTCORR&community=AG&longitude=-118.624501&latitude=45.721236&start=20270101&end=20271231&format=JSON&time-standard=UTC&scenario=ssp245&model=ensemble"
+    },
+    "sha256": "38fc7d0846a221c2661f97660ddf70bc78499cebbe6d4715898d0fc6f37a4daf",
+    "fetched_at_utc": "2026-11-14T23:41:27.796915+00:00",
+    "api_header": {
+      "title": "NASA/POWER WCRP/CMIP6 NEX-GDDP Downscaled Daily Data",
+      "api": {
+        "version": "v2.6.4-beta",
+        "name": "Climate Projection API"
+      },
+      "sources": [
+        "NEXGDDP"
+      ],
+      "model": "ensemble",
+      "scenarios": [
+        "ssp245"
+      ],
+      "time_standard": "utc",
+      "fill_value": -999,
+      "start": "20270101",
+      "end": "20271231"
+    },
+    "coordinate_source": {
+      "dataset": "napeshm",
+      "version": 1,
+      "doi": "https://doi.org/10.15482/USDA.ADC/25632270",
+      "license": {
+        "value": 1,
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "metadata_sha256": "1e15b96e2a2d3b711c2444be6f93526bbcdc2bd12d40eb7199d59e9e8ce5c442",
+      "files": [
+        {
+          "file": "NAPESHM_public_dataset_06032024.zip",
+          "size": 4994407,
+          "md5": "b6a0a7cd8123c556c82a0d3384084a83",
+          "sha256": "1b4a6eba11d27b88aee83a1fb844eea91919599ee64652e37d988059c14a029a"
+        }
+      ]
+    },
+    "reported_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -118.624501,
+        45.721236,
+        857.61
+      ]
+    }
+  },
+  "transfer": "cached",
+  "period_summary": {
+    "period": "2027-01-01/2027-12-31",
+    "requested_days": 365,
+    "temperature_days": 360,
+    "precipitation_days": 360,
+    "mean_temperature_c": 12.822166666666666,
+    "precipitation_sum_mm": null,
+    "complete_temperature": false,
+    "complete_precipitation": false
+  },
+  "monthly": [
+    {
+      "period": "2027-01",
+      "requested_days": 31,
+      "temperature_days": 31,
+      "precipitation_days": 31,
+      "mean_temperature_c": 3.176129032258064,
+      "precipitation_sum_mm": 52.11,
+      "complete_temperature": true,
+      "complete_precipitation": true
+    },
+    {
+      "period": "2027-02",
+      "requested_days": 28,
+      "temperature_days": 28,
+      "precipitation_days": 28,
+      "mean_temperature_c": 5.360357142857143,
+      "precipitation_sum_mm": 37.78,
+      "complete_temperature": true,
+      "complete_precipitation": true
+    },
+    {
+      "period": "2027-03",
+      "requested_days": 31,
+      "temperature_days": 31,
+      "precipitation_days": 31,
+      "mean_temperature_c": 8.266774193548386,
+      "precipitation_sum_mm": 38.63,
+      "complete_temperature": true,
+      "complete_precipitation": true
+    },
+    {
+      "period": "2027-04",
+      "requested_days": 30,
+      "temperature_days": 30,
+      "precipitation_days": 30,
+      "mean_temperature_c": 10.842,
+      "precipitation_sum_mm": 39.63,
+      "complete_temperature": true,
+      "complete_precipitation": true
+    },
+    {
+      "period": "2027-05",
+      "requested_days": 31,
+      "temperature_days": 31,
+      "precipitation_days": 31,
+      "mean_temperature_c": 14.730322580645161,
+      "precipitation_sum_mm": 36.9,
+      "complete_temperature": true,
+      "complete_precipitation": true
+    },
+    {
+      "period": "2027-06",
+      "requested_days": 30,
+      "temperature_days": 30,
+      "precipitation_days": 30,
+      "mean_temperature_c": 19.769,
+      "precipitation_sum_mm": 25.91,
+      "complete_temperature": true,
+      "complete_precipitation": true
+    },
+    {
+      "period": "2027-07",
+      "requested_days": 31,
+      "temperature_days": 31,
+      "precipitation_days": 31,
+      "mean_temperature_c": 24.449354838709677,
+      "precipitation_sum_mm": 8.78,
+      "complete_temperature": true,
+      "complete_precipitation": true
+    },
+    {
+      "period": "2027-08",
+      "requested_days": 31,
+      "temperature_days": 31,
+      "precipitation_days": 31,
+      "mean_temperature_c": 24.45483870967742,
+      "precipitation_sum_mm": 11.61,
+      "complete_temperature": true,
+      "complete_precipitation": true
+    },
+    {
+      "period": "2027-09",
+      "requested_days": 30,
+      "temperature_days": 30,
+      "precipitation_days": 30,
+      "mean_temperature_c": 18.791666666666668,
+      "precipitation_sum_mm": 17.25,
+      "complete_temperature": true,
+      "complete_precipitation": true
+    },
+    {
+      "period": "2027-10",
+      "requested_days": 31,
+      "temperature_days": 31,
+      "precipitation_days": 31,
+      "mean_temperature_c": 12.340645161290322,
+      "precipitation_sum_mm": 33.92,
+      "complete_temperature": true,
+      "complete_precipitation": true
+    },
+    {
+      "period": "2027-11",
+      "requested_days": 30,
+      "temperature_days": 30,
+      "precipitation_days": 30,
+      "mean_temperature_c": 5.998,
+      "precipitation_sum_mm": 37.25,
+      "complete_temperature": true,
+      "complete_precipitation": true
+    },
+    {
+      "period": "2027-12",
+      "requested_days": 31,
+      "temperature_days": 26,
+      "precipitation_days": 26,
+      "mean_temperature_c": 3.611923076923077,
+      "precipitation_sum_mm": null,
+      "complete_temperature": false,
+      "complete_precipitation": false
+    }
+  ],
+  "missing_counts": {
+    "T2M": 5,
+    "T2M_MAX": 5,
+    "T2M_MIN": 5,
+    "PRECTOTCORR": 5
+  },
+  "dates_with_missing_values": [
+    "2027-12-27",
+    "2027-12-28",
+    "2027-12-29",
+    "2027-12-30",
+    "2027-12-31"
+  ],
+  "notice": "Projeksiyon senaryo/model koşulludur; gerçekleşecek hava veya ürün verimi tahmini değildir. Parsel ölçeğinde yorumlanmaz."
+}

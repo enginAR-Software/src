@@ -1,0 +1,6 @@
+key,component,status,status_tr,produced,next
+A,Buğdayın iklim değişikliğiyle kayacağı en uygun bölge,veri_bekleniyor,Veri bekleniyor,Hücre bazında referans → gelecek iklim farkı hesaplandı; kayma vektörü için eğitilmiş model gerekli,python3 -m fieldshift_data corridor --online (koridor ızgarasını NASA ve USDA'dan indirir)
+B,Yol boyunca parsellere ayırma,calisiyor,Çalışıyor,30 parsel (tüm yılları tarım sınıfı olan CDL noktaları); 20 nokta tarım dışı,Koridor indirildiğinde parseller koridor hücrelerinden de üretilebilir
+C,Parsel başına ekonomik açıdan en verimli rotasyon,calisiyor,Çalışıyor,Kâr optimizasyonu ve 3 strateji hesaplandı,config/economics_inputs.csv'yi kaynaklarıyla doldurun veya FIELDSHIFT_NASS_KEY ile economics --online çalıştırın
+D,Eğitilmiş matematiksel model,egitim_verisi_yetersiz,Eğitim verisi yetersiz,Farklı iklimli hücre sayısı 2 < 12; Buğday görülen hücre 2 < 3; Buğdaysız tarım hücresi 2 < 3,corridor --online ile en az 12 farklı iklimli hücre
+E,Her yıl ne ve ne zaman ekileceği,calisiyor,Çalışıyor,"Ekim gereken 54 bölge-ürün-yılın 30 tanesinde tam pencere, 7 tanesinde yalnız başlangıç veya düşük güven; kuralı olmayan ürün: Dbl Crop WinWht/Soybeans, Triticale",Kaynak eşikleri config/crop_calendar.json'da; yerel toprak sıcaklığıyla doğrulayın

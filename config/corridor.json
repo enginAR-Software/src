@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "purpose": "Preparation.md component A: estimate of the most suitable region wheat will shift to under climate change. The relation between wheat presence (USDA CDL) and the model reference climate (NASA NEX-GDDP 2015–2024) is learned in grid cells and the same model is applied to the 2040–2049 climate.",
+  "scenario": "ssp245",
+  "baseline": [
+    2015,
+    2024
+  ],
+  "future": [
+    2040,
+    2049
+  ],
+  "bbox": {
+    "west": -102.0,
+    "east": -95.0,
+    "south": 36.0,
+    "north": 49.0
+  },
+  "cell_step_degrees": 1.0,
+  "points_per_cell_side": 3,
+  "point_step_degrees": 0.1,
+  "cdl_years": [
+    2019,
+    2023
+  ],
+  "block_size_cells": 2,
+  "min_cells_for_training": 12,
+  "min_positive_cells": 3,
+  "min_negative_cells": 3,
+  "l2": 0.1,
+  "notes": "The default box is the Kansas–Nebraska–Dakotas line (US Great Plains wheat belt). 1° cells: 7 × 13 = 91 cells, 3×3 per cell = 819 CDL points; 4 NASA requests per cell for climate (≈364 requests). The first download can take long; the cache is used on later runs. CDL covers only the contiguous US.",
+  "suitable_threshold": 0.5
+}

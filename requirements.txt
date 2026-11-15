@@ -1,0 +1,2 @@
+# Python 3.10+ standard library is enough.
+# Uses CSV and SQLite; no pandas/openpyxl/pip installation needed.

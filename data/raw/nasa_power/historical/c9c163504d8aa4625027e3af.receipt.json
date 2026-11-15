@@ -1,0 +1,57 @@
+{
+  "request": {
+    "sitecode": "USOR03",
+    "latitude": 45.721236,
+    "longitude": -118.624501,
+    "kind": "historical",
+    "scenario": null,
+    "model": null,
+    "start": "2018-03-25",
+    "end": "2019-07-15",
+    "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CPRECTOTCORR&community=AG&longitude=-118.624501&latitude=45.721236&start=20180325&end=20190715&format=JSON&time-standard=UTC"
+  },
+  "sha256": "6d10bf597ff75462100e055d405d5c536afe6cf1dcad3b23a5a5c3a69df180cd",
+  "fetched_at_utc": "2026-11-15T00:12:34.496612+00:00",
+  "api_header": {
+    "title": "NASA/POWER Source Native Resolution Daily Data",
+    "api": {
+      "version": "v2.10.3",
+      "name": "POWER Daily API"
+    },
+    "sources": [
+      "MERRA2",
+      "POWER"
+    ],
+    "fill_value": -999.0,
+    "time_standard": "UTC",
+    "start": "20180325",
+    "end": "20190715"
+  },
+  "coordinate_source": {
+    "dataset": "napeshm",
+    "version": 1,
+    "doi": "https://doi.org/10.15482/USDA.ADC/25632270",
+    "license": {
+      "value": 1,
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "metadata_sha256": "1e15b96e2a2d3b711c2444be6f93526bbcdc2bd12d40eb7199d59e9e8ce5c442",
+    "files": [
+      {
+        "file": "NAPESHM_public_dataset_06032024.zip",
+        "size": 4994407,
+        "md5": "b6a0a7cd8123c556c82a0d3384084a83",
+        "sha256": "1b4a6eba11d27b88aee83a1fb844eea91919599ee64652e37d988059c14a029a"
+      }
+    ]
+  },
+  "reported_geometry": {
+    "type": "Point",
+    "coordinates": [
+      -118.625,
+      45.721,
+      857.61
+    ]
+  }
+}

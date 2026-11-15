@@ -1,0 +1,100 @@
+{
+  "run_id": "20261114T234952Z_1f3e254a",
+  "created_at_utc": "2026-11-14T23:49:52.471827+00:00",
+  "software_version": "0.3.0",
+  "data_mode": "real_public_source",
+  "status": "completed",
+  "datasets": [
+    {
+      "dataset": "pflux",
+      "version": 1,
+      "doi": "https://doi.org/10.15482/USDA.ADC/1523365",
+      "license": {
+        "value": 96,
+        "name": "U.S. Public Domain",
+        "url": "https://www.usa.gov/publicdomain/label/1.0/"
+      },
+      "metadata_sha256": "f9742db686402374a6af7df13ac2351861e4204761fe4515003440e9adeebf97",
+      "files": [
+        {
+          "file": "DataSourcesAndReferences.csv",
+          "size": 45384,
+          "md5": "307469c3ffb076258f4db84d424e9ca4",
+          "sha256": "309fef3f892f07ad86f25071850cbbc0f2e8346ca01cd7982c00792b50867fee"
+        },
+        {
+          "file": "PBudgetData.csv",
+          "size": 67501,
+          "md5": "ce25c5543acbef3432d781f9ae7a23a1",
+          "sha256": "684e10b4c3b6c078b180f8dc6e25191b03b9572b5682b40be82b99384cb76195"
+        }
+      ]
+    },
+    {
+      "dataset": "napeshm",
+      "version": 1,
+      "doi": "https://doi.org/10.15482/USDA.ADC/25632270",
+      "license": {
+        "value": 1,
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "metadata_sha256": "1e15b96e2a2d3b711c2444be6f93526bbcdc2bd12d40eb7199d59e9e8ce5c442",
+      "files": [
+        {
+          "file": "NAPESHM_public_dataset_06032024.zip",
+          "size": 4994407,
+          "md5": "b6a0a7cd8123c556c82a0d3384084a83",
+          "sha256": "1b4a6eba11d27b88aee83a1fb844eea91919599ee64652e37d988059c14a029a"
+        }
+      ]
+    }
+  ],
+  "missing_tokens": [
+    "blank",
+    "NA",
+    "N/A",
+    "NaN",
+    "NULL"
+  ],
+  "transformations": [
+    "UTF-8 CSV output",
+    "outer whitespace stripped",
+    "missing tokens -> null",
+    "identifiers preserved as text",
+    "no imputation",
+    "no stock conversion"
+  ],
+  "pilot_analysis": {
+    "pilot": "all",
+    "config_name": "pilots.json",
+    "config_sha256": "09acfdd8a082a82d673ff7641ad505896b6e41cd4f1b2aea02eec2a1d840be66"
+  },
+  "result_tables": {
+    "pflux_DataSourcesAndReferences": 174,
+    "pflux_PBudgetData": 224,
+    "pflux_budgets": 224,
+    "pflux_system_comparison": 61,
+    "pflux_wheat_budgets": 90,
+    "pflux_wheat_system_comparison": 23,
+    "napeshm_dbcolumns": 464,
+    "napeshm_dbtables": 9,
+    "napeshm_mgmtdata": 12643,
+    "napeshm_plfa_ng": 1403,
+    "napeshm_plfa_nm": 1403,
+    "napeshm_rr_lookup": 932,
+    "napeshm_sites": 94,
+    "napeshm_soildata": 1453,
+    "napeshm_treatments": 508,
+    "napeshm_soil_with_context": 1453,
+    "napeshm_soil_indicators": 13077,
+    "napeshm_treatment_summary": 3873,
+    "napeshm_wheat_candidate_sites": 40,
+    "napeshm_wheat_site_coverage": 40,
+    "analysis_pilot_sites": 2,
+    "analysis_pilot_treatments": 9,
+    "analysis_pilot_plots": 324,
+    "analysis_pilot_summary": 81,
+    "analysis_pilot_contrasts": 108
+  }
+}

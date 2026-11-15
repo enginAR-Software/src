@@ -1,0 +1,60 @@
+{
+  "request": {
+    "sitecode": "USKS01",
+    "latitude": 39.123775,
+    "longitude": -96.636037,
+    "kind": "projection",
+    "scenario": "ssp245",
+    "model": "ensemble",
+    "start": "2015-01-01",
+    "end": "2019-12-31",
+    "url": "https://power.larc.nasa.gov/api/projection/daily/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CPRECTOTCORR&community=AG&longitude=-96.636037&latitude=39.123775&start=20150101&end=20191231&format=JSON&time-standard=UTC&scenario=ssp245&model=ensemble"
+  },
+  "sha256": "843500e16efc1153aba06fac1d291d21758209389d4fc71eb8ac01648895a7aa",
+  "fetched_at_utc": "2026-11-15T00:42:32.137529+00:00",
+  "api_header": {
+    "title": "NASA/POWER WCRP/CMIP6 NEX-GDDP Downscaled Daily Data",
+    "api": {
+      "version": "v2.6.4-beta",
+      "name": "Climate Projection API"
+    },
+    "sources": [
+      "NEXGDDP"
+    ],
+    "model": "ensemble",
+    "scenarios": [
+      "ssp245"
+    ],
+    "time_standard": "utc",
+    "fill_value": -999,
+    "start": "20150101",
+    "end": "20191231"
+  },
+  "coordinate_source": {
+    "dataset": "napeshm",
+    "version": 1,
+    "doi": "https://doi.org/10.15482/USDA.ADC/25632270",
+    "license": {
+      "value": 1,
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "metadata_sha256": "1e15b96e2a2d3b711c2444be6f93526bbcdc2bd12d40eb7199d59e9e8ce5c442",
+    "files": [
+      {
+        "file": "NAPESHM_public_dataset_06032024.zip",
+        "size": 4994407,
+        "md5": "b6a0a7cd8123c556c82a0d3384084a83",
+        "sha256": "1b4a6eba11d27b88aee83a1fb844eea91919599ee64652e37d988059c14a029a"
+      }
+    ]
+  },
+  "reported_geometry": {
+    "type": "Point",
+    "coordinates": [
+      -96.636037,
+      39.123775,
+      389.95
+    ]
+  }
+}

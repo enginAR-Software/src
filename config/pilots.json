@@ -1,0 +1,32 @@
+{
+  "oregon": {
+    "siteid": "101",
+    "sitecode": "USOR03",
+    "label": "Oregon: winter wheat–pea, tillage comparison",
+    "treatments": ["438", "439", "440"],
+    "expected_phase": "winter wheat",
+    "contrasts": [
+      {"a": "438", "b": "439", "label": "Chisel → no-till"},
+      {"a": "438", "b": "440", "label": "Chisel → moldboard plow"},
+      {"a": "440", "b": "439", "label": "Pulluk → no-till"}
+    ]
+  },
+  "kansas": {
+    "siteid": "60",
+    "sitecode": "USKS01",
+    "label": "Kansas: nitrogen level, fallow, double crop and cover crop",
+    "treatments": ["259", "260", "261", "262", "263", "264"],
+    "expected_phase": "Sorghum",
+    "contrasts": [
+      {"a": "259", "b": "260", "label": "Nadas: 0 → 120 lb N/acre etiketli uygulama"},
+      {"a": "261", "b": "262", "label": "Double-crop soybean: 0 → 120 lb N/acre labelled treatment"},
+      {"a": "263", "b": "264", "label": "Cover crop: 0 → 120 lb N/acre labelled treatment"},
+      {"a": "259", "b": "261", "label": "0 N: fallow → double-crop soybean"},
+      {"a": "259", "b": "263", "label": "0 N: fallow → cover crop"},
+      {"a": "261", "b": "263", "label": "0 N: double-crop soybean → cover crop"},
+      {"a": "260", "b": "262", "label": "120 lb N/acre label: fallow → double-crop soybean"},
+      {"a": "260", "b": "264", "label": "120 lb N/acre label: fallow → cover crop"},
+      {"a": "262", "b": "264", "label": "120 lb N/acre label: double-crop soybean → cover crop"}
+    ]
+  }
+}

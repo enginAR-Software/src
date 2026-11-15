@@ -1,0 +1,7 @@
+region,strategy,strategy_tr,parcels,parcels_with_profit,mean_profit_usd_per_acre,min_profit,max_profit,mean_p_removal_kg_per_ha,typical_sequence
+USKS01,bugday_agirlikli,Buğday ağırlıklı,9,9,-11.3,-11.3,-11.3,87.0,Sorghum → Sorghum → Winter Wheat → Sorghum → Winter Wheat → Winter Wheat
+USKS01,en_karli,En kârlı,9,9,48.8,48.8,48.8,92.0,Sorghum → Sorghum → Winter Wheat → Sorghum → Sorghum → Winter Wheat
+USKS01,mevcut,Mevcut rotasyon,9,7,-289.6,-345.9,-113.4,141.1,Corn → Soybeans → Corn → Soybeans → Corn → Soybeans
+USOR03,bugday_agirlikli,Buğday ağırlıklı,21,21,174.7,70.9,185.6,46.9,Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Winter Wheat
+USOR03,en_karli,En kârlı,21,21,185.6,185.6,185.6,48.1,Fallow/Idle Cropland → Winter Wheat → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Winter Wheat
+USOR03,mevcut,Mevcut rotasyon,21,17,70.9,70.9,70.9,36.1,Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland

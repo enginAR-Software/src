@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "purpose": "Consistency check of the MODIS NDVI peak month against the CDL crop label (satellite command).",
+  "sources": [
+    "Wardlow, B.D., Egbert, S.L., Kastens, J.H. (2007). Analysis of time-series MODIS 250 m vegetation index data for crop classification in the U.S. Central Great Plains. Remote Sensing of Environment 108(3):290–310 — in Kansas the winter-wheat NDVI peak is in late spring (April–May); corn/soybean/sorghum peaks are mid to late summer (July–August).",
+    "USDA NASS (2010). Field Crops: Usual Planting and Harvesting Dates. Agricultural Handbook 628 — planting/harvest ranges; the peak month falls between the end of planting and the start of harvest."
+  ],
+  "notes": "Ranges were widened by ±1 month for the Great Plains (assumption). The peak-NDVI upper limit of 0.45 for fallow is an assumption (weed growth can raise NDVI).",
+  "crops": {
+    "Winter Wheat": {"peak_months": [3, 4, 5, 6]},
+    "Spring Wheat": {"peak_months": [6, 7, 8]},
+    "Durum Wheat": {"peak_months": [6, 7, 8]},
+    "Corn": {"peak_months": [7, 8, 9]},
+    "Soybeans": {"peak_months": [7, 8, 9]},
+    "Sorghum": {"peak_months": [7, 8, 9]},
+    "Peas": {"peak_months": [5, 6, 7]},
+    "Fallow/Idle Cropland": {"max_peak_ndvi": 0.45}
+  }
+}

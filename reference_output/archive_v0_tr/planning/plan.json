@@ -1,0 +1,349 @@
+{
+  "status": "ok",
+  "settings": {
+    "mode": "reference_scenario",
+    "location": "Agrifoods Canada",
+    "start_year": 2027,
+    "years": 6,
+    "allowed_crops": [
+      "Wheat",
+      "Canola",
+      "Soybean"
+    ],
+    "minimum_wheat_seasons": 2,
+    "minimum_distinct_crop_labels": 2,
+    "max_annual_p_application": 15.0,
+    "max_abs_cumulative_p_change": 30.0,
+    "budget_basis": "field_tp",
+    "require_complete_cycles": true,
+    "previous_crop": "",
+    "top_k": 3
+  },
+  "recommendation_readiness": "reference_only",
+  "unresolved_inputs": [
+    "field-specific N/K and available P states",
+    "crop response to projected climate",
+    "crop yield and production requirements",
+    "sowing windows and within-year crop timing"
+  ],
+  "candidate_systems": 4,
+  "feasible_scenarios": 5,
+  "objective": "minimize sum of absolute cumulative net P changes, then source-mean P inputs",
+  "units": "kg elemental P/ha; changes from zero accounting baseline, NOT available soil stocks",
+  "assumptions": [
+    "Observed rotation order and management are preserved; cyclic phase may change.",
+    "Each rotation position is assigned one planning season/year; crop-specific sowing dates are unresolved.",
+    "Source average flows repeat unchanged; climate response, N/K dynamics and yield changes are not predicted."
+  ],
+  "best": [
+    {
+      "system_id": "AAFC-Sys1",
+      "system_name": "Canola-Soybean-Wheat",
+      "start_position": 3,
+      "wheat_seasons": 2,
+      "sum_abs_cumulative_p_change": 55.62000000000001,
+      "peak_abs_cumulative_p_change": 19.000000000000004,
+      "final_cumulative_p_change": 19.000000000000004,
+      "total_source_mean_p_application": 37.0,
+      "schedule": [
+        {
+          "plan_year": 2027,
+          "system_id": "AAFC-Sys1",
+          "source_rotation_position": 3,
+          "crop": "Wheat",
+          "source_mean_application_p": 4.9,
+          "source_mean_net_p": 1.8,
+          "cumulative_p_change_before": 0.0,
+          "cumulative_p_change_after": 1.8
+        },
+        {
+          "plan_year": 2028,
+          "system_id": "AAFC-Sys1",
+          "source_rotation_position": 1,
+          "crop": "Canola",
+          "source_mean_application_p": 3.6,
+          "source_mean_net_p": 0.4600000000000002,
+          "cumulative_p_change_before": 1.8,
+          "cumulative_p_change_after": 2.2600000000000002
+        },
+        {
+          "plan_year": 2029,
+          "system_id": "AAFC-Sys1",
+          "source_rotation_position": 2,
+          "crop": "Soybean",
+          "source_mean_application_p": 10.0,
+          "source_mean_net_p": 7.240000000000001,
+          "cumulative_p_change_before": 2.2600000000000002,
+          "cumulative_p_change_after": 9.500000000000002
+        },
+        {
+          "plan_year": 2030,
+          "system_id": "AAFC-Sys1",
+          "source_rotation_position": 3,
+          "crop": "Wheat",
+          "source_mean_application_p": 4.9,
+          "source_mean_net_p": 1.8,
+          "cumulative_p_change_before": 9.500000000000002,
+          "cumulative_p_change_after": 11.300000000000002
+        },
+        {
+          "plan_year": 2031,
+          "system_id": "AAFC-Sys1",
+          "source_rotation_position": 1,
+          "crop": "Canola",
+          "source_mean_application_p": 3.6,
+          "source_mean_net_p": 0.4600000000000002,
+          "cumulative_p_change_before": 11.300000000000002,
+          "cumulative_p_change_after": 11.760000000000003
+        },
+        {
+          "plan_year": 2032,
+          "system_id": "AAFC-Sys1",
+          "source_rotation_position": 2,
+          "crop": "Soybean",
+          "source_mean_application_p": 10.0,
+          "source_mean_net_p": 7.240000000000001,
+          "cumulative_p_change_before": 11.760000000000003,
+          "cumulative_p_change_after": 19.000000000000004
+        }
+      ]
+    },
+    {
+      "system_id": "AAFC-Sys1",
+      "system_name": "Canola-Soybean-Wheat",
+      "start_position": 1,
+      "wheat_seasons": 2,
+      "sum_abs_cumulative_p_change": 63.820000000000014,
+      "peak_abs_cumulative_p_change": 19.000000000000004,
+      "final_cumulative_p_change": 19.000000000000004,
+      "total_source_mean_p_application": 37.0,
+      "schedule": [
+        {
+          "plan_year": 2027,
+          "system_id": "AAFC-Sys1",
+          "source_rotation_position": 1,
+          "crop": "Canola",
+          "source_mean_application_p": 3.6,
+          "source_mean_net_p": 0.4600000000000002,
+          "cumulative_p_change_before": 0.0,
+          "cumulative_p_change_after": 0.4600000000000002
+        },
+        {
+          "plan_year": 2028,
+          "system_id": "AAFC-Sys1",
+          "source_rotation_position": 2,
+          "crop": "Soybean",
+          "source_mean_application_p": 10.0,
+          "source_mean_net_p": 7.240000000000001,
+          "cumulative_p_change_before": 0.4600000000000002,
+          "cumulative_p_change_after": 7.700000000000001
+        },
+        {
+          "plan_year": 2029,
+          "system_id": "AAFC-Sys1",
+          "source_rotation_position": 3,
+          "crop": "Wheat",
+          "source_mean_application_p": 4.9,
+          "source_mean_net_p": 1.8,
+          "cumulative_p_change_before": 7.700000000000001,
+          "cumulative_p_change_after": 9.500000000000002
+        },
+        {
+          "plan_year": 2030,
+          "system_id": "AAFC-Sys1",
+          "source_rotation_position": 1,
+          "crop": "Canola",
+          "source_mean_application_p": 3.6,
+          "source_mean_net_p": 0.4600000000000002,
+          "cumulative_p_change_before": 9.500000000000002,
+          "cumulative_p_change_after": 9.960000000000003
+        },
+        {
+          "plan_year": 2031,
+          "system_id": "AAFC-Sys1",
+          "source_rotation_position": 2,
+          "crop": "Soybean",
+          "source_mean_application_p": 10.0,
+          "source_mean_net_p": 7.240000000000001,
+          "cumulative_p_change_before": 9.960000000000003,
+          "cumulative_p_change_after": 17.200000000000003
+        },
+        {
+          "plan_year": 2032,
+          "system_id": "AAFC-Sys1",
+          "source_rotation_position": 3,
+          "crop": "Wheat",
+          "source_mean_application_p": 4.9,
+          "source_mean_net_p": 1.8,
+          "cumulative_p_change_before": 17.200000000000003,
+          "cumulative_p_change_after": 19.000000000000004
+        }
+      ]
+    },
+    {
+      "system_id": "AAFC-Sys1",
+      "system_name": "Canola-Soybean-Wheat",
+      "start_position": 2,
+      "wheat_seasons": 2,
+      "sum_abs_cumulative_p_change": 80.06000000000002,
+      "peak_abs_cumulative_p_change": 19.000000000000004,
+      "final_cumulative_p_change": 19.000000000000004,
+      "total_source_mean_p_application": 37.0,
+      "schedule": [
+        {
+          "plan_year": 2027,
+          "system_id": "AAFC-Sys1",
+          "source_rotation_position": 2,
+          "crop": "Soybean",
+          "source_mean_application_p": 10.0,
+          "source_mean_net_p": 7.240000000000001,
+          "cumulative_p_change_before": 0.0,
+          "cumulative_p_change_after": 7.240000000000001
+        },
+        {
+          "plan_year": 2028,
+          "system_id": "AAFC-Sys1",
+          "source_rotation_position": 3,
+          "crop": "Wheat",
+          "source_mean_application_p": 4.9,
+          "source_mean_net_p": 1.8,
+          "cumulative_p_change_before": 7.240000000000001,
+          "cumulative_p_change_after": 9.040000000000001
+        },
+        {
+          "plan_year": 2029,
+          "system_id": "AAFC-Sys1",
+          "source_rotation_position": 1,
+          "crop": "Canola",
+          "source_mean_application_p": 3.6,
+          "source_mean_net_p": 0.4600000000000002,
+          "cumulative_p_change_before": 9.040000000000001,
+          "cumulative_p_change_after": 9.500000000000002
+        },
+        {
+          "plan_year": 2030,
+          "system_id": "AAFC-Sys1",
+          "source_rotation_position": 2,
+          "crop": "Soybean",
+          "source_mean_application_p": 10.0,
+          "source_mean_net_p": 7.240000000000001,
+          "cumulative_p_change_before": 9.500000000000002,
+          "cumulative_p_change_after": 16.740000000000002
+        },
+        {
+          "plan_year": 2031,
+          "system_id": "AAFC-Sys1",
+          "source_rotation_position": 3,
+          "crop": "Wheat",
+          "source_mean_application_p": 4.9,
+          "source_mean_net_p": 1.8,
+          "cumulative_p_change_before": 16.740000000000002,
+          "cumulative_p_change_after": 18.540000000000003
+        },
+        {
+          "plan_year": 2032,
+          "system_id": "AAFC-Sys1",
+          "source_rotation_position": 1,
+          "crop": "Canola",
+          "source_mean_application_p": 3.6,
+          "source_mean_net_p": 0.4600000000000002,
+          "cumulative_p_change_before": 18.540000000000003,
+          "cumulative_p_change_after": 19.000000000000004
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "system_id": "AAFC-Sys1",
+      "system_name": "Canola-Soybean-Wheat",
+      "start_position": 3,
+      "wheat_seasons": 2,
+      "sum_abs_cumulative_p_change": 55.62000000000001,
+      "peak_abs_cumulative_p_change": 19.000000000000004,
+      "final_cumulative_p_change": 19.000000000000004,
+      "total_source_mean_p_application": 37.0
+    },
+    {
+      "system_id": "AAFC-Sys1",
+      "system_name": "Canola-Soybean-Wheat",
+      "start_position": 1,
+      "wheat_seasons": 2,
+      "sum_abs_cumulative_p_change": 63.820000000000014,
+      "peak_abs_cumulative_p_change": 19.000000000000004,
+      "final_cumulative_p_change": 19.000000000000004,
+      "total_source_mean_p_application": 37.0
+    },
+    {
+      "system_id": "AAFC-Sys1",
+      "system_name": "Canola-Soybean-Wheat",
+      "start_position": 2,
+      "wheat_seasons": 2,
+      "sum_abs_cumulative_p_change": 80.06000000000002,
+      "peak_abs_cumulative_p_change": 19.000000000000004,
+      "final_cumulative_p_change": 19.000000000000004,
+      "total_source_mean_p_application": 37.0
+    },
+    {
+      "system_id": "AAFC-Sys2",
+      "system_name": "Wheat-Canola",
+      "start_position": 1,
+      "wheat_seasons": 3,
+      "sum_abs_cumulative_p_change": 83.58,
+      "peak_abs_cumulative_p_change": 24.51,
+      "final_cumulative_p_change": 24.51,
+      "total_source_mean_p_application": 39.0
+    },
+    {
+      "system_id": "AAFC-Sys2",
+      "system_name": "Wheat-Canola",
+      "start_position": 2,
+      "wheat_seasons": 3,
+      "sum_abs_cumulative_p_change": 87.99,
+      "peak_abs_cumulative_p_change": 24.51,
+      "final_cumulative_p_change": 24.51,
+      "total_source_mean_p_application": 39.0
+    }
+  ],
+  "excluded": [
+    {
+      "system_id": "AAFC-Sys3",
+      "start_position": null,
+      "reason": "crop_not_allowed;annual_p_application_limit"
+    },
+    {
+      "system_id": "AAFC-Sys4",
+      "start_position": null,
+      "reason": "crop_not_allowed;horizon_not_complete_cycles;annual_p_application_limit"
+    }
+  ],
+  "software_version": "0.3.0",
+  "created_at_utc": "2026-11-14T23:49:53.715911+00:00",
+  "provenance": {
+    "dataset": "pflux",
+    "version": 1,
+    "doi": "https://doi.org/10.15482/USDA.ADC/1523365",
+    "license": {
+      "value": 96,
+      "name": "U.S. Public Domain",
+      "url": "https://www.usa.gov/publicdomain/label/1.0/"
+    },
+    "metadata_sha256": "f9742db686402374a6af7df13ac2351861e4204761fe4515003440e9adeebf97",
+    "files": [
+      {
+        "file": "DataSourcesAndReferences.csv",
+        "size": 45384,
+        "md5": "307469c3ffb076258f4db84d424e9ca4",
+        "sha256": "309fef3f892f07ad86f25071850cbbc0f2e8346ca01cd7982c00792b50867fee"
+      },
+      {
+        "file": "PBudgetData.csv",
+        "size": 67501,
+        "md5": "ce25c5543acbef3432d781f9ae7a23a1",
+        "sha256": "684e10b4c3b6c078b180f8dc6e25191b03b9572b5682b40be82b99384cb76195"
+      }
+    ]
+  },
+  "config_sha256": "d98f31e57f7dd25b7dcad46a5bb46eff14383cc3d1acc51d2266ec18490f6ef3",
+  "data_mode": "observed_rotation_reference_scenario"
+}

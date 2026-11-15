@@ -1,0 +1,77 @@
+{
+  "method": "cdl_presence_logistic_spatial_block_cv_v1",
+  "component": "A+D",
+  "source": "pilot_sites_offline",
+  "source_note": "Koridor ızgarası önbellekte yok veya indirilemedi (Bu iklim isteği önbellekte yok. İlk indirme için --online kullanın.). Paketteki iki pilot alanla çalışıldı.",
+  "config": {
+    "version": 1,
+    "purpose": "Preparation.md bileşen A: iklim değişikliğiyle buğdayın kayacağı en uygun bölgenin kestirimi. Izgara hücrelerinde buğday varlığı (USDA CDL) ile model referans iklimi (NASA NEX-GDDP 2015–2024) arasındaki ilişki öğrenilir ve aynı model 2040–2049 iklimine uygulanır.",
+    "scenario": "ssp245",
+    "baseline": [
+      2015,
+      2024
+    ],
+    "future": [
+      2040,
+      2049
+    ],
+    "bbox": {
+      "west": -102.0,
+      "east": -95.0,
+      "south": 36.0,
+      "north": 49.0
+    },
+    "cell_step_degrees": 1.0,
+    "points_per_cell_side": 3,
+    "point_step_degrees": 0.1,
+    "cdl_years": [
+      2019,
+      2023
+    ],
+    "block_size_cells": 2,
+    "min_cells_for_training": 12,
+    "min_positive_cells": 3,
+    "min_negative_cells": 3,
+    "l2": 0.1,
+    "notes": "Varsayılan kutu Kansas–Nebraska–Dakotalar hattıdır (ABD Büyük Ovalar buğday kuşağı). 1° hücre: 7 × 13 = 91 hücre, hücre başına 3×3 = 819 CDL noktası; iklim için hücre başına 4 NASA isteği (≈364 istek). İlk indirme uzun sürebilir; önbellek sonraki koşularda kullanılır. CDL yalnız bitişik ABD'yi kapsar.",
+    "suitable_threshold": 0.5
+  },
+  "config_sha256": "15d1bc6f2b8383798d556dca5bfb169f6f34b25eb5d770a45ed6cae8fb7112e5",
+  "features": {
+    "t_mean_c": "yıllık ortalama sıcaklık (°C)",
+    "gdd0_annual": "yıllık büyüme derece-günü, taban 0°C",
+    "tmax_jun_jul_c": "Haziran–Temmuz ortalama en yüksek sıcaklık (°C)",
+    "prec_annual_mm": "yıllık yağış (mm)",
+    "prec_oct_jun_mm": "Ekim–Haziran yağışı (mm, kışlık buğday sezonu)"
+  },
+  "readiness": {
+    "cells_with_cropland": 2,
+    "distinct_climate_cells": 2,
+    "positive_cells": 2,
+    "negative_cells": 2,
+    "required": {
+      "cells": 12,
+      "positive": 3,
+      "negative": 3
+    },
+    "trained": false,
+    "reasons": [
+      "Farklı iklimli hücre sayısı 2 < 12",
+      "Buğday görülen hücre 2 < 3",
+      "Buğdaysız tarım hücresi 2 < 3"
+    ]
+  },
+  "model": null,
+  "validation": null,
+  "shift": null,
+  "cells": 2,
+  "points": 50,
+  "provenance_files": 20,
+  "limitations": [
+    "Etiket CDL uydu sınıflandırmasıdır; buğday olmayan tarım noktası 'yetişemez' anlamına gelmez, ekonomik tercih olabilir.",
+    "Model iklim dışı etkenleri (toprak, sulama, piyasa) içermez; uygunluk iklimsel benzerliktir.",
+    "Referans ve gelecek aynı NEX-GDDP ensemble kaynağındandır; ensemble ortalaması uç olayları yumuşatır.",
+    "Kayma vektörü uygunluk ağırlıklı ağırlık merkezinin yer değiştirmesidir; buğdayın fiziksel taşınması değildir.",
+    "Kutunun dışına kayış ölçülemez; koridor kutu sınırına dayanıyorsa kutu genişletilmelidir."
+  ]
+}

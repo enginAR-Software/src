@@ -1,0 +1,10 @@
+dbtablename,origcolname,interpretive_name,dbcolname,dbdatatype,unit,description
+soildata,Ammonium acetate_K,K (NH4AOc),b_k_amac,REAL,mg/kg,Ammonium acetate extract
+soildata,M3_K,K (M3),b_k_m3,REAL,mg/kg,Mehlich 3 extract
+soildata,M3_P,P (M3),b_p_m3,REAL,mg/kg,Mehlich 3 extract
+soildata,Olsen_P,P (Olsen),b_p_olsen,REAL,mg/kg,Olsen extract
+soildata,1:2_pH,pH SWEL (1:2),b_ph,REAL,unitless,1:2 water
+soildata,PMN_Ammonia mgkg,Potentially Mineralizable Nitrogen,b_pmn_am_mgkg,REAL,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C
+soildata,Calcimiter correction_C,Organic Carbon,b_soc,REAL,%,Total Carbon - Inorganic Carbon with Dry Combustion
+soildata,Dry combustion_N,Total N,b_total_n,REAL,%,Dry Combustion
+soildata,H3A Nitrate,NO3-N,d_h3a_no3,REAL,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant

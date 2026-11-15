@@ -1,0 +1,11 @@
+cell_id,metric,baseline_2015_2024,future_2040_2049,change
+USOR03,Yıllık ort. sıcaklık (°C),12.88,13.82,0.95
+USOR03,"GDD, taban 0°C",4702.77,5049.24,346.47
+USOR03,Haz–Tem ort. Tmax (°C),29.69,30.84,1.15
+USOR03,Yıllık yağış (mm),386.29,413.65,27.36
+USOR03,Ekim–Haziran yağışı (mm),352.66,377.21,24.56
+USKS01,Yıllık ort. sıcaklık (°C),15.2,16.3,1.1
+USKS01,"GDD, taban 0°C",5572.95,5958.08,385.13
+USKS01,Haz–Tem ort. Tmax (°C),33.16,34.19,1.02
+USKS01,Yıllık yağış (mm),907.59,909.98,2.39
+USKS01,Ekim–Haziran yağışı (mm),614.98,622.33,7.35

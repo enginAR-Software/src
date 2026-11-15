@@ -1,0 +1,13 @@
+sitecode,year,requested_points,classified_points,unknown_points,wheat_points,wheat_fraction_of_classified_samples
+USOR03,2018,25,25,0,8,0.32
+USOR03,2019,25,25,0,12,0.48
+USOR03,2020,25,25,0,9,0.36
+USOR03,2021,25,25,0,12,0.48
+USOR03,2022,25,25,0,11,0.44
+USOR03,2023,25,25,0,10,0.4
+USKS01,2018,25,25,0,0,0.0
+USKS01,2019,25,25,0,0,0.0
+USKS01,2020,25,25,0,1,0.04
+USKS01,2021,25,25,0,0,0.0
+USKS01,2022,25,25,0,1,0.04
+USKS01,2023,25,25,0,0,0.0

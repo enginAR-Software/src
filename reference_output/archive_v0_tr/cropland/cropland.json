@@ -1,0 +1,739 @@
+{
+  "method": "observed_cdl_point_sequences_v1",
+  "config": {
+    "sites": [
+      "USOR03",
+      "USKS01"
+    ],
+    "years": [
+      2018,
+      2023
+    ],
+    "grid_side": 5,
+    "step_degrees": 0.01
+  },
+  "config_sha256": "c7b0cdaa3189580163e0292aaf06dae2df744caf0d1dacfdbec6c6f005dfe6e8",
+  "source": "USDA NASS Cropland Data Layer (CDL), CroplandCROS",
+  "provenance": [
+    {
+      "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer?f=json",
+      "operation": "service_metadata",
+      "sha256": "8e24029371f9d49e3f93907c110180db6bd0c71cb800f263f6e9aa35094fb847",
+      "bytes": 4880,
+      "fetched_at_utc": "2026-11-15T00:53:45.029773+00:00",
+      "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+      "transfer": "cached"
+    },
+    {
+      "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/rasterAttributeTable?f=json",
+      "operation": "rasterAttributeTable",
+      "sha256": "8b5cec2ff965a2d1f7f1205111b3a0fbe3cce5ed82cb0ef6a446ae304fe0b699",
+      "bytes": 38504,
+      "fetched_at_utc": "2026-11-15T00:53:49.701256+00:00",
+      "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+      "transfer": "cached"
+    },
+    {
+      "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/query?f=json&where=Year+%3D+2018+AND+Category+%3D+1&outFields=OBJECTID%2CName%2CYear&returnGeometry=false",
+      "operation": "query",
+      "sha256": "045ea6a8a89df70039393ef78fc1fb2bd85c2219ebb65265b646bf499dcc7491",
+      "bytes": 362,
+      "fetched_at_utc": "2026-11-15T00:53:53.996328+00:00",
+      "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+      "transfer": "cached"
+    },
+    {
+      "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/getSamples?f=json&geometryType=esriGeometryMultipoint&geometry=%7B%22points%22%3A%5B%5B-118.644501%2C45.701236%5D%2C%5B-118.634501%2C45.701236%5D%2C%5B-118.624501%2C45.701236%5D%2C%5B-118.614501%2C45.701236%5D%2C%5B-118.604501%2C45.701236%5D%2C%5B-118.644501%2C45.711236%5D%2C%5B-118.634501%2C45.711236%5D%2C%5B-118.624501%2C45.711236%5D%2C%5B-118.614501%2C45.711236%5D%2C%5B-118.604501%2C45.711236%5D%2C%5B-118.644501%2C45.721236%5D%2C%5B-118.634501%2C45.721236%5D%2C%5B-118.624501%2C45.721236%5D%2C%5B-118.614501%2C45.721236%5D%2C%5B-118.604501%2C45.721236%5D%2C%5B-118.644501%2C45.731236%5D%2C%5B-118.634501%2C45.731236%5D%2C%5B-118.624501%2C45.731236%5D%2C%5B-118.614501%2C45.731236%5D%2C%5B-118.604501%2C45.731236%5D%2C%5B-118.644501%2C45.741236%5D%2C%5B-118.634501%2C45.741236%5D%2C%5B-118.624501%2C45.741236%5D%2C%5B-118.614501%2C45.741236%5D%2C%5B-118.604501%2C45.741236%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&mosaicRule=%7B%22mosaicMethod%22%3A%22esriMosaicLockRaster%22%2C%22lockRasterIds%22%3A%5B2%5D%2C%22where%22%3A%22Year+%3D+2018%22%7D&returnFirstValueOnly=true&interpolation=RSP_NearestNeighbor&outFields=Year%2CName%2COBJECTID",
+      "operation": "getSamples",
+      "sha256": "70efcafd7ef87267705005a7b353a44ec429307dc7deb818ccae923e77281763",
+      "bytes": 5651,
+      "fetched_at_utc": "2026-11-15T00:53:58.285527+00:00",
+      "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+      "transfer": "cached"
+    },
+    {
+      "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/getSamples?f=json&geometryType=esriGeometryMultipoint&geometry=%7B%22points%22%3A%5B%5B-96.656037%2C39.103775%5D%2C%5B-96.646037%2C39.103775%5D%2C%5B-96.636037%2C39.103775%5D%2C%5B-96.626037%2C39.103775%5D%2C%5B-96.616037%2C39.103775%5D%2C%5B-96.656037%2C39.113775%5D%2C%5B-96.646037%2C39.113775%5D%2C%5B-96.636037%2C39.113775%5D%2C%5B-96.626037%2C39.113775%5D%2C%5B-96.616037%2C39.113775%5D%2C%5B-96.656037%2C39.123775%5D%2C%5B-96.646037%2C39.123775%5D%2C%5B-96.636037%2C39.123775%5D%2C%5B-96.626037%2C39.123775%5D%2C%5B-96.616037%2C39.123775%5D%2C%5B-96.656037%2C39.133775%5D%2C%5B-96.646037%2C39.133775%5D%2C%5B-96.636037%2C39.133775%5D%2C%5B-96.626037%2C39.133775%5D%2C%5B-96.616037%2C39.133775%5D%2C%5B-96.656037%2C39.143775%5D%2C%5B-96.646037%2C39.143775%5D%2C%5B-96.636037%2C39.143775%5D%2C%5B-96.626037%2C39.143775%5D%2C%5B-96.616037%2C39.143775%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&mosaicRule=%7B%22mosaicMethod%22%3A%22esriMosaicLockRaster%22%2C%22lockRasterIds%22%3A%5B2%5D%2C%22where%22%3A%22Year+%3D+2018%22%7D&returnFirstValueOnly=true&interpolation=RSP_NearestNeighbor&outFields=Year%2CName%2COBJECTID",
+      "operation": "getSamples",
+      "sha256": "37f60bc1590f337cbb888d30cc80b1e9d01d18a5a1a76d462c303d2d76686cac",
+      "bytes": 5810,
+      "fetched_at_utc": "2026-11-15T00:54:02.813056+00:00",
+      "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+      "transfer": "cached"
+    },
+    {
+      "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/query?f=json&where=Year+%3D+2019+AND+Category+%3D+1&outFields=OBJECTID%2CName%2CYear&returnGeometry=false",
+      "operation": "query",
+      "sha256": "ea756ca101d28de82a27ba5aa9f3f6cded88b0ae117a577c85ecc57fdbed1677",
+      "bytes": 362,
+      "fetched_at_utc": "2026-11-15T00:54:07.089565+00:00",
+      "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+      "transfer": "cached"
+    },
+    {
+      "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/getSamples?f=json&geometryType=esriGeometryMultipoint&geometry=%7B%22points%22%3A%5B%5B-118.644501%2C45.701236%5D%2C%5B-118.634501%2C45.701236%5D%2C%5B-118.624501%2C45.701236%5D%2C%5B-118.614501%2C45.701236%5D%2C%5B-118.604501%2C45.701236%5D%2C%5B-118.644501%2C45.711236%5D%2C%5B-118.634501%2C45.711236%5D%2C%5B-118.624501%2C45.711236%5D%2C%5B-118.614501%2C45.711236%5D%2C%5B-118.604501%2C45.711236%5D%2C%5B-118.644501%2C45.721236%5D%2C%5B-118.634501%2C45.721236%5D%2C%5B-118.624501%2C45.721236%5D%2C%5B-118.614501%2C45.721236%5D%2C%5B-118.604501%2C45.721236%5D%2C%5B-118.644501%2C45.731236%5D%2C%5B-118.634501%2C45.731236%5D%2C%5B-118.624501%2C45.731236%5D%2C%5B-118.614501%2C45.731236%5D%2C%5B-118.604501%2C45.731236%5D%2C%5B-118.644501%2C45.741236%5D%2C%5B-118.634501%2C45.741236%5D%2C%5B-118.624501%2C45.741236%5D%2C%5B-118.614501%2C45.741236%5D%2C%5B-118.604501%2C45.741236%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&mosaicRule=%7B%22mosaicMethod%22%3A%22esriMosaicLockRaster%22%2C%22lockRasterIds%22%3A%5B1%5D%2C%22where%22%3A%22Year+%3D+2019%22%7D&returnFirstValueOnly=true&interpolation=RSP_NearestNeighbor&outFields=Year%2CName%2COBJECTID",
+      "operation": "getSamples",
+      "sha256": "c3c2cd2948ff5cbe3646b919afee4056c3537dcc45f04dcfa4ddc8fb06019025",
+      "bytes": 5652,
+      "fetched_at_utc": "2026-11-15T00:54:11.356627+00:00",
+      "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+      "transfer": "cached"
+    },
+    {
+      "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/getSamples?f=json&geometryType=esriGeometryMultipoint&geometry=%7B%22points%22%3A%5B%5B-96.656037%2C39.103775%5D%2C%5B-96.646037%2C39.103775%5D%2C%5B-96.636037%2C39.103775%5D%2C%5B-96.626037%2C39.103775%5D%2C%5B-96.616037%2C39.103775%5D%2C%5B-96.656037%2C39.113775%5D%2C%5B-96.646037%2C39.113775%5D%2C%5B-96.636037%2C39.113775%5D%2C%5B-96.626037%2C39.113775%5D%2C%5B-96.616037%2C39.113775%5D%2C%5B-96.656037%2C39.123775%5D%2C%5B-96.646037%2C39.123775%5D%2C%5B-96.636037%2C39.123775%5D%2C%5B-96.626037%2C39.123775%5D%2C%5B-96.616037%2C39.123775%5D%2C%5B-96.656037%2C39.133775%5D%2C%5B-96.646037%2C39.133775%5D%2C%5B-96.636037%2C39.133775%5D%2C%5B-96.626037%2C39.133775%5D%2C%5B-96.616037%2C39.133775%5D%2C%5B-96.656037%2C39.143775%5D%2C%5B-96.646037%2C39.143775%5D%2C%5B-96.636037%2C39.143775%5D%2C%5B-96.626037%2C39.143775%5D%2C%5B-96.616037%2C39.143775%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&mosaicRule=%7B%22mosaicMethod%22%3A%22esriMosaicLockRaster%22%2C%22lockRasterIds%22%3A%5B1%5D%2C%22where%22%3A%22Year+%3D+2019%22%7D&returnFirstValueOnly=true&interpolation=RSP_NearestNeighbor&outFields=Year%2CName%2COBJECTID",
+      "operation": "getSamples",
+      "sha256": "a11143e7613cfe555fb70067880104af5c2761d9215d60f06779063f34d98a3d",
+      "bytes": 5809,
+      "fetched_at_utc": "2026-11-15T00:54:15.656399+00:00",
+      "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+      "transfer": "cached"
+    },
+    {
+      "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/query?f=json&where=Year+%3D+2020+AND+Category+%3D+1&outFields=OBJECTID%2CName%2CYear&returnGeometry=false",
+      "operation": "query",
+      "sha256": "728c69485c3d8a070524799f525c901d8a3393a68fbb953343c2b71a0d7680fc",
+      "bytes": 363,
+      "fetched_at_utc": "2026-11-15T00:54:19.893454+00:00",
+      "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+      "transfer": "cached"
+    },
+    {
+      "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/getSamples?f=json&geometryType=esriGeometryMultipoint&geometry=%7B%22points%22%3A%5B%5B-118.644501%2C45.701236%5D%2C%5B-118.634501%2C45.701236%5D%2C%5B-118.624501%2C45.701236%5D%2C%5B-118.614501%2C45.701236%5D%2C%5B-118.604501%2C45.701236%5D%2C%5B-118.644501%2C45.711236%5D%2C%5B-118.634501%2C45.711236%5D%2C%5B-118.624501%2C45.711236%5D%2C%5B-118.614501%2C45.711236%5D%2C%5B-118.604501%2C45.711236%5D%2C%5B-118.644501%2C45.721236%5D%2C%5B-118.634501%2C45.721236%5D%2C%5B-118.624501%2C45.721236%5D%2C%5B-118.614501%2C45.721236%5D%2C%5B-118.604501%2C45.721236%5D%2C%5B-118.644501%2C45.731236%5D%2C%5B-118.634501%2C45.731236%5D%2C%5B-118.624501%2C45.731236%5D%2C%5B-118.614501%2C45.731236%5D%2C%5B-118.604501%2C45.731236%5D%2C%5B-118.644501%2C45.741236%5D%2C%5B-118.634501%2C45.741236%5D%2C%5B-118.624501%2C45.741236%5D%2C%5B-118.614501%2C45.741236%5D%2C%5B-118.604501%2C45.741236%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&mosaicRule=%7B%22mosaicMethod%22%3A%22esriMosaicLockRaster%22%2C%22lockRasterIds%22%3A%5B35%5D%2C%22where%22%3A%22Year+%3D+2020%22%7D&returnFirstValueOnly=true&interpolation=RSP_NearestNeighbor&outFields=Year%2CName%2COBJECTID",
+      "operation": "getSamples",
+      "sha256": "3907c4c965665976f36278704b023cb34af85397d0b74cfd172bf2ac161914b1",
+      "bytes": 5700,
+      "fetched_at_utc": "2026-11-15T00:54:24.198483+00:00",
+      "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+      "transfer": "cached"
+    },
+    {
+      "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/getSamples?f=json&geometryType=esriGeometryMultipoint&geometry=%7B%22points%22%3A%5B%5B-96.656037%2C39.103775%5D%2C%5B-96.646037%2C39.103775%5D%2C%5B-96.636037%2C39.103775%5D%2C%5B-96.626037%2C39.103775%5D%2C%5B-96.616037%2C39.103775%5D%2C%5B-96.656037%2C39.113775%5D%2C%5B-96.646037%2C39.113775%5D%2C%5B-96.636037%2C39.113775%5D%2C%5B-96.626037%2C39.113775%5D%2C%5B-96.616037%2C39.113775%5D%2C%5B-96.656037%2C39.123775%5D%2C%5B-96.646037%2C39.123775%5D%2C%5B-96.636037%2C39.123775%5D%2C%5B-96.626037%2C39.123775%5D%2C%5B-96.616037%2C39.123775%5D%2C%5B-96.656037%2C39.133775%5D%2C%5B-96.646037%2C39.133775%5D%2C%5B-96.636037%2C39.133775%5D%2C%5B-96.626037%2C39.133775%5D%2C%5B-96.616037%2C39.133775%5D%2C%5B-96.656037%2C39.143775%5D%2C%5B-96.646037%2C39.143775%5D%2C%5B-96.636037%2C39.143775%5D%2C%5B-96.626037%2C39.143775%5D%2C%5B-96.616037%2C39.143775%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&mosaicRule=%7B%22mosaicMethod%22%3A%22esriMosaicLockRaster%22%2C%22lockRasterIds%22%3A%5B35%5D%2C%22where%22%3A%22Year+%3D+2020%22%7D&returnFirstValueOnly=true&interpolation=RSP_NearestNeighbor&outFields=Year%2CName%2COBJECTID",
+      "operation": "getSamples",
+      "sha256": "cb799328be73a01e44f4a0158092b56f506c330c46e5fe00aa984f74c44f3a4e",
+      "bytes": 5860,
+      "fetched_at_utc": "2026-11-15T00:54:28.538821+00:00",
+      "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+      "transfer": "cached"
+    },
+    {
+      "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/query?f=json&where=Year+%3D+2021+AND+Category+%3D+1&outFields=OBJECTID%2CName%2CYear&returnGeometry=false",
+      "operation": "query",
+      "sha256": "cc74b1e0ab43a47e9c766e7164a1fccd2c8fb888ab39602379631933f25653c9",
+      "bytes": 363,
+      "fetched_at_utc": "2026-11-15T00:54:37.890267+00:00",
+      "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+      "transfer": "cached"
+    },
+    {
+      "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/getSamples?f=json&geometryType=esriGeometryMultipoint&geometry=%7B%22points%22%3A%5B%5B-118.644501%2C45.701236%5D%2C%5B-118.634501%2C45.701236%5D%2C%5B-118.624501%2C45.701236%5D%2C%5B-118.614501%2C45.701236%5D%2C%5B-118.604501%2C45.701236%5D%2C%5B-118.644501%2C45.711236%5D%2C%5B-118.634501%2C45.711236%5D%2C%5B-118.624501%2C45.711236%5D%2C%5B-118.614501%2C45.711236%5D%2C%5B-118.604501%2C45.711236%5D%2C%5B-118.644501%2C45.721236%5D%2C%5B-118.634501%2C45.721236%5D%2C%5B-118.624501%2C45.721236%5D%2C%5B-118.614501%2C45.721236%5D%2C%5B-118.604501%2C45.721236%5D%2C%5B-118.644501%2C45.731236%5D%2C%5B-118.634501%2C45.731236%5D%2C%5B-118.624501%2C45.731236%5D%2C%5B-118.614501%2C45.731236%5D%2C%5B-118.604501%2C45.731236%5D%2C%5B-118.644501%2C45.741236%5D%2C%5B-118.634501%2C45.741236%5D%2C%5B-118.624501%2C45.741236%5D%2C%5B-118.614501%2C45.741236%5D%2C%5B-118.604501%2C45.741236%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&mosaicRule=%7B%22mosaicMethod%22%3A%22esriMosaicLockRaster%22%2C%22lockRasterIds%22%3A%5B36%5D%2C%22where%22%3A%22Year+%3D+2021%22%7D&returnFirstValueOnly=true&interpolation=RSP_NearestNeighbor&outFields=Year%2CName%2COBJECTID",
+      "operation": "getSamples",
+      "sha256": "9f8032642b431570c40dcb8f4214d6cb5139e0c47066a34fabbce8ada7e85a3f",
+      "bytes": 5701,
+      "fetched_at_utc": "2026-11-15T00:54:42.365295+00:00",
+      "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+      "transfer": "cached"
+    },
+    {
+      "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/getSamples?f=json&geometryType=esriGeometryMultipoint&geometry=%7B%22points%22%3A%5B%5B-96.656037%2C39.103775%5D%2C%5B-96.646037%2C39.103775%5D%2C%5B-96.636037%2C39.103775%5D%2C%5B-96.626037%2C39.103775%5D%2C%5B-96.616037%2C39.103775%5D%2C%5B-96.656037%2C39.113775%5D%2C%5B-96.646037%2C39.113775%5D%2C%5B-96.636037%2C39.113775%5D%2C%5B-96.626037%2C39.113775%5D%2C%5B-96.616037%2C39.113775%5D%2C%5B-96.656037%2C39.123775%5D%2C%5B-96.646037%2C39.123775%5D%2C%5B-96.636037%2C39.123775%5D%2C%5B-96.626037%2C39.123775%5D%2C%5B-96.616037%2C39.123775%5D%2C%5B-96.656037%2C39.133775%5D%2C%5B-96.646037%2C39.133775%5D%2C%5B-96.636037%2C39.133775%5D%2C%5B-96.626037%2C39.133775%5D%2C%5B-96.616037%2C39.133775%5D%2C%5B-96.656037%2C39.143775%5D%2C%5B-96.646037%2C39.143775%5D%2C%5B-96.636037%2C39.143775%5D%2C%5B-96.626037%2C39.143775%5D%2C%5B-96.616037%2C39.143775%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&mosaicRule=%7B%22mosaicMethod%22%3A%22esriMosaicLockRaster%22%2C%22lockRasterIds%22%3A%5B36%5D%2C%22where%22%3A%22Year+%3D+2021%22%7D&returnFirstValueOnly=true&interpolation=RSP_NearestNeighbor&outFields=Year%2CName%2COBJECTID",
+      "operation": "getSamples",
+      "sha256": "722c44a62b238745363e81bb4680dc56762e9857bf1ba65332f1844f8d0f607a",
+      "bytes": 5859,
+      "fetched_at_utc": "2026-11-15T00:54:46.666800+00:00",
+      "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+      "transfer": "cached"
+    },
+    {
+      "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/query?f=json&where=Year+%3D+2022+AND+Category+%3D+1&outFields=OBJECTID%2CName%2CYear&returnGeometry=false",
+      "operation": "query",
+      "sha256": "a56f9ebdfa7a4ed77e27ab4994e419f3431afa0e6ccd82a2bed3f5b2b4795a48",
+      "bytes": 363,
+      "fetched_at_utc": "2026-11-15T00:54:50.890943+00:00",
+      "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+      "transfer": "cached"
+    },
+    {
+      "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/getSamples?f=json&geometryType=esriGeometryMultipoint&geometry=%7B%22points%22%3A%5B%5B-118.644501%2C45.701236%5D%2C%5B-118.634501%2C45.701236%5D%2C%5B-118.624501%2C45.701236%5D%2C%5B-118.614501%2C45.701236%5D%2C%5B-118.604501%2C45.701236%5D%2C%5B-118.644501%2C45.711236%5D%2C%5B-118.634501%2C45.711236%5D%2C%5B-118.624501%2C45.711236%5D%2C%5B-118.614501%2C45.711236%5D%2C%5B-118.604501%2C45.711236%5D%2C%5B-118.644501%2C45.721236%5D%2C%5B-118.634501%2C45.721236%5D%2C%5B-118.624501%2C45.721236%5D%2C%5B-118.614501%2C45.721236%5D%2C%5B-118.604501%2C45.721236%5D%2C%5B-118.644501%2C45.731236%5D%2C%5B-118.634501%2C45.731236%5D%2C%5B-118.624501%2C45.731236%5D%2C%5B-118.614501%2C45.731236%5D%2C%5B-118.604501%2C45.731236%5D%2C%5B-118.644501%2C45.741236%5D%2C%5B-118.634501%2C45.741236%5D%2C%5B-118.624501%2C45.741236%5D%2C%5B-118.614501%2C45.741236%5D%2C%5B-118.604501%2C45.741236%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&mosaicRule=%7B%22mosaicMethod%22%3A%22esriMosaicLockRaster%22%2C%22lockRasterIds%22%3A%5B37%5D%2C%22where%22%3A%22Year+%3D+2022%22%7D&returnFirstValueOnly=true&interpolation=RSP_NearestNeighbor&outFields=Year%2CName%2COBJECTID",
+      "operation": "getSamples",
+      "sha256": "69daa48348dbea5cd6af855ffacad330c00df26f3e087cb06c9e58233ce15f25",
+      "bytes": 5701,
+      "fetched_at_utc": "2026-11-15T00:54:55.147560+00:00",
+      "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+      "transfer": "cached"
+    },
+    {
+      "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/getSamples?f=json&geometryType=esriGeometryMultipoint&geometry=%7B%22points%22%3A%5B%5B-96.656037%2C39.103775%5D%2C%5B-96.646037%2C39.103775%5D%2C%5B-96.636037%2C39.103775%5D%2C%5B-96.626037%2C39.103775%5D%2C%5B-96.616037%2C39.103775%5D%2C%5B-96.656037%2C39.113775%5D%2C%5B-96.646037%2C39.113775%5D%2C%5B-96.636037%2C39.113775%5D%2C%5B-96.626037%2C39.113775%5D%2C%5B-96.616037%2C39.113775%5D%2C%5B-96.656037%2C39.123775%5D%2C%5B-96.646037%2C39.123775%5D%2C%5B-96.636037%2C39.123775%5D%2C%5B-96.626037%2C39.123775%5D%2C%5B-96.616037%2C39.123775%5D%2C%5B-96.656037%2C39.133775%5D%2C%5B-96.646037%2C39.133775%5D%2C%5B-96.636037%2C39.133775%5D%2C%5B-96.626037%2C39.133775%5D%2C%5B-96.616037%2C39.133775%5D%2C%5B-96.656037%2C39.143775%5D%2C%5B-96.646037%2C39.143775%5D%2C%5B-96.636037%2C39.143775%5D%2C%5B-96.626037%2C39.143775%5D%2C%5B-96.616037%2C39.143775%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&mosaicRule=%7B%22mosaicMethod%22%3A%22esriMosaicLockRaster%22%2C%22lockRasterIds%22%3A%5B37%5D%2C%22where%22%3A%22Year+%3D+2022%22%7D&returnFirstValueOnly=true&interpolation=RSP_NearestNeighbor&outFields=Year%2CName%2COBJECTID",
+      "operation": "getSamples",
+      "sha256": "b5b50835831085d08c21c10cd606b6f90aa828051eb8c7d9547d0ca49fee0549",
+      "bytes": 5861,
+      "fetched_at_utc": "2026-11-15T00:54:59.392665+00:00",
+      "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+      "transfer": "cached"
+    },
+    {
+      "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/query?f=json&where=Year+%3D+2023+AND+Category+%3D+1&outFields=OBJECTID%2CName%2CYear&returnGeometry=false",
+      "operation": "query",
+      "sha256": "4a072f94c4f8c18dfee6b2bb57abe68919cdfd1f06b93fe4dce2e1cf5e5cbdce",
+      "bytes": 363,
+      "fetched_at_utc": "2026-11-15T00:55:03.646468+00:00",
+      "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+      "transfer": "cached"
+    },
+    {
+      "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/getSamples?f=json&geometryType=esriGeometryMultipoint&geometry=%7B%22points%22%3A%5B%5B-118.644501%2C45.701236%5D%2C%5B-118.634501%2C45.701236%5D%2C%5B-118.624501%2C45.701236%5D%2C%5B-118.614501%2C45.701236%5D%2C%5B-118.604501%2C45.701236%5D%2C%5B-118.644501%2C45.711236%5D%2C%5B-118.634501%2C45.711236%5D%2C%5B-118.624501%2C45.711236%5D%2C%5B-118.614501%2C45.711236%5D%2C%5B-118.604501%2C45.711236%5D%2C%5B-118.644501%2C45.721236%5D%2C%5B-118.634501%2C45.721236%5D%2C%5B-118.624501%2C45.721236%5D%2C%5B-118.614501%2C45.721236%5D%2C%5B-118.604501%2C45.721236%5D%2C%5B-118.644501%2C45.731236%5D%2C%5B-118.634501%2C45.731236%5D%2C%5B-118.624501%2C45.731236%5D%2C%5B-118.614501%2C45.731236%5D%2C%5B-118.604501%2C45.731236%5D%2C%5B-118.644501%2C45.741236%5D%2C%5B-118.634501%2C45.741236%5D%2C%5B-118.624501%2C45.741236%5D%2C%5B-118.614501%2C45.741236%5D%2C%5B-118.604501%2C45.741236%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&mosaicRule=%7B%22mosaicMethod%22%3A%22esriMosaicLockRaster%22%2C%22lockRasterIds%22%3A%5B38%5D%2C%22where%22%3A%22Year+%3D+2023%22%7D&returnFirstValueOnly=true&interpolation=RSP_NearestNeighbor&outFields=Year%2CName%2COBJECTID",
+      "operation": "getSamples",
+      "sha256": "a91db899461816193b44651a2e55c2fb90ac2c57bad303f48621095841730545",
+      "bytes": 5702,
+      "fetched_at_utc": "2026-11-15T00:55:07.907436+00:00",
+      "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+      "transfer": "cached"
+    },
+    {
+      "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/getSamples?f=json&geometryType=esriGeometryMultipoint&geometry=%7B%22points%22%3A%5B%5B-96.656037%2C39.103775%5D%2C%5B-96.646037%2C39.103775%5D%2C%5B-96.636037%2C39.103775%5D%2C%5B-96.626037%2C39.103775%5D%2C%5B-96.616037%2C39.103775%5D%2C%5B-96.656037%2C39.113775%5D%2C%5B-96.646037%2C39.113775%5D%2C%5B-96.636037%2C39.113775%5D%2C%5B-96.626037%2C39.113775%5D%2C%5B-96.616037%2C39.113775%5D%2C%5B-96.656037%2C39.123775%5D%2C%5B-96.646037%2C39.123775%5D%2C%5B-96.636037%2C39.123775%5D%2C%5B-96.626037%2C39.123775%5D%2C%5B-96.616037%2C39.123775%5D%2C%5B-96.656037%2C39.133775%5D%2C%5B-96.646037%2C39.133775%5D%2C%5B-96.636037%2C39.133775%5D%2C%5B-96.626037%2C39.133775%5D%2C%5B-96.616037%2C39.133775%5D%2C%5B-96.656037%2C39.143775%5D%2C%5B-96.646037%2C39.143775%5D%2C%5B-96.636037%2C39.143775%5D%2C%5B-96.626037%2C39.143775%5D%2C%5B-96.616037%2C39.143775%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&mosaicRule=%7B%22mosaicMethod%22%3A%22esriMosaicLockRaster%22%2C%22lockRasterIds%22%3A%5B38%5D%2C%22where%22%3A%22Year+%3D+2023%22%7D&returnFirstValueOnly=true&interpolation=RSP_NearestNeighbor&outFields=Year%2CName%2COBJECTID",
+      "operation": "getSamples",
+      "sha256": "249fb9dd4cda4c8f3dee0c68769d779eb453d9e702c59294bbdb2f0f5ab81ad3",
+      "bytes": 5861,
+      "fetched_at_utc": "2026-11-15T00:55:12.226713+00:00",
+      "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+      "transfer": "cached"
+    }
+  ],
+  "soil_provenance": {
+    "dataset": "napeshm",
+    "version": 1,
+    "doi": "https://doi.org/10.15482/USDA.ADC/25632270",
+    "license": {
+      "value": 1,
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "metadata_sha256": "1e15b96e2a2d3b711c2444be6f93526bbcdc2bd12d40eb7199d59e9e8ce5c442",
+    "files": [
+      {
+        "file": "NAPESHM_public_dataset_06032024.zip",
+        "size": 4994407,
+        "md5": "b6a0a7cd8123c556c82a0d3384084a83",
+        "sha256": "1b4a6eba11d27b88aee83a1fb844eea91919599ee64652e37d988059c14a029a"
+      }
+    ]
+  },
+  "regional_config_sha256": "e765a8315a36df5cbc56529df3def05a8a9bb5279f18a241a190da56cc06aeda",
+  "climate_report_file": "regional_context.json",
+  "climate_provenance": [
+    {
+      "period": "baseline",
+      "transfer": "cached",
+      "request": {
+        "sitecode": "USOR03",
+        "latitude": 45.721236,
+        "longitude": -118.624501,
+        "kind": "projection",
+        "scenario": "ssp245",
+        "model": "ensemble",
+        "start": "2015-01-01",
+        "end": "2019-12-31",
+        "url": "https://power.larc.nasa.gov/api/projection/daily/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CPRECTOTCORR&community=AG&longitude=-118.624501&latitude=45.721236&start=20150101&end=20191231&format=JSON&time-standard=UTC&scenario=ssp245&model=ensemble"
+      },
+      "sha256": "12fd90082ea91adbf8b8f51d60e61d5de3de2a95c49a54720e010e95867f0d22",
+      "fetched_at_utc": "2026-11-15T00:42:10.442814+00:00",
+      "api_header": {
+        "title": "NASA/POWER WCRP/CMIP6 NEX-GDDP Downscaled Daily Data",
+        "api": {
+          "version": "v2.6.4-beta",
+          "name": "Climate Projection API"
+        },
+        "sources": [
+          "NEXGDDP"
+        ],
+        "model": "ensemble",
+        "scenarios": [
+          "ssp245"
+        ],
+        "time_standard": "utc",
+        "fill_value": -999,
+        "start": "20150101",
+        "end": "20191231"
+      },
+      "coordinate_source": {
+        "dataset": "napeshm",
+        "version": 1,
+        "doi": "https://doi.org/10.15482/USDA.ADC/25632270",
+        "license": {
+          "value": 1,
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "metadata_sha256": "1e15b96e2a2d3b711c2444be6f93526bbcdc2bd12d40eb7199d59e9e8ce5c442",
+        "files": [
+          {
+            "file": "NAPESHM_public_dataset_06032024.zip",
+            "size": 4994407,
+            "md5": "b6a0a7cd8123c556c82a0d3384084a83",
+            "sha256": "1b4a6eba11d27b88aee83a1fb844eea91919599ee64652e37d988059c14a029a"
+          }
+        ]
+      },
+      "reported_geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.624501,
+          45.721236,
+          857.61
+        ]
+      }
+    },
+    {
+      "period": "baseline",
+      "transfer": "cached",
+      "request": {
+        "sitecode": "USOR03",
+        "latitude": 45.721236,
+        "longitude": -118.624501,
+        "kind": "projection",
+        "scenario": "ssp245",
+        "model": "ensemble",
+        "start": "2020-01-01",
+        "end": "2024-12-31",
+        "url": "https://power.larc.nasa.gov/api/projection/daily/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CPRECTOTCORR&community=AG&longitude=-118.624501&latitude=45.721236&start=20200101&end=20241231&format=JSON&time-standard=UTC&scenario=ssp245&model=ensemble"
+      },
+      "sha256": "df2baa43eb8b9bc42dda2e899714cdc87548c02a618c860462567b46fa2746cd",
+      "fetched_at_utc": "2026-11-15T00:42:16.016010+00:00",
+      "api_header": {
+        "title": "NASA/POWER WCRP/CMIP6 NEX-GDDP Downscaled Daily Data",
+        "api": {
+          "version": "v2.6.4-beta",
+          "name": "Climate Projection API"
+        },
+        "sources": [
+          "NEXGDDP"
+        ],
+        "model": "ensemble",
+        "scenarios": [
+          "ssp245"
+        ],
+        "time_standard": "utc",
+        "fill_value": -999,
+        "start": "20200101",
+        "end": "20241231"
+      },
+      "coordinate_source": {
+        "dataset": "napeshm",
+        "version": 1,
+        "doi": "https://doi.org/10.15482/USDA.ADC/25632270",
+        "license": {
+          "value": 1,
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "metadata_sha256": "1e15b96e2a2d3b711c2444be6f93526bbcdc2bd12d40eb7199d59e9e8ce5c442",
+        "files": [
+          {
+            "file": "NAPESHM_public_dataset_06032024.zip",
+            "size": 4994407,
+            "md5": "b6a0a7cd8123c556c82a0d3384084a83",
+            "sha256": "1b4a6eba11d27b88aee83a1fb844eea91919599ee64652e37d988059c14a029a"
+          }
+        ]
+      },
+      "reported_geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.624501,
+          45.721236,
+          857.61
+        ]
+      }
+    },
+    {
+      "period": "future",
+      "transfer": "cached",
+      "request": {
+        "sitecode": "USOR03",
+        "latitude": 45.721236,
+        "longitude": -118.624501,
+        "kind": "projection",
+        "scenario": "ssp245",
+        "model": "ensemble",
+        "start": "2040-01-01",
+        "end": "2044-12-31",
+        "url": "https://power.larc.nasa.gov/api/projection/daily/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CPRECTOTCORR&community=AG&longitude=-118.624501&latitude=45.721236&start=20400101&end=20441231&format=JSON&time-standard=UTC&scenario=ssp245&model=ensemble"
+      },
+      "sha256": "4a4e8affc32f550d96cd512475934ba6b6221f67497c0d80760ead4ad55d2a13",
+      "fetched_at_utc": "2026-11-15T00:42:21.664535+00:00",
+      "api_header": {
+        "title": "NASA/POWER WCRP/CMIP6 NEX-GDDP Downscaled Daily Data",
+        "api": {
+          "version": "v2.6.4-beta",
+          "name": "Climate Projection API"
+        },
+        "sources": [
+          "NEXGDDP"
+        ],
+        "model": "ensemble",
+        "scenarios": [
+          "ssp245"
+        ],
+        "time_standard": "utc",
+        "fill_value": -999,
+        "start": "20400101",
+        "end": "20441231"
+      },
+      "coordinate_source": {
+        "dataset": "napeshm",
+        "version": 1,
+        "doi": "https://doi.org/10.15482/USDA.ADC/25632270",
+        "license": {
+          "value": 1,
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "metadata_sha256": "1e15b96e2a2d3b711c2444be6f93526bbcdc2bd12d40eb7199d59e9e8ce5c442",
+        "files": [
+          {
+            "file": "NAPESHM_public_dataset_06032024.zip",
+            "size": 4994407,
+            "md5": "b6a0a7cd8123c556c82a0d3384084a83",
+            "sha256": "1b4a6eba11d27b88aee83a1fb844eea91919599ee64652e37d988059c14a029a"
+          }
+        ]
+      },
+      "reported_geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.624501,
+          45.721236,
+          857.61
+        ]
+      }
+    },
+    {
+      "period": "future",
+      "transfer": "cached",
+      "request": {
+        "sitecode": "USOR03",
+        "latitude": 45.721236,
+        "longitude": -118.624501,
+        "kind": "projection",
+        "scenario": "ssp245",
+        "model": "ensemble",
+        "start": "2045-01-01",
+        "end": "2049-12-31",
+        "url": "https://power.larc.nasa.gov/api/projection/daily/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CPRECTOTCORR&community=AG&longitude=-118.624501&latitude=45.721236&start=20450101&end=20491231&format=JSON&time-standard=UTC&scenario=ssp245&model=ensemble"
+      },
+      "sha256": "f2d9a25e648f3f04aa93fb9a79c7ede858f102307aa6b383781bda5bfb68a4d3",
+      "fetched_at_utc": "2026-11-15T00:42:26.515193+00:00",
+      "api_header": {
+        "title": "NASA/POWER WCRP/CMIP6 NEX-GDDP Downscaled Daily Data",
+        "api": {
+          "version": "v2.6.4-beta",
+          "name": "Climate Projection API"
+        },
+        "sources": [
+          "NEXGDDP"
+        ],
+        "model": "ensemble",
+        "scenarios": [
+          "ssp245"
+        ],
+        "time_standard": "utc",
+        "fill_value": -999,
+        "start": "20450101",
+        "end": "20491231"
+      },
+      "coordinate_source": {
+        "dataset": "napeshm",
+        "version": 1,
+        "doi": "https://doi.org/10.15482/USDA.ADC/25632270",
+        "license": {
+          "value": 1,
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "metadata_sha256": "1e15b96e2a2d3b711c2444be6f93526bbcdc2bd12d40eb7199d59e9e8ce5c442",
+        "files": [
+          {
+            "file": "NAPESHM_public_dataset_06032024.zip",
+            "size": 4994407,
+            "md5": "b6a0a7cd8123c556c82a0d3384084a83",
+            "sha256": "1b4a6eba11d27b88aee83a1fb844eea91919599ee64652e37d988059c14a029a"
+          }
+        ]
+      },
+      "reported_geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.624501,
+          45.721236,
+          857.61
+        ]
+      }
+    },
+    {
+      "period": "baseline",
+      "transfer": "cached",
+      "request": {
+        "sitecode": "USKS01",
+        "latitude": 39.123775,
+        "longitude": -96.636037,
+        "kind": "projection",
+        "scenario": "ssp245",
+        "model": "ensemble",
+        "start": "2015-01-01",
+        "end": "2019-12-31",
+        "url": "https://power.larc.nasa.gov/api/projection/daily/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CPRECTOTCORR&community=AG&longitude=-96.636037&latitude=39.123775&start=20150101&end=20191231&format=JSON&time-standard=UTC&scenario=ssp245&model=ensemble"
+      },
+      "sha256": "843500e16efc1153aba06fac1d291d21758209389d4fc71eb8ac01648895a7aa",
+      "fetched_at_utc": "2026-11-15T00:42:32.137529+00:00",
+      "api_header": {
+        "title": "NASA/POWER WCRP/CMIP6 NEX-GDDP Downscaled Daily Data",
+        "api": {
+          "version": "v2.6.4-beta",
+          "name": "Climate Projection API"
+        },
+        "sources": [
+          "NEXGDDP"
+        ],
+        "model": "ensemble",
+        "scenarios": [
+          "ssp245"
+        ],
+        "time_standard": "utc",
+        "fill_value": -999,
+        "start": "20150101",
+        "end": "20191231"
+      },
+      "coordinate_source": {
+        "dataset": "napeshm",
+        "version": 1,
+        "doi": "https://doi.org/10.15482/USDA.ADC/25632270",
+        "license": {
+          "value": 1,
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "metadata_sha256": "1e15b96e2a2d3b711c2444be6f93526bbcdc2bd12d40eb7199d59e9e8ce5c442",
+        "files": [
+          {
+            "file": "NAPESHM_public_dataset_06032024.zip",
+            "size": 4994407,
+            "md5": "b6a0a7cd8123c556c82a0d3384084a83",
+            "sha256": "1b4a6eba11d27b88aee83a1fb844eea91919599ee64652e37d988059c14a029a"
+          }
+        ]
+      },
+      "reported_geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.636037,
+          39.123775,
+          389.95
+        ]
+      }
+    },
+    {
+      "period": "baseline",
+      "transfer": "cached",
+      "request": {
+        "sitecode": "USKS01",
+        "latitude": 39.123775,
+        "longitude": -96.636037,
+        "kind": "projection",
+        "scenario": "ssp245",
+        "model": "ensemble",
+        "start": "2020-01-01",
+        "end": "2024-12-31",
+        "url": "https://power.larc.nasa.gov/api/projection/daily/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CPRECTOTCORR&community=AG&longitude=-96.636037&latitude=39.123775&start=20200101&end=20241231&format=JSON&time-standard=UTC&scenario=ssp245&model=ensemble"
+      },
+      "sha256": "aae9640d82058a389c63f2a67a854525606a0dea359c833c0305277fcd029af9",
+      "fetched_at_utc": "2026-11-15T00:42:37.662921+00:00",
+      "api_header": {
+        "title": "NASA/POWER WCRP/CMIP6 NEX-GDDP Downscaled Daily Data",
+        "api": {
+          "version": "v2.6.4-beta",
+          "name": "Climate Projection API"
+        },
+        "sources": [
+          "NEXGDDP"
+        ],
+        "model": "ensemble",
+        "scenarios": [
+          "ssp245"
+        ],
+        "time_standard": "utc",
+        "fill_value": -999,
+        "start": "20200101",
+        "end": "20241231"
+      },
+      "coordinate_source": {
+        "dataset": "napeshm",
+        "version": 1,
+        "doi": "https://doi.org/10.15482/USDA.ADC/25632270",
+        "license": {
+          "value": 1,
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "metadata_sha256": "1e15b96e2a2d3b711c2444be6f93526bbcdc2bd12d40eb7199d59e9e8ce5c442",
+        "files": [
+          {
+            "file": "NAPESHM_public_dataset_06032024.zip",
+            "size": 4994407,
+            "md5": "b6a0a7cd8123c556c82a0d3384084a83",
+            "sha256": "1b4a6eba11d27b88aee83a1fb844eea91919599ee64652e37d988059c14a029a"
+          }
+        ]
+      },
+      "reported_geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.636037,
+          39.123775,
+          389.95
+        ]
+      }
+    },
+    {
+      "period": "future",
+      "transfer": "cached",
+      "request": {
+        "sitecode": "USKS01",
+        "latitude": 39.123775,
+        "longitude": -96.636037,
+        "kind": "projection",
+        "scenario": "ssp245",
+        "model": "ensemble",
+        "start": "2040-01-01",
+        "end": "2044-12-31",
+        "url": "https://power.larc.nasa.gov/api/projection/daily/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CPRECTOTCORR&community=AG&longitude=-96.636037&latitude=39.123775&start=20400101&end=20441231&format=JSON&time-standard=UTC&scenario=ssp245&model=ensemble"
+      },
+      "sha256": "3ace1f422a094cb3abfa2c30aa5bde112d5cdd810f9a61cdf8176e5a72a2349d",
+      "fetched_at_utc": "2026-11-15T00:42:43.172216+00:00",
+      "api_header": {
+        "title": "NASA/POWER WCRP/CMIP6 NEX-GDDP Downscaled Daily Data",
+        "api": {
+          "version": "v2.6.4-beta",
+          "name": "Climate Projection API"
+        },
+        "sources": [
+          "NEXGDDP"
+        ],
+        "model": "ensemble",
+        "scenarios": [
+          "ssp245"
+        ],
+        "time_standard": "utc",
+        "fill_value": -999,
+        "start": "20400101",
+        "end": "20441231"
+      },
+      "coordinate_source": {
+        "dataset": "napeshm",
+        "version": 1,
+        "doi": "https://doi.org/10.15482/USDA.ADC/25632270",
+        "license": {
+          "value": 1,
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "metadata_sha256": "1e15b96e2a2d3b711c2444be6f93526bbcdc2bd12d40eb7199d59e9e8ce5c442",
+        "files": [
+          {
+            "file": "NAPESHM_public_dataset_06032024.zip",
+            "size": 4994407,
+            "md5": "b6a0a7cd8123c556c82a0d3384084a83",
+            "sha256": "1b4a6eba11d27b88aee83a1fb844eea91919599ee64652e37d988059c14a029a"
+          }
+        ]
+      },
+      "reported_geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.636037,
+          39.123775,
+          389.95
+        ]
+      }
+    },
+    {
+      "period": "future",
+      "transfer": "cached",
+      "request": {
+        "sitecode": "USKS01",
+        "latitude": 39.123775,
+        "longitude": -96.636037,
+        "kind": "projection",
+        "scenario": "ssp245",
+        "model": "ensemble",
+        "start": "2045-01-01",
+        "end": "2049-12-31",
+        "url": "https://power.larc.nasa.gov/api/projection/daily/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CPRECTOTCORR&community=AG&longitude=-96.636037&latitude=39.123775&start=20450101&end=20491231&format=JSON&time-standard=UTC&scenario=ssp245&model=ensemble"
+      },
+      "sha256": "91d182c89026ac1be28b2f9307c842e95e3ea1303f2e987a260d950d72a871b4",
+      "fetched_at_utc": "2026-11-15T00:42:49.011225+00:00",
+      "api_header": {
+        "title": "NASA/POWER WCRP/CMIP6 NEX-GDDP Downscaled Daily Data",
+        "api": {
+          "version": "v2.6.4-beta",
+          "name": "Climate Projection API"
+        },
+        "sources": [
+          "NEXGDDP"
+        ],
+        "model": "ensemble",
+        "scenarios": [
+          "ssp245"
+        ],
+        "time_standard": "utc",
+        "fill_value": -999,
+        "start": "20450101",
+        "end": "20491231"
+      },
+      "coordinate_source": {
+        "dataset": "napeshm",
+        "version": 1,
+        "doi": "https://doi.org/10.15482/USDA.ADC/25632270",
+        "license": {
+          "value": 1,
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "metadata_sha256": "1e15b96e2a2d3b711c2444be6f93526bbcdc2bd12d40eb7199d59e9e8ce5c442",
+        "files": [
+          {
+            "file": "NAPESHM_public_dataset_06032024.zip",
+            "size": 4994407,
+            "md5": "b6a0a7cd8123c556c82a0d3384084a83",
+            "sha256": "1b4a6eba11d27b88aee83a1fb844eea91919599ee64652e37d988059c14a029a"
+          }
+        ]
+      },
+      "reported_geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.636037,
+          39.123775,
+          389.95
+        ]
+      }
+    }
+  ],
+  "observations": 300,
+  "points": 50,
+  "classified_observations": 300,
+  "wheat_observations": 64,
+  "adjacent_year_transitions": 250,
+  "spatial_context_groups": 2,
+  "soil_plot_count": 36,
+  "soil_indicator_rows": 324,
+  "model_ready": false,
+  "optimal_rotation_calculated": false,
+  "limitations": [
+    "CDL uydu sınıflandırmasıdır; nokta bazında çiftçi beyanı veya saha doğrusu değildir.",
+    "Buğday bulunmaması yetişemeyeceğini göstermez; diğer ürün veya arazi kullanımı olabilir.",
+    "Nokta örneklerinin oranı hektar veya bölgesel ekim alanı oranı değildir.",
+    "Nokta dizisi gözlenen geçmiş ürün sınıflarıdır; döngünün tekrarlandığını veya en iyi olduğunu kanıtlamaz.",
+    "Toprak ve iklim bağlamları merkez alan düzeyindedir; çevre noktalar için bağımsız ölçüm değildir.",
+    "Toprak göstergeleri ayrı tutulur; çevre noktalarına ölçülmüş hedef olarak atanmaz.",
+    "Çift ürün kodları aynı yıl içinde korunur; tek ürün veya iki yıl yapılmaz.",
+    "Kışlık buğdayın CDL yılı hasat yılıdır; sonbahar ekim yılıyla karıştırılmaz.",
+    "İki alanla mekânsal genelleme ve gelecek uygunluğu doğrulanmış sayılmaz; Kanada/Meksika kapsam dışıdır."
+  ]
+}

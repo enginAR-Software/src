@@ -1,0 +1,635 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.636037,
+          39.113775
+        ]
+      },
+      "properties": {
+        "parcel_id": "USKS01:r1:c2",
+        "region": "USKS01",
+        "observed_sequence": "Soybeans → Sorghum → Soybeans → Soybeans → Soybeans → Soybeans",
+        "current_rotation": "Soybeans → Soybeans → Soybeans → Soybeans → Sorghum → Soybeans",
+        "best_rotation": "Sorghum → Sorghum → Winter Wheat → Sorghum → Sorghum → Winter Wheat",
+        "economic_status": "ok",
+        "crop_2027": "Sorghum",
+        "planting_start_2027": "2027-04-14",
+        "planting_end_2027": "2027-08-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.626037,
+          39.113775
+        ]
+      },
+      "properties": {
+        "parcel_id": "USKS01:r1:c3",
+        "region": "USKS01",
+        "observed_sequence": "Soybeans → Corn → Soybeans → Corn → Soybeans → Corn",
+        "current_rotation": "Corn → Soybeans → Corn → Soybeans → Corn → Soybeans",
+        "best_rotation": "Sorghum → Sorghum → Winter Wheat → Sorghum → Sorghum → Winter Wheat",
+        "economic_status": "ok",
+        "crop_2027": "Sorghum",
+        "planting_start_2027": "2027-04-14",
+        "planting_end_2027": "2027-08-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.616037,
+          39.113775
+        ]
+      },
+      "properties": {
+        "parcel_id": "USKS01:r1:c4",
+        "region": "USKS01",
+        "observed_sequence": "Corn → Soybeans → Corn → Soybeans → Corn → Soybeans",
+        "current_rotation": "Soybeans → Corn → Soybeans → Corn → Soybeans → Corn",
+        "best_rotation": "Sorghum → Sorghum → Winter Wheat → Sorghum → Sorghum → Winter Wheat",
+        "economic_status": "ok",
+        "crop_2027": "Sorghum",
+        "planting_start_2027": "2027-04-14",
+        "planting_end_2027": "2027-08-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.636037,
+          39.123775
+        ]
+      },
+      "properties": {
+        "parcel_id": "USKS01:r2:c2",
+        "region": "USKS01",
+        "observed_sequence": "Soybeans → Sorghum → Winter Wheat → Corn → Dbl Crop WinWht/Soybeans → Corn",
+        "current_rotation": "Corn → Dbl Crop WinWht/Soybeans → Corn → Soybeans → Sorghum → Winter Wheat",
+        "best_rotation": "Sorghum → Sorghum → Winter Wheat → Sorghum → Sorghum → Winter Wheat",
+        "economic_status": "ok",
+        "crop_2027": "Sorghum",
+        "planting_start_2027": "2027-04-14",
+        "planting_end_2027": "2027-08-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.656037,
+          39.133775
+        ]
+      },
+      "properties": {
+        "parcel_id": "USKS01:r3:c0",
+        "region": "USKS01",
+        "observed_sequence": "Soybeans → Corn → Soybeans → Corn → Soybeans → Corn",
+        "current_rotation": "Corn → Soybeans → Corn → Soybeans → Corn → Soybeans",
+        "best_rotation": "Sorghum → Sorghum → Winter Wheat → Sorghum → Sorghum → Winter Wheat",
+        "economic_status": "ok",
+        "crop_2027": "Sorghum",
+        "planting_start_2027": "2027-04-14",
+        "planting_end_2027": "2027-08-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.636037,
+          39.133775
+        ]
+      },
+      "properties": {
+        "parcel_id": "USKS01:r3:c2",
+        "region": "USKS01",
+        "observed_sequence": "Corn → Soybeans → Corn → Soybeans → Corn → Soybeans",
+        "current_rotation": "Soybeans → Corn → Soybeans → Corn → Soybeans → Corn",
+        "best_rotation": "Sorghum → Sorghum → Winter Wheat → Sorghum → Sorghum → Winter Wheat",
+        "economic_status": "ok",
+        "crop_2027": "Sorghum",
+        "planting_start_2027": "2027-04-14",
+        "planting_end_2027": "2027-08-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.626037,
+          39.133775
+        ]
+      },
+      "properties": {
+        "parcel_id": "USKS01:r3:c3",
+        "region": "USKS01",
+        "observed_sequence": "Soybeans → Alfalfa → Alfalfa → Alfalfa → Alfalfa → Alfalfa",
+        "current_rotation": "Alfalfa → Alfalfa → Alfalfa → Soybeans → Alfalfa → Alfalfa",
+        "best_rotation": "Sorghum → Sorghum → Winter Wheat → Sorghum → Sorghum → Winter Wheat",
+        "economic_status": "ok",
+        "crop_2027": "Sorghum",
+        "planting_start_2027": "2027-04-14",
+        "planting_end_2027": "2027-08-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.616037,
+          39.133775
+        ]
+      },
+      "properties": {
+        "parcel_id": "USKS01:r3:c4",
+        "region": "USKS01",
+        "observed_sequence": "Soybeans → Corn → Soybeans → Corn → Soybeans → Corn",
+        "current_rotation": "Corn → Soybeans → Corn → Soybeans → Corn → Soybeans",
+        "best_rotation": "Sorghum → Sorghum → Winter Wheat → Sorghum → Sorghum → Winter Wheat",
+        "economic_status": "ok",
+        "crop_2027": "Sorghum",
+        "planting_start_2027": "2027-04-14",
+        "planting_end_2027": "2027-08-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.626037,
+          39.143775
+        ]
+      },
+      "properties": {
+        "parcel_id": "USKS01:r4:c3",
+        "region": "USKS01",
+        "observed_sequence": "Soybeans → Soybeans → Sorghum → Soybeans → Sorghum → Soybeans",
+        "current_rotation": "Soybeans → Sorghum → Soybeans → Soybeans → Soybeans → Sorghum",
+        "best_rotation": "Sorghum → Sorghum → Winter Wheat → Sorghum → Sorghum → Winter Wheat",
+        "economic_status": "ok",
+        "crop_2027": "Sorghum",
+        "planting_start_2027": "2027-04-14",
+        "planting_end_2027": "2027-08-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.634501,
+          45.701236
+        ]
+      },
+      "properties": {
+        "parcel_id": "USOR03:r0:c1",
+        "region": "USOR03",
+        "observed_sequence": "Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat",
+        "current_rotation": "Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland",
+        "best_rotation": "Fallow/Idle Cropland → Winter Wheat → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Winter Wheat",
+        "economic_status": "ok",
+        "crop_2027": "Fallow/Idle Cropland",
+        "planting_start_2027": null,
+        "planting_end_2027": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.624501,
+          45.701236
+        ]
+      },
+      "properties": {
+        "parcel_id": "USOR03:r0:c2",
+        "region": "USOR03",
+        "observed_sequence": "Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat",
+        "current_rotation": "Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland",
+        "best_rotation": "Fallow/Idle Cropland → Winter Wheat → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Winter Wheat",
+        "economic_status": "ok",
+        "crop_2027": "Fallow/Idle Cropland",
+        "planting_start_2027": null,
+        "planting_end_2027": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.614501,
+          45.701236
+        ]
+      },
+      "properties": {
+        "parcel_id": "USOR03:r0:c3",
+        "region": "USOR03",
+        "observed_sequence": "Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat",
+        "current_rotation": "Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland",
+        "best_rotation": "Fallow/Idle Cropland → Winter Wheat → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Winter Wheat",
+        "economic_status": "ok",
+        "crop_2027": "Fallow/Idle Cropland",
+        "planting_start_2027": null,
+        "planting_end_2027": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.604501,
+          45.701236
+        ]
+      },
+      "properties": {
+        "parcel_id": "USOR03:r0:c4",
+        "region": "USOR03",
+        "observed_sequence": "Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat",
+        "current_rotation": "Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland",
+        "best_rotation": "Fallow/Idle Cropland → Winter Wheat → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Winter Wheat",
+        "economic_status": "ok",
+        "crop_2027": "Fallow/Idle Cropland",
+        "planting_start_2027": null,
+        "planting_end_2027": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.644501,
+          45.711236
+        ]
+      },
+      "properties": {
+        "parcel_id": "USOR03:r1:c0",
+        "region": "USOR03",
+        "observed_sequence": "Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland",
+        "current_rotation": "Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat",
+        "best_rotation": "Fallow/Idle Cropland → Winter Wheat → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Winter Wheat",
+        "economic_status": "ok",
+        "crop_2027": "Fallow/Idle Cropland",
+        "planting_start_2027": null,
+        "planting_end_2027": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.634501,
+          45.711236
+        ]
+      },
+      "properties": {
+        "parcel_id": "USOR03:r1:c1",
+        "region": "USOR03",
+        "observed_sequence": "Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland",
+        "current_rotation": "Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat",
+        "best_rotation": "Fallow/Idle Cropland → Winter Wheat → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Winter Wheat",
+        "economic_status": "ok",
+        "crop_2027": "Fallow/Idle Cropland",
+        "planting_start_2027": null,
+        "planting_end_2027": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.624501,
+          45.711236
+        ]
+      },
+      "properties": {
+        "parcel_id": "USOR03:r1:c2",
+        "region": "USOR03",
+        "observed_sequence": "Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat",
+        "current_rotation": "Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland",
+        "best_rotation": "Fallow/Idle Cropland → Winter Wheat → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Winter Wheat",
+        "economic_status": "ok",
+        "crop_2027": "Fallow/Idle Cropland",
+        "planting_start_2027": null,
+        "planting_end_2027": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.614501,
+          45.711236
+        ]
+      },
+      "properties": {
+        "parcel_id": "USOR03:r1:c3",
+        "region": "USOR03",
+        "observed_sequence": "Peas → Winter Wheat → Peas → Winter Wheat → Fallow/Idle Cropland → Winter Wheat",
+        "current_rotation": "Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Peas → Winter Wheat → Peas",
+        "best_rotation": "Fallow/Idle Cropland → Winter Wheat → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Winter Wheat",
+        "economic_status": "ok",
+        "crop_2027": "Fallow/Idle Cropland",
+        "planting_start_2027": null,
+        "planting_end_2027": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.604501,
+          45.711236
+        ]
+      },
+      "properties": {
+        "parcel_id": "USOR03:r1:c4",
+        "region": "USOR03",
+        "observed_sequence": "Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland",
+        "current_rotation": "Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat",
+        "best_rotation": "Fallow/Idle Cropland → Winter Wheat → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Winter Wheat",
+        "economic_status": "ok",
+        "crop_2027": "Fallow/Idle Cropland",
+        "planting_start_2027": null,
+        "planting_end_2027": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.644501,
+          45.721236
+        ]
+      },
+      "properties": {
+        "parcel_id": "USOR03:r2:c0",
+        "region": "USOR03",
+        "observed_sequence": "Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland",
+        "current_rotation": "Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat",
+        "best_rotation": "Fallow/Idle Cropland → Winter Wheat → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Winter Wheat",
+        "economic_status": "ok",
+        "crop_2027": "Fallow/Idle Cropland",
+        "planting_start_2027": null,
+        "planting_end_2027": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.634501,
+          45.721236
+        ]
+      },
+      "properties": {
+        "parcel_id": "USOR03:r2:c1",
+        "region": "USOR03",
+        "observed_sequence": "Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland",
+        "current_rotation": "Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat",
+        "best_rotation": "Fallow/Idle Cropland → Winter Wheat → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Winter Wheat",
+        "economic_status": "ok",
+        "crop_2027": "Fallow/Idle Cropland",
+        "planting_start_2027": null,
+        "planting_end_2027": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.624501,
+          45.721236
+        ]
+      },
+      "properties": {
+        "parcel_id": "USOR03:r2:c2",
+        "region": "USOR03",
+        "observed_sequence": "Peas → Winter Wheat → Spring Wheat → Winter Wheat → Fallow/Idle Cropland → Winter Wheat",
+        "current_rotation": "Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Peas → Winter Wheat → Spring Wheat",
+        "best_rotation": "Fallow/Idle Cropland → Winter Wheat → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Winter Wheat",
+        "economic_status": "ok",
+        "crop_2027": "Fallow/Idle Cropland",
+        "planting_start_2027": null,
+        "planting_end_2027": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.614501,
+          45.721236
+        ]
+      },
+      "properties": {
+        "parcel_id": "USOR03:r2:c3",
+        "region": "USOR03",
+        "observed_sequence": "Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat",
+        "current_rotation": "Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland",
+        "best_rotation": "Fallow/Idle Cropland → Winter Wheat → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Winter Wheat",
+        "economic_status": "ok",
+        "crop_2027": "Fallow/Idle Cropland",
+        "planting_start_2027": null,
+        "planting_end_2027": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.604501,
+          45.721236
+        ]
+      },
+      "properties": {
+        "parcel_id": "USOR03:r2:c4",
+        "region": "USOR03",
+        "observed_sequence": "Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Winter Wheat → Fallow/Idle Cropland",
+        "current_rotation": "Winter Wheat → Winter Wheat → Fallow/Idle Cropland → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland",
+        "best_rotation": "Fallow/Idle Cropland → Winter Wheat → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Winter Wheat",
+        "economic_status": "ok",
+        "crop_2027": "Fallow/Idle Cropland",
+        "planting_start_2027": null,
+        "planting_end_2027": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.644501,
+          45.731236
+        ]
+      },
+      "properties": {
+        "parcel_id": "USOR03:r3:c0",
+        "region": "USOR03",
+        "observed_sequence": "Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat",
+        "current_rotation": "Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland",
+        "best_rotation": "Fallow/Idle Cropland → Winter Wheat → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Winter Wheat",
+        "economic_status": "ok",
+        "crop_2027": "Fallow/Idle Cropland",
+        "planting_start_2027": null,
+        "planting_end_2027": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.624501,
+          45.731236
+        ]
+      },
+      "properties": {
+        "parcel_id": "USOR03:r3:c2",
+        "region": "USOR03",
+        "observed_sequence": "Winter Wheat → Peas → Winter Wheat → Peas → Winter Wheat → Triticale",
+        "current_rotation": "Peas → Winter Wheat → Triticale → Winter Wheat → Peas → Winter Wheat",
+        "best_rotation": "Fallow/Idle Cropland → Winter Wheat → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Winter Wheat",
+        "economic_status": "ok",
+        "crop_2027": "Fallow/Idle Cropland",
+        "planting_start_2027": null,
+        "planting_end_2027": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.614501,
+          45.731236
+        ]
+      },
+      "properties": {
+        "parcel_id": "USOR03:r3:c3",
+        "region": "USOR03",
+        "observed_sequence": "Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat",
+        "current_rotation": "Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland",
+        "best_rotation": "Fallow/Idle Cropland → Winter Wheat → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Winter Wheat",
+        "economic_status": "ok",
+        "crop_2027": "Fallow/Idle Cropland",
+        "planting_start_2027": null,
+        "planting_end_2027": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.604501,
+          45.731236
+        ]
+      },
+      "properties": {
+        "parcel_id": "USOR03:r3:c4",
+        "region": "USOR03",
+        "observed_sequence": "Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Winter Wheat → Fallow/Idle Cropland",
+        "current_rotation": "Winter Wheat → Winter Wheat → Fallow/Idle Cropland → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland",
+        "best_rotation": "Fallow/Idle Cropland → Winter Wheat → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Winter Wheat",
+        "economic_status": "ok",
+        "crop_2027": "Fallow/Idle Cropland",
+        "planting_start_2027": null,
+        "planting_end_2027": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.644501,
+          45.741236
+        ]
+      },
+      "properties": {
+        "parcel_id": "USOR03:r4:c0",
+        "region": "USOR03",
+        "observed_sequence": "Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland",
+        "current_rotation": "Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat",
+        "best_rotation": "Fallow/Idle Cropland → Winter Wheat → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Winter Wheat",
+        "economic_status": "ok",
+        "crop_2027": "Fallow/Idle Cropland",
+        "planting_start_2027": null,
+        "planting_end_2027": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.634501,
+          45.741236
+        ]
+      },
+      "properties": {
+        "parcel_id": "USOR03:r4:c1",
+        "region": "USOR03",
+        "observed_sequence": "Alfalfa → Alfalfa → Other Hay/Non Alfalfa → Alfalfa → Alfalfa → Alfalfa",
+        "current_rotation": "Alfalfa → Alfalfa → Alfalfa → Alfalfa → Alfalfa → Other Hay/Non Alfalfa",
+        "best_rotation": "Fallow/Idle Cropland → Winter Wheat → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Winter Wheat",
+        "economic_status": "ok",
+        "crop_2027": "Fallow/Idle Cropland",
+        "planting_start_2027": null,
+        "planting_end_2027": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.624501,
+          45.741236
+        ]
+      },
+      "properties": {
+        "parcel_id": "USOR03:r4:c2",
+        "region": "USOR03",
+        "observed_sequence": "Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland",
+        "current_rotation": "Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat",
+        "best_rotation": "Fallow/Idle Cropland → Winter Wheat → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Winter Wheat",
+        "economic_status": "ok",
+        "crop_2027": "Fallow/Idle Cropland",
+        "planting_start_2027": null,
+        "planting_end_2027": null
+      }
+    }
+  ]
+}

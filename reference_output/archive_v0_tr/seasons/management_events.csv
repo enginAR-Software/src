@@ -1,0 +1,224 @@
+event_id,source_record,treatmentid,sitecode,date,category,method,eventdesc,quantity,unit
+NAP-M6660,6660,259,USKS01,2016-01-01,reserved index row,,start,,
+NAP-M6661,6661,259,USKS01,2016-05-05,weed management,foliar spray,"glyphosate + 2,4-D (herbicide)",,
+NAP-M6662,6662,259,USKS01,2016-05-12,plant cash crop,planter,sorghum,75000,seeds acre-1
+NAP-M6663,6663,259,USKS01,2016-05-12,plant cash crop,planter,"planter, double disk opnr",2.4,STIR
+NAP-M6664,6664,259,USKS01,2016-05-13,weed management,surface application,Lumax + glyphosate,,
+NAP-M6665,6665,259,USKS01,2016-06-07,weed management,foliar spray,Huskie + atrazine,,
+NAP-M6666,6666,259,USKS01,2016-10-21,harvest,combine harvester,sorghum,0,% residual removed
+NAP-M6667,6667,259,USKS01,2016-10-21,disturbance,combine harvester,sorghum,0.15,STIR
+NAP-M6668,6668,259,USKS01,2017-05-09,weed management,foliar spray,"glyphosate + 2,4-D (herbicide)",,
+NAP-M6669,6669,259,USKS01,2017-05-16,amendment,planter,fertilizer (10-34-0),100,lbs acre-1
+NAP-M6670,6670,259,USKS01,2017-05-16,plant cash crop,planter,"planter, double disk opnr",2.4,STIR
+NAP-M6671,6671,259,USKS01,2017-05-16,plant cash crop,planter,soybean,150000,seeds acre-1
+NAP-M6672,6672,259,USKS01,2017-05-23,weed management,surface application,Fierce + glyphosate,,
+NAP-M6673,6673,259,USKS01,2017-06-15,weed management,foliar spray,glufosinate,,
+NAP-M6674,6674,259,USKS01,2017-10-12,disturbance,combine harvester,soybean,0.15,STIR
+NAP-M6675,6675,259,USKS01,2017-10-12,harvest,combine harvester,soybean,0,% residual removed
+NAP-M6676,6676,259,USKS01,2017-10-12,plant cash crop,grain drill,"drill, no till; average",4,STIR
+NAP-M6677,6677,259,USKS01,2017-10-12,plant cash crop,grain drill,winter wheat,100,lbs acre-1
+NAP-M6678,6678,259,USKS01,2017-10-12,amendment,grain drill,diammonium phosphate (11-48-0),125,lbs acre-1
+NAP-M6679,6679,259,USKS01,2018-03-14,weed management,foliar spray,Harmony and MCPA,,
+NAP-M6680,6680,259,USKS01,2018-03-14,amendment,surface band,urea ammonium nitrate (28-0-0),90,lbs acre-1
+NAP-M6681,6681,259,USKS01,2018-06-18,harvest,combine harvester,winter wheat,0,% residual removed
+NAP-M6682,6682,259,USKS01,2018-06-18,disturbance,combine harvester,winter wheat,0.15,STIR
+NAP-M6683,6683,259,USKS01,2018-06-28,weed management,foliar spray,glyphosate/paraquat (herbicide),,
+NAP-M6684,6684,259,USKS01,2018-08-09,weed management,foliar spray,"glyphosate + 2,4-D (herbicide)",,
+NAP-M6685,6685,259,USKS01,2018-09-15,weed management,foliar spray,"glyphosate + 2,4-D (herbicide)",,
+NAP-M6686,6686,259,USKS01,2018-12-31,reserved index row,,end,,
+NAP-M6687,6687,260,USKS01,2016-01-01,reserved index row,,start,,
+NAP-M6688,6688,260,USKS01,2016-05-05,weed management,foliar spray,"glyphosate + 2,4-D (herbicide)",,
+NAP-M6689,6689,260,USKS01,2016-05-12,plant cash crop,planter,sorghum,75000,seeds acre-1
+NAP-M6690,6690,260,USKS01,2016-05-12,plant cash crop,planter,"planter, double disk opnr",2.4,STIR
+NAP-M6691,6691,260,USKS01,2016-05-13,weed management,surface application,Lumax + glyphosate,,
+NAP-M6692,6692,260,USKS01,2016-05-19,amendment,subsurface band,urea ammonium nitrate (28-0-0),120,lbs acre-1 N
+NAP-M6693,6693,260,USKS01,2016-06-07,weed management,foliar spray,Huskie + atrazine,,
+NAP-M6694,6694,260,USKS01,2016-10-21,disturbance,combine harvester,sorghum,0.15,STIR
+NAP-M6695,6695,260,USKS01,2016-10-21,harvest,combine harvester,sorghum,0,% residual removed
+NAP-M6696,6696,260,USKS01,2017-05-09,weed management,foliar spray,"glyphosate + 2,4-D (herbicide)",,
+NAP-M6697,6697,260,USKS01,2017-05-16,amendment,planter,fertilizer (10-34-0),100,lbs acre-1
+NAP-M6698,6698,260,USKS01,2017-05-16,plant cash crop,planter,"planter, double disk opnr",2.4,STIR
+NAP-M6699,6699,260,USKS01,2017-05-16,plant cash crop,planter,soybean,150000,seeds acre-1
+NAP-M6700,6700,260,USKS01,2017-05-23,weed management,surface application,Fierce + glyphosate,,
+NAP-M6701,6701,260,USKS01,2017-06-15,weed management,foliar spray,glufosinate,,
+NAP-M6702,6702,260,USKS01,2017-10-12,disturbance,combine harvester,soybean,0.15,STIR
+NAP-M6703,6703,260,USKS01,2017-10-12,harvest,combine harvester,soybean,0,% residual removed
+NAP-M6704,6704,260,USKS01,2017-10-12,plant cash crop,grain drill,"drill, no till; average",4,STIR
+NAP-M6705,6705,260,USKS01,2017-10-12,plant cash crop,grain drill,winter wheat,100,lbs acre-1
+NAP-M6706,6706,260,USKS01,2017-10-12,amendment,grain drill,diammonium phosphate (11-48-0),125,lbs acre-1
+NAP-M6707,6707,260,USKS01,2018-03-14,amendment,surface band,urea ammonium nitrate (28-0-0),90,lbs acre-1
+NAP-M6708,6708,260,USKS01,2018-03-14,weed management,foliar spray,Harmony and MCPA,,
+NAP-M6709,6709,260,USKS01,2018-06-18,disturbance,combine harvester,winter wheat,0.15,STIR
+NAP-M6710,6710,260,USKS01,2018-06-18,harvest,combine harvester,winter wheat,0,% residual removed
+NAP-M6711,6711,260,USKS01,2018-06-28,weed management,foliar spray,glyphosate/paraquat (herbicide),,
+NAP-M6712,6712,260,USKS01,2018-08-09,weed management,foliar spray,"glyphosate + 2,4-D (herbicide)",,
+NAP-M6713,6713,260,USKS01,2018-09-15,weed management,foliar spray,"glyphosate + 2,4-D (herbicide)",,
+NAP-M6714,6714,260,USKS01,2018-12-31,reserved index row,,end,,
+NAP-M6715,6715,261,USKS01,2016-01-01,reserved index row,,start,,
+NAP-M6716,6716,261,USKS01,2016-05-05,weed management,foliar spray,"glyphosate + 2,4-D (herbicide)",,
+NAP-M6717,6717,261,USKS01,2016-05-12,plant cash crop,planter,"planter, double disk opnr",2.4,STIR
+NAP-M6718,6718,261,USKS01,2016-05-12,plant cash crop,planter,sorghum,75000,seeds acre-1
+NAP-M6719,6719,261,USKS01,2016-05-13,weed management,surface application,Lumax + glyphosate,,
+NAP-M6720,6720,261,USKS01,2016-06-07,weed management,foliar spray,Huskie + atrazine,,
+NAP-M6721,6721,261,USKS01,2016-10-21,harvest,combine harvester,sorghum,0,% residual removed
+NAP-M6722,6722,261,USKS01,2016-10-21,disturbance,combine harvester,sorghum,0.15,STIR
+NAP-M6723,6723,261,USKS01,2017-05-09,weed management,foliar spray,"glyphosate + 2,4-D (herbicide)",,
+NAP-M6724,6724,261,USKS01,2017-05-16,amendment,planter,fertilizer (10-34-0),100,lbs acre-1
+NAP-M6725,6725,261,USKS01,2017-05-16,plant cash crop,planter,"planter, double disk opnr",2.4,STIR
+NAP-M6726,6726,261,USKS01,2017-05-16,plant cash crop,planter,soybean,150000,seeds acre-1
+NAP-M6727,6727,261,USKS01,2017-05-23,weed management,surface application,Fierce + glyphosate,,
+NAP-M6728,6728,261,USKS01,2017-06-15,weed management,foliar spray,glufosinate,,
+NAP-M6729,6729,261,USKS01,2017-10-12,disturbance,combine harvester,soybean,0.15,STIR
+NAP-M6730,6730,261,USKS01,2017-10-12,harvest,combine harvester,soybean,0,% residual removed
+NAP-M6731,6731,261,USKS01,2017-10-12,amendment,grain drill,diammonium phosphate (11-48-0),125,lbs acre-1
+NAP-M6732,6732,261,USKS01,2017-10-12,plant cash crop,grain drill,winter wheat,100,lbs acre-1
+NAP-M6733,6733,261,USKS01,2017-10-12,plant cash crop,grain drill,"drill, no till; average",4,STIR
+NAP-M6734,6734,261,USKS01,2018-03-14,weed management,foliar spray,Harmony and MCPA,,
+NAP-M6735,6735,261,USKS01,2018-03-14,amendment,surface band,urea ammonium nitrate (28-0-0),90,lbs acre-1
+NAP-M6736,6736,261,USKS01,2018-06-18,harvest,combine harvester,winter wheat,0,% residual removed
+NAP-M6737,6737,261,USKS01,2018-06-18,disturbance,combine harvester,winter wheat,0.15,STIR
+NAP-M6738,6738,261,USKS01,2018-06-27,plant cash crop,planter,soybean,180000,seeds acre-1
+NAP-M6739,6739,261,USKS01,2018-06-27,plant cash crop,planter,"drill, no till; average",2.4,STIR
+NAP-M6740,6740,261,USKS01,2018-08-09,weed management,foliar spray,Fierce + glyphosate,,
+NAP-M6741,6741,261,USKS01,2018-06-28,weed management,foliar spray,glyphosate/paraquat (herbicide),,
+NAP-M6742,6742,261,USKS01,2018-08-09,weed management,foliar spray,glyphosate/paraquat (herbicide),,
+NAP-M6743,6743,261,USKS01,2018-10-31,harvest,combine harvester,soybean,0,% residual removed
+NAP-M6744,6744,261,USKS01,2018-10-31,disturbance,combine harvester,soybean,0.15,STIR
+NAP-M6745,6745,261,USKS01,2018-12-31,reserved index row,,end,,
+NAP-M6746,6746,262,USKS01,2016-01-01,reserved index row,,start,,
+NAP-M6747,6747,262,USKS01,2016-05-05,weed management,foliar spray,"glyphosate + 2,4-D (herbicide)",,
+NAP-M6748,6748,262,USKS01,2016-05-12,plant cash crop,planter,"planter, double disk opnr",2.4,STIR
+NAP-M6749,6749,262,USKS01,2016-05-12,plant cash crop,planter,sorghum,75000,seeds acre-1
+NAP-M6750,6750,262,USKS01,2016-05-13,weed management,surface application,Lumax + glyphosate,,
+NAP-M6751,6751,262,USKS01,2016-05-19,amendment,subsurface band,urea ammonium nitrate (28-0-0),120,lbs acre-1 N
+NAP-M6752,6752,262,USKS01,2016-06-07,weed management,foliar spray,Huskie + atrazine,,
+NAP-M6753,6753,262,USKS01,2016-10-21,harvest,combine harvester,sorghum,0,% residual removed
+NAP-M6754,6754,262,USKS01,2016-10-21,disturbance,combine harvester,sorghum,0.15,STIR
+NAP-M6755,6755,262,USKS01,2017-05-09,weed management,foliar spray,"glyphosate + 2,4-D (herbicide)",,
+NAP-M6756,6756,262,USKS01,2017-05-16,plant cash crop,planter,"planter, double disk opnr",2.4,STIR
+NAP-M6757,6757,262,USKS01,2017-05-16,plant cash crop,planter,soybean,150000,seeds acre-1
+NAP-M6758,6758,262,USKS01,2017-05-16,amendment,planter,fertilizer (10-34-0),100,lbs acre-1
+NAP-M6759,6759,262,USKS01,2017-05-23,weed management,surface application,Fierce + glyphosate,,
+NAP-M6760,6760,262,USKS01,2017-06-15,weed management,foliar spray,glufosinate,,
+NAP-M6761,6761,262,USKS01,2017-10-12,plant cash crop,grain drill,"drill, no till; average",4,STIR
+NAP-M6762,6762,262,USKS01,2017-10-12,disturbance,combine harvester,soybean,0.15,STIR
+NAP-M6763,6763,262,USKS01,2017-10-12,harvest,combine harvester,soybean,0,% residual removed
+NAP-M6764,6764,262,USKS01,2017-10-12,amendment,grain drill,diammonium phosphate (11-48-0),125,lbs acre-1
+NAP-M6765,6765,262,USKS01,2017-10-12,plant cash crop,grain drill,winter wheat,100,lbs acre-1
+NAP-M6766,6766,262,USKS01,2018-03-14,weed management,foliar spray,Harmony and MCPA,,
+NAP-M6767,6767,262,USKS01,2018-03-14,amendment,surface band,urea ammonium nitrate (28-0-0),90,lbs acre-1
+NAP-M6768,6768,262,USKS01,2018-06-18,harvest,combine harvester,winter wheat,0,% residual removed
+NAP-M6769,6769,262,USKS01,2018-06-18,disturbance,combine harvester,winter wheat,0.15,STIR
+NAP-M6770,6770,262,USKS01,2018-06-27,plant cash crop,grain drill,soybean,180000,seeds acre-1
+NAP-M6771,6771,262,USKS01,2018-06-27,plant cash crop,grain drill,"drill, no till; average",4,STIR
+NAP-M6772,6772,262,USKS01,2018-08-09,weed management,surface application,Fierce + glyphosate,,
+NAP-M6773,6773,262,USKS01,2018-06-28,weed management,foliar spray,glyphosate/paraquat (herbicide),,
+NAP-M6774,6774,262,USKS01,2018-08-09,weed management,foliar spray,glyphosate/paraquat (herbicide),,
+NAP-M6775,6775,262,USKS01,2018-10-31,disturbance,combine harvester,soybean,0.15,STIR
+NAP-M6776,6776,262,USKS01,2018-10-31,harvest,combine harvester,soybean,0,% residual removed
+NAP-M6777,6777,262,USKS01,2018-12-31,reserved index row,,end,,
+NAP-M6778,6778,263,USKS01,2016-01-01,reserved index row,,start,,
+NAP-M6779,6779,263,USKS01,2016-05-05,weed management,foliar spray,"glyphosate + 2,4-D (herbicide)",,
+NAP-M6780,6780,263,USKS01,2016-05-12,plant cash crop,planter,"planter, double disk opnr",2.4,STIR
+NAP-M6781,6781,263,USKS01,2016-05-12,plant cash crop,planter,sorghum,75000,seeds acre-1
+NAP-M6782,6782,263,USKS01,2016-05-13,weed management,surface application,Lumax + glyphosate,,
+NAP-M6783,6783,263,USKS01,2016-06-07,weed management,foliar spray,Huskie + atrazine,,
+NAP-M6784,6784,263,USKS01,2016-10-21,harvest,combine harvester,sorghum,0,% residual removed
+NAP-M6785,6785,263,USKS01,2016-10-21,disturbance,combine harvester,sorghum,0.15,STIR
+NAP-M6786,6786,263,USKS01,2017-05-09,weed management,foliar spray,"glyphosate + 2,4-D (herbicide)",,
+NAP-M6787,6787,263,USKS01,2017-05-16,amendment,surface band,fertilizer (10-34-0),100,lbs acre-1
+NAP-M6788,6788,263,USKS01,2017-05-16,plant cash crop,planter,"planter, double disk opnr",2.4,STIR
+NAP-M6789,6789,263,USKS01,2017-05-16,plant cash crop,planter,soybean,150000,seeds acre-1
+NAP-M6790,6790,263,USKS01,2017-05-23,weed management,surface application,Fierce + glyphosate,,
+NAP-M6791,6791,263,USKS01,2017-06-15,weed management,foliar spray,glufosinate,,
+NAP-M6792,6792,263,USKS01,2017-10-12,disturbance,combine harvester,soybean,0.15,STIR
+NAP-M6793,6793,263,USKS01,2017-10-12,harvest,combine harvester,soybean,0,% residual removed
+NAP-M6794,6794,263,USKS01,2017-10-12,plant cash crop,grain drill,"drill, no till; average",4,STIR
+NAP-M6795,6795,263,USKS01,2017-10-12,plant cash crop,grain drill,winter wheat,100,lbs acre-1
+NAP-M6796,6796,263,USKS01,2017-10-12,amendment,grain drill,diammonium phosphate (11-48-0),125,lbs acre-1
+NAP-M6797,6797,263,USKS01,2018-03-14,amendment,surface band,urea ammonium nitrate (28-0-0),90,lbs acre-1
+NAP-M6798,6798,263,USKS01,2018-03-14,weed management,foliar spray,Harmony and MCPA,,
+NAP-M6799,6799,263,USKS01,2018-06-18,disturbance,combine harvester,winter wheat,0.15,STIR
+NAP-M6800,6800,263,USKS01,2018-06-18,harvest,combine harvester,winter wheat,0,% residual removed
+NAP-M6801,6801,263,USKS01,2018-06-28,weed management,foliar spray,glyphosate/paraquat (herbicide),,
+NAP-M6802,6802,263,USKS01,2018-08-09,weed management,foliar spray,glyphosate/paraquat (herbicide),,
+NAP-M6803,6803,263,USKS01,2018-08-10,plant cover crop,grain drill,"drill, no till; average",4,STIR
+NAP-M6804,6804,263,USKS01,2018-08-10,plant cover crop,grain drill,cover crop,71,lbs acre-1
+NAP-M6805,6805,263,USKS01,2018-12-31,reserved index row,,end,,
+NAP-M6806,6806,264,USKS01,2016-01-01,reserved index row,,start,,
+NAP-M6807,6807,264,USKS01,2016-05-05,weed management,foliar spray,"glyphosate + 2,4-D (herbicide)",,
+NAP-M6808,6808,264,USKS01,2016-05-12,plant cash crop,planter,"planter, double disk opnr",2.4,STIR
+NAP-M6809,6809,264,USKS01,2016-05-12,plant cash crop,planter,sorghum,75000,seeds acre-1
+NAP-M6810,6810,264,USKS01,2016-05-13,weed management,surface application,Lumax + glyphosate,,
+NAP-M6811,6811,264,USKS01,2016-05-19,amendment,subsurface band,urea ammonium nitrate (28-0-0),120,lbs acre-1 N
+NAP-M6812,6812,264,USKS01,2016-06-07,weed management,foliar spray,Huskie + atrazine,,
+NAP-M6813,6813,264,USKS01,2016-10-21,disturbance,combine harvester,sorghum,0.15,STIR
+NAP-M6814,6814,264,USKS01,2016-10-21,harvest,combine harvester,sorghum,0,% residual removed
+NAP-M6815,6815,264,USKS01,2017-05-09,weed management,foliar spray,"glyphosate + 2,4-D (herbicide)",,
+NAP-M6816,6816,264,USKS01,2017-05-16,amendment,surface band,fertilizer (10-34-0),100,lbs acre-1
+NAP-M6817,6817,264,USKS01,2017-05-16,plant cash crop,grain drill,"planter, double disk opnr",2.4,STIR
+NAP-M6818,6818,264,USKS01,2017-05-16,plant cash crop,grain drill,soybean,150000,seeds acre-1
+NAP-M6819,6819,264,USKS01,2017-05-23,weed management,surface application,Fierce + glyphosate,,
+NAP-M6820,6820,264,USKS01,2017-06-15,weed management,foliar spray,glufosinate,,
+NAP-M6821,6821,264,USKS01,2017-10-12,disturbance,combine harvester,soybean,0.15,STIR
+NAP-M6822,6822,264,USKS01,2017-10-12,harvest,combine harvester,soybean,0,% residual removed
+NAP-M6823,6823,264,USKS01,2017-10-12,plant cash crop,grain drill,"drill, no till; average",4,STIR
+NAP-M6824,6824,264,USKS01,2017-10-12,plant cash crop,grain drill,winter wheat,100,lbs acre-1
+NAP-M6825,6825,264,USKS01,2017-10-12,amendment,grain drill,diammonium phosphate (11-48-0),125,lbs acre-1
+NAP-M6826,6826,264,USKS01,2018-03-14,amendment,surface band,urea ammonium nitrate (28-0-0),90,lbs acre-1
+NAP-M6827,6827,264,USKS01,2018-03-14,weed management,foliar spray,Harmony and MCPA,,
+NAP-M6828,6828,264,USKS01,2018-06-18,disturbance,combine harvester,winter wheat,0.15,STIR
+NAP-M6829,6829,264,USKS01,2018-06-18,harvest,combine harvester,winter wheat,0,% residual removed
+NAP-M6830,6830,264,USKS01,2018-06-28,weed management,foliar spray,glyphosate/paraquat (herbicide),,
+NAP-M6831,6831,264,USKS01,2018-08-09,weed management,foliar spray,glyphosate/paraquat (herbicide),,
+NAP-M6832,6832,264,USKS01,2018-08-10,plant cover crop,grain drill,"drill, no till; average",4,STIR
+NAP-M6833,6833,264,USKS01,2018-08-10,plant cover crop,grain drill,cover crop,71,lbs acre-1
+NAP-M6834,6834,264,USKS01,2018-12-31,reserved index row,,end,,
+NAP-M10873,10873,438,USOR03,2018-01-01,reserved index row,,start,,
+NAP-M10874,10874,438,USOR03,2018-03-10,disturbance,chisel plow,"chisel, st. pt. 5 in deep",33,STIR
+NAP-M10875,10875,438,USOR03,2018-03-20,amendment,surface broadcast,monoammonium phosphate (16-20-0+14S),20,lbs acre-1 N
+NAP-M10876,10876,438,USOR03,2018-03-25,plant cash crop,grain drill,"planter, double disk opnr",2.4,STIR
+NAP-M10877,10877,438,USOR03,2018-03-25,plant cash crop,grain drill,"pea, dry edible (Pisum sativum)",200,lbs acre-1 seed
+NAP-M10878,10878,438,USOR03,2018-05-05,weed management,foliar spray,metribuzin (herbicide),label rate,
+NAP-M10879,10879,438,USOR03,2018-06-25,harvest,combine harvester,"pea, dry edible (Pisum sativum)",0,% residual removed
+NAP-M10880,10880,438,USOR03,2018-10-01,disturbance,chisel plow,"chisel, st. pt. 5 in deep",33,STIR
+NAP-M10881,10881,438,USOR03,2018-10-10,amendment,surface broadcast,monoammonium phosphate (16-20-0+14S),80,lbs acre-1 N
+NAP-M10882,10882,438,USOR03,2018-10-15,plant cash crop,grain drill,"planter, double disk opnr",2.4,STIR
+NAP-M10883,10883,438,USOR03,2018-10-15,plant cash crop,grain drill,winter wheat,80,lbs acre-1 seed
+NAP-M10884,10884,438,USOR03,2019-04-15,soil sampling,,soil sampling (NAPESHM),,
+NAP-M10885,10885,438,USOR03,2019-04-16,weed management,foliar spray,glyphosate (herbicide),label rate,
+NAP-M10886,10886,438,USOR03,2019-06-05,weed management,foliar spray,glyphosate (herbicide),label rate,
+NAP-M10887,10887,438,USOR03,2019-07-15,harvest,combine harvester,winter wheat,0,% residual removed
+NAP-M10888,10888,438,USOR03,2019-12-31,reserved index row,,end,,
+NAP-M10889,10889,439,USOR03,2018-01-01,reserved index row,,start,,
+NAP-M10890,10890,439,USOR03,2018-03-10,weed management,foliar spray,sulfentrazone (herbicide),label rate,
+NAP-M10891,10891,439,USOR03,2018-03-20,amendment,surface broadcast,monoammonium phosphate (16-20-0+14S),20,lbs acre-1 N
+NAP-M10892,10892,439,USOR03,2018-03-25,plant cash crop,grain drill,"planter, double disk opnr",2.4,STIR
+NAP-M10893,10893,439,USOR03,2018-03-25,plant cash crop,grain drill,"pea, dry edible (Pisum sativum)",200,lbs acre-1 seed
+NAP-M10894,10894,439,USOR03,2018-05-05,weed management,foliar spray,metribuzin (herbicide),label rate,
+NAP-M10895,10895,439,USOR03,2018-06-25,harvest,combine harvester,"pea, dry edible (Pisum sativum)",0,% residual removed
+NAP-M10896,10896,439,USOR03,2018-10-01,weed management,foliar spray,"2,4-D (herbicide)",label rate,
+NAP-M10897,10897,439,USOR03,2018-10-10,amendment,surface broadcast,monoammonium phosphate (16-20-0+14S),80,lbs acre-1 N
+NAP-M10898,10898,439,USOR03,2018-10-15,plant cash crop,grain drill,"planter, double disk opnr",2.4,STIR
+NAP-M10899,10899,439,USOR03,2018-10-15,plant cash crop,grain drill,winter wheat,80,lbs acre-1 seed
+NAP-M10900,10900,439,USOR03,2019-04-15,soil sampling,,soil sampling (NAPESHM),,
+NAP-M10901,10901,439,USOR03,2019-04-16,weed management,foliar spray,"2,4-D (herbicide)",label rate,
+NAP-M10902,10902,439,USOR03,2019-06-05,weed management,foliar spray,"2,4-D (herbicide)",label rate,
+NAP-M10903,10903,439,USOR03,2019-07-15,harvest,combine harvester,winter wheat,0,% residual removed
+NAP-M10904,10904,439,USOR03,2019-12-31,reserved index row,,end,,
+NAP-M10905,10905,440,USOR03,2018-01-01,reserved index row,,start,,
+NAP-M10906,10906,440,USOR03,2018-03-10,disturbance,moldboard plow,"plow, moldboard",65,STIR
+NAP-M10907,10907,440,USOR03,2018-03-20,amendment,surface broadcast,monoammonium phosphate (16-20-0+14S),20,lbs acre-1 N
+NAP-M10908,10908,440,USOR03,2018-03-25,plant cash crop,grain drill,"planter, double disk opnr",2.4,STIR
+NAP-M10909,10909,440,USOR03,2018-03-25,plant cash crop,grain drill,"pea, dry edible (Pisum sativum)",200,lbs acre-1 seed
+NAP-M10910,10910,440,USOR03,2018-05-05,weed management,foliar spray,metribuzin (herbicide),label rate,
+NAP-M10911,10911,440,USOR03,2018-06-25,harvest,combine harvester,"pea, dry edible (Pisum sativum)",0,% residual removed
+NAP-M10912,10912,440,USOR03,2018-10-01,disturbance,moldboard plow,"plow, moldboard 6-7 inch depth",49,STIR
+NAP-M10913,10913,440,USOR03,2018-10-10,amendment,surface broadcast,monoammonium phosphate (16-20-0+14S),80,lbs acre-1 N
+NAP-M10914,10914,440,USOR03,2018-10-15,plant cash crop,grain drill,"planter, double disk opnr",2.4,STIR
+NAP-M10915,10915,440,USOR03,2018-10-15,plant cash crop,grain drill,winter wheat,80,lbs acre-1 seed
+NAP-M10916,10916,440,USOR03,2019-04-15,soil sampling,,soil sampling (NAPESHM),,
+NAP-M10917,10917,440,USOR03,2019-04-16,weed management,foliar spray,glyphosate (herbicide),label rate,
+NAP-M10918,10918,440,USOR03,2019-06-05,weed management,foliar spray,glyphosate (herbicide),label rate,
+NAP-M10919,10919,440,USOR03,2019-07-15,harvest,combine harvester,winter wheat,0,% residual removed
+NAP-M10920,10920,440,USOR03,2019-12-31,reserved index row,,end,,

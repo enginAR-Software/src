@@ -1,0 +1,8 @@
+{
+  "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/query?f=json&where=Year+%3D+2022+AND+Category+%3D+1&outFields=OBJECTID%2CName%2CYear&returnGeometry=false",
+  "operation": "query",
+  "sha256": "a56f9ebdfa7a4ed77e27ab4994e419f3431afa0e6ccd82a2bed3f5b2b4795a48",
+  "bytes": 363,
+  "fetched_at_utc": "2026-11-15T00:54:50.890943+00:00",
+  "source": "USDA NASS Cropland Data Layer / CroplandCROS"
+}

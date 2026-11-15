@@ -1,0 +1,5722 @@
+{
+  "method": "same_model_scenario_period_difference_v1",
+  "config": {
+    "sites": [
+      "USOR03",
+      "USKS01"
+    ],
+    "baseline": [
+      2015,
+      2024
+    ],
+    "future": [
+      2040,
+      2049
+    ],
+    "scenario": "ssp245"
+  },
+  "config_sha256": "e765a8315a36df5cbc56529df3def05a8a9bb5279f18a241a190da56cc06aeda",
+  "model": "ensemble",
+  "reference_is_observation": false,
+  "crop_decision_ready": false,
+  "sites": [
+    {
+      "sitecode": "USOR03",
+      "baseline": {
+        "first_year": 2015,
+        "last_year": 2024,
+        "years": 10,
+        "expected_days": 3653,
+        "temperature_days": 3514,
+        "precipitation_days": 3514,
+        "complete_temperature_years": 1,
+        "complete_precipitation_years": 1,
+        "mean_temperature_c": null,
+        "mean_annual_precipitation_mm": null,
+        "annual": [
+          {
+            "year": 2015,
+            "expected_days": 365,
+            "temperature_days": 341,
+            "precipitation_days": 341,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2016,
+            "expected_days": 366,
+            "temperature_days": 366,
+            "precipitation_days": 366,
+            "mean_temperature_c": 12.294016393442622,
+            "precipitation_sum_mm": 369.31
+          },
+          {
+            "year": 2017,
+            "expected_days": 365,
+            "temperature_days": 354,
+            "precipitation_days": 354,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2018,
+            "expected_days": 365,
+            "temperature_days": 361,
+            "precipitation_days": 361,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2019,
+            "expected_days": 365,
+            "temperature_days": 337,
+            "precipitation_days": 337,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2020,
+            "expected_days": 366,
+            "temperature_days": 344,
+            "precipitation_days": 344,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2021,
+            "expected_days": 365,
+            "temperature_days": 350,
+            "precipitation_days": 350,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2022,
+            "expected_days": 365,
+            "temperature_days": 357,
+            "precipitation_days": 357,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2023,
+            "expected_days": 365,
+            "temperature_days": 364,
+            "precipitation_days": 364,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2024,
+            "expected_days": 366,
+            "temperature_days": 340,
+            "precipitation_days": 340,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          }
+        ],
+        "monthly_years": [
+          {
+            "year": 2015,
+            "month": 1,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 2.8464516129032256,
+            "precipitation_sum_mm": 54.23
+          },
+          {
+            "year": 2015,
+            "month": 2,
+            "expected_days": 28,
+            "temperature_days": 28,
+            "precipitation_days": 28,
+            "mean_temperature_c": 4.6975,
+            "precipitation_sum_mm": 35.83
+          },
+          {
+            "year": 2015,
+            "month": 3,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 7.591612903225807,
+            "precipitation_sum_mm": 39.5
+          },
+          {
+            "year": 2015,
+            "month": 4,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 10.126333333333333,
+            "precipitation_sum_mm": 37.75
+          },
+          {
+            "year": 2015,
+            "month": 5,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 14.434516129032259,
+            "precipitation_sum_mm": 41.03
+          },
+          {
+            "year": 2015,
+            "month": 6,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 18.663,
+            "precipitation_sum_mm": 25.76
+          },
+          {
+            "year": 2015,
+            "month": 7,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 23.390967741935484,
+            "precipitation_sum_mm": 6.88
+          },
+          {
+            "year": 2015,
+            "month": 8,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 23.570645161290326,
+            "precipitation_sum_mm": 10.28
+          },
+          {
+            "year": 2015,
+            "month": 9,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 19.112666666666666,
+            "precipitation_sum_mm": 11.22
+          },
+          {
+            "year": 2015,
+            "month": 10,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 12.598064516129034,
+            "precipitation_sum_mm": 31.32
+          },
+          {
+            "year": 2015,
+            "month": 11,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 5.773,
+            "precipitation_sum_mm": 44.07
+          },
+          {
+            "year": 2015,
+            "month": 12,
+            "expected_days": 31,
+            "temperature_days": 7,
+            "precipitation_days": 7,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2016,
+            "month": 1,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 1.9222580645161291,
+            "precipitation_sum_mm": 40.58
+          },
+          {
+            "year": 2016,
+            "month": 2,
+            "expected_days": 29,
+            "temperature_days": 29,
+            "precipitation_days": 29,
+            "mean_temperature_c": 4.912758620689655,
+            "precipitation_sum_mm": 43.1
+          },
+          {
+            "year": 2016,
+            "month": 3,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 7.498387096774193,
+            "precipitation_sum_mm": 37.58
+          },
+          {
+            "year": 2016,
+            "month": 4,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 10.452,
+            "precipitation_sum_mm": 33.58
+          },
+          {
+            "year": 2016,
+            "month": 5,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 14.662580645161292,
+            "precipitation_sum_mm": 30.77
+          },
+          {
+            "year": 2016,
+            "month": 6,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 19.31566666666667,
+            "precipitation_sum_mm": 30.57
+          },
+          {
+            "year": 2016,
+            "month": 7,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 24.15290322580645,
+            "precipitation_sum_mm": 6.18
+          },
+          {
+            "year": 2016,
+            "month": 8,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 24.11,
+            "precipitation_sum_mm": 10.64
+          },
+          {
+            "year": 2016,
+            "month": 9,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 19.151333333333334,
+            "precipitation_sum_mm": 10.74
+          },
+          {
+            "year": 2016,
+            "month": 10,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 12.279032258064515,
+            "precipitation_sum_mm": 31.15
+          },
+          {
+            "year": 2016,
+            "month": 11,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 5.991,
+            "precipitation_sum_mm": 43.72
+          },
+          {
+            "year": 2016,
+            "month": 12,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 2.7890322580645157,
+            "precipitation_sum_mm": 50.7
+          },
+          {
+            "year": 2017,
+            "month": 1,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 2.031290322580645,
+            "precipitation_sum_mm": 43.9
+          },
+          {
+            "year": 2017,
+            "month": 2,
+            "expected_days": 28,
+            "temperature_days": 28,
+            "precipitation_days": 28,
+            "mean_temperature_c": 5.241785714285714,
+            "precipitation_sum_mm": 35.11
+          },
+          {
+            "year": 2017,
+            "month": 3,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 7.776451612903226,
+            "precipitation_sum_mm": 40.94
+          },
+          {
+            "year": 2017,
+            "month": 4,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 10.872000000000002,
+            "precipitation_sum_mm": 34.05
+          },
+          {
+            "year": 2017,
+            "month": 5,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 16.163870967741936,
+            "precipitation_sum_mm": 34.25
+          },
+          {
+            "year": 2017,
+            "month": 6,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 18.753333333333334,
+            "precipitation_sum_mm": 23.48
+          },
+          {
+            "year": 2017,
+            "month": 7,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 23.414516129032258,
+            "precipitation_sum_mm": 12.97
+          },
+          {
+            "year": 2017,
+            "month": 8,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 23.647419354838707,
+            "precipitation_sum_mm": 11.21
+          },
+          {
+            "year": 2017,
+            "month": 9,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 19.012666666666668,
+            "precipitation_sum_mm": 18.31
+          },
+          {
+            "year": 2017,
+            "month": 10,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 12.54967741935484,
+            "precipitation_sum_mm": 24.49
+          },
+          {
+            "year": 2017,
+            "month": 11,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 5.728666666666667,
+            "precipitation_sum_mm": 42.58
+          },
+          {
+            "year": 2017,
+            "month": 12,
+            "expected_days": 31,
+            "temperature_days": 20,
+            "precipitation_days": 20,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2018,
+            "month": 1,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 2.906774193548387,
+            "precipitation_sum_mm": 51.89
+          },
+          {
+            "year": 2018,
+            "month": 2,
+            "expected_days": 28,
+            "temperature_days": 28,
+            "precipitation_days": 28,
+            "mean_temperature_c": 5.688571428571429,
+            "precipitation_sum_mm": 30.38
+          },
+          {
+            "year": 2018,
+            "month": 3,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 8.13483870967742,
+            "precipitation_sum_mm": 39.8
+          },
+          {
+            "year": 2018,
+            "month": 4,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 10.930666666666667,
+            "precipitation_sum_mm": 40.32
+          },
+          {
+            "year": 2018,
+            "month": 5,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 14.714193548387096,
+            "precipitation_sum_mm": 39.07
+          },
+          {
+            "year": 2018,
+            "month": 6,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 20.091666666666665,
+            "precipitation_sum_mm": 22.63
+          },
+          {
+            "year": 2018,
+            "month": 7,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 24.211290322580645,
+            "precipitation_sum_mm": 13.13
+          },
+          {
+            "year": 2018,
+            "month": 8,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 24.111612903225808,
+            "precipitation_sum_mm": 13.91
+          },
+          {
+            "year": 2018,
+            "month": 9,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 18.904333333333334,
+            "precipitation_sum_mm": 16.64
+          },
+          {
+            "year": 2018,
+            "month": 10,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 12.791290322580645,
+            "precipitation_sum_mm": 28.02
+          },
+          {
+            "year": 2018,
+            "month": 11,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 6.178666666666667,
+            "precipitation_sum_mm": 40.2
+          },
+          {
+            "year": 2018,
+            "month": 12,
+            "expected_days": 31,
+            "temperature_days": 27,
+            "precipitation_days": 27,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2019,
+            "month": 1,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 3.1274193548387097,
+            "precipitation_sum_mm": 47.58
+          },
+          {
+            "year": 2019,
+            "month": 2,
+            "expected_days": 28,
+            "temperature_days": 28,
+            "precipitation_days": 28,
+            "mean_temperature_c": 5.015,
+            "precipitation_sum_mm": 43.06
+          },
+          {
+            "year": 2019,
+            "month": 3,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 7.790967741935484,
+            "precipitation_sum_mm": 39.68
+          },
+          {
+            "year": 2019,
+            "month": 4,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 10.531666666666666,
+            "precipitation_sum_mm": 41.45
+          },
+          {
+            "year": 2019,
+            "month": 5,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 14.87258064516129,
+            "precipitation_sum_mm": 32.1
+          },
+          {
+            "year": 2019,
+            "month": 6,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 18.67866666666667,
+            "precipitation_sum_mm": 33.15
+          },
+          {
+            "year": 2019,
+            "month": 7,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 24.09709677419355,
+            "precipitation_sum_mm": 11.68
+          },
+          {
+            "year": 2019,
+            "month": 8,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 23.991290322580646,
+            "precipitation_sum_mm": 10.18
+          },
+          {
+            "year": 2019,
+            "month": 9,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 18.918,
+            "precipitation_sum_mm": 16.35
+          },
+          {
+            "year": 2019,
+            "month": 10,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 12.775483870967742,
+            "precipitation_sum_mm": 28.72
+          },
+          {
+            "year": 2019,
+            "month": 11,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 5.629666666666667,
+            "precipitation_sum_mm": 56.07
+          },
+          {
+            "year": 2019,
+            "month": 12,
+            "expected_days": 31,
+            "temperature_days": 3,
+            "precipitation_days": 3,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2020,
+            "month": 1,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 2.8929032258064513,
+            "precipitation_sum_mm": 54.0
+          },
+          {
+            "year": 2020,
+            "month": 2,
+            "expected_days": 29,
+            "temperature_days": 29,
+            "precipitation_days": 29,
+            "mean_temperature_c": 4.8917241379310346,
+            "precipitation_sum_mm": 42.589999999999996
+          },
+          {
+            "year": 2020,
+            "month": 3,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 7.72,
+            "precipitation_sum_mm": 33.17
+          },
+          {
+            "year": 2020,
+            "month": 4,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 10.431999999999999,
+            "precipitation_sum_mm": 40.13
+          },
+          {
+            "year": 2020,
+            "month": 5,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 14.855483870967742,
+            "precipitation_sum_mm": 39.74
+          },
+          {
+            "year": 2020,
+            "month": 6,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 19.062666666666665,
+            "precipitation_sum_mm": 34.44
+          },
+          {
+            "year": 2020,
+            "month": 7,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 24.330967741935485,
+            "precipitation_sum_mm": 8.82
+          },
+          {
+            "year": 2020,
+            "month": 8,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 23.498709677419356,
+            "precipitation_sum_mm": 14.34
+          },
+          {
+            "year": 2020,
+            "month": 9,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 18.791666666666668,
+            "precipitation_sum_mm": 18.02
+          },
+          {
+            "year": 2020,
+            "month": 10,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 12.60193548387097,
+            "precipitation_sum_mm": 27.2
+          },
+          {
+            "year": 2020,
+            "month": 11,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 7.060333333333333,
+            "precipitation_sum_mm": 55.67
+          },
+          {
+            "year": 2020,
+            "month": 12,
+            "expected_days": 31,
+            "temperature_days": 9,
+            "precipitation_days": 9,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2021,
+            "month": 1,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 2.6432258064516128,
+            "precipitation_sum_mm": 43.62
+          },
+          {
+            "year": 2021,
+            "month": 2,
+            "expected_days": 28,
+            "temperature_days": 28,
+            "precipitation_days": 28,
+            "mean_temperature_c": 4.734642857142857,
+            "precipitation_sum_mm": 36.53
+          },
+          {
+            "year": 2021,
+            "month": 3,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 7.588709677419355,
+            "precipitation_sum_mm": 41.87
+          },
+          {
+            "year": 2021,
+            "month": 4,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 10.761666666666667,
+            "precipitation_sum_mm": 36.93
+          },
+          {
+            "year": 2021,
+            "month": 5,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 14.702903225806452,
+            "precipitation_sum_mm": 45.11
+          },
+          {
+            "year": 2021,
+            "month": 6,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 19.391666666666666,
+            "precipitation_sum_mm": 26.7
+          },
+          {
+            "year": 2021,
+            "month": 7,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 24.37548387096774,
+            "precipitation_sum_mm": 8.03
+          },
+          {
+            "year": 2021,
+            "month": 8,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 24.148387096774194,
+            "precipitation_sum_mm": 10.15
+          },
+          {
+            "year": 2021,
+            "month": 9,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 20.276333333333334,
+            "precipitation_sum_mm": 12.16
+          },
+          {
+            "year": 2021,
+            "month": 10,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 13.454516129032257,
+            "precipitation_sum_mm": 30.28
+          },
+          {
+            "year": 2021,
+            "month": 11,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 6.548666666666667,
+            "precipitation_sum_mm": 54.5
+          },
+          {
+            "year": 2021,
+            "month": 12,
+            "expected_days": 31,
+            "temperature_days": 16,
+            "precipitation_days": 16,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2022,
+            "month": 1,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 3.6493548387096775,
+            "precipitation_sum_mm": 51.3
+          },
+          {
+            "year": 2022,
+            "month": 2,
+            "expected_days": 28,
+            "temperature_days": 28,
+            "precipitation_days": 28,
+            "mean_temperature_c": 5.389285714285714,
+            "precipitation_sum_mm": 38.0
+          },
+          {
+            "year": 2022,
+            "month": 3,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 7.532258064516129,
+            "precipitation_sum_mm": 41.63
+          },
+          {
+            "year": 2022,
+            "month": 4,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 11.482666666666667,
+            "precipitation_sum_mm": 35.29
+          },
+          {
+            "year": 2022,
+            "month": 5,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 14.821935483870968,
+            "precipitation_sum_mm": 44.64
+          },
+          {
+            "year": 2022,
+            "month": 6,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 19.538999999999998,
+            "precipitation_sum_mm": 32.35
+          },
+          {
+            "year": 2022,
+            "month": 7,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 24.34935483870968,
+            "precipitation_sum_mm": 14.4
+          },
+          {
+            "year": 2022,
+            "month": 8,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 23.615483870967743,
+            "precipitation_sum_mm": 10.63
+          },
+          {
+            "year": 2022,
+            "month": 9,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 18.66433333333333,
+            "precipitation_sum_mm": 18.33
+          },
+          {
+            "year": 2022,
+            "month": 10,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 13.122903225806452,
+            "precipitation_sum_mm": 21.26
+          },
+          {
+            "year": 2022,
+            "month": 11,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 6.732,
+            "precipitation_sum_mm": 47.5
+          },
+          {
+            "year": 2022,
+            "month": 12,
+            "expected_days": 31,
+            "temperature_days": 23,
+            "precipitation_days": 23,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2023,
+            "month": 1,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 3.618387096774194,
+            "precipitation_sum_mm": 42.94
+          },
+          {
+            "year": 2023,
+            "month": 2,
+            "expected_days": 28,
+            "temperature_days": 28,
+            "precipitation_days": 28,
+            "mean_temperature_c": 5.534999999999999,
+            "precipitation_sum_mm": 35.51
+          },
+          {
+            "year": 2023,
+            "month": 3,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 7.297096774193549,
+            "precipitation_sum_mm": 38.64
+          },
+          {
+            "year": 2023,
+            "month": 4,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 10.839,
+            "precipitation_sum_mm": 37.35
+          },
+          {
+            "year": 2023,
+            "month": 5,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 14.90258064516129,
+            "precipitation_sum_mm": 46.31
+          },
+          {
+            "year": 2023,
+            "month": 6,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 18.605999999999998,
+            "precipitation_sum_mm": 30.73
+          },
+          {
+            "year": 2023,
+            "month": 7,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 23.807419354838707,
+            "precipitation_sum_mm": 6.51
+          },
+          {
+            "year": 2023,
+            "month": 8,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 23.717741935483872,
+            "precipitation_sum_mm": 11.57
+          },
+          {
+            "year": 2023,
+            "month": 9,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 20.10533333333333,
+            "precipitation_sum_mm": 15.91
+          },
+          {
+            "year": 2023,
+            "month": 10,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 12.589354838709676,
+            "precipitation_sum_mm": 35.0
+          },
+          {
+            "year": 2023,
+            "month": 11,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 6.0873333333333335,
+            "precipitation_sum_mm": 47.21
+          },
+          {
+            "year": 2023,
+            "month": 12,
+            "expected_days": 31,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2024,
+            "month": 1,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 2.7325806451612906,
+            "precipitation_sum_mm": 40.22
+          },
+          {
+            "year": 2024,
+            "month": 2,
+            "expected_days": 29,
+            "temperature_days": 29,
+            "precipitation_days": 29,
+            "mean_temperature_c": 5.11448275862069,
+            "precipitation_sum_mm": 39.56
+          },
+          {
+            "year": 2024,
+            "month": 3,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 7.329677419354839,
+            "precipitation_sum_mm": 39.93
+          },
+          {
+            "year": 2024,
+            "month": 4,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 11.192,
+            "precipitation_sum_mm": 32.63
+          },
+          {
+            "year": 2024,
+            "month": 5,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 15.607096774193549,
+            "precipitation_sum_mm": 36.39
+          },
+          {
+            "year": 2024,
+            "month": 6,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 19.33,
+            "precipitation_sum_mm": 32.08
+          },
+          {
+            "year": 2024,
+            "month": 7,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 24.16483870967742,
+            "precipitation_sum_mm": 11.45
+          },
+          {
+            "year": 2024,
+            "month": 8,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 24.289677419354838,
+            "precipitation_sum_mm": 8.39
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 19.277333333333335,
+            "precipitation_sum_mm": 16.47
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 13.052903225806451,
+            "precipitation_sum_mm": 30.48
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 6.2669999999999995,
+            "precipitation_sum_mm": 45.9
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "expected_days": 31,
+            "temperature_days": 5,
+            "precipitation_days": 5,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          }
+        ],
+        "months": [
+          {
+            "month": 1,
+            "mean_temperature_c": 2.837064516129032,
+            "mean_precipitation_mm": 47.025999999999996
+          },
+          {
+            "month": 2,
+            "mean_temperature_c": 5.122075123152709,
+            "mean_precipitation_mm": 37.967
+          },
+          {
+            "month": 3,
+            "mean_temperature_c": 7.626,
+            "mean_precipitation_mm": 39.274
+          },
+          {
+            "month": 4,
+            "mean_temperature_c": 10.762,
+            "mean_precipitation_mm": 36.948
+          },
+          {
+            "month": 5,
+            "mean_temperature_c": 14.973774193548389,
+            "mean_precipitation_mm": 38.941
+          },
+          {
+            "month": 6,
+            "mean_temperature_c": 19.143166666666666,
+            "mean_precipitation_mm": 29.189
+          },
+          {
+            "month": 7,
+            "mean_temperature_c": 24.02948387096774,
+            "mean_precipitation_mm": 10.004999999999999
+          },
+          {
+            "month": 8,
+            "mean_temperature_c": 23.87009677419355,
+            "mean_precipitation_mm": 11.129999999999999
+          },
+          {
+            "month": 9,
+            "mean_temperature_c": 19.2214,
+            "mean_precipitation_mm": 15.415000000000001
+          },
+          {
+            "month": 10,
+            "mean_temperature_c": 12.781516129032259,
+            "mean_precipitation_mm": 28.792
+          },
+          {
+            "month": 11,
+            "mean_temperature_c": 6.199633333333333,
+            "mean_precipitation_mm": 47.742000000000004
+          },
+          {
+            "month": 12,
+            "mean_temperature_c": null,
+            "mean_precipitation_mm": null
+          }
+        ]
+      },
+      "future": {
+        "first_year": 2040,
+        "last_year": 2049,
+        "years": 10,
+        "expected_days": 3653,
+        "temperature_days": 3509,
+        "precipitation_days": 3509,
+        "complete_temperature_years": 0,
+        "complete_precipitation_years": 0,
+        "mean_temperature_c": null,
+        "mean_annual_precipitation_mm": null,
+        "annual": [
+          {
+            "year": 2040,
+            "expected_days": 366,
+            "temperature_days": 355,
+            "precipitation_days": 355,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2041,
+            "expected_days": 365,
+            "temperature_days": 361,
+            "precipitation_days": 361,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2042,
+            "expected_days": 365,
+            "temperature_days": 337,
+            "precipitation_days": 337,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2043,
+            "expected_days": 365,
+            "temperature_days": 344,
+            "precipitation_days": 344,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2044,
+            "expected_days": 366,
+            "temperature_days": 351,
+            "precipitation_days": 351,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2045,
+            "expected_days": 365,
+            "temperature_days": 357,
+            "precipitation_days": 357,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2046,
+            "expected_days": 365,
+            "temperature_days": 364,
+            "precipitation_days": 364,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2047,
+            "expected_days": 365,
+            "temperature_days": 340,
+            "precipitation_days": 340,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2048,
+            "expected_days": 366,
+            "temperature_days": 347,
+            "precipitation_days": 347,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2049,
+            "expected_days": 365,
+            "temperature_days": 353,
+            "precipitation_days": 353,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          }
+        ],
+        "monthly_years": [
+          {
+            "year": 2040,
+            "month": 1,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 3.831935483870968,
+            "precipitation_sum_mm": 44.09
+          },
+          {
+            "year": 2040,
+            "month": 2,
+            "expected_days": 29,
+            "temperature_days": 29,
+            "precipitation_days": 29,
+            "mean_temperature_c": 6.119999999999999,
+            "precipitation_sum_mm": 44.58
+          },
+          {
+            "year": 2040,
+            "month": 3,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 8.565806451612904,
+            "precipitation_sum_mm": 39.14
+          },
+          {
+            "year": 2040,
+            "month": 4,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 11.577666666666666,
+            "precipitation_sum_mm": 36.51
+          },
+          {
+            "year": 2040,
+            "month": 5,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 15.523870967741935,
+            "precipitation_sum_mm": 44.4
+          },
+          {
+            "year": 2040,
+            "month": 6,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 19.961666666666666,
+            "precipitation_sum_mm": 24.650000000000002
+          },
+          {
+            "year": 2040,
+            "month": 7,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 24.95258064516129,
+            "precipitation_sum_mm": 12.57
+          },
+          {
+            "year": 2040,
+            "month": 8,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 25.356129032258064,
+            "precipitation_sum_mm": 12.61
+          },
+          {
+            "year": 2040,
+            "month": 9,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 19.403666666666666,
+            "precipitation_sum_mm": 17.45
+          },
+          {
+            "year": 2040,
+            "month": 10,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 13.680967741935484,
+            "precipitation_sum_mm": 26.95
+          },
+          {
+            "year": 2040,
+            "month": 11,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 7.2056666666666676,
+            "precipitation_sum_mm": 52.839999999999996
+          },
+          {
+            "year": 2040,
+            "month": 12,
+            "expected_days": 31,
+            "temperature_days": 20,
+            "precipitation_days": 20,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2041,
+            "month": 1,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 3.950967741935484,
+            "precipitation_sum_mm": 44.62
+          },
+          {
+            "year": 2041,
+            "month": 2,
+            "expected_days": 28,
+            "temperature_days": 28,
+            "precipitation_days": 28,
+            "mean_temperature_c": 6.449642857142857,
+            "precipitation_sum_mm": 43.31
+          },
+          {
+            "year": 2041,
+            "month": 3,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 8.84,
+            "precipitation_sum_mm": 41.69
+          },
+          {
+            "year": 2041,
+            "month": 4,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 12.014000000000001,
+            "precipitation_sum_mm": 35.26
+          },
+          {
+            "year": 2041,
+            "month": 5,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 15.935806451612903,
+            "precipitation_sum_mm": 37.86
+          },
+          {
+            "year": 2041,
+            "month": 6,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 20.345333333333333,
+            "precipitation_sum_mm": 33.65
+          },
+          {
+            "year": 2041,
+            "month": 7,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 25.157096774193548,
+            "precipitation_sum_mm": 10.07
+          },
+          {
+            "year": 2041,
+            "month": 8,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 24.513870967741934,
+            "precipitation_sum_mm": 8.12
+          },
+          {
+            "year": 2041,
+            "month": 9,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 20.084333333333333,
+            "precipitation_sum_mm": 25.72
+          },
+          {
+            "year": 2041,
+            "month": 10,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 13.05967741935484,
+            "precipitation_sum_mm": 29.74
+          },
+          {
+            "year": 2041,
+            "month": 11,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 7.0520000000000005,
+            "precipitation_sum_mm": 55.57
+          },
+          {
+            "year": 2041,
+            "month": 12,
+            "expected_days": 31,
+            "temperature_days": 27,
+            "precipitation_days": 27,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2042,
+            "month": 1,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 3.4767741935483873,
+            "precipitation_sum_mm": 51.26
+          },
+          {
+            "year": 2042,
+            "month": 2,
+            "expected_days": 28,
+            "temperature_days": 28,
+            "precipitation_days": 28,
+            "mean_temperature_c": 5.543928571428571,
+            "precipitation_sum_mm": 37.14
+          },
+          {
+            "year": 2042,
+            "month": 3,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 9.053225806451612,
+            "precipitation_sum_mm": 36.15
+          },
+          {
+            "year": 2042,
+            "month": 4,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 11.300333333333333,
+            "precipitation_sum_mm": 38.43
+          },
+          {
+            "year": 2042,
+            "month": 5,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 15.02258064516129,
+            "precipitation_sum_mm": 47.17
+          },
+          {
+            "year": 2042,
+            "month": 6,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 19.799666666666667,
+            "precipitation_sum_mm": 31.07
+          },
+          {
+            "year": 2042,
+            "month": 7,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 25.437741935483874,
+            "precipitation_sum_mm": 10.55
+          },
+          {
+            "year": 2042,
+            "month": 8,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 24.830967741935485,
+            "precipitation_sum_mm": 11.1
+          },
+          {
+            "year": 2042,
+            "month": 9,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 20.179666666666666,
+            "precipitation_sum_mm": 14.42
+          },
+          {
+            "year": 2042,
+            "month": 10,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 13.51290322580645,
+            "precipitation_sum_mm": 32.45
+          },
+          {
+            "year": 2042,
+            "month": 11,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 6.676666666666667,
+            "precipitation_sum_mm": 63.91
+          },
+          {
+            "year": 2042,
+            "month": 12,
+            "expected_days": 31,
+            "temperature_days": 3,
+            "precipitation_days": 3,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2043,
+            "month": 1,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 3.450967741935484,
+            "precipitation_sum_mm": 41.13
+          },
+          {
+            "year": 2043,
+            "month": 2,
+            "expected_days": 28,
+            "temperature_days": 28,
+            "precipitation_days": 28,
+            "mean_temperature_c": 5.735714285714286,
+            "precipitation_sum_mm": 37.22
+          },
+          {
+            "year": 2043,
+            "month": 3,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 7.779032258064516,
+            "precipitation_sum_mm": 38.46
+          },
+          {
+            "year": 2043,
+            "month": 4,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 10.612333333333334,
+            "precipitation_sum_mm": 36.13
+          },
+          {
+            "year": 2043,
+            "month": 5,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 15.499677419354839,
+            "precipitation_sum_mm": 47.34
+          },
+          {
+            "year": 2043,
+            "month": 6,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 20.334666666666667,
+            "precipitation_sum_mm": 28.87
+          },
+          {
+            "year": 2043,
+            "month": 7,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 25.44161290322581,
+            "precipitation_sum_mm": 9.36
+          },
+          {
+            "year": 2043,
+            "month": 8,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 24.391935483870967,
+            "precipitation_sum_mm": 19.92
+          },
+          {
+            "year": 2043,
+            "month": 9,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 19.686,
+            "precipitation_sum_mm": 14.709999999999999
+          },
+          {
+            "year": 2043,
+            "month": 10,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 13.50516129032258,
+            "precipitation_sum_mm": 33.26
+          },
+          {
+            "year": 2043,
+            "month": 11,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 7.019,
+            "precipitation_sum_mm": 49.21
+          },
+          {
+            "year": 2043,
+            "month": 12,
+            "expected_days": 31,
+            "temperature_days": 10,
+            "precipitation_days": 10,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2044,
+            "month": 1,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 2.500967741935484,
+            "precipitation_sum_mm": 60.089999999999996
+          },
+          {
+            "year": 2044,
+            "month": 2,
+            "expected_days": 29,
+            "temperature_days": 29,
+            "precipitation_days": 29,
+            "mean_temperature_c": 4.863448275862068,
+            "precipitation_sum_mm": 35.5
+          },
+          {
+            "year": 2044,
+            "month": 3,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 8.681612903225806,
+            "precipitation_sum_mm": 42.06
+          },
+          {
+            "year": 2044,
+            "month": 4,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 11.344333333333333,
+            "precipitation_sum_mm": 39.91
+          },
+          {
+            "year": 2044,
+            "month": 5,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 15.891290322580645,
+            "precipitation_sum_mm": 39.81
+          },
+          {
+            "year": 2044,
+            "month": 6,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 20.08566666666667,
+            "precipitation_sum_mm": 32.37
+          },
+          {
+            "year": 2044,
+            "month": 7,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 25.23516129032258,
+            "precipitation_sum_mm": 10.61
+          },
+          {
+            "year": 2044,
+            "month": 8,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 25.20774193548387,
+            "precipitation_sum_mm": 9.83
+          },
+          {
+            "year": 2044,
+            "month": 9,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 20.562666666666665,
+            "precipitation_sum_mm": 12.27
+          },
+          {
+            "year": 2044,
+            "month": 10,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 14.273870967741935,
+            "precipitation_sum_mm": 37.12
+          },
+          {
+            "year": 2044,
+            "month": 11,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 6.943333333333333,
+            "precipitation_sum_mm": 58.71
+          },
+          {
+            "year": 2044,
+            "month": 12,
+            "expected_days": 31,
+            "temperature_days": 16,
+            "precipitation_days": 16,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2045,
+            "month": 1,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 4.321935483870967,
+            "precipitation_sum_mm": 47.06
+          },
+          {
+            "year": 2045,
+            "month": 2,
+            "expected_days": 28,
+            "temperature_days": 28,
+            "precipitation_days": 28,
+            "mean_temperature_c": 5.7871428571428565,
+            "precipitation_sum_mm": 40.56
+          },
+          {
+            "year": 2045,
+            "month": 3,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 8.404838709677419,
+            "precipitation_sum_mm": 44.35
+          },
+          {
+            "year": 2045,
+            "month": 4,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 11.360333333333333,
+            "precipitation_sum_mm": 36.68
+          },
+          {
+            "year": 2045,
+            "month": 5,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 16.05516129032258,
+            "precipitation_sum_mm": 30.61
+          },
+          {
+            "year": 2045,
+            "month": 6,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 20.346,
+            "precipitation_sum_mm": 24.38
+          },
+          {
+            "year": 2045,
+            "month": 7,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 25.539354838709677,
+            "precipitation_sum_mm": 9.65
+          },
+          {
+            "year": 2045,
+            "month": 8,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 25.15258064516129,
+            "precipitation_sum_mm": 14.42
+          },
+          {
+            "year": 2045,
+            "month": 9,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 20.227,
+            "precipitation_sum_mm": 17.82
+          },
+          {
+            "year": 2045,
+            "month": 10,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 13.750645161290322,
+            "precipitation_sum_mm": 32.02
+          },
+          {
+            "year": 2045,
+            "month": 11,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 7.4366666666666665,
+            "precipitation_sum_mm": 55.85
+          },
+          {
+            "year": 2045,
+            "month": 12,
+            "expected_days": 31,
+            "temperature_days": 23,
+            "precipitation_days": 23,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2046,
+            "month": 1,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 4.063225806451613,
+            "precipitation_sum_mm": 53.37
+          },
+          {
+            "year": 2046,
+            "month": 2,
+            "expected_days": 28,
+            "temperature_days": 28,
+            "precipitation_days": 28,
+            "mean_temperature_c": 6.192142857142857,
+            "precipitation_sum_mm": 32.17
+          },
+          {
+            "year": 2046,
+            "month": 3,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 8.514516129032257,
+            "precipitation_sum_mm": 41.87
+          },
+          {
+            "year": 2046,
+            "month": 4,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 11.522333333333334,
+            "precipitation_sum_mm": 35.66
+          },
+          {
+            "year": 2046,
+            "month": 5,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 16.192903225806454,
+            "precipitation_sum_mm": 37.48
+          },
+          {
+            "year": 2046,
+            "month": 6,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 19.955666666666666,
+            "precipitation_sum_mm": 33.23
+          },
+          {
+            "year": 2046,
+            "month": 7,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 25.280322580645162,
+            "precipitation_sum_mm": 10.94
+          },
+          {
+            "year": 2046,
+            "month": 8,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 25.22741935483871,
+            "precipitation_sum_mm": 11.5
+          },
+          {
+            "year": 2046,
+            "month": 9,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 20.740666666666666,
+            "precipitation_sum_mm": 12.29
+          },
+          {
+            "year": 2046,
+            "month": 10,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 14.266129032258064,
+            "precipitation_sum_mm": 22.43
+          },
+          {
+            "year": 2046,
+            "month": 11,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 6.9816666666666665,
+            "precipitation_sum_mm": 54.04
+          },
+          {
+            "year": 2046,
+            "month": 12,
+            "expected_days": 31,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2047,
+            "month": 1,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 3.7590322580645164,
+            "precipitation_sum_mm": 55.92
+          },
+          {
+            "year": 2047,
+            "month": 2,
+            "expected_days": 28,
+            "temperature_days": 28,
+            "precipitation_days": 28,
+            "mean_temperature_c": 6.148571428571429,
+            "precipitation_sum_mm": 36.61
+          },
+          {
+            "year": 2047,
+            "month": 3,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 9.038064516129033,
+            "precipitation_sum_mm": 43.99
+          },
+          {
+            "year": 2047,
+            "month": 4,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 11.452,
+            "precipitation_sum_mm": 36.82
+          },
+          {
+            "year": 2047,
+            "month": 5,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 15.540322580645162,
+            "precipitation_sum_mm": 40.91
+          },
+          {
+            "year": 2047,
+            "month": 6,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 19.129666666666665,
+            "precipitation_sum_mm": 29.92
+          },
+          {
+            "year": 2047,
+            "month": 7,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 25.311290322580643,
+            "precipitation_sum_mm": 8.5
+          },
+          {
+            "year": 2047,
+            "month": 8,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 24.981290322580644,
+            "precipitation_sum_mm": 11.31
+          },
+          {
+            "year": 2047,
+            "month": 9,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 19.561666666666667,
+            "precipitation_sum_mm": 22.07
+          },
+          {
+            "year": 2047,
+            "month": 10,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 14.176129032258064,
+            "precipitation_sum_mm": 26.66
+          },
+          {
+            "year": 2047,
+            "month": 11,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 6.9366666666666665,
+            "precipitation_sum_mm": 47.92
+          },
+          {
+            "year": 2047,
+            "month": 12,
+            "expected_days": 31,
+            "temperature_days": 6,
+            "precipitation_days": 6,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2048,
+            "month": 1,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 3.7458064516129035,
+            "precipitation_sum_mm": 53.94
+          },
+          {
+            "year": 2048,
+            "month": 2,
+            "expected_days": 29,
+            "temperature_days": 29,
+            "precipitation_days": 29,
+            "mean_temperature_c": 6.1386206896551725,
+            "precipitation_sum_mm": 35.91
+          },
+          {
+            "year": 2048,
+            "month": 3,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 8.496451612903225,
+            "precipitation_sum_mm": 41.61
+          },
+          {
+            "year": 2048,
+            "month": 4,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 11.205666666666668,
+            "precipitation_sum_mm": 40.31
+          },
+          {
+            "year": 2048,
+            "month": 5,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 15.910322580645163,
+            "precipitation_sum_mm": 44.7
+          },
+          {
+            "year": 2048,
+            "month": 6,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 21.276999999999997,
+            "precipitation_sum_mm": 28.19
+          },
+          {
+            "year": 2048,
+            "month": 7,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 25.701612903225808,
+            "precipitation_sum_mm": 8.47
+          },
+          {
+            "year": 2048,
+            "month": 8,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 25.17322580645161,
+            "precipitation_sum_mm": 19.15
+          },
+          {
+            "year": 2048,
+            "month": 9,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 19.895666666666667,
+            "precipitation_sum_mm": 22.18
+          },
+          {
+            "year": 2048,
+            "month": 10,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 13.66741935483871,
+            "precipitation_sum_mm": 37.61
+          },
+          {
+            "year": 2048,
+            "month": 11,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 6.910666666666667,
+            "precipitation_sum_mm": 62.21
+          },
+          {
+            "year": 2048,
+            "month": 12,
+            "expected_days": 31,
+            "temperature_days": 12,
+            "precipitation_days": 12,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2049,
+            "month": 1,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 4.259032258064516,
+            "precipitation_sum_mm": 57.09
+          },
+          {
+            "year": 2049,
+            "month": 2,
+            "expected_days": 28,
+            "temperature_days": 28,
+            "precipitation_days": 28,
+            "mean_temperature_c": 6.664642857142858,
+            "precipitation_sum_mm": 39.56
+          },
+          {
+            "year": 2049,
+            "month": 3,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 9.062903225806451,
+            "precipitation_sum_mm": 39.31
+          },
+          {
+            "year": 2049,
+            "month": 4,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 11.684333333333333,
+            "precipitation_sum_mm": 36.02
+          },
+          {
+            "year": 2049,
+            "month": 5,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 15.099032258064517,
+            "precipitation_sum_mm": 51.0
+          },
+          {
+            "year": 2049,
+            "month": 6,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 20.31566666666667,
+            "precipitation_sum_mm": 35.35
+          },
+          {
+            "year": 2049,
+            "month": 7,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 25.299999999999997,
+            "precipitation_sum_mm": 7.85
+          },
+          {
+            "year": 2049,
+            "month": 8,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 25.272903225806452,
+            "precipitation_sum_mm": 8.49
+          },
+          {
+            "year": 2049,
+            "month": 9,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 21.065333333333335,
+            "precipitation_sum_mm": 12.71
+          },
+          {
+            "year": 2049,
+            "month": 10,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 14.007096774193547,
+            "precipitation_sum_mm": 29.87
+          },
+          {
+            "year": 2049,
+            "month": 11,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 7.531333333333333,
+            "precipitation_sum_mm": 49.51
+          },
+          {
+            "year": 2049,
+            "month": 12,
+            "expected_days": 31,
+            "temperature_days": 19,
+            "precipitation_days": 19,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          }
+        ],
+        "months": [
+          {
+            "month": 1,
+            "mean_temperature_c": 3.7360645161290322,
+            "mean_precipitation_mm": 50.857
+          },
+          {
+            "month": 2,
+            "mean_temperature_c": 5.9643854679802955,
+            "mean_precipitation_mm": 38.256
+          },
+          {
+            "month": 3,
+            "mean_temperature_c": 8.643645161290323,
+            "mean_precipitation_mm": 40.863
+          },
+          {
+            "month": 4,
+            "mean_temperature_c": 11.407333333333334,
+            "mean_precipitation_mm": 37.173
+          },
+          {
+            "month": 5,
+            "mean_temperature_c": 15.66709677419355,
+            "mean_precipitation_mm": 42.128
+          },
+          {
+            "month": 6,
+            "mean_temperature_c": 20.155099999999997,
+            "mean_precipitation_mm": 30.168
+          },
+          {
+            "month": 7,
+            "mean_temperature_c": 25.33567741935484,
+            "mean_precipitation_mm": 9.857
+          },
+          {
+            "month": 8,
+            "mean_temperature_c": 25.0108064516129,
+            "mean_precipitation_mm": 12.645
+          },
+          {
+            "month": 9,
+            "mean_temperature_c": 20.140666666666668,
+            "mean_precipitation_mm": 17.163999999999998
+          },
+          {
+            "month": 10,
+            "mean_temperature_c": 13.790000000000001,
+            "mean_precipitation_mm": 30.811
+          },
+          {
+            "month": 11,
+            "mean_temperature_c": 7.069366666666667,
+            "mean_precipitation_mm": 54.977
+          },
+          {
+            "month": 12,
+            "mean_temperature_c": null,
+            "mean_precipitation_mm": null
+          }
+        ]
+      },
+      "annual_change": {
+        "temperature_delta_c": null,
+        "annual_precipitation_delta_mm": null,
+        "annual_precipitation_delta_percent": null
+      },
+      "monthly_change": [
+        {
+          "month": 1,
+          "baseline_temperature_c": 2.837064516129032,
+          "future_temperature_c": 3.7360645161290322,
+          "temperature_delta_c": 0.899,
+          "baseline_precipitation_mm": 47.025999999999996,
+          "future_precipitation_mm": 50.857,
+          "precipitation_delta_mm": 3.831000000000003
+        },
+        {
+          "month": 2,
+          "baseline_temperature_c": 5.122075123152709,
+          "future_temperature_c": 5.9643854679802955,
+          "temperature_delta_c": 0.8423103448275864,
+          "baseline_precipitation_mm": 37.967,
+          "future_precipitation_mm": 38.256,
+          "precipitation_delta_mm": 0.2890000000000015
+        },
+        {
+          "month": 3,
+          "baseline_temperature_c": 7.626,
+          "future_temperature_c": 8.643645161290323,
+          "temperature_delta_c": 1.0176451612903223,
+          "baseline_precipitation_mm": 39.274,
+          "future_precipitation_mm": 40.863,
+          "precipitation_delta_mm": 1.5889999999999986
+        },
+        {
+          "month": 4,
+          "baseline_temperature_c": 10.762,
+          "future_temperature_c": 11.407333333333334,
+          "temperature_delta_c": 0.6453333333333333,
+          "baseline_precipitation_mm": 36.948,
+          "future_precipitation_mm": 37.173,
+          "precipitation_delta_mm": 0.22500000000000142
+        },
+        {
+          "month": 5,
+          "baseline_temperature_c": 14.973774193548389,
+          "future_temperature_c": 15.66709677419355,
+          "temperature_delta_c": 0.6933225806451606,
+          "baseline_precipitation_mm": 38.941,
+          "future_precipitation_mm": 42.128,
+          "precipitation_delta_mm": 3.1869999999999976
+        },
+        {
+          "month": 6,
+          "baseline_temperature_c": 19.143166666666666,
+          "future_temperature_c": 20.155099999999997,
+          "temperature_delta_c": 1.0119333333333316,
+          "baseline_precipitation_mm": 29.189,
+          "future_precipitation_mm": 30.168,
+          "precipitation_delta_mm": 0.9789999999999992
+        },
+        {
+          "month": 7,
+          "baseline_temperature_c": 24.02948387096774,
+          "future_temperature_c": 25.33567741935484,
+          "temperature_delta_c": 1.3061935483870997,
+          "baseline_precipitation_mm": 10.004999999999999,
+          "future_precipitation_mm": 9.857,
+          "precipitation_delta_mm": -0.1479999999999997
+        },
+        {
+          "month": 8,
+          "baseline_temperature_c": 23.87009677419355,
+          "future_temperature_c": 25.0108064516129,
+          "temperature_delta_c": 1.140709677419352,
+          "baseline_precipitation_mm": 11.129999999999999,
+          "future_precipitation_mm": 12.645,
+          "precipitation_delta_mm": 1.5150000000000006
+        },
+        {
+          "month": 9,
+          "baseline_temperature_c": 19.2214,
+          "future_temperature_c": 20.140666666666668,
+          "temperature_delta_c": 0.9192666666666689,
+          "baseline_precipitation_mm": 15.415000000000001,
+          "future_precipitation_mm": 17.163999999999998,
+          "precipitation_delta_mm": 1.748999999999997
+        },
+        {
+          "month": 10,
+          "baseline_temperature_c": 12.781516129032259,
+          "future_temperature_c": 13.790000000000001,
+          "temperature_delta_c": 1.0084838709677424,
+          "baseline_precipitation_mm": 28.792,
+          "future_precipitation_mm": 30.811,
+          "precipitation_delta_mm": 2.0189999999999984
+        },
+        {
+          "month": 11,
+          "baseline_temperature_c": 6.199633333333333,
+          "future_temperature_c": 7.069366666666667,
+          "temperature_delta_c": 0.8697333333333344,
+          "baseline_precipitation_mm": 47.742000000000004,
+          "future_precipitation_mm": 54.977,
+          "precipitation_delta_mm": 7.234999999999992
+        },
+        {
+          "month": 12,
+          "baseline_temperature_c": null,
+          "future_temperature_c": null,
+          "temperature_delta_c": null,
+          "baseline_precipitation_mm": null,
+          "future_precipitation_mm": null,
+          "precipitation_delta_mm": null
+        }
+      ],
+      "complete_monthly_temperature_comparisons": 11,
+      "complete_monthly_precipitation_comparisons": 11
+    },
+    {
+      "sitecode": "USKS01",
+      "baseline": {
+        "first_year": 2015,
+        "last_year": 2024,
+        "years": 10,
+        "expected_days": 3653,
+        "temperature_days": 3514,
+        "precipitation_days": 3514,
+        "complete_temperature_years": 1,
+        "complete_precipitation_years": 1,
+        "mean_temperature_c": null,
+        "mean_annual_precipitation_mm": null,
+        "annual": [
+          {
+            "year": 2015,
+            "expected_days": 365,
+            "temperature_days": 341,
+            "precipitation_days": 341,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2016,
+            "expected_days": 366,
+            "temperature_days": 366,
+            "precipitation_days": 366,
+            "mean_temperature_c": 14.37136612021858,
+            "precipitation_sum_mm": 904.65
+          },
+          {
+            "year": 2017,
+            "expected_days": 365,
+            "temperature_days": 354,
+            "precipitation_days": 354,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2018,
+            "expected_days": 365,
+            "temperature_days": 361,
+            "precipitation_days": 361,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2019,
+            "expected_days": 365,
+            "temperature_days": 337,
+            "precipitation_days": 337,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2020,
+            "expected_days": 366,
+            "temperature_days": 344,
+            "precipitation_days": 344,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2021,
+            "expected_days": 365,
+            "temperature_days": 350,
+            "precipitation_days": 350,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2022,
+            "expected_days": 365,
+            "temperature_days": 357,
+            "precipitation_days": 357,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2023,
+            "expected_days": 365,
+            "temperature_days": 364,
+            "precipitation_days": 364,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2024,
+            "expected_days": 366,
+            "temperature_days": 340,
+            "precipitation_days": 340,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          }
+        ],
+        "monthly_years": [
+          {
+            "year": 2015,
+            "month": 1,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 0.23580645161290323,
+            "precipitation_sum_mm": 16.69
+          },
+          {
+            "year": 2015,
+            "month": 2,
+            "expected_days": 28,
+            "temperature_days": 28,
+            "precipitation_days": 28,
+            "mean_temperature_c": 2.6046428571428573,
+            "precipitation_sum_mm": 27.2
+          },
+          {
+            "year": 2015,
+            "month": 3,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 8.652258064516129,
+            "precipitation_sum_mm": 47.57
+          },
+          {
+            "year": 2015,
+            "month": 4,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 14.358,
+            "precipitation_sum_mm": 85.89
+          },
+          {
+            "year": 2015,
+            "month": 5,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 19.47967741935484,
+            "precipitation_sum_mm": 146.75
+          },
+          {
+            "year": 2015,
+            "month": 6,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 24.649,
+            "precipitation_sum_mm": 132.65
+          },
+          {
+            "year": 2015,
+            "month": 7,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 28.53483870967742,
+            "precipitation_sum_mm": 88.54
+          },
+          {
+            "year": 2015,
+            "month": 8,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 27.78774193548387,
+            "precipitation_sum_mm": 84.89
+          },
+          {
+            "year": 2015,
+            "month": 9,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 22.218,
+            "precipitation_sum_mm": 87.36
+          },
+          {
+            "year": 2015,
+            "month": 10,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 15.687096774193549,
+            "precipitation_sum_mm": 80.47
+          },
+          {
+            "year": 2015,
+            "month": 11,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 8.762333333333334,
+            "precipitation_sum_mm": 40.99
+          },
+          {
+            "year": 2015,
+            "month": 12,
+            "expected_days": 31,
+            "temperature_days": 7,
+            "precipitation_days": 7,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2016,
+            "month": 1,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": -0.5793548387096774,
+            "precipitation_sum_mm": 20.59
+          },
+          {
+            "year": 2016,
+            "month": 2,
+            "expected_days": 29,
+            "temperature_days": 29,
+            "precipitation_days": 29,
+            "mean_temperature_c": 1.7058620689655173,
+            "precipitation_sum_mm": 28.08
+          },
+          {
+            "year": 2016,
+            "month": 3,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 8.678064516129032,
+            "precipitation_sum_mm": 58.24
+          },
+          {
+            "year": 2016,
+            "month": 4,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 14.739,
+            "precipitation_sum_mm": 97.11
+          },
+          {
+            "year": 2016,
+            "month": 5,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 19.96451612903226,
+            "precipitation_sum_mm": 125.11
+          },
+          {
+            "year": 2016,
+            "month": 6,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 25.259666666666664,
+            "precipitation_sum_mm": 115.85
+          },
+          {
+            "year": 2016,
+            "month": 7,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 28.14516129032258,
+            "precipitation_sum_mm": 104.63
+          },
+          {
+            "year": 2016,
+            "month": 8,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 27.120967741935484,
+            "precipitation_sum_mm": 96.86
+          },
+          {
+            "year": 2016,
+            "month": 9,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 22.096999999999998,
+            "precipitation_sum_mm": 109.59
+          },
+          {
+            "year": 2016,
+            "month": 10,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 15.30258064516129,
+            "precipitation_sum_mm": 80.07
+          },
+          {
+            "year": 2016,
+            "month": 11,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 7.872,
+            "precipitation_sum_mm": 43.89
+          },
+          {
+            "year": 2016,
+            "month": 12,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 1.7364516129032257,
+            "precipitation_sum_mm": 24.63
+          },
+          {
+            "year": 2017,
+            "month": 1,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": -1.0577419354838709,
+            "precipitation_sum_mm": 28.12
+          },
+          {
+            "year": 2017,
+            "month": 2,
+            "expected_days": 28,
+            "temperature_days": 28,
+            "precipitation_days": 28,
+            "mean_temperature_c": 3.4896428571428575,
+            "precipitation_sum_mm": 23.71
+          },
+          {
+            "year": 2017,
+            "month": 3,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 8.243870967741936,
+            "precipitation_sum_mm": 72.53
+          },
+          {
+            "year": 2017,
+            "month": 4,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 14.654666666666666,
+            "precipitation_sum_mm": 78.64
+          },
+          {
+            "year": 2017,
+            "month": 5,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 19.194193548387098,
+            "precipitation_sum_mm": 137.91
+          },
+          {
+            "year": 2017,
+            "month": 6,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 25.420666666666666,
+            "precipitation_sum_mm": 132.77
+          },
+          {
+            "year": 2017,
+            "month": 7,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 28.311290322580643,
+            "precipitation_sum_mm": 82.14
+          },
+          {
+            "year": 2017,
+            "month": 8,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 27.718709677419355,
+            "precipitation_sum_mm": 91.48
+          },
+          {
+            "year": 2017,
+            "month": 9,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 23.11,
+            "precipitation_sum_mm": 96.46
+          },
+          {
+            "year": 2017,
+            "month": 10,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 15.525161290322579,
+            "precipitation_sum_mm": 67.0
+          },
+          {
+            "year": 2017,
+            "month": 11,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 8.171333333333333,
+            "precipitation_sum_mm": 43.83
+          },
+          {
+            "year": 2017,
+            "month": 12,
+            "expected_days": 31,
+            "temperature_days": 20,
+            "precipitation_days": 20,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2018,
+            "month": 1,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": -0.6203225806451613,
+            "precipitation_sum_mm": 21.55
+          },
+          {
+            "year": 2018,
+            "month": 2,
+            "expected_days": 28,
+            "temperature_days": 28,
+            "precipitation_days": 28,
+            "mean_temperature_c": 2.812857142857143,
+            "precipitation_sum_mm": 29.91
+          },
+          {
+            "year": 2018,
+            "month": 3,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 8.15548387096774,
+            "precipitation_sum_mm": 54.23
+          },
+          {
+            "year": 2018,
+            "month": 4,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 14.243,
+            "precipitation_sum_mm": 98.48
+          },
+          {
+            "year": 2018,
+            "month": 5,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 20.27516129032258,
+            "precipitation_sum_mm": 124.87
+          },
+          {
+            "year": 2018,
+            "month": 6,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 25.128333333333334,
+            "precipitation_sum_mm": 136.48
+          },
+          {
+            "year": 2018,
+            "month": 7,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 27.906774193548387,
+            "precipitation_sum_mm": 108.72
+          },
+          {
+            "year": 2018,
+            "month": 8,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 27.130967741935482,
+            "precipitation_sum_mm": 101.04
+          },
+          {
+            "year": 2018,
+            "month": 9,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 22.557666666666666,
+            "precipitation_sum_mm": 88.17
+          },
+          {
+            "year": 2018,
+            "month": 10,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 16.166451612903224,
+            "precipitation_sum_mm": 65.9
+          },
+          {
+            "year": 2018,
+            "month": 11,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 8.347,
+            "precipitation_sum_mm": 52.11
+          },
+          {
+            "year": 2018,
+            "month": 12,
+            "expected_days": 31,
+            "temperature_days": 27,
+            "precipitation_days": 27,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2019,
+            "month": 1,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 0.07870967741935483,
+            "precipitation_sum_mm": 21.09
+          },
+          {
+            "year": 2019,
+            "month": 2,
+            "expected_days": 28,
+            "temperature_days": 28,
+            "precipitation_days": 28,
+            "mean_temperature_c": 3.1732142857142853,
+            "precipitation_sum_mm": 32.38
+          },
+          {
+            "year": 2019,
+            "month": 3,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 7.833548387096775,
+            "precipitation_sum_mm": 49.14
+          },
+          {
+            "year": 2019,
+            "month": 4,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 14.953000000000001,
+            "precipitation_sum_mm": 76.34
+          },
+          {
+            "year": 2019,
+            "month": 5,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 19.36,
+            "precipitation_sum_mm": 125.62
+          },
+          {
+            "year": 2019,
+            "month": 6,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 25.557333333333336,
+            "precipitation_sum_mm": 119.06
+          },
+          {
+            "year": 2019,
+            "month": 7,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 28.143225806451614,
+            "precipitation_sum_mm": 103.02
+          },
+          {
+            "year": 2019,
+            "month": 8,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 27.68,
+            "precipitation_sum_mm": 95.72
+          },
+          {
+            "year": 2019,
+            "month": 9,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 22.663666666666664,
+            "precipitation_sum_mm": 96.31
+          },
+          {
+            "year": 2019,
+            "month": 10,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 15.975161290322582,
+            "precipitation_sum_mm": 69.49
+          },
+          {
+            "year": 2019,
+            "month": 11,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 8.811,
+            "precipitation_sum_mm": 46.98
+          },
+          {
+            "year": 2019,
+            "month": 12,
+            "expected_days": 31,
+            "temperature_days": 3,
+            "precipitation_days": 3,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2020,
+            "month": 1,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": -0.12354838709677418,
+            "precipitation_sum_mm": 21.64
+          },
+          {
+            "year": 2020,
+            "month": 2,
+            "expected_days": 29,
+            "temperature_days": 29,
+            "precipitation_days": 29,
+            "mean_temperature_c": 3.8882758620689657,
+            "precipitation_sum_mm": 27.54
+          },
+          {
+            "year": 2020,
+            "month": 3,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 8.27,
+            "precipitation_sum_mm": 55.5
+          },
+          {
+            "year": 2020,
+            "month": 4,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 14.098,
+            "precipitation_sum_mm": 86.67
+          },
+          {
+            "year": 2020,
+            "month": 5,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 19.90258064516129,
+            "precipitation_sum_mm": 129.69
+          },
+          {
+            "year": 2020,
+            "month": 6,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 24.932000000000002,
+            "precipitation_sum_mm": 120.01
+          },
+          {
+            "year": 2020,
+            "month": 7,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 27.88225806451613,
+            "precipitation_sum_mm": 96.46
+          },
+          {
+            "year": 2020,
+            "month": 8,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 27.065161290322582,
+            "precipitation_sum_mm": 90.19
+          },
+          {
+            "year": 2020,
+            "month": 9,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 22.836000000000002,
+            "precipitation_sum_mm": 103.34
+          },
+          {
+            "year": 2020,
+            "month": 10,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 15.743870967741936,
+            "precipitation_sum_mm": 75.67
+          },
+          {
+            "year": 2020,
+            "month": 11,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 8.512666666666666,
+            "precipitation_sum_mm": 31.189999999999998
+          },
+          {
+            "year": 2020,
+            "month": 12,
+            "expected_days": 31,
+            "temperature_days": 9,
+            "precipitation_days": 9,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2021,
+            "month": 1,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 0.9896774193548387,
+            "precipitation_sum_mm": 23.14
+          },
+          {
+            "year": 2021,
+            "month": 2,
+            "expected_days": 28,
+            "temperature_days": 28,
+            "precipitation_days": 28,
+            "mean_temperature_c": 4.074285714285714,
+            "precipitation_sum_mm": 22.14
+          },
+          {
+            "year": 2021,
+            "month": 3,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 8.453548387096774,
+            "precipitation_sum_mm": 54.85
+          },
+          {
+            "year": 2021,
+            "month": 4,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 14.786666666666667,
+            "precipitation_sum_mm": 81.13
+          },
+          {
+            "year": 2021,
+            "month": 5,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 19.636774193548387,
+            "precipitation_sum_mm": 119.06
+          },
+          {
+            "year": 2021,
+            "month": 6,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 25.259,
+            "precipitation_sum_mm": 128.62
+          },
+          {
+            "year": 2021,
+            "month": 7,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 28.543870967741935,
+            "precipitation_sum_mm": 101.98
+          },
+          {
+            "year": 2021,
+            "month": 8,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 27.489354838709676,
+            "precipitation_sum_mm": 105.25
+          },
+          {
+            "year": 2021,
+            "month": 9,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 22.05666666666667,
+            "precipitation_sum_mm": 102.97
+          },
+          {
+            "year": 2021,
+            "month": 10,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 15.301935483870968,
+            "precipitation_sum_mm": 59.15
+          },
+          {
+            "year": 2021,
+            "month": 11,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 8.482000000000001,
+            "precipitation_sum_mm": 42.24
+          },
+          {
+            "year": 2021,
+            "month": 12,
+            "expected_days": 31,
+            "temperature_days": 16,
+            "precipitation_days": 16,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2022,
+            "month": 1,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 1.2496774193548388,
+            "precipitation_sum_mm": 25.93
+          },
+          {
+            "year": 2022,
+            "month": 2,
+            "expected_days": 28,
+            "temperature_days": 28,
+            "precipitation_days": 28,
+            "mean_temperature_c": 3.531071428571429,
+            "precipitation_sum_mm": 21.65
+          },
+          {
+            "year": 2022,
+            "month": 3,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 8.11,
+            "precipitation_sum_mm": 74.48
+          },
+          {
+            "year": 2022,
+            "month": 4,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 14.887666666666666,
+            "precipitation_sum_mm": 84.51
+          },
+          {
+            "year": 2022,
+            "month": 5,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 20.06096774193548,
+            "precipitation_sum_mm": 135.38
+          },
+          {
+            "year": 2022,
+            "month": 6,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 24.744333333333334,
+            "precipitation_sum_mm": 126.23
+          },
+          {
+            "year": 2022,
+            "month": 7,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 28.050322580645158,
+            "precipitation_sum_mm": 89.53
+          },
+          {
+            "year": 2022,
+            "month": 8,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 27.396129032258063,
+            "precipitation_sum_mm": 101.09
+          },
+          {
+            "year": 2022,
+            "month": 9,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 22.84733333333333,
+            "precipitation_sum_mm": 100.65
+          },
+          {
+            "year": 2022,
+            "month": 10,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 15.005806451612903,
+            "precipitation_sum_mm": 79.64
+          },
+          {
+            "year": 2022,
+            "month": 11,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 8.706333333333333,
+            "precipitation_sum_mm": 35.18
+          },
+          {
+            "year": 2022,
+            "month": 12,
+            "expected_days": 31,
+            "temperature_days": 23,
+            "precipitation_days": 23,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2023,
+            "month": 1,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 0.6448387096774193,
+            "precipitation_sum_mm": 20.68
+          },
+          {
+            "year": 2023,
+            "month": 2,
+            "expected_days": 28,
+            "temperature_days": 28,
+            "precipitation_days": 28,
+            "mean_temperature_c": 3.8475,
+            "precipitation_sum_mm": 34.37
+          },
+          {
+            "year": 2023,
+            "month": 3,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 8.951290322580645,
+            "precipitation_sum_mm": 52.28
+          },
+          {
+            "year": 2023,
+            "month": 4,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 15.416,
+            "precipitation_sum_mm": 85.78
+          },
+          {
+            "year": 2023,
+            "month": 5,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 19.982580645161292,
+            "precipitation_sum_mm": 143.17
+          },
+          {
+            "year": 2023,
+            "month": 6,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 25.207333333333334,
+            "precipitation_sum_mm": 143.57
+          },
+          {
+            "year": 2023,
+            "month": 7,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 28.051612903225806,
+            "precipitation_sum_mm": 93.97
+          },
+          {
+            "year": 2023,
+            "month": 8,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 27.522258064516127,
+            "precipitation_sum_mm": 92.42
+          },
+          {
+            "year": 2023,
+            "month": 9,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 22.973666666666666,
+            "precipitation_sum_mm": 87.35
+          },
+          {
+            "year": 2023,
+            "month": 10,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 15.87,
+            "precipitation_sum_mm": 85.61
+          },
+          {
+            "year": 2023,
+            "month": 11,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 8.262,
+            "precipitation_sum_mm": 41.15
+          },
+          {
+            "year": 2023,
+            "month": 12,
+            "expected_days": 31,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2024,
+            "month": 1,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": -1.1051612903225805,
+            "precipitation_sum_mm": 21.13
+          },
+          {
+            "year": 2024,
+            "month": 2,
+            "expected_days": 29,
+            "temperature_days": 29,
+            "precipitation_days": 29,
+            "mean_temperature_c": 2.2575862068965518,
+            "precipitation_sum_mm": 25.08
+          },
+          {
+            "year": 2024,
+            "month": 3,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 8.581612903225805,
+            "precipitation_sum_mm": 57.18
+          },
+          {
+            "year": 2024,
+            "month": 4,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 14.939333333333334,
+            "precipitation_sum_mm": 73.87
+          },
+          {
+            "year": 2024,
+            "month": 5,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 20.350967741935484,
+            "precipitation_sum_mm": 134.04
+          },
+          {
+            "year": 2024,
+            "month": 6,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 25.419,
+            "precipitation_sum_mm": 136.03
+          },
+          {
+            "year": 2024,
+            "month": 7,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 28.55258064516129,
+            "precipitation_sum_mm": 96.77
+          },
+          {
+            "year": 2024,
+            "month": 8,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 27.51258064516129,
+            "precipitation_sum_mm": 96.94
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 23.212333333333333,
+            "precipitation_sum_mm": 94.52
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 16.474516129032256,
+            "precipitation_sum_mm": 60.58
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 8.136666666666667,
+            "precipitation_sum_mm": 49.47
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "expected_days": 31,
+            "temperature_days": 5,
+            "precipitation_days": 5,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          }
+        ],
+        "months": [
+          {
+            "month": 1,
+            "mean_temperature_c": -0.028741935483870946,
+            "mean_precipitation_mm": 22.056
+          },
+          {
+            "month": 2,
+            "mean_temperature_c": 3.138493842364532,
+            "mean_precipitation_mm": 27.206
+          },
+          {
+            "month": 3,
+            "mean_temperature_c": 8.392967741935482,
+            "mean_precipitation_mm": 57.6
+          },
+          {
+            "month": 4,
+            "mean_temperature_c": 14.707533333333334,
+            "mean_precipitation_mm": 84.84200000000001
+          },
+          {
+            "month": 5,
+            "mean_temperature_c": 19.820741935483873,
+            "mean_precipitation_mm": 132.16
+          },
+          {
+            "month": 6,
+            "mean_temperature_c": 25.157666666666668,
+            "mean_precipitation_mm": 129.127
+          },
+          {
+            "month": 7,
+            "mean_temperature_c": 28.2121935483871,
+            "mean_precipitation_mm": 96.576
+          },
+          {
+            "month": 8,
+            "mean_temperature_c": 27.442387096774194,
+            "mean_precipitation_mm": 95.588
+          },
+          {
+            "month": 9,
+            "mean_temperature_c": 22.65723333333333,
+            "mean_precipitation_mm": 96.672
+          },
+          {
+            "month": 10,
+            "mean_temperature_c": 15.70525806451613,
+            "mean_precipitation_mm": 72.358
+          },
+          {
+            "month": 11,
+            "mean_temperature_c": 8.406333333333333,
+            "mean_precipitation_mm": 42.702999999999996
+          },
+          {
+            "month": 12,
+            "mean_temperature_c": null,
+            "mean_precipitation_mm": null
+          }
+        ]
+      },
+      "future": {
+        "first_year": 2040,
+        "last_year": 2049,
+        "years": 10,
+        "expected_days": 3653,
+        "temperature_days": 3509,
+        "precipitation_days": 3509,
+        "complete_temperature_years": 0,
+        "complete_precipitation_years": 0,
+        "mean_temperature_c": null,
+        "mean_annual_precipitation_mm": null,
+        "annual": [
+          {
+            "year": 2040,
+            "expected_days": 366,
+            "temperature_days": 355,
+            "precipitation_days": 355,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2041,
+            "expected_days": 365,
+            "temperature_days": 361,
+            "precipitation_days": 361,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2042,
+            "expected_days": 365,
+            "temperature_days": 337,
+            "precipitation_days": 337,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2043,
+            "expected_days": 365,
+            "temperature_days": 344,
+            "precipitation_days": 344,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2044,
+            "expected_days": 366,
+            "temperature_days": 351,
+            "precipitation_days": 351,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2045,
+            "expected_days": 365,
+            "temperature_days": 357,
+            "precipitation_days": 357,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2046,
+            "expected_days": 365,
+            "temperature_days": 364,
+            "precipitation_days": 364,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2047,
+            "expected_days": 365,
+            "temperature_days": 340,
+            "precipitation_days": 340,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2048,
+            "expected_days": 366,
+            "temperature_days": 347,
+            "precipitation_days": 347,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2049,
+            "expected_days": 365,
+            "temperature_days": 353,
+            "precipitation_days": 353,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          }
+        ],
+        "monthly_years": [
+          {
+            "year": 2040,
+            "month": 1,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 1.8687096774193548,
+            "precipitation_sum_mm": 21.759999999999998
+          },
+          {
+            "year": 2040,
+            "month": 2,
+            "expected_days": 29,
+            "temperature_days": 29,
+            "precipitation_days": 29,
+            "mean_temperature_c": 4.573793103448275,
+            "precipitation_sum_mm": 28.22
+          },
+          {
+            "year": 2040,
+            "month": 3,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 9.968064516129031,
+            "precipitation_sum_mm": 54.29
+          },
+          {
+            "year": 2040,
+            "month": 4,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 15.335333333333333,
+            "precipitation_sum_mm": 70.73
+          },
+          {
+            "year": 2040,
+            "month": 5,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 20.73677419354839,
+            "precipitation_sum_mm": 131.93
+          },
+          {
+            "year": 2040,
+            "month": 6,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 25.87366666666667,
+            "precipitation_sum_mm": 127.99
+          },
+          {
+            "year": 2040,
+            "month": 7,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 29.016451612903225,
+            "precipitation_sum_mm": 110.7
+          },
+          {
+            "year": 2040,
+            "month": 8,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 28.304193548387094,
+            "precipitation_sum_mm": 87.6
+          },
+          {
+            "year": 2040,
+            "month": 9,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 23.438666666666666,
+            "precipitation_sum_mm": 109.42
+          },
+          {
+            "year": 2040,
+            "month": 10,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 16.764193548387098,
+            "precipitation_sum_mm": 64.46
+          },
+          {
+            "year": 2040,
+            "month": 11,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 9.010333333333334,
+            "precipitation_sum_mm": 41.3
+          },
+          {
+            "year": 2040,
+            "month": 12,
+            "expected_days": 31,
+            "temperature_days": 20,
+            "precipitation_days": 20,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2041,
+            "month": 1,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 0.8209677419354838,
+            "precipitation_sum_mm": 20.7
+          },
+          {
+            "year": 2041,
+            "month": 2,
+            "expected_days": 28,
+            "temperature_days": 28,
+            "precipitation_days": 28,
+            "mean_temperature_c": 3.8242857142857143,
+            "precipitation_sum_mm": 25.08
+          },
+          {
+            "year": 2041,
+            "month": 3,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 9.311612903225807,
+            "precipitation_sum_mm": 57.01
+          },
+          {
+            "year": 2041,
+            "month": 4,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 14.884333333333332,
+            "precipitation_sum_mm": 99.47
+          },
+          {
+            "year": 2041,
+            "month": 5,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 20.212580645161292,
+            "precipitation_sum_mm": 139.43
+          },
+          {
+            "year": 2041,
+            "month": 6,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 25.90533333333333,
+            "precipitation_sum_mm": 118.11
+          },
+          {
+            "year": 2041,
+            "month": 7,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 28.633225806451613,
+            "precipitation_sum_mm": 109.08
+          },
+          {
+            "year": 2041,
+            "month": 8,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 28.779354838709676,
+            "precipitation_sum_mm": 84.08
+          },
+          {
+            "year": 2041,
+            "month": 9,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 23.567333333333334,
+            "precipitation_sum_mm": 105.04
+          },
+          {
+            "year": 2041,
+            "month": 10,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 16.66483870967742,
+            "precipitation_sum_mm": 84.63
+          },
+          {
+            "year": 2041,
+            "month": 11,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 9.249,
+            "precipitation_sum_mm": 53.5
+          },
+          {
+            "year": 2041,
+            "month": 12,
+            "expected_days": 31,
+            "temperature_days": 27,
+            "precipitation_days": 27,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2042,
+            "month": 1,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 0.12225806451612901,
+            "precipitation_sum_mm": 25.61
+          },
+          {
+            "year": 2042,
+            "month": 2,
+            "expected_days": 28,
+            "temperature_days": 28,
+            "precipitation_days": 28,
+            "mean_temperature_c": 3.702142857142857,
+            "precipitation_sum_mm": 22.59
+          },
+          {
+            "year": 2042,
+            "month": 3,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 9.900967741935483,
+            "precipitation_sum_mm": 44.65
+          },
+          {
+            "year": 2042,
+            "month": 4,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 14.853333333333333,
+            "precipitation_sum_mm": 90.22
+          },
+          {
+            "year": 2042,
+            "month": 5,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 20.456774193548387,
+            "precipitation_sum_mm": 127.25
+          },
+          {
+            "year": 2042,
+            "month": 6,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 25.994000000000003,
+            "precipitation_sum_mm": 106.73
+          },
+          {
+            "year": 2042,
+            "month": 7,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 29.559354838709677,
+            "precipitation_sum_mm": 89.95
+          },
+          {
+            "year": 2042,
+            "month": 8,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 28.67806451612903,
+            "precipitation_sum_mm": 84.37
+          },
+          {
+            "year": 2042,
+            "month": 9,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 24.041,
+            "precipitation_sum_mm": 91.36
+          },
+          {
+            "year": 2042,
+            "month": 10,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 17.081290322580646,
+            "precipitation_sum_mm": 64.98
+          },
+          {
+            "year": 2042,
+            "month": 11,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 9.167,
+            "precipitation_sum_mm": 60.21
+          },
+          {
+            "year": 2042,
+            "month": 12,
+            "expected_days": 31,
+            "temperature_days": 3,
+            "precipitation_days": 3,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2043,
+            "month": 1,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 0.667741935483871,
+            "precipitation_sum_mm": 18.03
+          },
+          {
+            "year": 2043,
+            "month": 2,
+            "expected_days": 28,
+            "temperature_days": 28,
+            "precipitation_days": 28,
+            "mean_temperature_c": 4.522142857142858,
+            "precipitation_sum_mm": 30.650000000000002
+          },
+          {
+            "year": 2043,
+            "month": 3,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 9.369354838709677,
+            "precipitation_sum_mm": 47.18
+          },
+          {
+            "year": 2043,
+            "month": 4,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 15.414333333333333,
+            "precipitation_sum_mm": 92.72
+          },
+          {
+            "year": 2043,
+            "month": 5,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 20.522258064516127,
+            "precipitation_sum_mm": 129.91
+          },
+          {
+            "year": 2043,
+            "month": 6,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 25.353333333333335,
+            "precipitation_sum_mm": 164.63
+          },
+          {
+            "year": 2043,
+            "month": 7,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 28.578387096774193,
+            "precipitation_sum_mm": 103.61
+          },
+          {
+            "year": 2043,
+            "month": 8,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 28.769032258064517,
+            "precipitation_sum_mm": 86.47
+          },
+          {
+            "year": 2043,
+            "month": 9,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 23.587666666666667,
+            "precipitation_sum_mm": 91.14
+          },
+          {
+            "year": 2043,
+            "month": 10,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 16.489032258064515,
+            "precipitation_sum_mm": 85.42999999999999
+          },
+          {
+            "year": 2043,
+            "month": 11,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 9.460666666666667,
+            "precipitation_sum_mm": 46.5
+          },
+          {
+            "year": 2043,
+            "month": 12,
+            "expected_days": 31,
+            "temperature_days": 10,
+            "precipitation_days": 10,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2044,
+            "month": 1,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 0.9280645161290323,
+            "precipitation_sum_mm": 20.759999999999998
+          },
+          {
+            "year": 2044,
+            "month": 2,
+            "expected_days": 29,
+            "temperature_days": 29,
+            "precipitation_days": 29,
+            "mean_temperature_c": 4.289310344827586,
+            "precipitation_sum_mm": 28.02
+          },
+          {
+            "year": 2044,
+            "month": 3,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 10.454516129032257,
+            "precipitation_sum_mm": 56.33
+          },
+          {
+            "year": 2044,
+            "month": 4,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 15.096666666666666,
+            "precipitation_sum_mm": 91.54
+          },
+          {
+            "year": 2044,
+            "month": 5,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 20.281612903225806,
+            "precipitation_sum_mm": 125.03
+          },
+          {
+            "year": 2044,
+            "month": 6,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 25.895,
+            "precipitation_sum_mm": 121.37
+          },
+          {
+            "year": 2044,
+            "month": 7,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 28.87483870967742,
+            "precipitation_sum_mm": 112.62
+          },
+          {
+            "year": 2044,
+            "month": 8,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 28.620645161290323,
+            "precipitation_sum_mm": 93.98
+          },
+          {
+            "year": 2044,
+            "month": 9,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 23.558333333333334,
+            "precipitation_sum_mm": 89.08
+          },
+          {
+            "year": 2044,
+            "month": 10,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 17.351935483870967,
+            "precipitation_sum_mm": 72.27
+          },
+          {
+            "year": 2044,
+            "month": 11,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 10.046,
+            "precipitation_sum_mm": 39.56
+          },
+          {
+            "year": 2044,
+            "month": 12,
+            "expected_days": 31,
+            "temperature_days": 16,
+            "precipitation_days": 16,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2045,
+            "month": 1,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 2.4322580645161294,
+            "precipitation_sum_mm": 18.22
+          },
+          {
+            "year": 2045,
+            "month": 2,
+            "expected_days": 28,
+            "temperature_days": 28,
+            "precipitation_days": 28,
+            "mean_temperature_c": 4.393928571428572,
+            "precipitation_sum_mm": 29.11
+          },
+          {
+            "year": 2045,
+            "month": 3,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 10.481935483870968,
+            "precipitation_sum_mm": 56.55
+          },
+          {
+            "year": 2045,
+            "month": 4,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 15.287,
+            "precipitation_sum_mm": 80.43
+          },
+          {
+            "year": 2045,
+            "month": 5,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 20.844838709677422,
+            "precipitation_sum_mm": 114.62
+          },
+          {
+            "year": 2045,
+            "month": 6,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 26.228666666666665,
+            "precipitation_sum_mm": 137.67
+          },
+          {
+            "year": 2045,
+            "month": 7,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 29.62258064516129,
+            "precipitation_sum_mm": 91.44
+          },
+          {
+            "year": 2045,
+            "month": 8,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 28.80483870967742,
+            "precipitation_sum_mm": 95.64
+          },
+          {
+            "year": 2045,
+            "month": 9,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 23.392999999999997,
+            "precipitation_sum_mm": 101.15
+          },
+          {
+            "year": 2045,
+            "month": 10,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 16.93516129032258,
+            "precipitation_sum_mm": 68.27
+          },
+          {
+            "year": 2045,
+            "month": 11,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 9.592,
+            "precipitation_sum_mm": 48.54
+          },
+          {
+            "year": 2045,
+            "month": 12,
+            "expected_days": 31,
+            "temperature_days": 23,
+            "precipitation_days": 23,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2046,
+            "month": 1,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 1.2625806451612904,
+            "precipitation_sum_mm": 26.13
+          },
+          {
+            "year": 2046,
+            "month": 2,
+            "expected_days": 28,
+            "temperature_days": 28,
+            "precipitation_days": 28,
+            "mean_temperature_c": 3.6592857142857147,
+            "precipitation_sum_mm": 22.58
+          },
+          {
+            "year": 2046,
+            "month": 3,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 8.911290322580646,
+            "precipitation_sum_mm": 63.41
+          },
+          {
+            "year": 2046,
+            "month": 4,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 15.492333333333333,
+            "precipitation_sum_mm": 84.65
+          },
+          {
+            "year": 2046,
+            "month": 5,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 20.936451612903223,
+            "precipitation_sum_mm": 142.27
+          },
+          {
+            "year": 2046,
+            "month": 6,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 25.860333333333333,
+            "precipitation_sum_mm": 140.82
+          },
+          {
+            "year": 2046,
+            "month": 7,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 29.695483870967745,
+            "precipitation_sum_mm": 92.64
+          },
+          {
+            "year": 2046,
+            "month": 8,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 28.983548387096775,
+            "precipitation_sum_mm": 88.69
+          },
+          {
+            "year": 2046,
+            "month": 9,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 23.711333333333336,
+            "precipitation_sum_mm": 90.3
+          },
+          {
+            "year": 2046,
+            "month": 10,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 17.300967741935484,
+            "precipitation_sum_mm": 72.76
+          },
+          {
+            "year": 2046,
+            "month": 11,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 9.850666666666665,
+            "precipitation_sum_mm": 42.08
+          },
+          {
+            "year": 2046,
+            "month": 12,
+            "expected_days": 31,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2047,
+            "month": 1,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 2.5964516129032256,
+            "precipitation_sum_mm": 18.64
+          },
+          {
+            "year": 2047,
+            "month": 2,
+            "expected_days": 28,
+            "temperature_days": 28,
+            "precipitation_days": 28,
+            "mean_temperature_c": 4.630000000000001,
+            "precipitation_sum_mm": 29.39
+          },
+          {
+            "year": 2047,
+            "month": 3,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 9.313548387096775,
+            "precipitation_sum_mm": 69.13
+          },
+          {
+            "year": 2047,
+            "month": 4,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 14.706,
+            "precipitation_sum_mm": 96.11
+          },
+          {
+            "year": 2047,
+            "month": 5,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 20.896129032258063,
+            "precipitation_sum_mm": 124.94
+          },
+          {
+            "year": 2047,
+            "month": 6,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 26.52466666666667,
+            "precipitation_sum_mm": 133.35999999999999
+          },
+          {
+            "year": 2047,
+            "month": 7,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 29.88064516129032,
+            "precipitation_sum_mm": 83.26
+          },
+          {
+            "year": 2047,
+            "month": 8,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 29.71677419354839,
+            "precipitation_sum_mm": 70.39
+          },
+          {
+            "year": 2047,
+            "month": 9,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 24.699,
+            "precipitation_sum_mm": 97.96
+          },
+          {
+            "year": 2047,
+            "month": 10,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 17.343548387096774,
+            "precipitation_sum_mm": 47.910000000000004
+          },
+          {
+            "year": 2047,
+            "month": 11,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 9.425,
+            "precipitation_sum_mm": 49.89
+          },
+          {
+            "year": 2047,
+            "month": 12,
+            "expected_days": 31,
+            "temperature_days": 6,
+            "precipitation_days": 6,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2048,
+            "month": 1,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 0.38612903225806455,
+            "precipitation_sum_mm": 24.35
+          },
+          {
+            "year": 2048,
+            "month": 2,
+            "expected_days": 29,
+            "temperature_days": 29,
+            "precipitation_days": 29,
+            "mean_temperature_c": 3.4872413793103445,
+            "precipitation_sum_mm": 32.93
+          },
+          {
+            "year": 2048,
+            "month": 3,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 8.972903225806453,
+            "precipitation_sum_mm": 55.31
+          },
+          {
+            "year": 2048,
+            "month": 4,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 15.285,
+            "precipitation_sum_mm": 84.58
+          },
+          {
+            "year": 2048,
+            "month": 5,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 21.031290322580645,
+            "precipitation_sum_mm": 130.5
+          },
+          {
+            "year": 2048,
+            "month": 6,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 25.977666666666668,
+            "precipitation_sum_mm": 126.36
+          },
+          {
+            "year": 2048,
+            "month": 7,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 29.2758064516129,
+            "precipitation_sum_mm": 104.28
+          },
+          {
+            "year": 2048,
+            "month": 8,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 28.79741935483871,
+            "precipitation_sum_mm": 103.83
+          },
+          {
+            "year": 2048,
+            "month": 9,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 23.71033333333333,
+            "precipitation_sum_mm": 103.93
+          },
+          {
+            "year": 2048,
+            "month": 10,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 16.978387096774195,
+            "precipitation_sum_mm": 76.94
+          },
+          {
+            "year": 2048,
+            "month": 11,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 9.466000000000001,
+            "precipitation_sum_mm": 41.01
+          },
+          {
+            "year": 2048,
+            "month": 12,
+            "expected_days": 31,
+            "temperature_days": 12,
+            "precipitation_days": 12,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          },
+          {
+            "year": 2049,
+            "month": 1,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 2.0841935483870966,
+            "precipitation_sum_mm": 22.1
+          },
+          {
+            "year": 2049,
+            "month": 2,
+            "expected_days": 28,
+            "temperature_days": 28,
+            "precipitation_days": 28,
+            "mean_temperature_c": 5.018571428571429,
+            "precipitation_sum_mm": 30.73
+          },
+          {
+            "year": 2049,
+            "month": 3,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 10.064516129032258,
+            "precipitation_sum_mm": 57.89
+          },
+          {
+            "year": 2049,
+            "month": 4,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 15.716333333333333,
+            "precipitation_sum_mm": 99.11
+          },
+          {
+            "year": 2049,
+            "month": 5,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 21.121935483870967,
+            "precipitation_sum_mm": 128.6
+          },
+          {
+            "year": 2049,
+            "month": 6,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 25.931333333333335,
+            "precipitation_sum_mm": 128.07
+          },
+          {
+            "year": 2049,
+            "month": 7,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 30.019032258064517,
+            "precipitation_sum_mm": 92.11
+          },
+          {
+            "year": 2049,
+            "month": 8,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 28.878709677419355,
+            "precipitation_sum_mm": 96.96
+          },
+          {
+            "year": 2049,
+            "month": 9,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 24.238666666666667,
+            "precipitation_sum_mm": 79.36
+          },
+          {
+            "year": 2049,
+            "month": 10,
+            "expected_days": 31,
+            "temperature_days": 31,
+            "precipitation_days": 31,
+            "mean_temperature_c": 17.718064516129033,
+            "precipitation_sum_mm": 73.07
+          },
+          {
+            "year": 2049,
+            "month": 11,
+            "expected_days": 30,
+            "temperature_days": 30,
+            "precipitation_days": 30,
+            "mean_temperature_c": 9.827333333333334,
+            "precipitation_sum_mm": 44.71
+          },
+          {
+            "year": 2049,
+            "month": 12,
+            "expected_days": 31,
+            "temperature_days": 19,
+            "precipitation_days": 19,
+            "mean_temperature_c": null,
+            "precipitation_sum_mm": null
+          }
+        ],
+        "months": [
+          {
+            "month": 1,
+            "mean_temperature_c": 1.3169354838709677,
+            "mean_precipitation_mm": 21.630000000000003
+          },
+          {
+            "month": 2,
+            "mean_temperature_c": 4.2100701970443355,
+            "mean_precipitation_mm": 27.93
+          },
+          {
+            "month": 3,
+            "mean_temperature_c": 9.674870967741935,
+            "mean_precipitation_mm": 56.175
+          },
+          {
+            "month": 4,
+            "mean_temperature_c": 15.207066666666666,
+            "mean_precipitation_mm": 88.956
+          },
+          {
+            "month": 5,
+            "mean_temperature_c": 20.70406451612903,
+            "mean_precipitation_mm": 129.448
+          },
+          {
+            "month": 6,
+            "mean_temperature_c": 25.9544,
+            "mean_precipitation_mm": 130.511
+          },
+          {
+            "month": 7,
+            "mean_temperature_c": 29.315580645161287,
+            "mean_precipitation_mm": 98.96900000000001
+          },
+          {
+            "month": 8,
+            "mean_temperature_c": 28.833258064516126,
+            "mean_precipitation_mm": 89.201
+          },
+          {
+            "month": 9,
+            "mean_temperature_c": 23.794533333333334,
+            "mean_precipitation_mm": 95.874
+          },
+          {
+            "month": 10,
+            "mean_temperature_c": 17.06274193548387,
+            "mean_precipitation_mm": 71.072
+          },
+          {
+            "month": 11,
+            "mean_temperature_c": 9.5094,
+            "mean_precipitation_mm": 46.730000000000004
+          },
+          {
+            "month": 12,
+            "mean_temperature_c": null,
+            "mean_precipitation_mm": null
+          }
+        ]
+      },
+      "annual_change": {
+        "temperature_delta_c": null,
+        "annual_precipitation_delta_mm": null,
+        "annual_precipitation_delta_percent": null
+      },
+      "monthly_change": [
+        {
+          "month": 1,
+          "baseline_temperature_c": -0.028741935483870946,
+          "future_temperature_c": 1.3169354838709677,
+          "temperature_delta_c": 1.3456774193548386,
+          "baseline_precipitation_mm": 22.056,
+          "future_precipitation_mm": 21.630000000000003,
+          "precipitation_delta_mm": -0.4259999999999984
+        },
+        {
+          "month": 2,
+          "baseline_temperature_c": 3.138493842364532,
+          "future_temperature_c": 4.2100701970443355,
+          "temperature_delta_c": 1.0715763546798036,
+          "baseline_precipitation_mm": 27.206,
+          "future_precipitation_mm": 27.93,
+          "precipitation_delta_mm": 0.7240000000000002
+        },
+        {
+          "month": 3,
+          "baseline_temperature_c": 8.392967741935482,
+          "future_temperature_c": 9.674870967741935,
+          "temperature_delta_c": 1.2819032258064524,
+          "baseline_precipitation_mm": 57.6,
+          "future_precipitation_mm": 56.175,
+          "precipitation_delta_mm": -1.4250000000000043
+        },
+        {
+          "month": 4,
+          "baseline_temperature_c": 14.707533333333334,
+          "future_temperature_c": 15.207066666666666,
+          "temperature_delta_c": 0.49953333333333205,
+          "baseline_precipitation_mm": 84.84200000000001,
+          "future_precipitation_mm": 88.956,
+          "precipitation_delta_mm": 4.11399999999999
+        },
+        {
+          "month": 5,
+          "baseline_temperature_c": 19.820741935483873,
+          "future_temperature_c": 20.70406451612903,
+          "temperature_delta_c": 0.8833225806451566,
+          "baseline_precipitation_mm": 132.16,
+          "future_precipitation_mm": 129.448,
+          "precipitation_delta_mm": -2.711999999999989
+        },
+        {
+          "month": 6,
+          "baseline_temperature_c": 25.157666666666668,
+          "future_temperature_c": 25.9544,
+          "temperature_delta_c": 0.7967333333333322,
+          "baseline_precipitation_mm": 129.127,
+          "future_precipitation_mm": 130.511,
+          "precipitation_delta_mm": 1.3839999999999861
+        },
+        {
+          "month": 7,
+          "baseline_temperature_c": 28.2121935483871,
+          "future_temperature_c": 29.315580645161287,
+          "temperature_delta_c": 1.1033870967741883,
+          "baseline_precipitation_mm": 96.576,
+          "future_precipitation_mm": 98.96900000000001,
+          "precipitation_delta_mm": 2.393000000000015
+        },
+        {
+          "month": 8,
+          "baseline_temperature_c": 27.442387096774194,
+          "future_temperature_c": 28.833258064516126,
+          "temperature_delta_c": 1.3908709677419324,
+          "baseline_precipitation_mm": 95.588,
+          "future_precipitation_mm": 89.201,
+          "precipitation_delta_mm": -6.3870000000000005
+        },
+        {
+          "month": 9,
+          "baseline_temperature_c": 22.65723333333333,
+          "future_temperature_c": 23.794533333333334,
+          "temperature_delta_c": 1.1373000000000033,
+          "baseline_precipitation_mm": 96.672,
+          "future_precipitation_mm": 95.874,
+          "precipitation_delta_mm": -0.7980000000000018
+        },
+        {
+          "month": 10,
+          "baseline_temperature_c": 15.70525806451613,
+          "future_temperature_c": 17.06274193548387,
+          "temperature_delta_c": 1.3574838709677408,
+          "baseline_precipitation_mm": 72.358,
+          "future_precipitation_mm": 71.072,
+          "precipitation_delta_mm": -1.2860000000000014
+        },
+        {
+          "month": 11,
+          "baseline_temperature_c": 8.406333333333333,
+          "future_temperature_c": 9.5094,
+          "temperature_delta_c": 1.1030666666666669,
+          "baseline_precipitation_mm": 42.702999999999996,
+          "future_precipitation_mm": 46.730000000000004,
+          "precipitation_delta_mm": 4.027000000000008
+        },
+        {
+          "month": 12,
+          "baseline_temperature_c": null,
+          "future_temperature_c": null,
+          "temperature_delta_c": null,
+          "baseline_precipitation_mm": null,
+          "future_precipitation_mm": null,
+          "precipitation_delta_mm": null
+        }
+      ],
+      "complete_monthly_temperature_comparisons": 11,
+      "complete_monthly_precipitation_comparisons": 11
+    }
+  ],
+  "provenance": [
+    {
+      "period": "baseline",
+      "transfer": "cached",
+      "request": {
+        "sitecode": "USOR03",
+        "latitude": 45.721236,
+        "longitude": -118.624501,
+        "kind": "projection",
+        "scenario": "ssp245",
+        "model": "ensemble",
+        "start": "2015-01-01",
+        "end": "2019-12-31",
+        "url": "https://power.larc.nasa.gov/api/projection/daily/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CPRECTOTCORR&community=AG&longitude=-118.624501&latitude=45.721236&start=20150101&end=20191231&format=JSON&time-standard=UTC&scenario=ssp245&model=ensemble"
+      },
+      "sha256": "12fd90082ea91adbf8b8f51d60e61d5de3de2a95c49a54720e010e95867f0d22",
+      "fetched_at_utc": "2026-11-15T00:42:10.442814+00:00",
+      "api_header": {
+        "title": "NASA/POWER WCRP/CMIP6 NEX-GDDP Downscaled Daily Data",
+        "api": {
+          "version": "v2.6.4-beta",
+          "name": "Climate Projection API"
+        },
+        "sources": [
+          "NEXGDDP"
+        ],
+        "model": "ensemble",
+        "scenarios": [
+          "ssp245"
+        ],
+        "time_standard": "utc",
+        "fill_value": -999,
+        "start": "20150101",
+        "end": "20191231"
+      },
+      "coordinate_source": {
+        "dataset": "napeshm",
+        "version": 1,
+        "doi": "https://doi.org/10.15482/USDA.ADC/25632270",
+        "license": {
+          "value": 1,
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "metadata_sha256": "1e15b96e2a2d3b711c2444be6f93526bbcdc2bd12d40eb7199d59e9e8ce5c442",
+        "files": [
+          {
+            "file": "NAPESHM_public_dataset_06032024.zip",
+            "size": 4994407,
+            "md5": "b6a0a7cd8123c556c82a0d3384084a83",
+            "sha256": "1b4a6eba11d27b88aee83a1fb844eea91919599ee64652e37d988059c14a029a"
+          }
+        ]
+      },
+      "reported_geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.624501,
+          45.721236,
+          857.61
+        ]
+      }
+    },
+    {
+      "period": "baseline",
+      "transfer": "cached",
+      "request": {
+        "sitecode": "USOR03",
+        "latitude": 45.721236,
+        "longitude": -118.624501,
+        "kind": "projection",
+        "scenario": "ssp245",
+        "model": "ensemble",
+        "start": "2020-01-01",
+        "end": "2024-12-31",
+        "url": "https://power.larc.nasa.gov/api/projection/daily/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CPRECTOTCORR&community=AG&longitude=-118.624501&latitude=45.721236&start=20200101&end=20241231&format=JSON&time-standard=UTC&scenario=ssp245&model=ensemble"
+      },
+      "sha256": "df2baa43eb8b9bc42dda2e899714cdc87548c02a618c860462567b46fa2746cd",
+      "fetched_at_utc": "2026-11-15T00:42:16.016010+00:00",
+      "api_header": {
+        "title": "NASA/POWER WCRP/CMIP6 NEX-GDDP Downscaled Daily Data",
+        "api": {
+          "version": "v2.6.4-beta",
+          "name": "Climate Projection API"
+        },
+        "sources": [
+          "NEXGDDP"
+        ],
+        "model": "ensemble",
+        "scenarios": [
+          "ssp245"
+        ],
+        "time_standard": "utc",
+        "fill_value": -999,
+        "start": "20200101",
+        "end": "20241231"
+      },
+      "coordinate_source": {
+        "dataset": "napeshm",
+        "version": 1,
+        "doi": "https://doi.org/10.15482/USDA.ADC/25632270",
+        "license": {
+          "value": 1,
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "metadata_sha256": "1e15b96e2a2d3b711c2444be6f93526bbcdc2bd12d40eb7199d59e9e8ce5c442",
+        "files": [
+          {
+            "file": "NAPESHM_public_dataset_06032024.zip",
+            "size": 4994407,
+            "md5": "b6a0a7cd8123c556c82a0d3384084a83",
+            "sha256": "1b4a6eba11d27b88aee83a1fb844eea91919599ee64652e37d988059c14a029a"
+          }
+        ]
+      },
+      "reported_geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.624501,
+          45.721236,
+          857.61
+        ]
+      }
+    },
+    {
+      "period": "future",
+      "transfer": "cached",
+      "request": {
+        "sitecode": "USOR03",
+        "latitude": 45.721236,
+        "longitude": -118.624501,
+        "kind": "projection",
+        "scenario": "ssp245",
+        "model": "ensemble",
+        "start": "2040-01-01",
+        "end": "2044-12-31",
+        "url": "https://power.larc.nasa.gov/api/projection/daily/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CPRECTOTCORR&community=AG&longitude=-118.624501&latitude=45.721236&start=20400101&end=20441231&format=JSON&time-standard=UTC&scenario=ssp245&model=ensemble"
+      },
+      "sha256": "4a4e8affc32f550d96cd512475934ba6b6221f67497c0d80760ead4ad55d2a13",
+      "fetched_at_utc": "2026-11-15T00:42:21.664535+00:00",
+      "api_header": {
+        "title": "NASA/POWER WCRP/CMIP6 NEX-GDDP Downscaled Daily Data",
+        "api": {
+          "version": "v2.6.4-beta",
+          "name": "Climate Projection API"
+        },
+        "sources": [
+          "NEXGDDP"
+        ],
+        "model": "ensemble",
+        "scenarios": [
+          "ssp245"
+        ],
+        "time_standard": "utc",
+        "fill_value": -999,
+        "start": "20400101",
+        "end": "20441231"
+      },
+      "coordinate_source": {
+        "dataset": "napeshm",
+        "version": 1,
+        "doi": "https://doi.org/10.15482/USDA.ADC/25632270",
+        "license": {
+          "value": 1,
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "metadata_sha256": "1e15b96e2a2d3b711c2444be6f93526bbcdc2bd12d40eb7199d59e9e8ce5c442",
+        "files": [
+          {
+            "file": "NAPESHM_public_dataset_06032024.zip",
+            "size": 4994407,
+            "md5": "b6a0a7cd8123c556c82a0d3384084a83",
+            "sha256": "1b4a6eba11d27b88aee83a1fb844eea91919599ee64652e37d988059c14a029a"
+          }
+        ]
+      },
+      "reported_geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.624501,
+          45.721236,
+          857.61
+        ]
+      }
+    },
+    {
+      "period": "future",
+      "transfer": "cached",
+      "request": {
+        "sitecode": "USOR03",
+        "latitude": 45.721236,
+        "longitude": -118.624501,
+        "kind": "projection",
+        "scenario": "ssp245",
+        "model": "ensemble",
+        "start": "2045-01-01",
+        "end": "2049-12-31",
+        "url": "https://power.larc.nasa.gov/api/projection/daily/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CPRECTOTCORR&community=AG&longitude=-118.624501&latitude=45.721236&start=20450101&end=20491231&format=JSON&time-standard=UTC&scenario=ssp245&model=ensemble"
+      },
+      "sha256": "f2d9a25e648f3f04aa93fb9a79c7ede858f102307aa6b383781bda5bfb68a4d3",
+      "fetched_at_utc": "2026-11-15T00:42:26.515193+00:00",
+      "api_header": {
+        "title": "NASA/POWER WCRP/CMIP6 NEX-GDDP Downscaled Daily Data",
+        "api": {
+          "version": "v2.6.4-beta",
+          "name": "Climate Projection API"
+        },
+        "sources": [
+          "NEXGDDP"
+        ],
+        "model": "ensemble",
+        "scenarios": [
+          "ssp245"
+        ],
+        "time_standard": "utc",
+        "fill_value": -999,
+        "start": "20450101",
+        "end": "20491231"
+      },
+      "coordinate_source": {
+        "dataset": "napeshm",
+        "version": 1,
+        "doi": "https://doi.org/10.15482/USDA.ADC/25632270",
+        "license": {
+          "value": 1,
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "metadata_sha256": "1e15b96e2a2d3b711c2444be6f93526bbcdc2bd12d40eb7199d59e9e8ce5c442",
+        "files": [
+          {
+            "file": "NAPESHM_public_dataset_06032024.zip",
+            "size": 4994407,
+            "md5": "b6a0a7cd8123c556c82a0d3384084a83",
+            "sha256": "1b4a6eba11d27b88aee83a1fb844eea91919599ee64652e37d988059c14a029a"
+          }
+        ]
+      },
+      "reported_geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.624501,
+          45.721236,
+          857.61
+        ]
+      }
+    },
+    {
+      "period": "baseline",
+      "transfer": "cached",
+      "request": {
+        "sitecode": "USKS01",
+        "latitude": 39.123775,
+        "longitude": -96.636037,
+        "kind": "projection",
+        "scenario": "ssp245",
+        "model": "ensemble",
+        "start": "2015-01-01",
+        "end": "2019-12-31",
+        "url": "https://power.larc.nasa.gov/api/projection/daily/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CPRECTOTCORR&community=AG&longitude=-96.636037&latitude=39.123775&start=20150101&end=20191231&format=JSON&time-standard=UTC&scenario=ssp245&model=ensemble"
+      },
+      "sha256": "843500e16efc1153aba06fac1d291d21758209389d4fc71eb8ac01648895a7aa",
+      "fetched_at_utc": "2026-11-15T00:42:32.137529+00:00",
+      "api_header": {
+        "title": "NASA/POWER WCRP/CMIP6 NEX-GDDP Downscaled Daily Data",
+        "api": {
+          "version": "v2.6.4-beta",
+          "name": "Climate Projection API"
+        },
+        "sources": [
+          "NEXGDDP"
+        ],
+        "model": "ensemble",
+        "scenarios": [
+          "ssp245"
+        ],
+        "time_standard": "utc",
+        "fill_value": -999,
+        "start": "20150101",
+        "end": "20191231"
+      },
+      "coordinate_source": {
+        "dataset": "napeshm",
+        "version": 1,
+        "doi": "https://doi.org/10.15482/USDA.ADC/25632270",
+        "license": {
+          "value": 1,
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "metadata_sha256": "1e15b96e2a2d3b711c2444be6f93526bbcdc2bd12d40eb7199d59e9e8ce5c442",
+        "files": [
+          {
+            "file": "NAPESHM_public_dataset_06032024.zip",
+            "size": 4994407,
+            "md5": "b6a0a7cd8123c556c82a0d3384084a83",
+            "sha256": "1b4a6eba11d27b88aee83a1fb844eea91919599ee64652e37d988059c14a029a"
+          }
+        ]
+      },
+      "reported_geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.636037,
+          39.123775,
+          389.95
+        ]
+      }
+    },
+    {
+      "period": "baseline",
+      "transfer": "cached",
+      "request": {
+        "sitecode": "USKS01",
+        "latitude": 39.123775,
+        "longitude": -96.636037,
+        "kind": "projection",
+        "scenario": "ssp245",
+        "model": "ensemble",
+        "start": "2020-01-01",
+        "end": "2024-12-31",
+        "url": "https://power.larc.nasa.gov/api/projection/daily/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CPRECTOTCORR&community=AG&longitude=-96.636037&latitude=39.123775&start=20200101&end=20241231&format=JSON&time-standard=UTC&scenario=ssp245&model=ensemble"
+      },
+      "sha256": "aae9640d82058a389c63f2a67a854525606a0dea359c833c0305277fcd029af9",
+      "fetched_at_utc": "2026-11-15T00:42:37.662921+00:00",
+      "api_header": {
+        "title": "NASA/POWER WCRP/CMIP6 NEX-GDDP Downscaled Daily Data",
+        "api": {
+          "version": "v2.6.4-beta",
+          "name": "Climate Projection API"
+        },
+        "sources": [
+          "NEXGDDP"
+        ],
+        "model": "ensemble",
+        "scenarios": [
+          "ssp245"
+        ],
+        "time_standard": "utc",
+        "fill_value": -999,
+        "start": "20200101",
+        "end": "20241231"
+      },
+      "coordinate_source": {
+        "dataset": "napeshm",
+        "version": 1,
+        "doi": "https://doi.org/10.15482/USDA.ADC/25632270",
+        "license": {
+          "value": 1,
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "metadata_sha256": "1e15b96e2a2d3b711c2444be6f93526bbcdc2bd12d40eb7199d59e9e8ce5c442",
+        "files": [
+          {
+            "file": "NAPESHM_public_dataset_06032024.zip",
+            "size": 4994407,
+            "md5": "b6a0a7cd8123c556c82a0d3384084a83",
+            "sha256": "1b4a6eba11d27b88aee83a1fb844eea91919599ee64652e37d988059c14a029a"
+          }
+        ]
+      },
+      "reported_geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.636037,
+          39.123775,
+          389.95
+        ]
+      }
+    },
+    {
+      "period": "future",
+      "transfer": "cached",
+      "request": {
+        "sitecode": "USKS01",
+        "latitude": 39.123775,
+        "longitude": -96.636037,
+        "kind": "projection",
+        "scenario": "ssp245",
+        "model": "ensemble",
+        "start": "2040-01-01",
+        "end": "2044-12-31",
+        "url": "https://power.larc.nasa.gov/api/projection/daily/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CPRECTOTCORR&community=AG&longitude=-96.636037&latitude=39.123775&start=20400101&end=20441231&format=JSON&time-standard=UTC&scenario=ssp245&model=ensemble"
+      },
+      "sha256": "3ace1f422a094cb3abfa2c30aa5bde112d5cdd810f9a61cdf8176e5a72a2349d",
+      "fetched_at_utc": "2026-11-15T00:42:43.172216+00:00",
+      "api_header": {
+        "title": "NASA/POWER WCRP/CMIP6 NEX-GDDP Downscaled Daily Data",
+        "api": {
+          "version": "v2.6.4-beta",
+          "name": "Climate Projection API"
+        },
+        "sources": [
+          "NEXGDDP"
+        ],
+        "model": "ensemble",
+        "scenarios": [
+          "ssp245"
+        ],
+        "time_standard": "utc",
+        "fill_value": -999,
+        "start": "20400101",
+        "end": "20441231"
+      },
+      "coordinate_source": {
+        "dataset": "napeshm",
+        "version": 1,
+        "doi": "https://doi.org/10.15482/USDA.ADC/25632270",
+        "license": {
+          "value": 1,
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "metadata_sha256": "1e15b96e2a2d3b711c2444be6f93526bbcdc2bd12d40eb7199d59e9e8ce5c442",
+        "files": [
+          {
+            "file": "NAPESHM_public_dataset_06032024.zip",
+            "size": 4994407,
+            "md5": "b6a0a7cd8123c556c82a0d3384084a83",
+            "sha256": "1b4a6eba11d27b88aee83a1fb844eea91919599ee64652e37d988059c14a029a"
+          }
+        ]
+      },
+      "reported_geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.636037,
+          39.123775,
+          389.95
+        ]
+      }
+    },
+    {
+      "period": "future",
+      "transfer": "cached",
+      "request": {
+        "sitecode": "USKS01",
+        "latitude": 39.123775,
+        "longitude": -96.636037,
+        "kind": "projection",
+        "scenario": "ssp245",
+        "model": "ensemble",
+        "start": "2045-01-01",
+        "end": "2049-12-31",
+        "url": "https://power.larc.nasa.gov/api/projection/daily/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CPRECTOTCORR&community=AG&longitude=-96.636037&latitude=39.123775&start=20450101&end=20491231&format=JSON&time-standard=UTC&scenario=ssp245&model=ensemble"
+      },
+      "sha256": "91d182c89026ac1be28b2f9307c842e95e3ea1303f2e987a260d950d72a871b4",
+      "fetched_at_utc": "2026-11-15T00:42:49.011225+00:00",
+      "api_header": {
+        "title": "NASA/POWER WCRP/CMIP6 NEX-GDDP Downscaled Daily Data",
+        "api": {
+          "version": "v2.6.4-beta",
+          "name": "Climate Projection API"
+        },
+        "sources": [
+          "NEXGDDP"
+        ],
+        "model": "ensemble",
+        "scenarios": [
+          "ssp245"
+        ],
+        "time_standard": "utc",
+        "fill_value": -999,
+        "start": "20450101",
+        "end": "20491231"
+      },
+      "coordinate_source": {
+        "dataset": "napeshm",
+        "version": 1,
+        "doi": "https://doi.org/10.15482/USDA.ADC/25632270",
+        "license": {
+          "value": 1,
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "metadata_sha256": "1e15b96e2a2d3b711c2444be6f93526bbcdc2bd12d40eb7199d59e9e8ce5c442",
+        "files": [
+          {
+            "file": "NAPESHM_public_dataset_06032024.zip",
+            "size": 4994407,
+            "md5": "b6a0a7cd8123c556c82a0d3384084a83",
+            "sha256": "1b4a6eba11d27b88aee83a1fb844eea91919599ee64652e37d988059c14a029a"
+          }
+        ]
+      },
+      "reported_geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.636037,
+          39.123775,
+          389.95
+        ]
+      }
+    }
+  ],
+  "limitations": [
+    "Referans dönem de aynı SSP'nin model çıktısıdır; gözlem veya tarihsel normal değildir.",
+    "5–30 yıllık keşif karşılaştırması; kısa dönemlerde iç iklim değişkenliği önemlidir.",
+    "Ensemble ortalama günlerinden sıcaklık eşiği aşım sayıları hesaplanmaz.",
+    "Eksik gün varsa ilgili aylık/yıllık özet ve fark boş kalır; eksik yıl atılmaz.",
+    "Nokta çıktıları çalışma alanlarının koordinatlarıdır; parsel veya tarım sınırı değildir.",
+    "Ürün gözlemleriyle doğrulanmış coğrafi model ve dinamik toprak tepkisi henüz yok."
+  ]
+}

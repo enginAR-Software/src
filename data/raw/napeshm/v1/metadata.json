@@ -1,0 +1,763 @@
+{
+  "files": [
+    {
+      "id": 46794877,
+      "name": "NAPESHM_public_dataset_06032024.zip",
+      "size": 4994407,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/46794877",
+      "supplied_md5": "b6a0a7cd8123c556c82a0d3384084a83",
+      "computed_md5": "b6a0a7cd8123c556c82a0d3384084a83",
+      "mimetype": "application/zip"
+    }
+  ],
+  "folder_structure": {},
+  "authors": [
+    {
+      "id": 18954526,
+      "full_name": "Soil Health Institute",
+      "first_name": "",
+      "last_name": "Soil Health Institute",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    }
+  ],
+  "custom_fields": [
+    {
+      "name": "Data contact name",
+      "value": "Cope, Michael, P.",
+      "settings": {
+        "validations": {
+          "min_length": 1,
+          "max_length": 250
+        },
+        "placeholder": "LastName, FirstName, M.I."
+      },
+      "field_type": "text",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "Data contact email",
+      "value": "mcope@soilhealthinstitute.org",
+      "settings": {
+        "placeholder": "Data contact email"
+      },
+      "field_type": "email",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "Publisher",
+      "value": "Ag Data Commons",
+      "settings": {
+        "validations": {
+          "min_length": 1,
+          "max_length": 250
+        },
+        "default_value": "Ag Data Commons"
+      },
+      "field_type": "text",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "Intended use",
+      "value": "",
+      "settings": {
+        "validations": {
+          "min_length": 3,
+          "max_length": 2000
+        },
+        "placeholder": "Intended use"
+      },
+      "field_type": "textarea",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "Use limitations",
+      "value": "",
+      "settings": {
+        "validations": {
+          "min_length": 3,
+          "max_length": 5000
+        },
+        "placeholder": "Use limitations"
+      },
+      "field_type": "textarea",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "Temporal Extent Start Date",
+      "value": "2019-03-01",
+      "settings": {},
+      "field_type": "date",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "Temporal Extent End Date",
+      "value": "2019-10-31",
+      "settings": {},
+      "field_type": "date",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "Frequency",
+      "value": [
+        "annually"
+      ],
+      "settings": {
+        "options": [
+          "continual",
+          "daily",
+          "weekly",
+          "fortnightly",
+          "monthly",
+          "quarterly",
+          "biannually",
+          "annually",
+          "asNeeded",
+          "irregular",
+          "notPlanned",
+          "unknown",
+          "periodic",
+          "semimonthly",
+          "biennially"
+        ],
+        "placeholder": "Frequency",
+        "is_multiple": false
+      },
+      "field_type": "dropdown",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "Theme",
+      "value": [
+        "Not specified"
+      ],
+      "settings": {
+        "options": [
+          "Geospatial",
+          "Non-geospatial",
+          "Not specified"
+        ],
+        "placeholder": "Not specified",
+        "is_multiple": false
+      },
+      "field_type": "dropdown",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "Geographic Coverage",
+      "value": "",
+      "settings": {
+        "is_multiple": false
+      },
+      "field_type": "geospatial",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "Geographic location - description",
+      "value": "94 long-term agricultural sites across the United States and Mexico.",
+      "settings": {
+        "validations": {
+          "min_length": 3,
+          "max_length": 2000
+        },
+        "placeholder": "Geographic location textual description"
+      },
+      "field_type": "textarea",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "ISO Topic Category",
+      "value": [
+        "farming",
+        "environment"
+      ],
+      "settings": {
+        "options": [
+          "biota",
+          "boundaries",
+          "climatologyMeteorologyAtmosphere",
+          "disaster",
+          "economy",
+          "elevation",
+          "environment",
+          "extraTerrestrial",
+          "farming",
+          "geoscientificInformation",
+          "health",
+          "imageryBaseMapsEarthCover",
+          "inlandWaters",
+          "intelligenceMilitary",
+          "location",
+          "oceans",
+          "planningCadastre",
+          "society",
+          "structure",
+          "transportation",
+          "utilitiesCommunication"
+        ],
+        "placeholder": "ISO Topic Category",
+        "is_multiple": true
+      },
+      "field_type": "dropdown",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "Ag Data Commons Group",
+      "value": [],
+      "settings": {
+        "options": [
+          "AgBioData",
+          "Archbold - University of Florida",
+          "ARDN",
+          "ARS Culture Collection",
+          "Central Mississippi River Basin",
+          "Central Plains Experimental Range",
+          "Eastern Corn Belt",
+          "Great Basin",
+          "Gulf Atlantic Coastal Plain",
+          "Insects - i5K",
+          "Jornada Experimental Range",
+          "Kellogg Biological Station",
+          "Life Cycle Assessment",
+          "Long-Term Agroecosystem Research",
+          "Long-Term Livestock Production",
+          "Lower Chesapeake Bay",
+          "Lower Mississippi River Basin",
+          "Northern Plains",
+          "Platte River - High Plains Aquifer",
+          "R.J. Cook Agronomy Farm",
+          "Southern Plains",
+          "Texas Gulf",
+          "Upper Chesapeake Bay",
+          "Upper Mississippi River Basin",
+          "Walnut Gulch Experimental Watershed",
+          "Veterinary Pest Genomics Center",
+          "Farm 2 Fly"
+        ],
+        "placeholder": "Ag Data Commons Group",
+        "is_multiple": true
+      },
+      "field_type": "dropdown",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "National Agricultural Library Thesaurus terms",
+      "value": "soil quality; data collection; ecosystem services; agricultural research; United States; Mexico; metadata; meteorological data; chemical species; ammonium acetate; phosphorus; pH; phospholipid fatty acids; biomarkers",
+      "settings": {
+        "validations": {
+          "min_length": 3,
+          "max_length": 2000
+        },
+        "placeholder": "LEAVE THIS FIELD BLANK - ADMINISTRATIVE USE ONLY"
+      },
+      "field_type": "textarea",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "OMB Bureau Code",
+      "value": [],
+      "settings": {
+        "options": [
+          "005:00 - Department of Agriculture",
+          "005:03 - Office of the Secretary",
+          "005:04 - Executive Operations",
+          "005:07 - Office of Civil Rights",
+          "005:08 - Office of Inspector General",
+          "005:10 - Office of the General Counsel",
+          "005:12 - Office of Chief Information Officer",
+          "005:13 - Economic Research Service",
+          "005:14 - Office of Chief Financial Officer",
+          "005:15 - National Agricultural Statistics Service",
+          "005:16 - Hazardous Materials Management",
+          "005:18 - Agricultural Research Service",
+          "005:19 - Buildings and Facilities",
+          "005:20 - National Institute of Food and Agriculture",
+          "005:32 - Animal and Plant Health Inspection Service",
+          "005:35 - Food Safety and Inspection Service",
+          "005:37 - Grain Inspection, Packers and Stockyards Administration",
+          "005:45 - Agricultural Marketing Service",
+          "005:47 - Risk Management Agency",
+          "005:49 - Farm Service Agency",
+          "005:53 - Natural Resources Conservation Service",
+          "005:55 - Rural Development",
+          "005:60 - Rural Utilities Service",
+          "005:63 - Rural Housing Service",
+          "005:65 - Rural Business - Cooperative Service",
+          "005:68 - Foreign Agricultural Service",
+          "005:84 - Food and Nutrition Service",
+          "005:96 - Forest Service"
+        ],
+        "placeholder": "OMB Bureau Code",
+        "is_multiple": true
+      },
+      "field_type": "dropdown",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "OMB Program Code",
+      "value": [],
+      "settings": {
+        "options": [
+          "005:001 - Rural Business Loans",
+          "005:002 - Rural Business Grants",
+          "005:003 - Energy Assistance Loan Guarantees and Payments",
+          "005:004 - Distance Learning Telemedicine and Broadband",
+          "005:005 - Rural Electrification and Telecommunication Loans",
+          "005:006 - Rural Water and Waste Loans and Grants",
+          "005:007 - Single Family Housing",
+          "005:008 - Multi-Family Housing",
+          "005:009 - Farm labor Housing",
+          "005:010 - Rental Assistance",
+          "005:011 - Community Facilities",
+          "005:012 - Farm Loans",
+          "005:013 - Commodity Programs, Commodity Credit Corporation",
+          "005:014 - Conservation Programs, Commodity Credit Corporation",
+          "005:015 - Grassroots Source Water Protection Program",
+          "005:016 - Reforestation Pilot Program",
+          "005:017 - State Mediation Grants",
+          "005:018 - Dairy Indemnity Payment Program (DIPP)",
+          "005:019 - Emergency Conservation Program",
+          "005:020 - Emergency Forest Restoration Program",
+          "005:021 - Noninsured Crop Disaster Assistance Program (NAP)",
+          "005:022 - Federal Crop Insurance Corporation Fund",
+          "005:023 - Public Law 480 Title I Direct Credit and Food for Progress Program Account",
+          "005:024 - Food for Peace Title II Grants",
+          "005:025 - McGovern-Dole International Food for Education and Child Nutrition Program",
+          "005:026 - Market Development and Food Assistance",
+          "005:027 - Conservation Operations",
+          "005:028 - Conservation Easements",
+          "005:029 - Environmental Quality Incentives Program",
+          "005:030 - Capital Improvement and Maintenance",
+          "005:031 - Forest and Rangeland Research",
+          "005:032 - Forest Service Permanent Appropriations and Trust Funds",
+          "005:033 - Land Acquisition",
+          "005:034 - National Forest System",
+          "005:035 - State and Private Forestry",
+          "005:036 - Wildland Fire Management",
+          "005:037 - Research and Education",
+          "005:038 - Extension",
+          "005:039 - Integrated Activities",
+          "005:040 - National Research",
+          "005:041 - Economic Research, Market Outlook, and Policy Analysis",
+          "005:042 - Agricultural Estimates",
+          "005:043 - Census of Agriculture",
+          "005:044 - Grain Regulatory Program",
+          "005:045 - Packers and Stockyards Program",
+          "005:046 - Inspection and Grading of Farm Products",
+          "005:047 - Marketing Services",
+          "005:048 - Payments to States and Possessions",
+          "005:049 - Perishable Agricultural Commodities Act",
+          "005:050 - Commodity Purchases",
+          "005:051 - Safeguarding and Emergency Preparedness/Response",
+          "005:052 - Safe Trade and International Technical Assistance",
+          "005:053 - Animal Welfare",
+          "005:054 - Child Nutrition Programs",
+          "005:055 - Commodity Assistance Programs",
+          "005:056 - Supplemental Nutrition Assistance Program",
+          "005:057 - Center for Nutrition Policy and Promotion",
+          "005:058 - Food Safety and Inspection",
+          "005:059 - Management Activities",
+          "005:000 - (Primary Program Not Available)"
+        ],
+        "placeholder": "OMB Program Code",
+        "is_multiple": true
+      },
+      "field_type": "dropdown",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "ARS National Program Number",
+      "value": [],
+      "settings": {
+        "options": [
+          "101",
+          "103",
+          "104",
+          "106",
+          "107",
+          "108",
+          "211",
+          "212",
+          "215",
+          "216",
+          "301",
+          "303",
+          "304",
+          "305",
+          "306",
+          "Other"
+        ],
+        "placeholder": "ARS National Program Number",
+        "is_multiple": true
+      },
+      "field_type": "dropdown",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "ARIS Log Number",
+      "value": "",
+      "settings": {
+        "validations": {
+          "min_length": 1,
+          "max_length": 250
+        },
+        "placeholder": "ARIS Log Number"
+      },
+      "field_type": "text",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "Primary article PubAg Handle",
+      "value": [
+        "https://hdl.handle.net/10113/7771610",
+        "https://hdl.handle.net/10113/7929947",
+        "https://hdl.handle.net/10113/8061285"
+      ],
+      "settings": {
+        "placeholder": "LEAVE THIS FIELD BLANK - ADMINISTRATIVE USE ONLY",
+        "is_multiple": true
+      },
+      "field_type": "url",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "Pending citation",
+      "value": [
+        "No"
+      ],
+      "settings": {
+        "options": [
+          "Yes",
+          "No"
+        ],
+        "default_value": [
+          "No"
+        ],
+        "is_multiple": false
+      },
+      "field_type": "dropdown",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "Related material without URL",
+      "value": "",
+      "settings": {
+        "validations": {
+          "min_length": 10,
+          "max_length": 2000
+        },
+        "placeholder": "Related material without URL"
+      },
+      "field_type": "textarea",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "Public Access Level",
+      "value": [
+        "Public"
+      ],
+      "settings": {
+        "options": [
+          "Public"
+        ],
+        "default_value": [
+          "Public"
+        ],
+        "is_multiple": false
+      },
+      "field_type": "dropdown",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "Preferred dataset citation",
+      "value": "Soil Health Institute (2024). North American Project to Evaluate Soil Health Measurements [data set]. doi:10.15482/USDA.ADC/25632270.",
+      "settings": {
+        "validations": {
+          "min_length": 3,
+          "max_length": 10000
+        },
+        "placeholder": "Preferred dataset citation"
+      },
+      "field_type": "textarea",
+      "order": null,
+      "is_mandatory": false
+    }
+  ],
+  "figshare_url": "https://agdatacommons.nal.usda.gov/articles/dataset/North_American_Project_to_Evaluate_Soil_Health_Measurements_Dataset/25632270",
+  "download_disabled": false,
+  "description": "<p>These data were collected as part of the Assessing and Expanding Soil Health for Production, Economic, & Environmental Benefits grant to the Soil Health Institute. Because the primary objective was to evaluate, identify, and recommend effective widely-applicable measurements for evaluating soil health across North America, the project is often referenced as the North American Project to Evaluate Soil Health Measurements. The data available are a compilation of data collected and curated by Soil Health Institute from 94 long-term agricultural research sites across the United States and Mexico. Metadata includes location (lat/long) for each site, name, year it became a research site, 10-year summary weather variables based on the Daymet daily surface weather data set, year each treatment began, the categorical management attributes and detailed management data, and other metadata. 508 treatments are represented. Data is provided for 1453 experimental units (plots) that were sampled. 110 analyses (data columns) are reported for each experimental unit. Five more data columns are provided on nutrient analytes (ammonium acetate extraction, DTPA extraction, Olsen P) that were performed conditional on pH. Phospholipid Fatty Acid (PLFA) reports are provided on 109 biomarkers.</p>\n<p>The NAPESHM project is part of a broader effort titled, “Assessing and Expanding Soil Health for Production, Economic, and Environmental Benefits”. The project is funded by the Foundation for Food and Agricultural Research (grant ID 523926), General Mills, and The Samuel Roberts Noble Foundation.</p>",
+  "funding": "Foundation for Food and Agriculture Research: Grant ID 523926",
+  "funding_list": [
+    {
+      "id": 25853464,
+      "title": "Foundation for Food and Agriculture Research: Grant ID 523926",
+      "grant_code": "",
+      "funder_name": null,
+      "is_user_defined": 1
+    },
+    {
+      "id": 25853542,
+      "title": "General Mills",
+      "grant_code": "",
+      "funder_name": null,
+      "is_user_defined": 1
+    },
+    {
+      "id": 25853545,
+      "title": "The Samuel Roberts Noble Foundation",
+      "grant_code": "",
+      "funder_name": null,
+      "is_user_defined": 1
+    },
+    {
+      "id": 25853467,
+      "title": "USDA-ARS: ARS researchers were collaborators on this project",
+      "grant_code": "",
+      "funder_name": null,
+      "is_user_defined": 1
+    }
+  ],
+  "version": 1,
+  "status": "public",
+  "size": 4994407,
+  "created_date": "2024-07-19T21:27:20Z",
+  "modified_date": "2026-08-24T21:40:37Z",
+  "is_public": true,
+  "is_confidential": false,
+  "is_metadata_record": false,
+  "confidential_reason": "",
+  "metadata_reason": "",
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "tags": [
+    "Soil health",
+    "NAPESHM",
+    "Soil organic carbon",
+    "Soil health indicators",
+    "Potential carbon mineralization",
+    "Tillage",
+    "Soil management",
+    "Aggregate stability",
+    "Cover crops",
+    "Organic amendments",
+    "Saturated hydraulic conductivity",
+    "Total soil nitrogen",
+    "Water-extractable organic nitrogen",
+    "Potentially mineralizable nitrogen",
+    "Autoclavable citrate extractable protein",
+    "Plant available water holding capacity",
+    "Microbial community"
+  ],
+  "keywords": [
+    "Soil health",
+    "NAPESHM",
+    "Soil organic carbon",
+    "Soil health indicators",
+    "Potential carbon mineralization",
+    "Tillage",
+    "Soil management",
+    "Aggregate stability",
+    "Cover crops",
+    "Organic amendments",
+    "Saturated hydraulic conductivity",
+    "Total soil nitrogen",
+    "Water-extractable organic nitrogen",
+    "Potentially mineralizable nitrogen",
+    "Autoclavable citrate extractable protein",
+    "Plant available water holding capacity",
+    "Microbial community"
+  ],
+  "categories": [
+    {
+      "id": 33740,
+      "title": "Soil physics",
+      "parent_id": 33725,
+      "path": "/33614/33725/33740",
+      "source_id": "410605",
+      "taxonomy_id": 102
+    },
+    {
+      "id": 33731,
+      "title": "Pedology and pedometrics",
+      "parent_id": 33725,
+      "path": "/33614/33725/33731",
+      "source_id": "410602",
+      "taxonomy_id": 102
+    },
+    {
+      "id": 33734,
+      "title": "Soil biology",
+      "parent_id": 33725,
+      "path": "/33614/33725/33734",
+      "source_id": "410603",
+      "taxonomy_id": 102
+    },
+    {
+      "id": 33737,
+      "title": "Soil chemistry and soil carbon sequestration (excl. carbon sequestration science)",
+      "parent_id": 33725,
+      "path": "/33614/33725/33737",
+      "source_id": "410604",
+      "taxonomy_id": 102
+    }
+  ],
+  "references": [
+    "https://doi.org/10.3334/ORNLDAAC/1840",
+    "https://doi.org/10.1016/j.soilbio.2022.108618",
+    "https://doi.org/10.1002/saj2.20395",
+    "https://doi.org/10.1016/j.soisec.2023.100084",
+    "https://doi.org/10.1002/saj2.20558",
+    "https://doi.org/10.1002/saj2.20428",
+    "https://doi.org/10.1016/j.geoderma.2022.116156",
+    "https://doi.org/10.1016/j.soilbio.2022.108708",
+    "https://doi.org/10.1002/agj2.20234",
+    "https://doi.org/10.1002/agj2.70390"
+  ],
+  "has_linked_file": false,
+  "citation": "Soil Health Institute (2024). North American Project to Evaluate Soil Health Measurements Dataset. Ag Data Commons. Dataset. https://doi.org/10.15482/USDA.ADC/25632270.v1",
+  "related_materials": [
+    {
+      "id": 173262847,
+      "identifier": "10.3334/ORNLDAAC/1840",
+      "title": "Daymet: Daily Surface Weather Data on a 1-km Grid for North America, Version 4",
+      "relation": "IsSupplementedBy",
+      "identifier_type": "DOI",
+      "is_linkout": false,
+      "link": "https://doi.org/10.3334/ORNLDAAC/1840"
+    },
+    {
+      "id": 173262850,
+      "identifier": "10.1016/j.soilbio.2022.108618",
+      "title": "Linking soil microbial community structure to potential carbon mineralization: A continental scale assessment of reduced tillage",
+      "relation": "IsSupplementTo",
+      "identifier_type": "DOI",
+      "is_linkout": false,
+      "link": "https://doi.org/10.1016/j.soilbio.2022.108618"
+    },
+    {
+      "id": 173262853,
+      "identifier": "10.1002/saj2.20395",
+      "title": "Carbon-sensitive pedotransfer functions for plant available water",
+      "relation": "IsSupplementTo",
+      "identifier_type": "DOI",
+      "is_linkout": false,
+      "link": "https://doi.org/10.1002/saj2.20395"
+    },
+    {
+      "id": 173262859,
+      "identifier": "10.1016/j.soisec.2023.100084",
+      "title": "A minimum suite of soil health indicators for North American agriculture",
+      "relation": "IsSupplementTo",
+      "identifier_type": "DOI",
+      "is_linkout": false,
+      "link": "https://doi.org/10.1016/j.soisec.2023.100084"
+    },
+    {
+      "id": 173262862,
+      "identifier": "10.1002/saj2.20558",
+      "title": "An evaluation of nitrogen indicators for soil health in long-term agricultural experiments",
+      "relation": "IsSupplementTo",
+      "identifier_type": "DOI",
+      "is_linkout": false,
+      "link": "https://doi.org/10.1002/saj2.20558"
+    },
+    {
+      "id": 173262865,
+      "identifier": "10.1002/saj2.20428",
+      "title": "Selecting soil hydraulic properties as indicators of soil health: Measurement response to management and site characteristics",
+      "relation": "IsSupplementTo",
+      "identifier_type": "DOI",
+      "is_linkout": false,
+      "link": "https://doi.org/10.1002/saj2.20428"
+    },
+    {
+      "id": 173262868,
+      "identifier": "10.1016/j.geoderma.2022.116156",
+      "title": "Evaluation of aggregate stability methods for soil health",
+      "relation": "IsSupplementTo",
+      "identifier_type": "DOI",
+      "is_linkout": false,
+      "link": "https://doi.org/10.1016/j.geoderma.2022.116156"
+    },
+    {
+      "id": 173262871,
+      "identifier": "10.1016/j.soilbio.2022.108708",
+      "title": "An evaluation of carbon indicators of soil health in long-term agricultural experiments",
+      "relation": "IsSupplementTo",
+      "identifier_type": "DOI",
+      "is_linkout": false,
+      "link": "https://doi.org/10.1016/j.soilbio.2022.108708"
+    },
+    {
+      "id": 173262877,
+      "identifier": "10.1002/agj2.20234",
+      "title": "Introducing the North American project to evaluate soil health measurements",
+      "relation": "IsSupplementTo",
+      "identifier_type": "DOI",
+      "is_linkout": false,
+      "link": "https://doi.org/10.1002/agj2.20234"
+    },
+    {
+      "id": 277822479,
+      "identifier": "10.1002/agj2.70390",
+      "title": "Dada, A., Cope, M.P., Ackerson, J.P. & Morgan, C.L.S. (2026). Simple soil health management indices to evaluate row crop management. Agron. J., 118 (3). https://doi.org/10.1002/agj2.70390",
+      "relation": "IsSupplementTo",
+      "identifier_type": "DOI",
+      "is_linkout": true,
+      "link": "https://doi.org/10.1002/agj2.70390"
+    }
+  ],
+  "is_embargoed": false,
+  "embargo_date": null,
+  "embargo_type": null,
+  "embargo_title": "",
+  "embargo_reason": "",
+  "embargo_options": [],
+  "id": 25632270,
+  "title": "North American Project to Evaluate Soil Health Measurements Dataset",
+  "doi": "10.15482/USDA.ADC/25632270.v1",
+  "handle": "",
+  "url": "https://api.figshare.com/v2/articles/25632270",
+  "published_date": "2024-07-19T21:27:20Z",
+  "thumb": "",
+  "defined_type": 3,
+  "defined_type_name": "dataset",
+  "group_id": 51648,
+  "url_private_api": "https://api.figshare.com/v2/account/articles/25632270",
+  "url_public_api": "https://api.figshare.com/v2/articles/25632270",
+  "url_private_html": "https://figshare.com/account/articles/25632270",
+  "url_public_html": "https://agdatacommons.nal.usda.gov/articles/dataset/North_American_Project_to_Evaluate_Soil_Health_Measurements_Dataset/25632270",
+  "timeline": {
+    "posted": "2024-07-19T21:27:20",
+    "firstOnline": "2024-07-19"
+  },
+  "resource_title": "Dada, A., Cope, M.P., Ackerson, J.P. & Morgan, C.L.S. (2026). Simple soil health management indices to evaluate row crop management. Agron. J., 118 (3). https://doi.org/10.1002/agj2.70390",
+  "resource_doi": "10.1002/agj2.70390"
+}

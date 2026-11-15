@@ -1,0 +1,8 @@
+{
+  "url": "https://quickstats.nass.usda.gov/api/api_GET/?short_desc=WHEAT%2C+SPRING%2C+%28EXCL+DURUM%29+-+YIELD%2C+MEASURED+IN+BU+%2F+ACRE&agg_level_desc=COUNTY&state_alpha=SD&year__GE=2014&year__LE=2023&source_desc=SURVEY&format=JSON",
+  "sha256": "46d21d069cd393bb94866af5ad845a156f0331770b05ca60374817392c199d33",
+  "fetched_at_utc": "2026-11-15T03:15:33.307934+00:00",
+  "source": "USDA NASS Quick Stats",
+  "series": "WHEAT, SPRING, (EXCL DURUM) - YIELD, MEASURED IN BU / ACRE",
+  "level": "COUNTY"
+}

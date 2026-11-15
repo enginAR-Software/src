@@ -1,0 +1,1167 @@
+{
+  "files": [
+    {
+      "id": 44530277,
+      "name": "DataSourcesAndReferences.csv",
+      "size": 45384,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/44530277",
+      "supplied_md5": "307469c3ffb076258f4db84d424e9ca4",
+      "computed_md5": "307469c3ffb076258f4db84d424e9ca4",
+      "mimetype": "text/plain"
+    },
+    {
+      "id": 44530280,
+      "name": "PBudgetData.csv",
+      "size": 67501,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/44530280",
+      "supplied_md5": "ce25c5543acbef3432d781f9ae7a23a1",
+      "computed_md5": "ce25c5543acbef3432d781f9ae7a23a1",
+      "mimetype": "text/plain"
+    }
+  ],
+  "folder_structure": {},
+  "authors": [
+    {
+      "id": 17483409,
+      "full_name": "Mark R. Williams",
+      "first_name": "Mark R.",
+      "last_name": "Williams",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0002-8081-8018"
+    },
+    {
+      "id": 17483412,
+      "full_name": "Pauline Welikhe",
+      "first_name": "Pauline",
+      "last_name": "Welikhe",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0003-2573-6754"
+    },
+    {
+      "id": 17362186,
+      "full_name": "Janae Bos",
+      "first_name": "Janae",
+      "last_name": "Bos",
+      "is_active": true,
+      "url_name": "Janae_Bos",
+      "orcid_id": ""
+    },
+    {
+      "id": 17483415,
+      "full_name": "Kevin W. King",
+      "first_name": "Kevin W.",
+      "last_name": "King",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0002-3843-9591"
+    },
+    {
+      "id": 17483418,
+      "full_name": "Mark Akland",
+      "first_name": "Mark",
+      "last_name": "Akland",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0003-1779-8330"
+    },
+    {
+      "id": 17482473,
+      "full_name": "David J. Augustine",
+      "first_name": "David J.",
+      "last_name": "Augustine",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0003-3144-0466"
+    },
+    {
+      "id": 17477091,
+      "full_name": "Claire Baffaut",
+      "first_name": "Claire",
+      "last_name": "Baffaut",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0001-7840-1953"
+    },
+    {
+      "id": 17483421,
+      "full_name": "Ennis G. Beck",
+      "first_name": "Ennis G.",
+      "last_name": "Beck",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0001-6900-7858"
+    },
+    {
+      "id": 17483424,
+      "full_name": "Andrew Bierer",
+      "first_name": "Andrew",
+      "last_name": "Bierer",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0001-9966-797X"
+    },
+    {
+      "id": 17483427,
+      "full_name": "David Bosch",
+      "first_name": "David",
+      "last_name": "Bosch",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0001-9021-8705"
+    },
+    {
+      "id": 17483430,
+      "full_name": "Elizabeth Boughton",
+      "first_name": "Elizabeth",
+      "last_name": "Boughton",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0003-0932-280X"
+    },
+    {
+      "id": 17483433,
+      "full_name": "Carolina Brandani",
+      "first_name": "Carolina",
+      "last_name": "Brandani",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0003-1380-5054"
+    },
+    {
+      "id": 17483436,
+      "full_name": "Erin S. Brooks",
+      "first_name": "Erin S.",
+      "last_name": "Brooks",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0002-6921-4870"
+    },
+    {
+      "id": 17478279,
+      "full_name": "Anthony R. Buda",
+      "first_name": "Anthony R.",
+      "last_name": "Buda",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0002-5194-4998"
+    },
+    {
+      "id": 17481954,
+      "full_name": "Michel Cavigelli",
+      "first_name": "Michel",
+      "last_name": "Cavigelli",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0003-1483-018X"
+    },
+    {
+      "id": 17483439,
+      "full_name": "Joshua Faulkner",
+      "first_name": "Joshua",
+      "last_name": "Faulkner",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0002-4695-5334"
+    },
+    {
+      "id": 17483442,
+      "full_name": "Gary W. Feyereisen",
+      "first_name": "Gary W.",
+      "last_name": "Feyereisen",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0003-2785-4594"
+    },
+    {
+      "id": 17483445,
+      "full_name": "Ann-Marie Fortuna",
+      "first_name": "Ann-Marie",
+      "last_name": "Fortuna",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0002-6966-7781"
+    },
+    {
+      "id": 17483448,
+      "full_name": "Joshua Gamble",
+      "first_name": "Joshua",
+      "last_name": "Gamble",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0002-6024-8097"
+    },
+    {
+      "id": 17483451,
+      "full_name": "Britany R. Hanrahan",
+      "first_name": "Britany R.",
+      "last_name": "Hanrahan",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    },
+    {
+      "id": 17483454,
+      "full_name": "Mir Zaman Hussain",
+      "first_name": "Mir Zaman",
+      "last_name": "Hussain",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0002-4916-1302"
+    },
+    {
+      "id": 17483457,
+      "full_name": "Marta M. Kohmann",
+      "first_name": "Marta M.",
+      "last_name": "Kohmann",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0002-5844-0733"
+    },
+    {
+      "id": 17483460,
+      "full_name": "John L. Kovar",
+      "first_name": "John L.",
+      "last_name": "Kovar",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0002-3503-234X"
+    },
+    {
+      "id": 17483463,
+      "full_name": "Brad Lee",
+      "first_name": "Brad",
+      "last_name": "Lee",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0003-3907-5037"
+    },
+    {
+      "id": 17483466,
+      "full_name": "April B. Leytem",
+      "first_name": "April B.",
+      "last_name": "Leytem",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0001-5976-402X"
+    },
+    {
+      "id": 17483469,
+      "full_name": "Mark A. Liebig",
+      "first_name": "Mark A.",
+      "last_name": "Liebig",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0002-2716-3665"
+    },
+    {
+      "id": 17483472,
+      "full_name": "Daniel Line",
+      "first_name": "Daniel",
+      "last_name": "Line",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    },
+    {
+      "id": 17483475,
+      "full_name": "Merrin Macrae",
+      "first_name": "Merrin",
+      "last_name": "Macrae",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0003-3296-3103"
+    },
+    {
+      "id": 17483478,
+      "full_name": "Thomas B. Moorman",
+      "first_name": "Thomas B.",
+      "last_name": "Moorman",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0001-7409-0609"
+    },
+    {
+      "id": 17483481,
+      "full_name": "Daniel Moriasi",
+      "first_name": "Daniel",
+      "last_name": "Moriasi",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0002-3389-3277"
+    },
+    {
+      "id": 17483484,
+      "full_name": "Nathan Nelson",
+      "first_name": "Nathan",
+      "last_name": "Nelson",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0003-2300-1009"
+    },
+    {
+      "id": 17483487,
+      "full_name": "Aline Ortega-Pieck",
+      "first_name": "Aline",
+      "last_name": "Ortega-Pieck",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0001-5371-4240"
+    },
+    {
+      "id": 17480286,
+      "full_name": "Deanna Osmond",
+      "first_name": "Deanna",
+      "last_name": "Osmond",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0002-6336-8318"
+    },
+    {
+      "id": 17483157,
+      "full_name": "Oliva Pisani",
+      "first_name": "Oliva",
+      "last_name": "Pisani",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0003-1692-9589"
+    },
+    {
+      "id": 17483490,
+      "full_name": "John Ragosta",
+      "first_name": "John",
+      "last_name": "Ragosta",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0002-6117-4771"
+    },
+    {
+      "id": 17476116,
+      "full_name": "Michele Reba",
+      "first_name": "Michele",
+      "last_name": "Reba",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0001-6830-0438"
+    },
+    {
+      "id": 17483493,
+      "full_name": "Amartya Saha",
+      "first_name": "Amartya",
+      "last_name": "Saha",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0001-9665-4356"
+    },
+    {
+      "id": 17483496,
+      "full_name": "Joao Sanchez",
+      "first_name": "Joao",
+      "last_name": "Sanchez",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0001-9168-4900"
+    },
+    {
+      "id": 17483499,
+      "full_name": "Maria Silveira",
+      "first_name": "Maria",
+      "last_name": "Silveira",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0003-2166-3156"
+    },
+    {
+      "id": 17483502,
+      "full_name": "Douglas R. Smith",
+      "first_name": "Douglas R.",
+      "last_name": "Smith",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0002-7194-5787"
+    },
+    {
+      "id": 17482614,
+      "full_name": "Sheri Spiegal",
+      "first_name": "Sheri",
+      "last_name": "Spiegal",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0002-5489-9512"
+    },
+    {
+      "id": 17483505,
+      "full_name": "Hilary Swain",
+      "first_name": "Hilary",
+      "last_name": "Swain",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0001-7291-2218"
+    },
+    {
+      "id": 17483508,
+      "full_name": "Jason Unrine",
+      "first_name": "Jason",
+      "last_name": "Unrine",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0003-3012-5261"
+    },
+    {
+      "id": 17483511,
+      "full_name": "Pearl Webb",
+      "first_name": "Pearl",
+      "last_name": "Webb",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    },
+    {
+      "id": 8415045,
+      "full_name": "Kathryn E. White",
+      "first_name": "Kathryn E.",
+      "last_name": "White",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    },
+    {
+      "id": 17483514,
+      "full_name": "Henry Wilson",
+      "first_name": "Henry",
+      "last_name": "Wilson",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0002-6611-9501"
+    },
+    {
+      "id": 17483517,
+      "full_name": "Lindsey M.W. Yasarer",
+      "first_name": "Lindsey M.W.",
+      "last_name": "Yasarer",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0002-0909-060X"
+    }
+  ],
+  "custom_fields": [
+    {
+      "name": "Data contact name",
+      "value": "Williams, Mark",
+      "settings": {
+        "validations": {
+          "min_length": 1,
+          "max_length": 250
+        },
+        "placeholder": "LastName, FirstName, M.I."
+      },
+      "field_type": "text",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "Data contact email",
+      "value": "mark.williams2@usda.gov",
+      "settings": {
+        "placeholder": "Data contact email"
+      },
+      "field_type": "email",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "Publisher",
+      "value": "Ag Data Commons",
+      "settings": {
+        "validations": {
+          "min_length": 1,
+          "max_length": 250
+        },
+        "default_value": "Ag Data Commons"
+      },
+      "field_type": "text",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "Intended use",
+      "value": "The phosphorus budgets within this database are representative of cropping systems throughout the Long-Term Agroecosystem Research (LTAR) Network in the United States as well as non-LTAR sites, including Ontario and Manitoba, Canada. Data are intended to compare field-scale soil surface P fluxes and budgets across sites and cropping systems and identify gaps in P budgets across study sites.",
+      "settings": {
+        "validations": {
+          "min_length": 3,
+          "max_length": 2000
+        },
+        "placeholder": "Intended use"
+      },
+      "field_type": "textarea",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "Use limitations",
+      "value": "Use of these datasets should be used to compare typical phosphorus budgets across cropping systems and sites throughout the United States and Canada. Use of the data should follow the LTAR Data Sharing Principles and Guidelines, which can be found at: https://ltar.ars.usda.gov/wp-content/uploads/2020/05/LTAR_DataSharing_PrincGuide_v1_0.pdf.",
+      "settings": {
+        "validations": {
+          "min_length": 3,
+          "max_length": 5000
+        },
+        "placeholder": "Use limitations"
+      },
+      "field_type": "textarea",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "Temporal Extent Start Date",
+      "value": "2000-01-01",
+      "settings": {},
+      "field_type": "date",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "Temporal Extent End Date",
+      "value": "2020-12-31",
+      "settings": {},
+      "field_type": "date",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "Frequency",
+      "value": "",
+      "settings": {
+        "options": [
+          "continual",
+          "daily",
+          "weekly",
+          "fortnightly",
+          "monthly",
+          "quarterly",
+          "biannually",
+          "annually",
+          "asNeeded",
+          "irregular",
+          "notPlanned",
+          "unknown",
+          "periodic",
+          "semimonthly",
+          "biennially"
+        ],
+        "placeholder": "Frequency",
+        "is_multiple": false
+      },
+      "field_type": "dropdown",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "Theme",
+      "value": [
+        "Not specified"
+      ],
+      "settings": {
+        "options": [
+          "Geospatial",
+          "Non-geospatial",
+          "Not specified"
+        ],
+        "placeholder": "Not specified",
+        "is_multiple": false
+      },
+      "field_type": "dropdown",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "Geographic Coverage",
+      "value": "{\"type\":\"FeatureCollection\",\"features\":[{\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[-80.33203125,28.381735043223],[-79.716796875,25.760319754714],[-80.6396484375,25.085598897065],[-82.2216796875,24.447149589731],[-81.8701171875,25.443274612306],[-82.880859375,27.059125784374],[-82.96875,28.613459424004],[-84.0673828125,29.764377375163],[-85.0341796875,29.573457073018],[-86.748046875,30.145127183376],[-88.5498046875,29.91685223307],[-88.9892578125,28.998531814052],[-90,28.767659105691],[-93.5595703125,29.688052749857],[-96.591796875,28.07198030178],[-97.1630859375,25.799891182088],[-99.0966796875,26.431228064506],[-99.7119140625,27.800209937418],[-100.810546875,29.075375179558],[-101.77734375,29.688052749857],[-102.744140625,29.458731185355],[-103.974609375,29.075375179558],[-105.029296875,30.524413269924],[-106.4794921875,31.802892586707],[-107.80883789063,31.784216884487],[-108.22631835938,31.737511125688],[-108.21533203125,31.344254455668],[-108.7646484375,31.316101383496],[-111.09375,31.316101383496],[-114.8291015625,32.472695022062],[-116.0595703125,32.546813173515],[-117.3779296875,32.620870183181],[-117.94921875,33.358061612779],[-119.3994140625,33.943359946579],[-120.5419921875,34.524661471772],[-122.255859375,36.844460740796],[-123.134765625,37.857507156252],[-123.75,38.6511983323],[-124.27734375,40.111688665596],[-124.365234375,41.40977583201],[-124.62890625,42.682435398386],[-124.365234375,44.056011695785],[-124.27734375,45.506346901083],[-124.189453125,46.920255315375],[-124.6728515625,48.268569112964],[-122.89306640625,48.151428143221],[-122.84912109375,48.603857608233],[-123.046875,49.009050809382],[-109.423828125,48.922499263758],[-102.48046875,48.980216985375],[-95.152587890625,48.987427006012],[-95.11962890625,49.350177413469],[-94.89990234375,49.343020022897],[-94.801025390625,49.239120832467],[-94.696655273438,49.012653863955],[-94.691162109375,48.727208819407],[-94.383544921875,48.719961222646],[-94.097900390625,48.632908585895],[-93.900146484375,48.603857608233],[-93.724365234375,48.53843177405],[-93.460693359375,48.531157010977],[-93.22998046875,48.618385186885],[-92.96630859375,48.622016428468],[-92.735595703125,48.53843177405],[-92.515869140625,48.40732607973],[-92.433471679688,48.297812492437],[-92.28515625,48.275881527435],[-92.268676757812,48.341646172375],[-92.109375,48.359899090022],[-91.5380859375,48.078078943499],[-91.197509765625,48.10743118848],[-90.85693359375,48.188063481211],[-90.670166015625,48.114766631876],[-90.37353515625,48.10743118848],[-90.076904296875,48.085418575512],[-89.80224609375,48.004625021134],[-89.208984375,48.004625021134],[-88.341064453125,48.297812492437],[-87.64892578125,48.034019158643],[-87.07763671875,47.783634635264],[-86.319580078125,47.509780349535],[-85.5615234375,47.174778339299],[-84.781494140625,46.837649560937],[-84.70458984375,46.604167162932],[-84.55078125,46.415138776492],[-84.232177734375,46.505954445521],[-84.04541015625,46.187436784325],[-83.60595703125,46.080851736868],[-83.572998046875,45.8134864968],[-82.562255859375,45.352145245852],[-82.2216796875,44.245199015221],[-82.08984375,43.556510375048],[-82.452392578125,42.988576458322],[-82.50732421875,42.642040793044],[-82.90283203125,42.374778361114],[-83.111572265625,42.195968776292],[-83.1005859375,41.943148747327],[-82.6611328125,41.656497194411],[-81.9580078125,41.869560826995],[-81.298828125,42.17968819666],[-80.073852539063,42.39912215986],[-78.980712890625,42.827638636242],[-78.9697265625,43.189157696549],[-79.161987304688,43.440954591707],[-78.667602539063,43.636075155966],[-76.827392578125,43.636075155966],[-76.3330078125,44.170384882596],[-75.5419921875,44.67255939212],[-74.8828125,45.026950453185],[-74.349975585938,44.988113026158],[-73.14697265625,45.007535031237],[-71.4990234375,45.007535031237],[-71.334228515625,45.274886437049],[-70.872802734375,45.228480595844],[-70.3125,45.920587344734],[-70.0927734375,46.354510837365],[-69.98291015625,46.724800374667],[-69.169921875,47.435519153195],[-68.88427734375,47.189712464484],[-68.236083984375,47.368594345213],[-67.763671875,47.017716353979],[-67.774658203125,46.536192674899],[-67.763671875,45.8134864968],[-67.3681640625,45.305802599436],[-66.884765625,44.746733240247],[-68.02734375,43.99281450049],[-69.5654296875,43.484812128916],[-70.5322265625,42.714732185395],[-70.224609375,42.032974332441],[-70.13671875,41.343824581186],[-71.9384765625,40.847060356071],[-73.916015625,39.876019419621],[-74.794921875,38.496593518948],[-75.5859375,37.055177106661],[-75.4541015625,35.281500657891],[-77.16796875,34.23451236237],[-78.7939453125,33.284619968888],[-80.15625,32.287132632616],[-81.298828125,30.637912028341],[-80.33203125,28.381735043223]]]},\"type\":\"Feature\",\"properties\":{}},{\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[-92.1533203125,54.826007999095],[-94.833984375,52.90890204777],[-95.152587890625,48.99103162516],[-98.26171875,48.980216985375],[-101.53564453125,49.009050809382],[-102.2607421875,59.996239340364],[-95.0537109375,59.996239340364],[-94.3505859375,58.833647362987],[-93.2958984375,58.833647362987],[-92.5927734375,57.061643560142],[-91.0986328125,57.252309189766],[-89.0771484375,56.725608273857],[-92.1533203125,54.826007999095]]]},\"type\":\"Feature\",\"properties\":{}},{\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[-89.0771484375,56.725608273857],[-86.923828125,55.973798205077],[-84.990234375,55.229023057406],[-83.408203125,55.304137737401],[-81.7822265625,55.050055891898],[-82.265625,54.342148864483],[-82.1337890625,53.664171109633],[-82.100830078125,53.245495228396],[-82.3095703125,53.061024759863],[-82.06787109375,52.835958248349],[-81.71630859375,52.529589999433],[-81.4306640625,52.160454557747],[-81.05712890625,52.005173970556],[-80.672607421875,51.788231927065],[-80.39794921875,51.371780375917],[-79.82666015625,51.158676864424],[-79.51904296875,51.47454043942],[-79.4970703125,50.687758008062],[-79.508056640625,48.748945343433],[-79.510803222656,47.717153570166],[-79.527282714844,47.539455447424],[-79.593200683594,47.433661278716],[-79.43115234375,47.240084123495],[-79.439392089844,47.101914315336],[-79.351501464844,47.002733906679],[-79.293823242188,46.92400710077],[-79.203186035156,46.843285811497],[-79.118041992188,46.722917550838],[-79.016418457031,46.63812246238],[-78.988952636719,46.555083022431],[-78.917541503906,46.492719928123],[-78.736267089844,46.384833223493],[-78.7060546875,46.318481139323],[-78.538513183594,46.308995694199],[-78.313293457031,46.265341470686],[-78.162231445313,46.278631221561],[-77.994689941406,46.244451065485],[-77.634887695313,46.177928648973],[-77.461853027344,46.10370875598],[-77.2998046875,45.996961618204],[-77.135009765625,45.828799251921],[-76.942749023438,45.792424581896],[-76.934509277344,45.857499316677],[-76.893310546875,45.897654534347],[-76.775207519531,45.868975197039],[-76.786193847656,45.790509467525],[-76.703796386719,45.700424860591],[-76.70654296875,45.646688333723],[-76.632385253906,45.546755030882],[-76.426391601562,45.483243508682],[-76.3330078125,45.456277571278],[-76.264343261719,45.465909744215],[-76.220397949219,45.510196544986],[-76.052856445313,45.49479638967],[-75.953979492188,45.454350939222],[-75.82763671875,45.369513963007],[-75.73974609375,45.411948380643],[-75.588684082031,45.467835981334],[-75.41015625,45.519819502877],[-75.226135253906,45.583289756006],[-74.99267578125,45.615958580368],[-74.621887207031,45.621721692524],[-74.46533203125,45.544831492425],[-74.391174316406,45.52366822529],[-74.418640136719,45.427371178989],[-74.470825195313,45.298075138708],[-74.344482421875,45.205263456162],[-74.586181640625,45.085157220287],[-74.8828125,45.026950453185],[-75.5419921875,44.668652872273],[-76.316528320313,44.174324837519],[-76.832885742188,43.636075155966],[-78.667602539063,43.628123412125],[-79.16748046875,43.444942955261],[-79.002685546875,43.1811470594],[-78.980712890625,42.835695506415],[-80.079345703125,42.39912215986],[-81.298828125,42.171546334528],[-81.947021484375,41.877741451097],[-82.63916015625,41.648288312595],[-83.089599609375,41.951319946797],[-82.90283203125,42.382894009614],[-82.50732421875,42.642040793044],[-82.430419921875,42.996612318421],[-82.078857421875,43.548548110913],[-82.232666015625,44.221583765458],[-82.5732421875,45.352145245852],[-83.583984375,45.821143400795],[-83.64990234375,46.10370875598],[-83.946533203125,46.10370875598],[-84.166259765625,46.498392258598],[-84.61669921875,46.468132992156],[-84.79248046875,46.867702731728],[-86.583251953125,47.598755284818],[-86.90185546875,47.739323361369],[-87.978515625,48.253941144634],[-88.494873046875,48.253941144634],[-89.23095703125,47.989921667414],[-90.06591796875,48.089087998818],[-90.939331054688,48.147763169949],[-91.488647460938,48.063396537762],[-91.917114257813,48.272225451004],[-92.081909179688,48.341646172375],[-92.356567382812,48.242967421301],[-92.598266601563,48.46563710045],[-92.889404296875,48.592959181192],[-93.334350585938,48.607489894752],[-93.790283203125,48.531157010977],[-95.16357421875,48.994635983534],[-94.9658203125,51.371780375917],[-94.8779296875,52.509534770327],[-94.3505859375,53.458619911405],[-89.0771484375,56.725608273857]]]},\"type\":\"Feature\",\"properties\":{}}]}",
+      "settings": {
+        "is_multiple": false
+      },
+      "field_type": "geospatial",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "Geographic location - description",
+      "value": "Ontario, Manitoba, Canada, United States",
+      "settings": {
+        "validations": {
+          "min_length": 3,
+          "max_length": 2000
+        },
+        "placeholder": "Geographic location textual description"
+      },
+      "field_type": "textarea",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "ISO Topic Category",
+      "value": [
+        "environment",
+        "farming",
+        "geoscientificInformation"
+      ],
+      "settings": {
+        "options": [
+          "biota",
+          "boundaries",
+          "climatologyMeteorologyAtmosphere",
+          "disaster",
+          "economy",
+          "elevation",
+          "environment",
+          "extraTerrestrial",
+          "farming",
+          "geoscientificInformation",
+          "health",
+          "imageryBaseMapsEarthCover",
+          "inlandWaters",
+          "intelligenceMilitary",
+          "location",
+          "oceans",
+          "planningCadastre",
+          "society",
+          "structure",
+          "transportation",
+          "utilitiesCommunication"
+        ],
+        "placeholder": "ISO Topic Category",
+        "is_multiple": true
+      },
+      "field_type": "dropdown",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "Ag Data Commons Group",
+      "value": [
+        "Long-Term Agroecosystem Research"
+      ],
+      "settings": {
+        "options": [
+          "AgBioData",
+          "Archbold - University of Florida",
+          "ARDN",
+          "ARS Culture Collection",
+          "Central Mississippi River Basin",
+          "Central Plains Experimental Range",
+          "Eastern Corn Belt",
+          "Great Basin",
+          "Gulf Atlantic Coastal Plain",
+          "Insects - i5K",
+          "Jornada Experimental Range",
+          "Kellogg Biological Station",
+          "Life Cycle Assessment",
+          "Long-Term Agroecosystem Research",
+          "Long-Term Livestock Production",
+          "Lower Chesapeake Bay",
+          "Lower Mississippi River Basin",
+          "Northern Plains",
+          "Platte River - High Plains Aquifer",
+          "R.J. Cook Agronomy Farm",
+          "Southern Plains",
+          "Texas Gulf",
+          "Upper Chesapeake Bay",
+          "Upper Mississippi River Basin",
+          "Walnut Gulch Experimental Watershed",
+          "Veterinary Pest Genomics Center",
+          "Farm 2 Fly"
+        ],
+        "placeholder": "Ag Data Commons Group",
+        "is_multiple": true
+      },
+      "field_type": "dropdown",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "National Agricultural Library Thesaurus terms",
+      "value": "phosphorus; United States; crop rotation; data collection; soil; biogeochemical cycles; nutrient management; Long-Term Agroecosystem Research Network; Ontario; Manitoba; databases; soil nutrient dynamics; Natural Resources Earth and Environmental Sciences",
+      "settings": {
+        "validations": {
+          "min_length": 3,
+          "max_length": 2000
+        },
+        "placeholder": "LEAVE THIS FIELD BLANK - ADMINISTRATIVE USE ONLY"
+      },
+      "field_type": "textarea",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "OMB Bureau Code",
+      "value": [
+        "005:18 - Agricultural Research Service"
+      ],
+      "settings": {
+        "options": [
+          "005:00 - Department of Agriculture",
+          "005:03 - Office of the Secretary",
+          "005:04 - Executive Operations",
+          "005:07 - Office of Civil Rights",
+          "005:08 - Office of Inspector General",
+          "005:10 - Office of the General Counsel",
+          "005:12 - Office of Chief Information Officer",
+          "005:13 - Economic Research Service",
+          "005:14 - Office of Chief Financial Officer",
+          "005:15 - National Agricultural Statistics Service",
+          "005:16 - Hazardous Materials Management",
+          "005:18 - Agricultural Research Service",
+          "005:19 - Buildings and Facilities",
+          "005:20 - National Institute of Food and Agriculture",
+          "005:32 - Animal and Plant Health Inspection Service",
+          "005:35 - Food Safety and Inspection Service",
+          "005:37 - Grain Inspection, Packers and Stockyards Administration",
+          "005:45 - Agricultural Marketing Service",
+          "005:47 - Risk Management Agency",
+          "005:49 - Farm Service Agency",
+          "005:53 - Natural Resources Conservation Service",
+          "005:55 - Rural Development",
+          "005:60 - Rural Utilities Service",
+          "005:63 - Rural Housing Service",
+          "005:65 - Rural Business - Cooperative Service",
+          "005:68 - Foreign Agricultural Service",
+          "005:84 - Food and Nutrition Service",
+          "005:96 - Forest Service"
+        ],
+        "placeholder": "OMB Bureau Code",
+        "is_multiple": true
+      },
+      "field_type": "dropdown",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "OMB Program Code",
+      "value": [
+        "005:040 - National Research"
+      ],
+      "settings": {
+        "options": [
+          "005:001 - Rural Business Loans",
+          "005:002 - Rural Business Grants",
+          "005:003 - Energy Assistance Loan Guarantees and Payments",
+          "005:004 - Distance Learning Telemedicine and Broadband",
+          "005:005 - Rural Electrification and Telecommunication Loans",
+          "005:006 - Rural Water and Waste Loans and Grants",
+          "005:007 - Single Family Housing",
+          "005:008 - Multi-Family Housing",
+          "005:009 - Farm labor Housing",
+          "005:010 - Rental Assistance",
+          "005:011 - Community Facilities",
+          "005:012 - Farm Loans",
+          "005:013 - Commodity Programs, Commodity Credit Corporation",
+          "005:014 - Conservation Programs, Commodity Credit Corporation",
+          "005:015 - Grassroots Source Water Protection Program",
+          "005:016 - Reforestation Pilot Program",
+          "005:017 - State Mediation Grants",
+          "005:018 - Dairy Indemnity Payment Program (DIPP)",
+          "005:019 - Emergency Conservation Program",
+          "005:020 - Emergency Forest Restoration Program",
+          "005:021 - Noninsured Crop Disaster Assistance Program (NAP)",
+          "005:022 - Federal Crop Insurance Corporation Fund",
+          "005:023 - Public Law 480 Title I Direct Credit and Food for Progress Program Account",
+          "005:024 - Food for Peace Title II Grants",
+          "005:025 - McGovern-Dole International Food for Education and Child Nutrition Program",
+          "005:026 - Market Development and Food Assistance",
+          "005:027 - Conservation Operations",
+          "005:028 - Conservation Easements",
+          "005:029 - Environmental Quality Incentives Program",
+          "005:030 - Capital Improvement and Maintenance",
+          "005:031 - Forest and Rangeland Research",
+          "005:032 - Forest Service Permanent Appropriations and Trust Funds",
+          "005:033 - Land Acquisition",
+          "005:034 - National Forest System",
+          "005:035 - State and Private Forestry",
+          "005:036 - Wildland Fire Management",
+          "005:037 - Research and Education",
+          "005:038 - Extension",
+          "005:039 - Integrated Activities",
+          "005:040 - National Research",
+          "005:041 - Economic Research, Market Outlook, and Policy Analysis",
+          "005:042 - Agricultural Estimates",
+          "005:043 - Census of Agriculture",
+          "005:044 - Grain Regulatory Program",
+          "005:045 - Packers and Stockyards Program",
+          "005:046 - Inspection and Grading of Farm Products",
+          "005:047 - Marketing Services",
+          "005:048 - Payments to States and Possessions",
+          "005:049 - Perishable Agricultural Commodities Act",
+          "005:050 - Commodity Purchases",
+          "005:051 - Safeguarding and Emergency Preparedness/Response",
+          "005:052 - Safe Trade and International Technical Assistance",
+          "005:053 - Animal Welfare",
+          "005:054 - Child Nutrition Programs",
+          "005:055 - Commodity Assistance Programs",
+          "005:056 - Supplemental Nutrition Assistance Program",
+          "005:057 - Center for Nutrition Policy and Promotion",
+          "005:058 - Food Safety and Inspection",
+          "005:059 - Management Activities",
+          "005:000 - (Primary Program Not Available)"
+        ],
+        "placeholder": "OMB Program Code",
+        "is_multiple": true
+      },
+      "field_type": "dropdown",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "ARS National Program Number",
+      "value": [
+        "211",
+        "216"
+      ],
+      "settings": {
+        "options": [
+          "101",
+          "103",
+          "104",
+          "106",
+          "107",
+          "108",
+          "211",
+          "212",
+          "215",
+          "216",
+          "301",
+          "303",
+          "304",
+          "305",
+          "306",
+          "Other"
+        ],
+        "placeholder": "ARS National Program Number",
+        "is_multiple": true
+      },
+      "field_type": "dropdown",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "ARIS Log Number",
+      "value": "",
+      "settings": {
+        "validations": {
+          "min_length": 1,
+          "max_length": 250
+        },
+        "placeholder": "ARIS Log Number"
+      },
+      "field_type": "text",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "Primary article PubAg Handle",
+      "value": [
+        "https://pubag.nal.usda.gov/catalog/7776168"
+      ],
+      "settings": {
+        "placeholder": "LEAVE THIS FIELD BLANK - ADMINISTRATIVE USE ONLY",
+        "is_multiple": true
+      },
+      "field_type": "url",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "Pending citation",
+      "value": [
+        "No"
+      ],
+      "settings": {
+        "options": [
+          "Yes",
+          "No"
+        ],
+        "default_value": [
+          "No"
+        ],
+        "is_multiple": false
+      },
+      "field_type": "dropdown",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "Related material without URL",
+      "value": "Welikhe, P., Williams, M, King, K., Bos, J., Akland, M., Augustine, D., Baffaut, C., Beck, E.G., Bierer, A., Bosch, D.D., Boughton, E., Brandani, C., Brooks, E., Buda, A., Cavigelli, M., Faulkner, J., Feyereisen, G., Fortuna, A., Gamble, J., Hanrahan, B., Hussain, M., Kohmann, M., Kovar, J., Lee, B., Leytem, A., Line, D., Liebig, M., Macrae, M., Moorman, T., Moriasi, D., Nelson, N., Ortega-Pieck, A., Osmond, D., Pisani, O.,  Reba, M., Saha, A., Sanchez, J., Silveira, M., Smith, D., Spiegal, S., Swain, H., Unrine, J., Webb, P., White, K., Wilson, H., Yasarer, L. Characterization of phosphorus budgets across a range of U.S. and Canadian agricultural production systems. Nutrient Cycling in Agroecosystems.",
+      "settings": {
+        "validations": {
+          "min_length": 10,
+          "max_length": 2000
+        },
+        "placeholder": "Related material without URL"
+      },
+      "field_type": "textarea",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "Public Access Level",
+      "value": [
+        "Public"
+      ],
+      "settings": {
+        "options": [
+          "Public"
+        ],
+        "default_value": [
+          "Public"
+        ],
+        "is_multiple": false
+      },
+      "field_type": "dropdown",
+      "order": null,
+      "is_mandatory": false
+    },
+    {
+      "name": "Preferred dataset citation",
+      "value": "Williams, Mark R.; Welikhe, Pauline; Bos, Janae H.; King, Kevin W.; Akland, Mark; Augustine, David J.; Baffaut, Claire; Beck, Ennis G.; Bierer, Andrew; Bosch, David; Boughton, Elizabeth; Brandani, Carolina; Brooks, Erin S.; Buda, Anthony R.; Cavigelli, Michel; Faulkner, Joshua; Feyereisen, Gary W.; Fortuna, Ann-Marie; Gamble, Joshua; Hanrahan, Britany R.; Hussain, Mir Zaman; Kohmann, Marta M.; Kovar, John L.; Lee, Brad; Leytem, April B.; Liebig, Mark A.; Line, Daniel; Macrae, Merrin; Moorman, Thomas B.; Moriasi, Daniel; Nelson, Nathan; Ortega-Pieck, Aline; Osmond, Deanna; Pisani, Oliva; Ragosta, John; Reba, Michele; Saha, Amartya; Sanchez, Joao; Silveira, Maria; Smith, Douglas R.; Spiegal, Sheri; Swain, Hilary; Unrine, Jason; Webb, Pearl; White, Kathryn E.; Wilson, Henry; Yasarer, Lindsey M.W. (2021). LTAR Phosphorus Budget Summary. Ag Data Commons. https://doi.org/10.15482/USDA.ADC/1523365",
+      "settings": {
+        "validations": {
+          "min_length": 3,
+          "max_length": 10000
+        },
+        "placeholder": "Preferred dataset citation"
+      },
+      "field_type": "textarea",
+      "order": null,
+      "is_mandatory": false
+    }
+  ],
+  "figshare_url": "https://agdatacommons.nal.usda.gov/articles/dataset/LTAR_Phosphorus_Budget_Summary/24855381",
+  "download_disabled": false,
+  "description": "<p>Surface agronomic P budgets for 61 cropping systems using field-scale P flux data across 24 research sites in the United States and Canada.  Data are representative of P inputs and outputs associated with the production of each crop in a respective rotation year, ranging from 1 to 10 rotation years.  This dataset provides a comparison of field-scale soil surface P fluxes and phosphorus budgets across sites and cropping systems. </p><div><br>Resources in this dataset:</div><br><ul><li><p>Resource Title: LTAR Phosphorus Budget Summary Data Sources and References.</p> <p>File Name: DataSourcesAndReferences.csv</p><p>Resource Description: This file includes data sources and references relevant to calculated P budgets.  Affiliated numerical data can be found in the LTAR Phosphorus Budget Summary Data file.</p></li><br><li><p>Resource Title: LTAR Phosphorus Budget Summary Data.</p> <p>File Name: PBudgetData.csv</p><p>Resource Description: Agronomic annual and system data for calculated P budgets for cropping systems throughout the United States and Canada. </p></li></ul><p></p>",
+  "funding": "USDA-ARS: LTAR",
+  "funding_list": [
+    {
+      "id": 23999922,
+      "title": "USDA-ARS: LTAR",
+      "grant_code": "",
+      "funder_name": null,
+      "is_user_defined": 1
+    }
+  ],
+  "version": 1,
+  "status": "public",
+  "size": 112885,
+  "created_date": "2024-02-16T20:09:41Z",
+  "modified_date": "2025-11-21T23:18:06Z",
+  "is_public": true,
+  "is_confidential": false,
+  "is_metadata_record": false,
+  "confidential_reason": "",
+  "metadata_reason": "",
+  "license": {
+    "value": 96,
+    "name": "U.S. Public Domain",
+    "url": "https://www.usa.gov/publicdomain/label/1.0/"
+  },
+  "tags": [
+    "phosphorus",
+    "Phosphorus Flux",
+    "P Flux",
+    "Nutrient Cycling",
+    "nutrient management",
+    "Field-scale",
+    "Cropping Systems",
+    "LTAR",
+    "USDA",
+    "ARS",
+    "Agrifoods Canada",
+    "AAFC",
+    "Archbold Biological Station",
+    "ABS-UF",
+    "Central Mississippi River Basin",
+    "CMRB",
+    "Central Plains Experimental Range",
+    "CPER",
+    "Eastern Corn Belt",
+    "ECB",
+    "Gulf Atlantic Coastal Plain LTAR",
+    "GACP",
+    "Jornada Experimental Range",
+    "JER",
+    "Kansas State University",
+    "KSU",
+    "Kellogg Biological Station",
+    "KBS",
+    "Lower Chesapeake Bay",
+    "LCB",
+    "Lower Mississippi River Basin",
+    "LMRB",
+    "Northern Plains",
+    "NP",
+    "Southern Plains",
+    "SP",
+    "University of Arkansas",
+    "U of A",
+    "University of Florida",
+    "UF",
+    "University of Kentucky",
+    "UK",
+    "University of Waterloo",
+    "UW",
+    "Upper Chesapeake Bay LTAR",
+    "UCB",
+    "Upper Mississippi River Basin",
+    "UMRB",
+    "Northwest Irrigation and Soils Research",
+    "NISR",
+    "University of Vermont",
+    "UVM",
+    "North Carolina State University",
+    "NCSU",
+    "Soil and Water Management Research",
+    "SWMR",
+    "Texas Gulf",
+    "TG",
+    "R.J. Cook Agronomy Farm",
+    "CAF",
+    "NP211",
+    "NP216",
+    "data.gov"
+  ],
+  "keywords": [
+    "phosphorus",
+    "Phosphorus Flux",
+    "P Flux",
+    "Nutrient Cycling",
+    "nutrient management",
+    "Field-scale",
+    "Cropping Systems",
+    "LTAR",
+    "USDA",
+    "ARS",
+    "Agrifoods Canada",
+    "AAFC",
+    "Archbold Biological Station",
+    "ABS-UF",
+    "Central Mississippi River Basin",
+    "CMRB",
+    "Central Plains Experimental Range",
+    "CPER",
+    "Eastern Corn Belt",
+    "ECB",
+    "Gulf Atlantic Coastal Plain LTAR",
+    "GACP",
+    "Jornada Experimental Range",
+    "JER",
+    "Kansas State University",
+    "KSU",
+    "Kellogg Biological Station",
+    "KBS",
+    "Lower Chesapeake Bay",
+    "LCB",
+    "Lower Mississippi River Basin",
+    "LMRB",
+    "Northern Plains",
+    "NP",
+    "Southern Plains",
+    "SP",
+    "University of Arkansas",
+    "U of A",
+    "University of Florida",
+    "UF",
+    "University of Kentucky",
+    "UK",
+    "University of Waterloo",
+    "UW",
+    "Upper Chesapeake Bay LTAR",
+    "UCB",
+    "Upper Mississippi River Basin",
+    "UMRB",
+    "Northwest Irrigation and Soils Research",
+    "NISR",
+    "University of Vermont",
+    "UVM",
+    "North Carolina State University",
+    "NCSU",
+    "Soil and Water Management Research",
+    "SWMR",
+    "Texas Gulf",
+    "TG",
+    "R.J. Cook Agronomy Farm",
+    "CAF",
+    "NP211",
+    "NP216",
+    "data.gov"
+  ],
+  "categories": [
+    {
+      "id": 30614,
+      "title": "Agricultural management of nutrients",
+      "parent_id": 30602,
+      "path": "/30563/30602/30614",
+      "source_id": "300204",
+      "taxonomy_id": 102
+    },
+    {
+      "id": 33614,
+      "title": "Environmental sciences",
+      "parent_id": 0,
+      "path": "/33614",
+      "source_id": "41",
+      "taxonomy_id": 102
+    },
+    {
+      "id": 33725,
+      "title": "Soil sciences",
+      "parent_id": 33614,
+      "path": "/33614/33725",
+      "source_id": "4106",
+      "taxonomy_id": 102
+    }
+  ],
+  "references": [
+    "https://doi.org/10.1002/jeq2.20351"
+  ],
+  "has_linked_file": false,
+  "citation": "Williams, Mark R.; Welikhe, Pauline; Bos, Janae; King, Kevin W.; Akland, Mark; Augustine, David J.; et al. (2021). LTAR Phosphorus Budget Summary. Ag Data Commons. Dataset. https://doi.org/10.15482/USDA.ADC/1523365",
+  "related_materials": [
+    {
+      "id": 160930990,
+      "identifier": "10.1002/jeq2.20351",
+      "title": "Williams, M. R., Welikhe, P., Bos, J., King, K., Akland, M., Augustine, D., Baffaut, C., Beck, E. G., Bierer, A., Bosch, D. D., Boughton, E., Brandani, C., Brooks, E., Buda, A., Cavigelli, M., Faulkner, J., Feyereisen, G., Fortuna, A., Gamble, J., … Yasarer, L. (2022). P‐FLUX: A phosphorus budget dataset spanning diverse agricultural production systems in the United States and Canada. Journal of Environmental Quality, 51(3), 451–461. Portico. https://doi.org/10.1002/jeq2.20351",
+      "relation": "IsSupplementTo",
+      "identifier_type": "DOI",
+      "is_linkout": true,
+      "link": "https://doi.org/10.1002/jeq2.20351"
+    }
+  ],
+  "is_embargoed": false,
+  "embargo_date": null,
+  "embargo_type": null,
+  "embargo_title": "",
+  "embargo_reason": "",
+  "embargo_options": [],
+  "id": 24855381,
+  "title": "LTAR Phosphorus Budget Summary",
+  "doi": "10.15482/USDA.ADC/1523365",
+  "handle": "",
+  "url": "https://api.figshare.com/v2/articles/24855381",
+  "published_date": "2024-02-16T20:09:41Z",
+  "thumb": "",
+  "defined_type": 3,
+  "defined_type_name": "dataset",
+  "group_id": 51648,
+  "url_private_api": "https://api.figshare.com/v2/account/articles/24855381",
+  "url_public_api": "https://api.figshare.com/v2/articles/24855381",
+  "url_private_html": "https://figshare.com/account/articles/24855381",
+  "url_public_html": "https://agdatacommons.nal.usda.gov/articles/dataset/LTAR_Phosphorus_Budget_Summary/24855381",
+  "timeline": {
+    "posted": "2024-02-16T20:09:41",
+    "publisherPublication": "2021-10-12T00:00:00",
+    "firstOnline": "2021-10-12"
+  },
+  "resource_title": "Williams, M. R., Welikhe, P., Bos, J., King, K., Akland, M., Augustine, D., Baffaut, C., Beck, E. G., Bierer, A., Bosch, D. D., Boughton, E., Brandani, C., Brooks, E., Buda, A., Cavigelli, M., Faulkner, J., Feyereisen, G., Fortuna, A., Gamble, J., … Yasarer, L. (2022). P‐FLUX: A phosphorus budget dataset spanning diverse agricultural production systems in the United States and Canada. Journal of Environmental Quality, 51(3), 451–461. Portico. https://doi.org/10.1002/jeq2.20351",
+  "resource_doi": "10.1002/jeq2.20351"
+}

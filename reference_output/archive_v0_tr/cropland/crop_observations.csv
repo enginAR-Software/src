@@ -1,0 +1,301 @@
+sitecode,point_id,row,column,is_center,longitude,latitude,year,raster_id,cdl_code,status,source_resolution,class_name,wheat_present,wheat_double_crop,context_id,soil_assignment
+USOR03,USOR03:r0:c0,0,0,False,-118.644501,45.701236,2018,2,152,classified,30,Shrubland,False,False,USOR03,site_context_only
+USOR03,USOR03:r0:c1,0,1,False,-118.634501,45.701236,2018,2,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r0:c2,0,2,False,-118.624501,45.701236,2018,2,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r0:c3,0,3,False,-118.614501,45.701236,2018,2,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r0:c4,0,4,False,-118.604501,45.701236,2018,2,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r1:c0,1,0,False,-118.644501,45.711236,2018,2,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r1:c1,1,1,False,-118.634501,45.711236,2018,2,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r1:c2,1,2,False,-118.624501,45.711236,2018,2,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r1:c3,1,3,False,-118.614501,45.711236,2018,2,53,classified,30,Peas,False,False,USOR03,site_context_only
+USOR03,USOR03:r1:c4,1,4,False,-118.604501,45.711236,2018,2,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r2:c0,2,0,False,-118.644501,45.721236,2018,2,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r2:c1,2,1,False,-118.634501,45.721236,2018,2,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r2:c2,2,2,True,-118.624501,45.721236,2018,2,53,classified,30,Peas,False,False,USOR03,site_context_only
+USOR03,USOR03:r2:c3,2,3,False,-118.614501,45.721236,2018,2,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r2:c4,2,4,False,-118.604501,45.721236,2018,2,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r3:c0,3,0,False,-118.644501,45.731236,2018,2,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r3:c1,3,1,False,-118.634501,45.731236,2018,2,152,classified,30,Shrubland,False,False,USOR03,site_context_only
+USOR03,USOR03:r3:c2,3,2,False,-118.624501,45.731236,2018,2,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r3:c3,3,3,False,-118.614501,45.731236,2018,2,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r3:c4,3,4,False,-118.604501,45.731236,2018,2,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r4:c0,4,0,False,-118.644501,45.741236,2018,2,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r4:c1,4,1,False,-118.634501,45.741236,2018,2,36,classified,30,Alfalfa,False,False,USOR03,site_context_only
+USOR03,USOR03:r4:c2,4,2,False,-118.624501,45.741236,2018,2,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r4:c3,4,3,False,-118.614501,45.741236,2018,2,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r4:c4,4,4,False,-118.604501,45.741236,2018,2,176,classified,30,Grassland/Pasture,False,False,USOR03,site_context_only
+USKS01,USKS01:r0:c0,0,0,False,-96.656037,39.103775,2018,2,37,classified,30,Other Hay/Non Alfalfa,False,False,USKS01,site_context_only
+USKS01,USKS01:r0:c1,0,1,False,-96.646037,39.103775,2018,2,141,classified,30,Deciduous Forest,False,False,USKS01,site_context_only
+USKS01,USKS01:r0:c2,0,2,False,-96.636037,39.103775,2018,2,1,classified,30,Corn,False,False,USKS01,site_context_only
+USKS01,USKS01:r0:c3,0,3,False,-96.626037,39.103775,2018,2,141,classified,30,Deciduous Forest,False,False,USKS01,site_context_only
+USKS01,USKS01:r0:c4,0,4,False,-96.616037,39.103775,2018,2,176,classified,30,Grassland/Pasture,False,False,USKS01,site_context_only
+USKS01,USKS01:r1:c0,1,0,False,-96.656037,39.113775,2018,2,141,classified,30,Deciduous Forest,False,False,USKS01,site_context_only
+USKS01,USKS01:r1:c1,1,1,False,-96.646037,39.113775,2018,2,141,classified,30,Deciduous Forest,False,False,USKS01,site_context_only
+USKS01,USKS01:r1:c2,1,2,False,-96.636037,39.113775,2018,2,5,classified,30,Soybeans,False,False,USKS01,site_context_only
+USKS01,USKS01:r1:c3,1,3,False,-96.626037,39.113775,2018,2,5,classified,30,Soybeans,False,False,USKS01,site_context_only
+USKS01,USKS01:r1:c4,1,4,False,-96.616037,39.113775,2018,2,1,classified,30,Corn,False,False,USKS01,site_context_only
+USKS01,USKS01:r2:c0,2,0,False,-96.656037,39.123775,2018,2,111,classified,30,Open Water,False,False,USKS01,site_context_only
+USKS01,USKS01:r2:c1,2,1,False,-96.646037,39.123775,2018,2,176,classified,30,Grassland/Pasture,False,False,USKS01,site_context_only
+USKS01,USKS01:r2:c2,2,2,True,-96.636037,39.123775,2018,2,5,classified,30,Soybeans,False,False,USKS01,site_context_only
+USKS01,USKS01:r2:c3,2,3,False,-96.626037,39.123775,2018,2,5,classified,30,Soybeans,False,False,USKS01,site_context_only
+USKS01,USKS01:r2:c4,2,4,False,-96.616037,39.123775,2018,2,122,classified,30,Developed/Low Intensity,False,False,USKS01,site_context_only
+USKS01,USKS01:r3:c0,3,0,False,-96.656037,39.133775,2018,2,5,classified,30,Soybeans,False,False,USKS01,site_context_only
+USKS01,USKS01:r3:c1,3,1,False,-96.646037,39.133775,2018,2,141,classified,30,Deciduous Forest,False,False,USKS01,site_context_only
+USKS01,USKS01:r3:c2,3,2,False,-96.636037,39.133775,2018,2,1,classified,30,Corn,False,False,USKS01,site_context_only
+USKS01,USKS01:r3:c3,3,3,False,-96.626037,39.133775,2018,2,5,classified,30,Soybeans,False,False,USKS01,site_context_only
+USKS01,USKS01:r3:c4,3,4,False,-96.616037,39.133775,2018,2,5,classified,30,Soybeans,False,False,USKS01,site_context_only
+USKS01,USKS01:r4:c0,4,0,False,-96.656037,39.143775,2018,2,122,classified,30,Developed/Low Intensity,False,False,USKS01,site_context_only
+USKS01,USKS01:r4:c1,4,1,False,-96.646037,39.143775,2018,2,111,classified,30,Open Water,False,False,USKS01,site_context_only
+USKS01,USKS01:r4:c2,4,2,False,-96.636037,39.143775,2018,2,176,classified,30,Grassland/Pasture,False,False,USKS01,site_context_only
+USKS01,USKS01:r4:c3,4,3,False,-96.626037,39.143775,2018,2,5,classified,30,Soybeans,False,False,USKS01,site_context_only
+USKS01,USKS01:r4:c4,4,4,False,-96.616037,39.143775,2018,2,195,classified,30,Herbaceous Wetlands,False,False,USKS01,site_context_only
+USOR03,USOR03:r0:c0,0,0,False,-118.644501,45.701236,2019,1,176,classified,30,Grassland/Pasture,False,False,USOR03,site_context_only
+USOR03,USOR03:r0:c1,0,1,False,-118.634501,45.701236,2019,1,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r0:c2,0,2,False,-118.624501,45.701236,2019,1,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r0:c3,0,3,False,-118.614501,45.701236,2019,1,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r0:c4,0,4,False,-118.604501,45.701236,2019,1,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r1:c0,1,0,False,-118.644501,45.711236,2019,1,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r1:c1,1,1,False,-118.634501,45.711236,2019,1,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r1:c2,1,2,False,-118.624501,45.711236,2019,1,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r1:c3,1,3,False,-118.614501,45.711236,2019,1,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r1:c4,1,4,False,-118.604501,45.711236,2019,1,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r2:c0,2,0,False,-118.644501,45.721236,2019,1,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r2:c1,2,1,False,-118.634501,45.721236,2019,1,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r2:c2,2,2,True,-118.624501,45.721236,2019,1,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r2:c3,2,3,False,-118.614501,45.721236,2019,1,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r2:c4,2,4,False,-118.604501,45.721236,2019,1,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r3:c0,3,0,False,-118.644501,45.731236,2019,1,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r3:c1,3,1,False,-118.634501,45.731236,2019,1,152,classified,30,Shrubland,False,False,USOR03,site_context_only
+USOR03,USOR03:r3:c2,3,2,False,-118.624501,45.731236,2019,1,53,classified,30,Peas,False,False,USOR03,site_context_only
+USOR03,USOR03:r3:c3,3,3,False,-118.614501,45.731236,2019,1,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r3:c4,3,4,False,-118.604501,45.731236,2019,1,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r4:c0,4,0,False,-118.644501,45.741236,2019,1,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r4:c1,4,1,False,-118.634501,45.741236,2019,1,36,classified,30,Alfalfa,False,False,USOR03,site_context_only
+USOR03,USOR03:r4:c2,4,2,False,-118.624501,45.741236,2019,1,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r4:c3,4,3,False,-118.614501,45.741236,2019,1,152,classified,30,Shrubland,False,False,USOR03,site_context_only
+USOR03,USOR03:r4:c4,4,4,False,-118.604501,45.741236,2019,1,176,classified,30,Grassland/Pasture,False,False,USOR03,site_context_only
+USKS01,USKS01:r0:c0,0,0,False,-96.656037,39.103775,2019,1,37,classified,30,Other Hay/Non Alfalfa,False,False,USKS01,site_context_only
+USKS01,USKS01:r0:c1,0,1,False,-96.646037,39.103775,2019,1,5,classified,30,Soybeans,False,False,USKS01,site_context_only
+USKS01,USKS01:r0:c2,0,2,False,-96.636037,39.103775,2019,1,5,classified,30,Soybeans,False,False,USKS01,site_context_only
+USKS01,USKS01:r0:c3,0,3,False,-96.626037,39.103775,2019,1,141,classified,30,Deciduous Forest,False,False,USKS01,site_context_only
+USKS01,USKS01:r0:c4,0,4,False,-96.616037,39.103775,2019,1,176,classified,30,Grassland/Pasture,False,False,USKS01,site_context_only
+USKS01,USKS01:r1:c0,1,0,False,-96.656037,39.113775,2019,1,141,classified,30,Deciduous Forest,False,False,USKS01,site_context_only
+USKS01,USKS01:r1:c1,1,1,False,-96.646037,39.113775,2019,1,141,classified,30,Deciduous Forest,False,False,USKS01,site_context_only
+USKS01,USKS01:r1:c2,1,2,False,-96.636037,39.113775,2019,1,4,classified,30,Sorghum,False,False,USKS01,site_context_only
+USKS01,USKS01:r1:c3,1,3,False,-96.626037,39.113775,2019,1,1,classified,30,Corn,False,False,USKS01,site_context_only
+USKS01,USKS01:r1:c4,1,4,False,-96.616037,39.113775,2019,1,5,classified,30,Soybeans,False,False,USKS01,site_context_only
+USKS01,USKS01:r2:c0,2,0,False,-96.656037,39.123775,2019,1,111,classified,30,Open Water,False,False,USKS01,site_context_only
+USKS01,USKS01:r2:c1,2,1,False,-96.646037,39.123775,2019,1,176,classified,30,Grassland/Pasture,False,False,USKS01,site_context_only
+USKS01,USKS01:r2:c2,2,2,True,-96.636037,39.123775,2019,1,4,classified,30,Sorghum,False,False,USKS01,site_context_only
+USKS01,USKS01:r2:c3,2,3,False,-96.626037,39.123775,2019,1,4,classified,30,Sorghum,False,False,USKS01,site_context_only
+USKS01,USKS01:r2:c4,2,4,False,-96.616037,39.123775,2019,1,176,classified,30,Grassland/Pasture,False,False,USKS01,site_context_only
+USKS01,USKS01:r3:c0,3,0,False,-96.656037,39.133775,2019,1,1,classified,30,Corn,False,False,USKS01,site_context_only
+USKS01,USKS01:r3:c1,3,1,False,-96.646037,39.133775,2019,1,141,classified,30,Deciduous Forest,False,False,USKS01,site_context_only
+USKS01,USKS01:r3:c2,3,2,False,-96.636037,39.133775,2019,1,5,classified,30,Soybeans,False,False,USKS01,site_context_only
+USKS01,USKS01:r3:c3,3,3,False,-96.626037,39.133775,2019,1,36,classified,30,Alfalfa,False,False,USKS01,site_context_only
+USKS01,USKS01:r3:c4,3,4,False,-96.616037,39.133775,2019,1,1,classified,30,Corn,False,False,USKS01,site_context_only
+USKS01,USKS01:r4:c0,4,0,False,-96.656037,39.143775,2019,1,122,classified,30,Developed/Low Intensity,False,False,USKS01,site_context_only
+USKS01,USKS01:r4:c1,4,1,False,-96.646037,39.143775,2019,1,111,classified,30,Open Water,False,False,USKS01,site_context_only
+USKS01,USKS01:r4:c2,4,2,False,-96.636037,39.143775,2019,1,176,classified,30,Grassland/Pasture,False,False,USKS01,site_context_only
+USKS01,USKS01:r4:c3,4,3,False,-96.626037,39.143775,2019,1,5,classified,30,Soybeans,False,False,USKS01,site_context_only
+USKS01,USKS01:r4:c4,4,4,False,-96.616037,39.143775,2019,1,176,classified,30,Grassland/Pasture,False,False,USKS01,site_context_only
+USOR03,USOR03:r0:c0,0,0,False,-118.644501,45.701236,2020,35,176,classified,30,Grassland/Pasture,False,False,USOR03,site_context_only
+USOR03,USOR03:r0:c1,0,1,False,-118.634501,45.701236,2020,35,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r0:c2,0,2,False,-118.624501,45.701236,2020,35,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r0:c3,0,3,False,-118.614501,45.701236,2020,35,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r0:c4,0,4,False,-118.604501,45.701236,2020,35,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r1:c0,1,0,False,-118.644501,45.711236,2020,35,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r1:c1,1,1,False,-118.634501,45.711236,2020,35,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r1:c2,1,2,False,-118.624501,45.711236,2020,35,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r1:c3,1,3,False,-118.614501,45.711236,2020,35,53,classified,30,Peas,False,False,USOR03,site_context_only
+USOR03,USOR03:r1:c4,1,4,False,-118.604501,45.711236,2020,35,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r2:c0,2,0,False,-118.644501,45.721236,2020,35,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r2:c1,2,1,False,-118.634501,45.721236,2020,35,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r2:c2,2,2,True,-118.624501,45.721236,2020,35,23,classified,30,Spring Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r2:c3,2,3,False,-118.614501,45.721236,2020,35,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r2:c4,2,4,False,-118.604501,45.721236,2020,35,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r3:c0,3,0,False,-118.644501,45.731236,2020,35,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r3:c1,3,1,False,-118.634501,45.731236,2020,35,152,classified,30,Shrubland,False,False,USOR03,site_context_only
+USOR03,USOR03:r3:c2,3,2,False,-118.624501,45.731236,2020,35,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r3:c3,3,3,False,-118.614501,45.731236,2020,35,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r3:c4,3,4,False,-118.604501,45.731236,2020,35,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r4:c0,4,0,False,-118.644501,45.741236,2020,35,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r4:c1,4,1,False,-118.634501,45.741236,2020,35,37,classified,30,Other Hay/Non Alfalfa,False,False,USOR03,site_context_only
+USOR03,USOR03:r4:c2,4,2,False,-118.624501,45.741236,2020,35,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r4:c3,4,3,False,-118.614501,45.741236,2020,35,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r4:c4,4,4,False,-118.604501,45.741236,2020,35,37,classified,30,Other Hay/Non Alfalfa,False,False,USOR03,site_context_only
+USKS01,USKS01:r0:c0,0,0,False,-96.656037,39.103775,2020,35,37,classified,30,Other Hay/Non Alfalfa,False,False,USKS01,site_context_only
+USKS01,USKS01:r0:c1,0,1,False,-96.646037,39.103775,2020,35,1,classified,30,Corn,False,False,USKS01,site_context_only
+USKS01,USKS01:r0:c2,0,2,False,-96.636037,39.103775,2020,35,121,classified,30,Developed/Open Space,False,False,USKS01,site_context_only
+USKS01,USKS01:r0:c3,0,3,False,-96.626037,39.103775,2020,35,176,classified,30,Grassland/Pasture,False,False,USKS01,site_context_only
+USKS01,USKS01:r0:c4,0,4,False,-96.616037,39.103775,2020,35,176,classified,30,Grassland/Pasture,False,False,USKS01,site_context_only
+USKS01,USKS01:r1:c0,1,0,False,-96.656037,39.113775,2020,35,176,classified,30,Grassland/Pasture,False,False,USKS01,site_context_only
+USKS01,USKS01:r1:c1,1,1,False,-96.646037,39.113775,2020,35,141,classified,30,Deciduous Forest,False,False,USKS01,site_context_only
+USKS01,USKS01:r1:c2,1,2,False,-96.636037,39.113775,2020,35,5,classified,30,Soybeans,False,False,USKS01,site_context_only
+USKS01,USKS01:r1:c3,1,3,False,-96.626037,39.113775,2020,35,5,classified,30,Soybeans,False,False,USKS01,site_context_only
+USKS01,USKS01:r1:c4,1,4,False,-96.616037,39.113775,2020,35,1,classified,30,Corn,False,False,USKS01,site_context_only
+USKS01,USKS01:r2:c0,2,0,False,-96.656037,39.123775,2020,35,141,classified,30,Deciduous Forest,False,False,USKS01,site_context_only
+USKS01,USKS01:r2:c1,2,1,False,-96.646037,39.123775,2020,35,176,classified,30,Grassland/Pasture,False,False,USKS01,site_context_only
+USKS01,USKS01:r2:c2,2,2,True,-96.636037,39.123775,2020,35,24,classified,30,Winter Wheat,True,False,USKS01,site_context_only
+USKS01,USKS01:r2:c3,2,3,False,-96.626037,39.123775,2020,35,1,classified,30,Corn,False,False,USKS01,site_context_only
+USKS01,USKS01:r2:c4,2,4,False,-96.616037,39.123775,2020,35,122,classified,30,Developed/Low Intensity,False,False,USKS01,site_context_only
+USKS01,USKS01:r3:c0,3,0,False,-96.656037,39.133775,2020,35,5,classified,30,Soybeans,False,False,USKS01,site_context_only
+USKS01,USKS01:r3:c1,3,1,False,-96.646037,39.133775,2020,35,141,classified,30,Deciduous Forest,False,False,USKS01,site_context_only
+USKS01,USKS01:r3:c2,3,2,False,-96.636037,39.133775,2020,35,1,classified,30,Corn,False,False,USKS01,site_context_only
+USKS01,USKS01:r3:c3,3,3,False,-96.626037,39.133775,2020,35,36,classified,30,Alfalfa,False,False,USKS01,site_context_only
+USKS01,USKS01:r3:c4,3,4,False,-96.616037,39.133775,2020,35,5,classified,30,Soybeans,False,False,USKS01,site_context_only
+USKS01,USKS01:r4:c0,4,0,False,-96.656037,39.143775,2020,35,123,classified,30,Developed/Med Intensity,False,False,USKS01,site_context_only
+USKS01,USKS01:r4:c1,4,1,False,-96.646037,39.143775,2020,35,111,classified,30,Open Water,False,False,USKS01,site_context_only
+USKS01,USKS01:r4:c2,4,2,False,-96.636037,39.143775,2020,35,5,classified,30,Soybeans,False,False,USKS01,site_context_only
+USKS01,USKS01:r4:c3,4,3,False,-96.626037,39.143775,2020,35,4,classified,30,Sorghum,False,False,USKS01,site_context_only
+USKS01,USKS01:r4:c4,4,4,False,-96.616037,39.143775,2020,35,141,classified,30,Deciduous Forest,False,False,USKS01,site_context_only
+USOR03,USOR03:r0:c0,0,0,False,-118.644501,45.701236,2021,36,176,classified,30,Grassland/Pasture,False,False,USOR03,site_context_only
+USOR03,USOR03:r0:c1,0,1,False,-118.634501,45.701236,2021,36,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r0:c2,0,2,False,-118.624501,45.701236,2021,36,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r0:c3,0,3,False,-118.614501,45.701236,2021,36,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r0:c4,0,4,False,-118.604501,45.701236,2021,36,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r1:c0,1,0,False,-118.644501,45.711236,2021,36,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r1:c1,1,1,False,-118.634501,45.711236,2021,36,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r1:c2,1,2,False,-118.624501,45.711236,2021,36,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r1:c3,1,3,False,-118.614501,45.711236,2021,36,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r1:c4,1,4,False,-118.604501,45.711236,2021,36,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r2:c0,2,0,False,-118.644501,45.721236,2021,36,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r2:c1,2,1,False,-118.634501,45.721236,2021,36,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r2:c2,2,2,True,-118.624501,45.721236,2021,36,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r2:c3,2,3,False,-118.614501,45.721236,2021,36,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r2:c4,2,4,False,-118.604501,45.721236,2021,36,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r3:c0,3,0,False,-118.644501,45.731236,2021,36,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r3:c1,3,1,False,-118.634501,45.731236,2021,36,152,classified,30,Shrubland,False,False,USOR03,site_context_only
+USOR03,USOR03:r3:c2,3,2,False,-118.624501,45.731236,2021,36,53,classified,30,Peas,False,False,USOR03,site_context_only
+USOR03,USOR03:r3:c3,3,3,False,-118.614501,45.731236,2021,36,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r3:c4,3,4,False,-118.604501,45.731236,2021,36,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r4:c0,4,0,False,-118.644501,45.741236,2021,36,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r4:c1,4,1,False,-118.634501,45.741236,2021,36,36,classified,30,Alfalfa,False,False,USOR03,site_context_only
+USOR03,USOR03:r4:c2,4,2,False,-118.624501,45.741236,2021,36,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r4:c3,4,3,False,-118.614501,45.741236,2021,36,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r4:c4,4,4,False,-118.604501,45.741236,2021,36,176,classified,30,Grassland/Pasture,False,False,USOR03,site_context_only
+USKS01,USKS01:r0:c0,0,0,False,-96.656037,39.103775,2021,36,37,classified,30,Other Hay/Non Alfalfa,False,False,USKS01,site_context_only
+USKS01,USKS01:r0:c1,0,1,False,-96.646037,39.103775,2021,36,5,classified,30,Soybeans,False,False,USKS01,site_context_only
+USKS01,USKS01:r0:c2,0,2,False,-96.636037,39.103775,2021,36,5,classified,30,Soybeans,False,False,USKS01,site_context_only
+USKS01,USKS01:r0:c3,0,3,False,-96.626037,39.103775,2021,36,141,classified,30,Deciduous Forest,False,False,USKS01,site_context_only
+USKS01,USKS01:r0:c4,0,4,False,-96.616037,39.103775,2021,36,176,classified,30,Grassland/Pasture,False,False,USKS01,site_context_only
+USKS01,USKS01:r1:c0,1,0,False,-96.656037,39.113775,2021,36,141,classified,30,Deciduous Forest,False,False,USKS01,site_context_only
+USKS01,USKS01:r1:c1,1,1,False,-96.646037,39.113775,2021,36,141,classified,30,Deciduous Forest,False,False,USKS01,site_context_only
+USKS01,USKS01:r1:c2,1,2,False,-96.636037,39.113775,2021,36,5,classified,30,Soybeans,False,False,USKS01,site_context_only
+USKS01,USKS01:r1:c3,1,3,False,-96.626037,39.113775,2021,36,1,classified,30,Corn,False,False,USKS01,site_context_only
+USKS01,USKS01:r1:c4,1,4,False,-96.616037,39.113775,2021,36,5,classified,30,Soybeans,False,False,USKS01,site_context_only
+USKS01,USKS01:r2:c0,2,0,False,-96.656037,39.123775,2021,36,111,classified,30,Open Water,False,False,USKS01,site_context_only
+USKS01,USKS01:r2:c1,2,1,False,-96.646037,39.123775,2021,36,176,classified,30,Grassland/Pasture,False,False,USKS01,site_context_only
+USKS01,USKS01:r2:c2,2,2,True,-96.636037,39.123775,2021,36,1,classified,30,Corn,False,False,USKS01,site_context_only
+USKS01,USKS01:r2:c3,2,3,False,-96.626037,39.123775,2021,36,5,classified,30,Soybeans,False,False,USKS01,site_context_only
+USKS01,USKS01:r2:c4,2,4,False,-96.616037,39.123775,2021,36,121,classified,30,Developed/Open Space,False,False,USKS01,site_context_only
+USKS01,USKS01:r3:c0,3,0,False,-96.656037,39.133775,2021,36,1,classified,30,Corn,False,False,USKS01,site_context_only
+USKS01,USKS01:r3:c1,3,1,False,-96.646037,39.133775,2021,36,176,classified,30,Grassland/Pasture,False,False,USKS01,site_context_only
+USKS01,USKS01:r3:c2,3,2,False,-96.636037,39.133775,2021,36,5,classified,30,Soybeans,False,False,USKS01,site_context_only
+USKS01,USKS01:r3:c3,3,3,False,-96.626037,39.133775,2021,36,36,classified,30,Alfalfa,False,False,USKS01,site_context_only
+USKS01,USKS01:r3:c4,3,4,False,-96.616037,39.133775,2021,36,1,classified,30,Corn,False,False,USKS01,site_context_only
+USKS01,USKS01:r4:c0,4,0,False,-96.656037,39.143775,2021,36,122,classified,30,Developed/Low Intensity,False,False,USKS01,site_context_only
+USKS01,USKS01:r4:c1,4,1,False,-96.646037,39.143775,2021,36,111,classified,30,Open Water,False,False,USKS01,site_context_only
+USKS01,USKS01:r4:c2,4,2,False,-96.636037,39.143775,2021,36,176,classified,30,Grassland/Pasture,False,False,USKS01,site_context_only
+USKS01,USKS01:r4:c3,4,3,False,-96.626037,39.143775,2021,36,5,classified,30,Soybeans,False,False,USKS01,site_context_only
+USKS01,USKS01:r4:c4,4,4,False,-96.616037,39.143775,2021,36,176,classified,30,Grassland/Pasture,False,False,USKS01,site_context_only
+USOR03,USOR03:r0:c0,0,0,False,-118.644501,45.701236,2022,37,176,classified,30,Grassland/Pasture,False,False,USOR03,site_context_only
+USOR03,USOR03:r0:c1,0,1,False,-118.634501,45.701236,2022,37,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r0:c2,0,2,False,-118.624501,45.701236,2022,37,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r0:c3,0,3,False,-118.614501,45.701236,2022,37,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r0:c4,0,4,False,-118.604501,45.701236,2022,37,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r1:c0,1,0,False,-118.644501,45.711236,2022,37,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r1:c1,1,1,False,-118.634501,45.711236,2022,37,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r1:c2,1,2,False,-118.624501,45.711236,2022,37,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r1:c3,1,3,False,-118.614501,45.711236,2022,37,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r1:c4,1,4,False,-118.604501,45.711236,2022,37,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r2:c0,2,0,False,-118.644501,45.721236,2022,37,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r2:c1,2,1,False,-118.634501,45.721236,2022,37,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r2:c2,2,2,True,-118.624501,45.721236,2022,37,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r2:c3,2,3,False,-118.614501,45.721236,2022,37,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r2:c4,2,4,False,-118.604501,45.721236,2022,37,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r3:c0,3,0,False,-118.644501,45.731236,2022,37,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r3:c1,3,1,False,-118.634501,45.731236,2022,37,152,classified,30,Shrubland,False,False,USOR03,site_context_only
+USOR03,USOR03:r3:c2,3,2,False,-118.624501,45.731236,2022,37,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r3:c3,3,3,False,-118.614501,45.731236,2022,37,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r3:c4,3,4,False,-118.604501,45.731236,2022,37,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r4:c0,4,0,False,-118.644501,45.741236,2022,37,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r4:c1,4,1,False,-118.634501,45.741236,2022,37,36,classified,30,Alfalfa,False,False,USOR03,site_context_only
+USOR03,USOR03:r4:c2,4,2,False,-118.624501,45.741236,2022,37,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r4:c3,4,3,False,-118.614501,45.741236,2022,37,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r4:c4,4,4,False,-118.604501,45.741236,2022,37,176,classified,30,Grassland/Pasture,False,False,USOR03,site_context_only
+USKS01,USKS01:r0:c0,0,0,False,-96.656037,39.103775,2022,37,37,classified,30,Other Hay/Non Alfalfa,False,False,USKS01,site_context_only
+USKS01,USKS01:r0:c1,0,1,False,-96.646037,39.103775,2022,37,1,classified,30,Corn,False,False,USKS01,site_context_only
+USKS01,USKS01:r0:c2,0,2,False,-96.636037,39.103775,2022,37,1,classified,30,Corn,False,False,USKS01,site_context_only
+USKS01,USKS01:r0:c3,0,3,False,-96.626037,39.103775,2022,37,141,classified,30,Deciduous Forest,False,False,USKS01,site_context_only
+USKS01,USKS01:r0:c4,0,4,False,-96.616037,39.103775,2022,37,176,classified,30,Grassland/Pasture,False,False,USKS01,site_context_only
+USKS01,USKS01:r1:c0,1,0,False,-96.656037,39.113775,2022,37,141,classified,30,Deciduous Forest,False,False,USKS01,site_context_only
+USKS01,USKS01:r1:c1,1,1,False,-96.646037,39.113775,2022,37,141,classified,30,Deciduous Forest,False,False,USKS01,site_context_only
+USKS01,USKS01:r1:c2,1,2,False,-96.636037,39.113775,2022,37,5,classified,30,Soybeans,False,False,USKS01,site_context_only
+USKS01,USKS01:r1:c3,1,3,False,-96.626037,39.113775,2022,37,5,classified,30,Soybeans,False,False,USKS01,site_context_only
+USKS01,USKS01:r1:c4,1,4,False,-96.616037,39.113775,2022,37,1,classified,30,Corn,False,False,USKS01,site_context_only
+USKS01,USKS01:r2:c0,2,0,False,-96.656037,39.123775,2022,37,111,classified,30,Open Water,False,False,USKS01,site_context_only
+USKS01,USKS01:r2:c1,2,1,False,-96.646037,39.123775,2022,37,176,classified,30,Grassland/Pasture,False,False,USKS01,site_context_only
+USKS01,USKS01:r2:c2,2,2,True,-96.636037,39.123775,2022,37,26,classified,30,Dbl Crop WinWht/Soybeans,True,True,USKS01,site_context_only
+USKS01,USKS01:r2:c3,2,3,False,-96.626037,39.123775,2022,37,59,classified,30,Sod/Grass Seed,False,False,USKS01,site_context_only
+USKS01,USKS01:r2:c4,2,4,False,-96.616037,39.123775,2022,37,121,classified,30,Developed/Open Space,False,False,USKS01,site_context_only
+USKS01,USKS01:r3:c0,3,0,False,-96.656037,39.133775,2022,37,5,classified,30,Soybeans,False,False,USKS01,site_context_only
+USKS01,USKS01:r3:c1,3,1,False,-96.646037,39.133775,2022,37,141,classified,30,Deciduous Forest,False,False,USKS01,site_context_only
+USKS01,USKS01:r3:c2,3,2,False,-96.636037,39.133775,2022,37,1,classified,30,Corn,False,False,USKS01,site_context_only
+USKS01,USKS01:r3:c3,3,3,False,-96.626037,39.133775,2022,37,36,classified,30,Alfalfa,False,False,USKS01,site_context_only
+USKS01,USKS01:r3:c4,3,4,False,-96.616037,39.133775,2022,37,5,classified,30,Soybeans,False,False,USKS01,site_context_only
+USKS01,USKS01:r4:c0,4,0,False,-96.656037,39.143775,2022,37,122,classified,30,Developed/Low Intensity,False,False,USKS01,site_context_only
+USKS01,USKS01:r4:c1,4,1,False,-96.646037,39.143775,2022,37,111,classified,30,Open Water,False,False,USKS01,site_context_only
+USKS01,USKS01:r4:c2,4,2,False,-96.636037,39.143775,2022,37,176,classified,30,Grassland/Pasture,False,False,USKS01,site_context_only
+USKS01,USKS01:r4:c3,4,3,False,-96.626037,39.143775,2022,37,4,classified,30,Sorghum,False,False,USKS01,site_context_only
+USKS01,USKS01:r4:c4,4,4,False,-96.616037,39.143775,2022,37,176,classified,30,Grassland/Pasture,False,False,USKS01,site_context_only
+USOR03,USOR03:r0:c0,0,0,False,-118.644501,45.701236,2023,38,176,classified,30,Grassland/Pasture,False,False,USOR03,site_context_only
+USOR03,USOR03:r0:c1,0,1,False,-118.634501,45.701236,2023,38,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r0:c2,0,2,False,-118.624501,45.701236,2023,38,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r0:c3,0,3,False,-118.614501,45.701236,2023,38,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r0:c4,0,4,False,-118.604501,45.701236,2023,38,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r1:c0,1,0,False,-118.644501,45.711236,2023,38,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r1:c1,1,1,False,-118.634501,45.711236,2023,38,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r1:c2,1,2,False,-118.624501,45.711236,2023,38,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r1:c3,1,3,False,-118.614501,45.711236,2023,38,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r1:c4,1,4,False,-118.604501,45.711236,2023,38,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r2:c0,2,0,False,-118.644501,45.721236,2023,38,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r2:c1,2,1,False,-118.634501,45.721236,2023,38,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r2:c2,2,2,True,-118.624501,45.721236,2023,38,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r2:c3,2,3,False,-118.614501,45.721236,2023,38,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r2:c4,2,4,False,-118.604501,45.721236,2023,38,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r3:c0,3,0,False,-118.644501,45.731236,2023,38,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r3:c1,3,1,False,-118.634501,45.731236,2023,38,152,classified,30,Shrubland,False,False,USOR03,site_context_only
+USOR03,USOR03:r3:c2,3,2,False,-118.624501,45.731236,2023,38,205,classified,30,Triticale,False,False,USOR03,site_context_only
+USOR03,USOR03:r3:c3,3,3,False,-118.614501,45.731236,2023,38,24,classified,30,Winter Wheat,True,False,USOR03,site_context_only
+USOR03,USOR03:r3:c4,3,4,False,-118.604501,45.731236,2023,38,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r4:c0,4,0,False,-118.644501,45.741236,2023,38,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r4:c1,4,1,False,-118.634501,45.741236,2023,38,36,classified,30,Alfalfa,False,False,USOR03,site_context_only
+USOR03,USOR03:r4:c2,4,2,False,-118.624501,45.741236,2023,38,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r4:c3,4,3,False,-118.614501,45.741236,2023,38,61,classified,30,Fallow/Idle Cropland,False,False,USOR03,site_context_only
+USOR03,USOR03:r4:c4,4,4,False,-118.604501,45.741236,2023,38,176,classified,30,Grassland/Pasture,False,False,USOR03,site_context_only
+USKS01,USKS01:r0:c0,0,0,False,-96.656037,39.103775,2023,38,176,classified,30,Grassland/Pasture,False,False,USKS01,site_context_only
+USKS01,USKS01:r0:c1,0,1,False,-96.646037,39.103775,2023,38,5,classified,30,Soybeans,False,False,USKS01,site_context_only
+USKS01,USKS01:r0:c2,0,2,False,-96.636037,39.103775,2023,38,5,classified,30,Soybeans,False,False,USKS01,site_context_only
+USKS01,USKS01:r0:c3,0,3,False,-96.626037,39.103775,2023,38,141,classified,30,Deciduous Forest,False,False,USKS01,site_context_only
+USKS01,USKS01:r0:c4,0,4,False,-96.616037,39.103775,2023,38,176,classified,30,Grassland/Pasture,False,False,USKS01,site_context_only
+USKS01,USKS01:r1:c0,1,0,False,-96.656037,39.113775,2023,38,141,classified,30,Deciduous Forest,False,False,USKS01,site_context_only
+USKS01,USKS01:r1:c1,1,1,False,-96.646037,39.113775,2023,38,141,classified,30,Deciduous Forest,False,False,USKS01,site_context_only
+USKS01,USKS01:r1:c2,1,2,False,-96.636037,39.113775,2023,38,5,classified,30,Soybeans,False,False,USKS01,site_context_only
+USKS01,USKS01:r1:c3,1,3,False,-96.626037,39.113775,2023,38,1,classified,30,Corn,False,False,USKS01,site_context_only
+USKS01,USKS01:r1:c4,1,4,False,-96.616037,39.113775,2023,38,5,classified,30,Soybeans,False,False,USKS01,site_context_only
+USKS01,USKS01:r2:c0,2,0,False,-96.656037,39.123775,2023,38,111,classified,30,Open Water,False,False,USKS01,site_context_only
+USKS01,USKS01:r2:c1,2,1,False,-96.646037,39.123775,2023,38,176,classified,30,Grassland/Pasture,False,False,USKS01,site_context_only
+USKS01,USKS01:r2:c2,2,2,True,-96.636037,39.123775,2023,38,1,classified,30,Corn,False,False,USKS01,site_context_only
+USKS01,USKS01:r2:c3,2,3,False,-96.626037,39.123775,2023,38,59,classified,30,Sod/Grass Seed,False,False,USKS01,site_context_only
+USKS01,USKS01:r2:c4,2,4,False,-96.616037,39.123775,2023,38,121,classified,30,Developed/Open Space,False,False,USKS01,site_context_only
+USKS01,USKS01:r3:c0,3,0,False,-96.656037,39.133775,2023,38,1,classified,30,Corn,False,False,USKS01,site_context_only
+USKS01,USKS01:r3:c1,3,1,False,-96.646037,39.133775,2023,38,176,classified,30,Grassland/Pasture,False,False,USKS01,site_context_only
+USKS01,USKS01:r3:c2,3,2,False,-96.636037,39.133775,2023,38,5,classified,30,Soybeans,False,False,USKS01,site_context_only
+USKS01,USKS01:r3:c3,3,3,False,-96.626037,39.133775,2023,38,36,classified,30,Alfalfa,False,False,USKS01,site_context_only
+USKS01,USKS01:r3:c4,3,4,False,-96.616037,39.133775,2023,38,1,classified,30,Corn,False,False,USKS01,site_context_only
+USKS01,USKS01:r4:c0,4,0,False,-96.656037,39.143775,2023,38,122,classified,30,Developed/Low Intensity,False,False,USKS01,site_context_only
+USKS01,USKS01:r4:c1,4,1,False,-96.646037,39.143775,2023,38,111,classified,30,Open Water,False,False,USKS01,site_context_only
+USKS01,USKS01:r4:c2,4,2,False,-96.636037,39.143775,2023,38,176,classified,30,Grassland/Pasture,False,False,USKS01,site_context_only
+USKS01,USKS01:r4:c3,4,3,False,-96.626037,39.143775,2023,38,5,classified,30,Soybeans,False,False,USKS01,site_context_only
+USKS01,USKS01:r4:c4,4,4,False,-96.616037,39.143775,2023,38,176,classified,30,Grassland/Pasture,False,False,USKS01,site_context_only

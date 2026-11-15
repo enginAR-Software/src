@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "temperature_proxy": "NASA POWER daily air temperature (T2M) is used as a proxy for soil temperature. Source thresholds are for soil temperature; results should be checked against local soil measurements.",
+  "crops": {
+    "Corn": {
+      "type": "spring",
+      "start_threshold_c": 10.0,
+      "mean_days": 3,
+      "persist_days": 7,
+      "season_days": 110,
+      "season_base_c": 10.0,
+      "sources": {
+        "start_threshold_c": "SDSU Extension: for corn, a 3-day mean soil temperature of at least 50°F (10°C). https://extension.sdstate.edu/how-early-too-early-plant-row-crops",
+        "season_days": "ASSUMPTION: 110 days for a mid-early hybrid. Not verified by a source; adjust to the local variety."
+      },
+      "search_from": "03-01"
+    },
+    "Soybeans": {
+      "type": "spring",
+      "start_threshold_c": 12.8,
+      "mean_days": 3,
+      "persist_days": 7,
+      "season_days": 120,
+      "season_base_c": 10.0,
+      "sources": {
+        "start_threshold_c": "SDSU Extension: for even soybean emergence, a 3-day mean soil temperature of 55°F (12.8°C) or more. https://extension.sdstate.edu/how-early-too-early-plant-row-crops",
+        "season_days": "ASSUMPTION: 120 days for maturity group 3–4. Not verified by a source; adjust to the local variety."
+      },
+      "search_from": "03-01"
+    },
+    "Sorghum": {
+      "type": "spring",
+      "start_threshold_c": 15.6,
+      "mean_days": 3,
+      "persist_days": 7,
+      "season_days": 105,
+      "season_base_c": 10.0,
+      "sources": {
+        "start_threshold_c": "Oregon State University EM 8794: plant when soil temperature reaches 60–65°F (15.6–18.3°C); the lower bound is used. https://extension.oregonstate.edu/catalog/pub/em-8794-dryland-cropping-systems-grain-sorghum",
+        "season_days": "Oregon State University EM 8794: medium-maturity varieties mature in 98–105 days; the upper bound is used."
+      },
+      "search_from": "03-01"
+    },
+    "Spring Wheat": {
+      "type": "spring",
+      "start_threshold_c": 1.7,
+      "mean_days": 3,
+      "persist_days": 7,
+      "season_days": null,
+      "season_base_c": null,
+      "sources": {
+        "start_threshold_c": "SDSU Extension: spring-wheat germination needs a 3-day mean soil temperature of 34–36°F; 35°F (1.7°C) is used. https://extension.sdstate.edu/soil-temperature-planting-spring-crops",
+        "season_days": "No source added; the window end is not computed.",
+        "search_from": "The search starts on 10 January (so that NEX-GDDP late-December gaps do not block the 3-day mean)."
+      },
+      "search_from": "01-10"
+    },
+    "Winter Wheat": {
+      "type": "winter",
+      "gdd_base_c": 0.0,
+      "gdd_by_dec31_c": 389.0,
+      "early_days": 14,
+      "sources": {
+        "gdd_by_dec31_c": "Virginia Tech SPES-730: about 700 GDD by 1 January (two tillers); formula ((Tmax+Tmin)/2) − 32, i.e. °F based. 700 °F·days ≈ 389 °C·days (base 0°C). A Virginia rule; needs local validation for Kansas/Oregon. https://aaec.vt.edu/content/dam/pubs_ext_vt_edu/spes/spes-730/SPES-730.pdf",
+        "early_days": "Top Crop Manager (Ontario): plant at most 10–14 days before the optimum date; 14 days is used. https://www.topcropmanager.com/taking-fall-planting-conditions-in-stride-for-winter-wheat/",
+        "max_missing_late_december_days": "Late-December days are systematically missing in NEX-GDDP ensemble responses. With at most 3 missing days between 20 and 31 December, the computation continues without them and this is written in the result. Because missing days are not added, the latest sowing date can come out a few days early at most."
+      },
+      "max_missing_late_december_days": 3
+    },
+    "Fallow/Idle Cropland": {
+      "type": "none",
+      "sources": {
+        "note": "No planting in a fallow year."
+      }
+    },
+    "Peas": {
+      "type": "spring",
+      "start_threshold_c": 4.4,
+      "mean_days": 3,
+      "persist_days": 7,
+      "season_days": null,
+      "season_base_c": null,
+      "search_from": "01-10",
+      "sources": {
+        "start_threshold_c": "NDSU Extension A1166 (Field Pea Production): field peas germinate at 40°F (4.4°C) soil temperature; University of Idaho: in northern Idaho and eastern Washington soil at seeding depth should be 40°F, planted at the same time as spring wheat. https://www.ag.ndsu.edu/agriculture/sites/default/files/2021-12/a1166.pdf",
+        "season_days": "No source added; the window end is not computed.",
+        "search_from": "The search starts on 10 January (so that NEX-GDDP late-December gaps do not block the 3-day mean)."
+      }
+    },
+    "Alfalfa": {
+      "type": "none",
+      "sources": {
+        "note": "Perennial forage; not planted every year."
+      }
+    },
+    "Other Hay/Non Alfalfa": {
+      "type": "none",
+      "sources": {
+        "note": "Perennial forage; not planted every year."
+      }
+    }
+  }
+}

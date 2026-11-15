@@ -1,0 +1,8 @@
+{
+  "url": "https://quickstats.nass.usda.gov/api/api_GET/?short_desc=WHEAT%2C+WINTER+-+YIELD%2C+MEASURED+IN+BU+%2F+ACRE&agg_level_desc=STATE&state_alpha=KS&year__GE=2014&year__LE=2023&source_desc=SURVEY&format=JSON",
+  "sha256": "8dc57d09644bd6c6c28ad0ef325d5fed0b7970a091df1b220312d14974b71393",
+  "fetched_at_utc": "2026-11-15T03:14:02.480474+00:00",
+  "source": "USDA NASS Quick Stats",
+  "series": "WHEAT, WINTER - YIELD, MEASURED IN BU / ACRE",
+  "level": "STATE"
+}

@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FieldShift — wheat migration and parcel plans</title>
+<style>/*__LEAFLET_CSS__*/</style>
+<style>
+:root{--bg:#f4f2ec;--card:#fff;--ink:#1d2125;--muted:#5d646c;--line:#e2ded4;--land:#ece8dd;--landline:#c9c2b2;
+--ok:#2f7d4f;--warn:#b7791f;--bad:#a33a3a;--accent:#2f5f9e;--sel:#111;
+--ww:#c97a1e;--sw:#d9a441;--corn:#3b6fb6;--soy:#4f9a63;--sorg:#8a5aa8;--peas:#3d9a9a;--fallow:#b5ad9c;--other:#7c8794}
+@media (prefers-color-scheme:dark){:root{--bg:#141619;--card:#1d2024;--ink:#e8e5df;--muted:#a1a7ae;--line:#32363b;--land:#262a2f;--landline:#3e444b;--sel:#fff}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{padding:16px 20px 8px;max-width:1400px;margin:0 auto}
+h1{margin:0;font-size:22px}
+.sub{color:var(--muted);margin:4px 0 10px;max-width:980px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{display:flex;align-items:center;gap:6px;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:4px 10px 4px 4px;cursor:default;position:relative}
+.chip b{display:inline-grid;place-items:center;width:22px;height:22px;border-radius:50%;color:#fff;font-size:12px}
+.chip .t{font-size:12px}
+.chip .pop{display:none;position:absolute;top:110%;left:0;z-index:20;width:300px;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:8px 10px;box-shadow:0 6px 20px rgba(0,0,0,.12);font-size:12px}
+.chip:hover .pop,.chip:focus-within .pop{display:block}
+main{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(320px,1fr);gap:14px;padding:8px 20px 30px;max-width:1400px;margin:0 auto}
+main>section{min-width:0}
+@media (max-width:900px){main{grid-template-columns:1fr;padding:8px 10px 24px}header{padding:12px 10px 6px}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px}
+.bar{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-bottom:8px}
+.bar .lbl{color:var(--muted);font-size:12px;margin-right:2px}
+button.seg,.tabs button{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:8px;padding:5px 10px;font:inherit;font-size:13px;cursor:pointer}
+button.seg[aria-pressed=true],.tabs button[aria-selected=true]{background:var(--accent);border-color:var(--accent);color:#fff}
+button.seg:disabled{opacity:.45;cursor:not-allowed}
+select,input[type=date],input[type=number]{font:inherit;font-size:13px;padding:4px 6px;border:1px solid var(--line);border-radius:6px;background:var(--card);color:var(--ink)}
+#map{position:relative;width:100%;height:540px;border-radius:8px;overflow:hidden;background:#dfe3e6}
+@media (max-width:900px){#map{height:420px}}
+.leaflet-container{font:inherit}
+.coord{background:rgba(255,255,255,.85);color:#222;padding:2px 6px;border-radius:4px;font-size:11px;font-variant-numeric:tabular-nums}
+.arrowicon{font-size:26px;line-height:26px;color:#111;text-shadow:0 0 3px #fff,0 0 3px #fff;transform-origin:center}
+.maplegend{background:rgba(255,255,255,.92);color:#222;padding:6px 8px;border-radius:6px;font-size:12px;line-height:1.5;max-width:220px}
+.maplegend i{display:inline-block;width:11px;height:11px;border-radius:2px;margin-right:4px;vertical-align:-1px;border:1px solid rgba(0,0,0,.2)}
+.tip{position:absolute;pointer-events:none;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:7px 9px;font-size:12px;box-shadow:0 6px 18px rgba(0,0,0,.15);white-space:pre-line;max-width:290px;z-index:10}
+.legend{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px;font-size:12px;color:var(--muted)}
+.legend i{display:inline-block;width:11px;height:11px;border-radius:3px;margin-right:4px;vertical-align:-1px}
+.note{color:var(--muted);font-size:12px;margin:6px 0}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+.cropchip{display:inline-block;border-radius:6px;padding:2px 7px;color:#fff;font-size:12px;white-space:nowrap}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{border-bottom:1px solid var(--line);padding:5px 6px;text-align:left;vertical-align:top}
+th{color:var(--muted);font-weight:600;font-size:12px}
+td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+tr.total td{font-weight:700;border-bottom:none}
+.seqrow{display:flex;gap:4px;flex-wrap:wrap;margin:4px 0 8px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(100px,1fr));gap:8px;margin:8px 0}
+.kpi{border:1px solid var(--line);border-radius:8px;padding:8px}
+.kpi .v{font-size:20px;font-weight:700;font-variant-numeric:tabular-nums}
+.kpi .k{font-size:12px;color:var(--muted)}
+.pos{color:var(--ok)}.neg{color:var(--bad)}
+.why{background:var(--bg);border-radius:8px;padding:8px 10px;margin:8px 0}
+.form-row{display:flex;align-items:center;gap:8px;margin:7px 0;flex-wrap:wrap}
+.form-row label{font-size:13px}
+.crops label{display:inline-flex;align-items:center;gap:4px;margin:3px 10px 3px 0}
+.dis{color:var(--muted)}
+ul{margin:6px 0;padding-left:18px}
+details summary{cursor:pointer;color:var(--accent)}
+.scroll{overflow-x:auto}
+.state-in{color:var(--ok);font-weight:600}.state-before{color:var(--accent)}.state-after{color:var(--muted)}
+footer{max-width:1400px;margin:0 auto;padding:0 20px 24px;color:var(--muted);font-size:12px}
+</style>
+</head>
+<body>
+<header>
+  <h1>FieldShift — wheat migration and parcel plans</h1>
+  <p class="sub" id="goal"></p>
+  <div class="chips" id="chips"></div>
+</header>
+<main>
+  <section class="card" aria-label="Map">
+    <div class="bar">
+      <span class="lbl">View:</span>
+      <button class="seg" data-view="us">USA</button>
+      <button class="seg" data-view="corridor">Migration corridor</button>
+      <button class="seg" data-view="USKS01">Kansas parcels</button>
+      <button class="seg" data-view="USOR03">Oregon parcels</button>
+      <button class="seg" data-view="corridorParcels">Corridor parcels</button>
+    </div>
+    <div class="bar">
+      <span class="lbl">Climate period:</span>
+      <button class="seg" data-period="sb">2015–2024</button>
+      <button class="seg" data-period="sf">2040–2049</button>
+      <button class="seg" data-period="delta">Change</button>
+      <span class="lbl" style="margin-left:10px">Year shown on parcels:</span>
+      <select id="yearSel"></select>
+    </div>
+    <div id="map"></div>
+    <div class="bar" style="margin-top:8px">
+      <span class="lbl">Download GIS data (EPSG:4326 GeoJSON):</span>
+      <button class="seg" id="dlParcels">Parcels and plans</button>
+      <button class="seg" id="dlCells">Corridor cells</button>
+    </div>
+    <p class="note" id="mapnote"></p>
+  </section>
+  <section class="card" aria-label="Panel">
+    <div class="tabs" role="tablist">
+      <button role="tab" data-tab="parcel">Parcel plan</button>
+      <button role="tab" data-tab="date">What to plant on a date?</button>
+      <button role="tab" data-tab="prefs">Farmer priorities</button>
+      <button role="tab" data-tab="migration">Migration</button>
+      <button role="tab" data-tab="sources">Sources</button>
+    </div>
+    <div id="tab-parcel"></div>
+    <div id="tab-date" hidden></div>
+    <div id="tab-prefs" hidden></div>
+    <div id="tab-migration" hidden></div>
+    <div id="tab-sources" hidden></div>
+  </section>
+</main>
+<footer id="foot"></footer>
+<script>/*__D3__*/</script>
+<script>/*__LEAFLET__*/</script>
+<script>/*__OPT__*/</script>
+<script>
+const D = /*__DATA__*/null;
+const STATES = /*__STATES__*/null;
+const CROP = {"Winter Wheat":"Winter wheat","Spring Wheat":"Spring wheat","Corn":"Corn","Soybeans":"Soybeans","Sorghum":"Sorghum","Peas":"Peas","Fallow/Idle Cropland":"Fallow","Alfalfa":"Alfalfa","Other Hay/Non Alfalfa":"Hay","Triticale":"Triticale","Dbl Crop WinWht/Soybeans":"Wheat+soy"};
+const CCOL = {"Winter Wheat":"var(--ww)","Spring Wheat":"var(--sw)","Corn":"var(--corn)","Soybeans":"var(--soy)","Sorghum":"var(--sorg)","Peas":"var(--peas)","Fallow/Idle Cropland":"var(--fallow)"};
+const STR = {best:"Recommended (most profitable)", wheat:"Wheat-focused", current:"Current rotation"};
+const crop = c => CROP[c] || c;
+const ccol = c => CCOL[c] || "var(--other)";
+const fmt0 = v => v === null || v === undefined ? "—" : (v >= 0 ? "+" : "−") + Math.abs(v).toFixed(0);
+const MON = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+const dm = s => s ? MON[+s.slice(5,7) - 1] + " " + (+s.slice(8,10)) + ", " + s.slice(0,4) : "";
+const el = (tag, attrs, parent, text) => { const e = document.createElement(tag); for (const k in (attrs||{})) e.setAttribute(k, attrs[k]); if (text !== undefined) e.textContent = text; if (parent) parent.appendChild(e); return e; };
+function chipCrop(c, parent){ const s = el("span", {class:"cropchip"}, parent, crop(c)); s.style.background = ccol(c); if (c === "Fallow/Idle Cropland") s.style.color = "#222"; return s; }
+
+// ---- status ----
+const state = { view: "USKS01", period: "sb", year: D.plan_years[0], parcel: null, strategy: "best", tab: "parcel",
+  date: D.plan_years[0] + "-10-15", dateStrategy: "best", prefsRegion: Object.keys(D.regions)[0], opts: null };
+function defaultOpts(){
+  const crops = {};
+  for (const r in D.regions) crops[r] = D.regions[r].allowed.slice();
+  return { crops, min_wheat: D.params.min_wheat, max_consecutive: D.params.max_consecutive, price_factor: 1, use_fallow_rule: true };
+}
+state.opts = defaultOpts();
+let cache = {};
+function results(p){
+  const key = [p.region, p.previous, p.initial_run, p.current.join(">")].join("|");
+  if (!cache[key]) cache[key] = FSOpt.strategies(D, p, state.opts);
+  return cache[key];
+}
+function planFor(p, which){ const r = results(p); return which === "best" ? r.best : which === "wheat" ? r.wheat : r.current; }
+function windowOf(site, c, year){ return ((D.windows[site] || {})[c] || {})[year] || null; }
+
+// ---- header ----
+document.getElementById("goal").textContent = "Goal: " + D.goal;
+const chips = document.getElementById("chips");
+D.components.forEach(c => {
+  const ch = el("div", {class:"chip", tabindex:"0"}, chips);
+  const b = el("b", {}, ch, c.key);
+  b.style.background = (c.status === "working" || c.status === "trained") ? "var(--ok)" : c.status === "insufficient_training_data" ? "var(--bad)" : "var(--warn)";
+  el("span", {class:"t"}, ch, c.component.split(" ").slice(0,4).join(" ") + "… · " + c.status_label);
+  const pop = el("div", {class:"pop"}, ch);
+  el("div", {style:"font-weight:600"}, pop, c.key + ". " + c.component);
+  el("div", {}, pop, c.status_label + ": " + c.produced);
+  if (c.status !== "working" && c.status !== "trained") el("div", {class:"note"}, pop, "To complete: " + c.next);
+});
+document.getElementById("foot").textContent = "This tool supports decisions; it does not replace the judgement of the farmer or a local expert. Generated: " + D.generated + ". FieldShift Data, NASA POWER NEX-GDDP, USDA CDL/NASS, K-State KFMA, OSU, P-FLUX. Built with AI assistance (Claude).";
+
+// ---- map (Leaflet, EPSG:3857 display; data in EPSG:4326) ----
+const hasCells = D.cells.length > 0;
+const yearSel = document.getElementById("yearSel");
+D.plan_years.forEach(y => el("option", {value: y}, yearSel, String(y)));
+yearSel.onchange = () => { state.year = +yearSel.value; drawMap(); };
+const map = L.map("map", {zoomSnap: 0.25, worldCopyJump: false, minZoom: 3, maxZoom: 18});
+const USGS_ATTR = 'Base map: <a href="https://www.usgs.gov/programs/national-geospatial-program/national-map" target="_blank" rel="noopener">USGS The National Map</a>';
+const usgs = svc => L.tileLayer(`https://basemap.nationalmap.gov/arcgis/rest/services/${svc}/MapServer/tile/{z}/{y}/{x}`, {maxNativeZoom: 16, maxZoom: 18, attribution: USGS_ATTR});
+const baseLayers = {"USGS topographic": usgs("USGSTopo"), "USGS imagery": usgs("USGSImageryOnly"), "USGS imagery + labels": usgs("USGSImageryTopo"), "Offline (boundaries only)": L.layerGroup()};
+baseLayers["USGS topographic"].addTo(map);
+let tileErrors = 0, tileOk = 0;
+Object.values(baseLayers).forEach(l => { if (l.on) { l.on("tileerror", () => { tileErrors++; updateNote(); }); l.on("tileload", () => { tileOk++; }); } });
+const statesLayer = L.geoJSON(STATES, {style: {color: "#5b5b5b", weight: 1, fill: false, opacity: .8}, interactive: false}).addTo(map);
+const cellsLayer = L.layerGroup().addTo(map), shiftLayer = L.layerGroup().addTo(map), sitesLayer = L.layerGroup().addTo(map), parcelsLayer = L.layerGroup().addTo(map);
+L.control.layers(baseLayers, {"State boundaries (US Census)": statesLayer, "Wheat suitability (corridor)": cellsLayer, "Shift of the suitable zone": shiftLayer, "Pilot sites": sitesLayer, "Parcels (CDL 30 m)": parcelsLayer}, {collapsed: true}).addTo(map);
+L.control.scale({metric: true, imperial: false, maxWidth: 140}).addTo(map);
+const coord = L.control({position: "bottomleft"}); coord.onAdd = () => { const d = L.DomUtil.create("div", "coord"); d.textContent = "EPSG:4326"; return d; }; coord.addTo(map);
+map.on("mousemove", e => { coord.getContainer().textContent = `${e.latlng.lat.toFixed(5)}°K, ${Math.abs(e.latlng.lng).toFixed(5)}°B · z${map.getZoom().toFixed(1)}`; });
+const legendCtl = L.control({position: "bottomright"}); legendCtl.onAdd = () => L.DomUtil.create("div", "maplegend"); legendCtl.addTo(map);
+const suitExtent = hasCells ? [d3.min(D.cells, c => Math.min(c.sb, c.sf)), d3.max(D.cells, c => Math.max(c.sb, c.sf))] : [0, 1];
+const suitScale = d3.scaleSequential(d3.interpolateYlOrBr).domain(suitExtent);
+const suitColor = v => suitScale(v);
+const deltaMax = hasCells ? d3.max(D.cells, c => Math.abs(c.sf - c.sb)) || 0.01 : 0.01;
+const deltaScale = d3.scaleSequential(d3.interpolateGreens).domain([0, deltaMax]);
+const deltaColor = v => v >= 0 ? deltaScale(v) : d3.interpolateReds(Math.min(1, -v / deltaMax));
+const SUIT_T = (D.corridor.shift && D.corridor.shift.suitable_zone) ? D.corridor.shift.suitable_zone.threshold : 0.5;
+function pixelBounds(p){ const dLat = 15 / 111320, dLon = 15 / (111320 * Math.cos(p.lat * Math.PI / 180)); return [[p.lat - dLat, p.lon - dLon], [p.lat + dLat, p.lon + dLon]]; }
+function viewBounds(v){
+  if (v === "us") return [[24.5, -125], [49.5, -66.5]];
+  if (v === "corridor") { if (hasCells) { const lo = d3.extent(D.cells, c => c.lon), la = d3.extent(D.cells, c => c.lat); return [[la[0]-0.8, lo[0]-0.8], [la[1]+0.8, lo[1]+0.8]]; } return [[36, -104], [49, -95]]; }
+  const ps = v === "corridorParcels" ? D.parcels.filter(p => p.kind === "corridor") : D.parcels.filter(p => p.region === v);
+  if (!ps.length) return [[24.5, -125], [49.5, -66.5]];
+  const lo = d3.extent(ps, p => p.lon), la = d3.extent(ps, p => p.lat);
+  const pad = v === "corridorParcels" ? 0.6 : 0.008;
+  return [[la[0]-pad, lo[0]-pad], [la[1]+pad, lo[1]+pad]];
+}
+function parcelCrop(p){ const pl = planFor(p, "best") || planFor(p, "current"); return pl.sequence[D.plan_years.indexOf(state.year)]; }
+function cssColor(c){ const v = ccol(c); return v.startsWith("var(") ? getComputedStyle(document.documentElement).getPropertyValue(v.slice(4, -1)).trim() : v; }
+function drawMap(){
+  cellsLayer.clearLayers(); shiftLayer.clearLayers(); sitesLayer.clearLayers(); parcelsLayer.clearLayers();
+  D.cells.forEach(c => {
+    const isDelta = state.period === "delta", v = isDelta ? c.sf - c.sb : c[state.period];
+    const suitable = !isDelta && v >= SUIT_T, gained = isDelta && c.sb < SUIT_T && c.sf >= SUIT_T;
+    L.rectangle([[c.lat - 0.5, c.lon - 0.5], [c.lat + 0.5, c.lon + 0.5]], {color: suitable || gained ? "#3a1d00" : "#7a5a2a", weight: suitable || gained ? 2.2 : .4,
+        fillColor: isDelta ? deltaColor(v) : suitColor(v), fillOpacity: .72})
+      .bindTooltip(`${c.id}<br>Wheat suitability: 2015–2024 <b>${c.sb.toFixed(2)}</b> → 2040–2049 <b>${c.sf.toFixed(2)}</b><br>CDL: wheat on ${c.wheat_points}/${c.cropland_points} cropland points`, {sticky: true}).addTo(cellsLayer);
+  });
+  const z = D.corridor.shift && D.corridor.shift.suitable_zone;
+  if (z) {
+    const a = [z.baseline_centroid.latitude, z.baseline_centroid.longitude], b = [z.future_centroid.latitude, z.future_centroid.longitude];
+    L.polyline([a, b], {color: "#111", weight: 4}).addTo(shiftLayer);
+    L.circleMarker(a, {radius: 6, color: "#111", weight: 2, fillColor: "#fff", fillOpacity: 1}).bindTooltip("Centre of the suitable zone, 2015–2024").addTo(shiftLayer);
+    L.marker(b, {icon: L.divIcon({className: "", html: `<div class="arrowicon" style="transform:rotate(${z.bearing_deg - 90}deg)">➤</div>`, iconSize: [26, 26], iconAnchor: [13, 13]})})
+      .bindTooltip(`Centre of the suitable zone, 2040–2049<br>${z.distance_km.toFixed(0)} km, ${z.bearing_deg.toFixed(0)}°`).addTo(shiftLayer);
+  }
+  const zoom = map.getZoom();
+  if (zoom < 11) Object.entries(D.regions).filter(([k, r]) => r.pilot).forEach(([k, r]) => {
+    const rows = D.climate.filter(c => c.cell_id === k).map(c => `${c.metric}: ${(+c.baseline_2015_2024).toFixed(1)} → ${(+c.future_2040_2049).toFixed(1)}`);
+    L.circleMarker([r.lat, r.lon], {radius: 9, color: "#fff", weight: 2, fillColor: "#2f5f9e", fillOpacity: 1})
+      .bindTooltip(`<b>${r.name}</b><br>${D.parcels.filter(p => p.region === k).length} parcels — click to zoom in` + (rows.length ? "<br><br>Same NASA model, 2015–2024 → 2040–2049:<br>" + rows.join("<br>") : ""))
+      .on("click", () => setView(k)).addTo(sitesLayer);
+  });
+  D.parcels.filter(p => p.kind === "corridor" ? zoom >= 5 : zoom >= 9).forEach(p => {
+    const c = parcelCrop(p), col = cssColor(c), sel = state.parcel === p.id;
+    const w = windowOf(p.site, c, state.year);
+    const tipTxt = `<b>${p.id}</b><br>${state.year}: ${crop(c)}${w && w.start ? "<br>Plant: " + dm(w.start) + (w.end ? " – " + dm(w.end) : "") : ""}<br>History: ${p.observed.map(crop).join(" → ")}<br>${p.lat.toFixed(5)}°N, ${Math.abs(p.lon).toFixed(5)}°W`;
+    L.rectangle(pixelBounds(p), {color: sel ? "#000" : "#222", weight: sel ? 2 : .5, fillColor: col, fillOpacity: .95}).bindTooltip(tipTxt).on("click", () => selectParcel(p.id)).addTo(parcelsLayer);
+    L.circleMarker([p.lat, p.lon], {radius: p.kind === "corridor" && zoom < 9 ? (sel ? 7 : 4.5) : (sel ? 9 : 7), color: sel ? "#000" : "#fff", weight: sel ? 3 : 1.5, fillColor: col, fillOpacity: zoom >= 16 ? 0 : .95, opacity: zoom >= 16 && !sel ? 0 : 1})
+      .bindTooltip(tipTxt).on("click", () => selectParcel(p.id)).addTo(parcelsLayer);
+  });
+  drawLegend();
+  document.querySelectorAll("button[data-view]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.view === state.view)));
+  document.querySelectorAll("button[data-period]").forEach(b => { b.setAttribute("aria-pressed", String(b.dataset.period === state.period)); b.disabled = !hasCells; });
+  updateNote();
+}
+map.on("zoomend", () => drawMap());
+function drawLegend(){
+  const lg = legendCtl.getContainer(); lg.replaceChildren();
+  if (hasCells && state.period === "delta") { el("div", {style: "font-weight:600"}, lg, "Suitability change (2040–49 − 2015–24)");
+    d3.range(5).map(i => deltaMax * i / 4).forEach(v => { const s = el("div", {}, lg); const i = el("i", {}, s); i.style.background = deltaColor(v); s.appendChild(document.createTextNode("+" + v.toFixed(3))); });
+    el("div", {}, lg, "Bold outline: cell newly joining the suitable zone"); }
+  else if (hasCells) { el("div", {style: "font-weight:600"}, lg, "Wheat suitability " + (state.period === "sb" ? "2015–2024" : "2040–2049"));
+    d3.range(5).map(i => suitExtent[0] + (suitExtent[1] - suitExtent[0]) * i / 4).forEach(v => { const s = el("div", {}, lg); const i = el("i", {}, s); i.style.background = suitColor(v); s.appendChild(document.createTextNode(v.toFixed(2))); });
+    el("div", {}, lg, `Bold outline: suitable zone (≥ ${SUIT_T})`); }
+  const crops = new Set(D.parcels.filter(p => p.kind === "pilot" ? map.getZoom() >= 9 : map.getZoom() >= 5).map(parcelCrop));
+  if (crops.size) el("div", {style: "font-weight:600;margin-top:4px"}, lg, `Parcel, ${state.year} recommendation`);
+  crops.forEach(c => { const s = el("div", {}, lg); const i = el("i", {}, s); i.style.background = cssColor(c); s.appendChild(document.createTextNode(crop(c))); });
+}
+function updateNote(){
+  const note = document.getElementById("mapnote");
+  const parts = [];
+  if (tileErrors && !tileOk) parts.push("The USGS base map could not be loaded (no internet?); showing offline state boundaries.");
+  if (!hasCells) parts.push("For the migration-corridor layer: corridor --online → goal --offline → app.");
+  parts.push("Parcels are USDA CDL 30 m pixel points; zoom in to see the real 30 m square. Display EPSG:3857, data EPSG:4326.");
+  note.textContent = parts.join(" ");
+}
+function setView(v){ state.view = v;
+  if (v === "corridorParcels") { const first = D.parcels.find(p => p.kind === "corridor"); if (first && (D.parcels.find(x => x.id === state.parcel) || {}).kind !== "corridor") selectParcel(first.id, true); }
+  if (v === "USKS01" || v === "USOR03") { state.prefsRegion = v; if (!state.parcel || !state.parcel.startsWith(v)) selectParcel(D.parcels.find(p => p.region === v).id, true); }
+  map.fitBounds(viewBounds(v), {padding: [12, 12]}); drawMap(); }
+document.querySelectorAll("button[data-view]").forEach(b => { b.onclick = () => setView(b.dataset.view); if (b.dataset.view === "corridorParcels" && !D.parcels.some(p => p.kind === "corridor")) b.disabled = true; });
+document.querySelectorAll("button[data-period]").forEach(b => b.onclick = () => { state.period = b.dataset.period; drawMap(); });
+function download(name, obj){ const blob = new Blob([JSON.stringify(obj)], {type: "application/geo+json"}); const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = name; document.body.appendChild(a); a.click(); a.remove(); }
+document.getElementById("dlParcels").onclick = () => download("fieldshift_parcels.geojson", {type: "FeatureCollection", name: "fieldshift_parcels",
+  features: D.parcels.map(p => { const best = planFor(p, "best"), cur = planFor(p, "current"); const b = pixelBounds(p);
+    return {type: "Feature", geometry: {type: "Polygon", coordinates: [[[b[0][1], b[0][0]], [b[1][1], b[0][0]], [b[1][1], b[1][0]], [b[0][1], b[1][0]], [b[0][1], b[0][0]]]]},
+      properties: {parcel_id: p.id, region: p.region, observed_2018_2023: p.observed.join(" > "), current_plan: cur.sequence.join(" > "), current_profit_usd_acre: cur.total,
+        best_plan: best ? best.sequence.join(" > ") : null, best_profit_usd_acre: best ? best.total : null, plan_years: D.plan_years.join("-"),
+        price_factor: state.opts.price_factor, source: "FieldShift Data; USDA CDL 30 m"}}; })});
+document.getElementById("dlCells").disabled = !hasCells;
+document.getElementById("dlCells").onclick = () => download("fieldshift_corridor_cells.geojson", {type: "FeatureCollection", name: "fieldshift_corridor_cells",
+  features: D.cells.map(c => ({type: "Feature", geometry: {type: "Polygon", coordinates: [[[c.lon-0.5, c.lat-0.5], [c.lon+0.5, c.lat-0.5], [c.lon+0.5, c.lat+0.5], [c.lon-0.5, c.lat+0.5], [c.lon-0.5, c.lat-0.5]]]},
+    properties: {cell_id: c.id, suitability_2015_2024: c.sb, suitability_2040_2049: c.sf, change: c.sf - c.sb, wheat_points: c.wheat_points, cropland_points: c.cropland_points}}))});
+let rt; window.addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => map.invalidateSize(), 120); });
+
+// ---- tabs ----
+function setTab(t){ state.tab = t; document.querySelectorAll("[role=tab]").forEach(b => b.setAttribute("aria-selected", String(b.dataset.tab === t)));
+  ["parcel","date","prefs","migration","sources"].forEach(n => document.getElementById("tab-" + n).hidden = n !== t); render(); }
+document.querySelectorAll("[role=tab]").forEach(b => b.onclick = () => setTab(b.dataset.tab));
+
+function selectParcel(id, quiet){ state.parcel = id; const pp = D.parcels.find(x => x.id === id); state.prefsRegion = pp ? pp.region : state.prefsRegion; if (!quiet) { setTab("parcel"); } drawMap(); render(); }
+
+// ---- parcel plan ----
+function renderParcel(){
+  const box = document.getElementById("tab-parcel"); box.replaceChildren();
+  const p = D.parcels.find(x => x.id === state.parcel);
+  if (!p) { el("p", {class:"note"}, box, "Click a parcel on the map."); return; }
+  const reg = D.regions[p.region];
+  el("div", {style:"font-weight:700;font-size:16px"}, box, p.id);
+  el("div", {class:"note"}, box, reg.name);
+  if (p.kind === "corridor") { const cell = D.cells.find(c => "cell:" + c.id === p.site);
+    if (cell) el("div", {class:"note"}, box, `Migration-corridor cell ${cell.id}: wheat suitability ${cell.sb.toFixed(2)} (2015–2024) → ${cell.sf.toFixed(2)} (2040–2049). The planting calendar uses this cell's NASA climate.`); }
+  el("div", {class:"note", style:"margin-top:8px"}, box, "History seen from satellite (USDA CDL):");
+  const hist = el("div", {class:"seqrow"}, box);
+  p.observed.forEach((c, i) => { const s = chipCrop(c, hist); s.title = String(p.observed_years[i]); });
+  const r = results(p);
+  const seg = el("div", {class:"bar"}, box);
+  ["best","wheat","current"].forEach(k => { const b = el("button", {class:"seg", "aria-pressed": String(state.strategy === k)}, seg, STR[k]); b.onclick = () => { state.strategy = k; renderParcel(); }; });
+  const plan = planFor(p, state.strategy);
+  if (!plan) { el("p", {class:"note"}, box, state.strategy === "wheat" ? `No valid plan with wheat in at least ${r.wheat_need} years that differs from the recommendation.` : "No valid plan with these priorities and inputs." + (r.incomplete.length ? " Missing: " + r.incomplete.join(", ") : "")); return; }
+  const k = el("div", {class:"kpis"}, box);
+  const kpi = (v, label, cls) => { const d = el("div", {class:"kpi"}, k); const a = el("div", {class:"v " + (cls||"")}, d, v); el("div", {class:"k"}, d, label); };
+  kpi(plan.total === null ? "—" : fmt0(plan.total) + " $", "6-year economic profit (per acre)", plan.total === null ? "" : plan.total >= 0 ? "pos" : "neg");
+  if (state.strategy !== "current" && r.current.total !== null && plan.total !== null) kpi(fmt0(plan.total - r.current.total) + " $", "difference vs current rotation", plan.total - r.current.total >= 0 ? "pos" : "neg");
+  kpi(plan.p_total === null ? "—" : plan.p_total.toFixed(0), "soil P removal (kg/ha, 6 years)");
+  const sc = el("div", {class:"scroll"}, box); const t = el("table", {}, sc);
+  const hr = el("tr", {}, el("thead", {}, t)); ["Year","What to plant","When to plant","Profit $/acre","P kg/ha"].forEach((x, i) => el("th", i > 2 ? {style:"text-align:right"} : {}, hr, x));
+  const tb = el("tbody", {}, t);
+  plan.yearly.forEach((y, i) => {
+    const yr = D.plan_years[i]; const w = windowOf(p.site, y.crop, yr); const tr = el("tr", {}, tb);
+    el("td", {}, tr, String(yr)); chipCrop(y.crop, el("td", {}, tr));
+    const wt = !w ? "—" : w.status === "no_planting" ? "no planting" : w.start ? dm(w.start) + (w.end ? " – " + dm(w.end) : " onwards") + (w.status === "low_confidence" ? " (low confidence)" : "") : w.status === "missing_data" ? "no climate data" : w.status;
+    const wtd = el("td", {}, tr, wt); if (w && w.basis) wtd.title = w.basis + (w.detail ? " · " + w.detail : "");
+    el("td", {class:"n"}, tr, y.profit === null ? "—" : fmt0(y.profit)); el("td", {class:"n"}, tr, y.p_removal === null ? "—" : y.p_removal.toFixed(1));
+  });
+  const tot = el("tr", {class:"total"}, tb); el("td", {}, tot, "Total"); el("td", {}, tot); el("td", {}, tot);
+  el("td", {class:"n"}, tot, plan.total === null ? "—" : fmt0(plan.total)); el("td", {class:"n"}, tot, plan.p_total === null ? "—" : plan.p_total.toFixed(0));
+  el("p", {class:"note"}, box, "For winter wheat the year is the harvest year; it is sown in the previous autumn (date in the table). Profit is economic profit including opportunity costs, minus the cost of replacing the phosphorus removed.");
+  // why
+  const why = el("div", {class:"why"}, box); el("div", {style:"font-weight:600"}, why, "Why this plan?");
+  const ul = el("ul", {}, why);
+  if (state.strategy === "best") {
+    el("li", {}, ul, `${r.count} different 6-year plans that follow the rules with the allowed crops were evaluated one by one; this one has the highest total profit.`);
+    const per = {}; plan.yearly.forEach(y => { if (y.profit !== null) per[y.crop] = y.profit; });
+    el("li", {}, ul, "Profit for one year (per acre): " + Object.entries(per).map(([c, v]) => `${crop(c)} ${fmt0(v)} $`).join(", ") + ".");
+  }
+  if (state.strategy === "wheat") el("li", {}, ul, `Most profitable plan with wheat in at least ${r.wheat_need} years; wheat-focused but may be less profitable.`);
+  if (state.strategy === "current") el("li", {}, ul, "Cyclic continuation of this parcel's 2018–2023 satellite history into the plan years (assumption).");
+  el("li", {}, ul, `Rules: the same crop at most ${state.opts.max_consecutive} years in a row; at least ${state.opts.min_wheat} wheat season(s)` + (reg.fallow_rule && state.opts.use_fallow_rule ? `; at most ${reg.fallow_rule.max_years_without_fallow} years without fallow (USDA ARS, Pendleton rainfall zone)` : "") + "; a summer crop must be harvested in time for winter-wheat sowing.");
+  if (state.opts.price_factor !== 1) el("li", {}, ul, `Price scenario: source prices × ${state.opts.price_factor} (sensitivity assumption).`);
+  // climate shift
+  const sh = D.planting_shift.filter(s => s.region === p.region && plan.sequence.includes(s.crop));
+  const crops = [...new Set(sh.map(s => s.crop))];
+  const lab = v => { const d0 = new Date(Date.UTC(2023,0,1)); d0.setUTCDate(d0.getUTCDate() + Math.round(+v < 1 ? +v + 365 : +v) - 1); return d3.utcFormat("%d.%m")(d0); };
+  const shiftItems = crops.map(c => { const a = sh.find(s => s.crop === c && s.period.startsWith("2016")), b = sh.find(s => s.crop === c && s.period.startsWith("2041"));
+    return a && b && a.median_start_doy && b.median_start_doy ? `${crop(c)}: ${lab(a.median_start_doy)}${a.median_end_doy ? "–" + lab(a.median_end_doy) : ""} (2016–2024) → ${lab(b.median_start_doy)}${b.median_end_doy ? "–" + lab(b.median_end_doy) : ""} (2041–2049)` : null; }).filter(Boolean);
+  if (shiftItems.length) {
+    const cl = el("div", {class:"why"}, box); el("div", {style:"font-weight:600"}, cl, "Planting calendar as the climate changes (NASA, SSP2-4.5)");
+    const ul2 = el("ul", {}, cl); shiftItems.forEach(t => el("li", {}, ul2, t));
+  }
+  // yield as the climate changes (C/D)
+  const cellId = p.kind === "corridor" ? p.site.replace("cell:", "") : null;
+  const yc = cellId && D.yields ? D.yields[cellId] : null;
+  if (yc) {
+    const yb = el("div", {class:"why"}, box); el("div", {style:"font-weight:600"}, yb, "Yield as the climate changes (2015–2024 → 2040–2049)");
+    const ul4 = el("ul", {}, yb);
+    Object.entries(yc).filter(([c]) => reg.allowed.includes(c)).forEach(([c, v]) => {
+      if (v.mult === null) return;
+      const pct = Math.round((v.mult - 1) * 100);
+      el("li", {}, ul4, `${crop(c)}: ${pct >= 0 ? "+" : ""}${pct}%` + (v.status !== "usable" ? " (weak model, not used in the plan)" : v.extrap ? " (outside the training range, not used in the plan)" : ""));
+    });
+    const fut = D.future && D.future[p.id];
+    if (fut) el("li", {}, ul4, `Most profitable plan with these yields: ${fut.sequence.map(crop).join(" → ")} (${fmt0(fut.total)} $/acre)` +
+                                  (planFor(p, "best") && planFor(p, "best").sequence.join() !== fut.sequence.join() ? " — differs from today's recommendation." : " — same as today's recommendation."));
+  }
+  // satellite indicator
+  const sat = D.satellite && D.satellite[p.id];
+  if (sat && sat.s.length) {
+    const sb = el("div", {class:"why"}, box); el("div", {style:"font-weight:600"}, sb, `Plant growth seen from satellite (MODIS NDVI, ${sat.m.year})`);
+    const W = 300, H = 90, m = {l: 28, r: 6, t: 6, b: 18};
+    const svg = d3.select(sb).append("svg").attr("viewBox", `0 0 ${W} ${H}`).attr("width", "100%").attr("role", "img")
+      .attr("aria-label", "NDVI curve");
+    const x = d3.scaleUtc().domain([new Date(Date.UTC(+sat.m.year, 0, 1)), new Date(Date.UTC(+sat.m.year, 11, 31))]).range([m.l, W - m.r]);
+    const y = d3.scaleLinear().domain([0, 1]).range([H - m.b, m.t]);
+    svg.append("rect").attr("x", m.l).attr("width", W - m.l - m.r).attr("y", y(0.25)).attr("height", y(0) - y(0.25)).attr("fill", "#c9a46a").attr("opacity", .18);
+    svg.append("g").attr("transform", `translate(0,${H - m.b})`).call(d3.axisBottom(x).ticks(d3.utcMonth.every(2)).tickFormat(d3.utcFormat("%m"))).attr("font-size", 8);
+    svg.append("g").attr("transform", `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(3)).attr("font-size", 8);
+    svg.append("path").datum(sat.s).attr("fill", "none").attr("stroke", "#2e7d32").attr("stroke-width", 1.6)
+      .attr("d", d3.line().x(d => x(new Date(d[0] + "T00:00:00Z"))).y(d => y(d[1])));
+    const ul5 = el("ul", {}, sb);
+    if (sat.m.status === "ok") {
+      el("li", {}, ul5, `Peak greenness ${(+sat.m.peak_ndvi).toFixed(2)} (${dm(sat.m.peak_date)}); green period ${dm(sat.m.green_up)} – ${dm(sat.m.senescence)}.`);
+      el("li", {}, ul5, `Bare soil (NDVI < 0.25): about ${sat.m.bare_soil_days} days — erosion risk and a cover-crop opportunity.`);
+      if (sat.m.cdl_crop) el("li", {}, ul5, sat.m.phenology_check === "consistent" ? `The satellite agrees with the ${crop(sat.m.cdl_crop)} label CDL gives for this year.`
+        : sat.m.phenology_check === "inconsistent" ? `Note: the peak does not fall in the months expected for ${crop(sat.m.cdl_crop)} from CDL (label error, double crop or mixed pixel).`
+        : `No phenology rule for ${crop(sat.m.cdl_crop)}.`);
+    }
+  }
+  const rk = el("details", {}, box); el("summary", {}, rk, "Risks and points to check locally");
+  const ul3 = el("ul", {}, rk);
+  (D.limitations || []).forEach(x => el("li", {}, ul3, x));
+  if (p.region === "USOR03") el("li", {}, ul3, "In Oregon, wheat after wheat is given a ×0.618 yield (Maaz et al. 2017, Pendleton); other rotation effects are not modelled until a source is found.");
+  if (p.region === "USKS01") el("li", {}, ul3, "Kansas inputs are statewide KFMA farm records, not specific to Riley County.");
+}
+
+// ---- date query ----
+function renderDate(){
+  const box = document.getElementById("tab-date"); box.replaceChildren();
+  const row = el("div", {class:"form-row"}, box);
+  el("label", {for:"dq"}, row, "Date:"); const inp = el("input", {type:"date", id:"dq", value: state.date, min: (D.plan_years[0]-1) + "-08-01", max: D.plan_years[D.plan_years.length-1] + "-12-31"}, row);
+  el("label", {for:"ds"}, row, "Plan:"); const sel = el("select", {id:"ds"}, row);
+  ["best","current"].forEach(k => { const o = el("option", {value:k}, sel, STR[k]); if (k === state.dateStrategy) o.selected = true; });
+  inp.onchange = () => { state.date = inp.value; renderDate(); }; sel.onchange = () => { state.dateStrategy = sel.value; renderDate(); };
+  const d = state.date, y = +d.slice(0,4); const rows = [];
+  D.parcels.forEach(p => {
+    const plan = planFor(p, state.dateStrategy) || planFor(p, "current");
+    plan.sequence.forEach((c, i) => {
+      const yr = D.plan_years[i]; const w = windowOf(p.site, c, yr);
+      const relevant = yr === y || (c === "Winter Wheat" && yr === y + 1); if (!relevant || !w) return;
+      let st = "no planting", cls = "state-after";
+      if (w.start) { if (w.end) { st = d < w.start ? "before window" : d > w.end ? "window passed" : "PLANT NOW"; cls = st === "PLANT NOW" ? "state-in" : st === "before window" ? "state-before" : "state-after"; }
+        else { st = d < w.start ? "before window" : "can be planted (no end rule)"; cls = d < w.start ? "state-before" : "state-in"; } }
+      rows.push({p, c, yr, w, st, cls});
+    });
+  });
+  const groups = {}; rows.forEach(r => { const k = [r.p.region, r.c, r.yr, r.st].join("|"); (groups[k] = groups[k] || {...r, n: 0, ids: []}).n++; groups[k].ids.push(r.p.id); });
+  const list = Object.values(groups).sort((a, b) => (a.cls === "state-in" ? 0 : a.cls === "state-before" ? 1 : 2) - (b.cls === "state-in" ? 0 : b.cls === "state-before" ? 1 : 2) || a.p.region.localeCompare(b.p.region));
+  const nowN = rows.filter(r => r.cls === "state-in").length;
+  el("p", {}, box, `On ${dm(d)}, ${nowN} parcels are in their planting window.`).style.fontWeight = "600";
+  if (!list.length) { el("p", {class:"note"}, box, `Plan years ${D.plan_years[0]}–${D.plan_years[D.plan_years.length-1]}; nothing recorded for this date.`); return; }
+  const sc = el("div", {class:"scroll"}, box); const t = el("table", {}, sc); const hr = el("tr", {}, el("thead", {}, t));
+  ["Region","Crop (harvest year)","Planting window","Status","Parcels"].forEach(x => el("th", {}, hr, x));
+  const tb = el("tbody", {}, t);
+  list.forEach(g => { const tr = el("tr", {}, tb); el("td", {}, tr, D.regions[g.p.region].short); const c = el("td", {}, tr); chipCrop(g.c, c); c.appendChild(document.createTextNode(" " + g.yr));
+    el("td", {}, tr, g.w.start ? dm(g.w.start) + (g.w.end ? " – " + dm(g.w.end) : " onwards") : "—"); el("td", {class: g.cls}, tr, g.st);
+    const a = el("td", {}, tr); const b = el("button", {class:"seg"}, a, g.n + " parcels"); b.title = g.ids.join(", "); b.onclick = () => { setView(g.p.region); selectParcel(g.ids[0]); }; });
+  el("p", {class:"note"}, box, "Planting windows are computed from the NASA climate projection and sourced temperature/GDD thresholds; check them on site against soil temperature and field conditions.");
+}
+
+// ---- farmer priorities ----
+function renderPrefs(){
+  const box = document.getElementById("tab-prefs"); box.replaceChildren();
+  el("p", {class:"note"}, box, "Every setting you change recomputes the plan of all parcels in the browser.");
+  const rrow = el("div", {class:"form-row"}, box); el("label", {for:"pr"}, rrow, "Region:");
+  const rs = el("select", {id:"pr"}, rrow); Object.entries(D.regions).forEach(([k, v]) => { const o = el("option", {value:k}, rs, v.name); if (k === state.prefsRegion) o.selected = true; });
+  rs.onchange = () => { state.prefsRegion = rs.value; renderPrefs(); };
+  const reg = D.regions[state.prefsRegion];
+  el("div", {style:"font-weight:600;margin-top:8px"}, box, "Crops I want to grow");
+  const cw = el("div", {class:"crops"}, box);
+  const candidates = [...new Set([...reg.allowed, ...Object.keys(reg.inputs)])];
+  candidates.forEach(c => {
+    const e = reg.inputs[c] || {}; const ok = c === "Fallow/Idle Cropland" ? D.params.fallow_cost !== null : (e.yield != null && e.price != null && e.cost != null);
+    const lab = el("label", ok ? {} : {class:"dis"}, cw); const cb = el("input", {type:"checkbox"}, lab); cb.checked = state.opts.crops[state.prefsRegion].includes(c); cb.disabled = !ok;
+    chipCrop(c, lab); if (!ok) lab.appendChild(document.createTextNode(" (no official data)"));
+    cb.onchange = () => { const list = state.opts.crops[state.prefsRegion]; if (cb.checked) list.push(c); else list.splice(list.indexOf(c), 1); recompute(); };
+  });
+  const r1 = el("div", {class:"form-row"}, box); el("label", {for:"mw"}, r1, "Minimum years of wheat:");
+  const mw = el("input", {type:"number", id:"mw", min:0, max:D.plan_years.length, value: state.opts.min_wheat, style:"width:60px"}, r1); mw.onchange = () => { state.opts.min_wheat = Math.max(0, Math.min(D.plan_years.length, +mw.value || 0)); recompute(); };
+  const r2 = el("div", {class:"form-row"}, box); el("label", {for:"mc"}, r2, "Same crop at most this many years in a row:");
+  const mc = el("select", {id:"mc"}, r2); [1,2,3].forEach(v => { const o = el("option", {value:v}, mc, String(v)); if (v === state.opts.max_consecutive) o.selected = true; }); mc.onchange = () => { state.opts.max_consecutive = +mc.value; recompute(); };
+  const r3 = el("div", {class:"form-row"}, box); el("label", {for:"pf"}, r3, "Fiyat senaryosu:");
+  const pf = el("select", {id:"pf"}, r3); [[0.8,"Low (source price −20%)"],[1,"Source prices"],[1.2,"High (source price +20%)"]].forEach(([v, t]) => { const o = el("option", {value:v}, pf, t); if (v === state.opts.price_factor) o.selected = true; });
+  pf.onchange = () => { state.opts.price_factor = +pf.value; recompute(); };
+  if (Object.values(D.regions).some(r => r.fallow_rule)) { const r4 = el("div", {class:"form-row"}, box); const lab = el("label", {}, r4); const cb = el("input", {type:"checkbox"}, lab); cb.checked = state.opts.use_fallow_rule;
+    lab.appendChild(document.createTextNode(" Apply the Oregon fallow rule (at most 2 years without fallow; USDA ARS)")); cb.onchange = () => { state.opts.use_fallow_rule = cb.checked; recompute(); }; }
+  const rb = el("div", {class:"form-row"}, box); const reset = el("button", {class:"seg"}, rb, "Reset to defaults"); reset.onclick = () => { state.opts = defaultOpts(); recompute(); };
+  el("p", {class:"note"}, box, "The ±20% price scenario is a sensitivity assumption, not a forecast. Yields, prices and costs come from the official sources in the 'Sources' tab.");
+  // region summary
+  const ps = D.parcels.filter(p => p.region === state.prefsRegion);
+  const s = el("div", {class:"why"}, box); el("div", {style:"font-weight:600"}, s, reg.short + ": result with these settings");
+  const best = ps.map(p => planFor(p, "best")).filter(Boolean), cur = ps.map(p => planFor(p, "current")).filter(x => x.total !== null);
+  if (best.length) { const avgB = d3.mean(best, x => x.total), avgC = d3.mean(cur, x => x.total);
+    el("div", {}, s, `Recommended plan average ${fmt0(avgB)} $/acre` + (cur.length ? `, current ${fmt0(avgC)} $/acre (difference ${fmt0(avgB - avgC)} $).` : "."));
+    const common = d3.rollups(best, v => v.length, x => x.sequence.join("|")).sort((a, b) => b[1] - a[1])[0];
+    const sr = el("div", {class:"seqrow"}, s); common[0].split("|").forEach(c => chipCrop(c, sr)); el("div", {class:"note"}, s, `Recommended plan on ${common[1]}/${ps.length} parcels`);
+  } else el("div", {class:"note"}, s, "No valid plan with these settings: relax the crop choice or the rules.");
+}
+function recompute(){ cache = {}; drawMap(); render(); }
+
+// ---- migration ----
+function renderMigration(){
+  const box = document.getElementById("tab-migration"); box.replaceChildren();
+  const c = D.corridor;
+  if (c.shift && c.shift.suitable_zone) {
+    const z = c.shift.suitable_zone;
+    const k = el("div", {class:"kpis"}, box);
+    [[z.distance_km.toFixed(0) + " km", "shift of the suitable-zone centre"], [z.bearing_deg.toFixed(0) + "°", "bearing (0° north, 90° east)"], [`${z.cells_baseline} → ${z.cells_future}`, "suitable cells"],
+     [c.validation && c.validation.auc ? c.validation.auc.toFixed(2) : "—", "model accuracy (AUC, spatial block)"]].forEach(([v, l]) => { const d = el("div", {class:"kpi"}, k); el("div", {class:"v"}, d, v); el("div", {class:"k"}, d, l); });
+    el("p", {}, box, `Gained ${z.cells_gained}, lost ${z.cells_lost} cells.` + (z.touches_box_edge ? " Warning: the suitable zone touches the edge of the corridor box; the shift may continue beyond it." : ""));
+    const b = el("button", {class:"seg"}, box, "Show on map"); b.onclick = () => setView("corridor");
+  } else {
+    el("p", {style:"font-weight:600"}, box, "The migration map needs corridor data");
+    el("p", {class:"note"}, box, (c.readiness.reasons || []).join(" · "));
+    el("p", {}, box, "Run on your computer: corridor --online → goal --offline → app. This tab then shows how far and in which direction the suitable zone moves, and the map shows suitability today and in the 2040s.");
+  }
+  if (D.climate.length) {
+    el("div", {style:"font-weight:600;margin-top:10px"}, box, "Climate shift, same NASA model (2015–2024 → 2040–2049)");
+    const sc = el("div", {class:"scroll"}, box); const t = el("table", {}, sc); const hr = el("tr", {}, el("thead", {}, t)); ["Site","Indicator","2015–2024","2040–2049","Change"].forEach(x => el("th", {}, hr, x));
+    const tb = el("tbody", {}, t); D.climate.forEach(r => { const tr = el("tr", {}, tb); el("td", {}, tr, (D.regions[r.cell_id] || {}).short || r.cell_id); el("td", {}, tr, r.metric);
+      el("td", {class:"n"}, tr, (+r.baseline_2015_2024).toFixed(1)); el("td", {class:"n"}, tr, (+r.future_2040_2049).toFixed(1)); el("td", {class:"n"}, tr, ((+r.change) >= 0 ? "+" : "") + (+r.change).toFixed(1)); });
+  }
+}
+
+// ---- sources ----
+function renderSources(){
+  const box = document.getElementById("tab-sources"); box.replaceChildren();
+  Object.entries(D.regions).forEach(([k, r]) => {
+    el("div", {style:"font-weight:600;margin-top:6px"}, box, r.name);
+    const sc = el("div", {class:"scroll"}, box); const t = el("table", {}, sc); const hr = el("tr", {}, el("thead", {}, t)); ["Crop","Yield","Price $","Cost $/acre","Source"].forEach(x => el("th", {}, hr, x));
+    const tb = el("tbody", {}, t);
+    Object.entries(r.inputs).forEach(([c, e]) => { const tr = el("tr", {}, tb); chipCrop(c, el("td", {}, tr)); el("td", {class:"n"}, tr, e.yield == null ? "—" : e.yield + " " + (e.unit || "")); el("td", {class:"n"}, tr, e.price == null ? "—" : String(e.price)); el("td", {class:"n"}, tr, e.cost == null ? "—" : String(e.cost));
+      const s = el("td", {}, tr); const det = el("details", {}, s); el("summary", {}, det, e.yield_source ? "show" : "no data"); [e.yield_source, e.price_source, e.cost_source].filter((x, i, a) => x && a.indexOf(x) === i).forEach(x => el("div", {class:"note"}, det, x)); });
+  });
+  el("div", {style:"font-weight:600;margin-top:10px"}, box, "Other sources and notes");
+  const ul = el("ul", {}, box); D.sources.forEach(s => { const li = el("li", {}, ul); el("b", {}, li, s.label + ": "); li.appendChild(document.createTextNode(s.text)); });
+}
+
+function render(){ if (state.tab === "parcel") renderParcel(); if (state.tab === "date") renderDate(); if (state.tab === "prefs") renderPrefs(); if (state.tab === "migration") renderMigration(); if (state.tab === "sources") renderSources(); }
+selectParcel(D.parcels.find(p => p.region === state.view).id, true);
+setTab("parcel");
+setView(state.view);
+</script>
+</body>
+</html>

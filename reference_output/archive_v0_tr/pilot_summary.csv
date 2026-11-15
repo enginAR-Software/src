@@ -1,0 +1,82 @@
+pilot,siteid,treatmentid,treatment_description,indicator,unit,method,n_total,n_numeric,n_missing,n_unparsed,mean,median,min,max,sd_sample
+oregon,101,438,winter-wheat_pea;chisel,b_soc,%,Total Carbon - Inorganic Carbon with Dry Combustion,4,4,0,0,1.5871627055,1.567755411,1.52314,1.69,0.0740959155651573
+oregon,101,438,winter-wheat_pea;chisel,b_total_n,%,Dry Combustion,4,4,0,0,0.11500170100000001,0.111113402,0.09778,0.14,0.020000754091790408
+oregon,101,438,winter-wheat_pea;chisel,b_ph,unitless,1:2 water,4,4,0,0,4.9025,4.93,4.73,5.02,0.12284814474246891
+oregon,101,438,winter-wheat_pea;chisel,b_p_m3,mg/kg,Mehlich 3 extract,4,4,0,0,54.53725,55.785349999999994,45.6662,60.9121,6.401787470438756
+oregon,101,438,winter-wheat_pea;chisel,b_p_olsen,mg/kg,Olsen extract,4,0,4,0,,,,,
+oregon,101,438,winter-wheat_pea;chisel,b_k_m3,mg/kg,Mehlich 3 extract,4,4,0,0,742.2765,747.8115,713.902,759.581,19.759653041825732
+oregon,101,438,winter-wheat_pea;chisel,b_k_amac,mg/kg,Ammonium acetate extract,4,0,4,0,,,,,
+oregon,101,438,winter-wheat_pea;chisel,b_pmn_am_mgkg,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,4,4,0,0,35.9726453488372,36.3475,31.6227906976744,39.5727906976744,3.430297680862578
+oregon,101,438,winter-wheat_pea;chisel,d_h3a_no3,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,4,4,0,0,3.0250000000000004,2.95,2.5,3.7,0.5377421934967227
+oregon,101,439,winter-wheat_pea;no-till,b_soc,%,Total Carbon - Inorganic Carbon with Dry Combustion,4,4,0,0,1.72560884525,1.726429022,1.62137,1.828207337,0.10363221885749581
+oregon,101,439,winter-wheat_pea;no-till,b_total_n,%,Dry Combustion,4,4,0,0,0.13276007775,0.1337201555,0.1136,0.15,0.015278539882863637
+oregon,101,439,winter-wheat_pea;no-till,b_ph,unitless,1:2 water,4,4,0,0,4.655,4.665,4.33,4.96,0.25903667693977234
+oregon,101,439,winter-wheat_pea;no-till,b_p_m3,mg/kg,Mehlich 3 extract,4,4,0,0,63.284625,61.987700000000004,51.8244,77.3387,11.710736175087373
+oregon,101,439,winter-wheat_pea;no-till,b_p_olsen,mg/kg,Olsen extract,4,0,4,0,,,,,
+oregon,101,439,winter-wheat_pea;no-till,b_k_m3,mg/kg,Mehlich 3 extract,4,4,0,0,749.7347500000001,743.481,724.051,787.926,29.998063586116128
+oregon,101,439,winter-wheat_pea;no-till,b_k_amac,mg/kg,Ammonium acetate extract,4,0,4,0,,,,,
+oregon,101,439,winter-wheat_pea;no-till,b_pmn_am_mgkg,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,4,4,0,0,34.578197674418604,35.7475,24.9227906976744,41.895,7.228093997622843
+oregon,101,439,winter-wheat_pea;no-till,d_h3a_no3,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,4,4,0,0,8.675,9.4,3.5,12.4,3.7428821336861073
+oregon,101,440,winter-wheat_pea;plow,b_soc,%,Total Carbon - Inorganic Carbon with Dry Combustion,4,4,0,0,1.473639561,1.480214122,1.24592,1.68821,0.18362003670245494
+oregon,101,440,winter-wheat_pea;plow,b_total_n,%,Dry Combustion,4,4,0,0,0.10939326525,0.11218653049999999,0.0832,0.13,0.019402088188837572
+oregon,101,440,winter-wheat_pea;plow,b_ph,unitless,1:2 water,4,4,0,0,5.0425,5.105,4.73,5.23,0.23286262044390027
+oregon,101,440,winter-wheat_pea;plow,b_p_m3,mg/kg,Mehlich 3 extract,4,4,0,0,49.598524999999995,49.718,42.8732,56.0849,5.463427436066729
+oregon,101,440,winter-wheat_pea;plow,b_p_olsen,mg/kg,Olsen extract,4,0,4,0,,,,,
+oregon,101,440,winter-wheat_pea;plow,b_k_m3,mg/kg,Mehlich 3 extract,4,4,0,0,668.86675,692.4415,580.959,709.625,59.42065087927488
+oregon,101,440,winter-wheat_pea;plow,b_k_amac,mg/kg,Ammonium acetate extract,4,0,4,0,,,,,
+oregon,101,440,winter-wheat_pea;plow,b_pmn_am_mgkg,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,4,4,0,0,28.472645348837197,26.1725,25.5727906976744,35.9727906976744,5.008116312650549
+oregon,101,440,winter-wheat_pea;plow,d_h3a_no3,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,4,4,0,0,4.35,4.4,3.8,4.8,0.4203173404306164
+kansas,60,259,chemical fallow; 0 nitrogen,b_soc,%,Total Carbon - Inorganic Carbon with Dry Combustion,4,4,0,0,1.49388787125,1.5004399415,1.404391605,1.570279997,0.07817135829283961
+kansas,60,259,chemical fallow; 0 nitrogen,b_total_n,%,Dry Combustion,4,4,0,0,0.13935708975,0.1377155185,0.136378083,0.145619239,0.004223890640501751
+kansas,60,259,chemical fallow; 0 nitrogen,b_ph,unitless,1:2 water,4,4,0,0,5.140000000000001,5.135,5.05,5.24,0.08041558721209892
+kansas,60,259,chemical fallow; 0 nitrogen,b_p_m3,mg/kg,Mehlich 3 extract,4,4,0,0,16.274,16.4056,14.8327,17.4521,1.1805479434002955
+kansas,60,259,chemical fallow; 0 nitrogen,b_p_olsen,mg/kg,Olsen extract,4,0,4,0,,,,,
+kansas,60,259,chemical fallow; 0 nitrogen,b_k_m3,mg/kg,Mehlich 3 extract,4,4,0,0,248.1295,251.52050000000003,224.661,264.816,18.06450018683052
+kansas,60,259,chemical fallow; 0 nitrogen,b_k_amac,mg/kg,Ammonium acetate extract,4,0,4,0,,,,,
+kansas,60,259,chemical fallow; 0 nitrogen,b_pmn_am_mgkg,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,4,4,0,0,48.7875,48.45,37.675,60.575,9.944711743769485
+kansas,60,259,chemical fallow; 0 nitrogen,d_h3a_no3,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,4,4,0,0,2.8,2.8,2.3,3.3,0.5228129047119374
+kansas,60,260,chemical fallow; 120 lbs of n/acre,b_soc,%,Total Carbon - Inorganic Carbon with Dry Combustion,4,4,0,0,1.4152606325,1.3704540545,1.343966999,1.576167422,0.10887497640479385
+kansas,60,260,chemical fallow; 120 lbs of n/acre,b_total_n,%,Dry Combustion,4,4,0,0,0.136062525,0.1364441915,0.125980704,0.145381013,0.008479369573217696
+kansas,60,260,chemical fallow; 120 lbs of n/acre,b_ph,unitless,1:2 water,4,4,0,0,5.145,5.154999999999999,4.97,5.3,0.14247806848775013
+kansas,60,260,chemical fallow; 120 lbs of n/acre,b_p_m3,mg/kg,Mehlich 3 extract,4,4,0,0,16.406175,16.7482,13.389,18.7393,2.3561579083683397
+kansas,60,260,chemical fallow; 120 lbs of n/acre,b_p_olsen,mg/kg,Olsen extract,4,0,4,0,,,,,
+kansas,60,260,chemical fallow; 120 lbs of n/acre,b_k_m3,mg/kg,Mehlich 3 extract,4,4,0,0,231.727,228.957,192.578,276.416,38.510786411082286
+kansas,60,260,chemical fallow; 120 lbs of n/acre,b_k_amac,mg/kg,Ammonium acetate extract,4,0,4,0,,,,,
+kansas,60,260,chemical fallow; 120 lbs of n/acre,b_pmn_am_mgkg,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,4,4,0,0,37.9625,37.525,35.075,41.725,3.1092268599551667
+kansas,60,260,chemical fallow; 120 lbs of n/acre,d_h3a_no3,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,4,4,0,0,2.625,2.6,2.1,3.2,0.4573474244670748
+kansas,60,261,double crop-soy; 0 nitrogen,b_soc,%,Total Carbon - Inorganic Carbon with Dry Combustion,4,4,0,0,1.5643470095,1.586979946,1.437795422,1.645632724,0.09077934103750902
+kansas,60,261,double crop-soy; 0 nitrogen,b_total_n,%,Dry Combustion,4,4,0,0,0.147966202,0.14812558850000002,0.142073687,0.153539944,0.004752738451886943
+kansas,60,261,double crop-soy; 0 nitrogen,b_ph,unitless,1:2 water,4,4,0,0,5.2075,5.140000000000001,4.99,5.56,0.2502498751248437
+kansas,60,261,double crop-soy; 0 nitrogen,b_p_m3,mg/kg,Mehlich 3 extract,4,4,0,0,13.897749999999998,13.649799999999999,11.9447,16.3467,1.8660282053959774
+kansas,60,261,double crop-soy; 0 nitrogen,b_p_olsen,mg/kg,Olsen extract,4,0,4,0,,,,,
+kansas,60,261,double crop-soy; 0 nitrogen,b_k_m3,mg/kg,Mehlich 3 extract,4,4,0,0,230.82125000000002,229.836,201.352,262.261,25.193214091298483
+kansas,60,261,double crop-soy; 0 nitrogen,b_k_amac,mg/kg,Ammonium acetate extract,4,0,4,0,,,,,
+kansas,60,261,double crop-soy; 0 nitrogen,b_pmn_am_mgkg,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,4,4,0,0,54.325,54.825,49.575,58.075,3.662876829305985
+kansas,60,261,double crop-soy; 0 nitrogen,d_h3a_no3,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,4,4,0,0,4.3999999999999995,4.35,3.6,5.3,0.7257180352359079
+kansas,60,262,double crop-soy; 120 lbs of n/acre,b_soc,%,Total Carbon - Inorganic Carbon with Dry Combustion,4,4,0,0,1.60387358825,1.620271882,1.436490479,1.73846011,0.13361262869111323
+kansas,60,262,double crop-soy; 120 lbs of n/acre,b_total_n,%,Dry Combustion,4,4,0,0,0.151394397,0.153657751,0.141237303,0.157024783,0.0071132098298052416
+kansas,60,262,double crop-soy; 120 lbs of n/acre,b_ph,unitless,1:2 water,4,4,0,0,5.255,5.220000000000001,5.06,5.52,0.1927865832122833
+kansas,60,262,double crop-soy; 120 lbs of n/acre,b_p_m3,mg/kg,Mehlich 3 extract,4,4,0,0,14.68435,13.6966,11.7902,19.554,3.542512924935254
+kansas,60,262,double crop-soy; 120 lbs of n/acre,b_p_olsen,mg/kg,Olsen extract,4,0,4,0,,,,,
+kansas,60,262,double crop-soy; 120 lbs of n/acre,b_k_m3,mg/kg,Mehlich 3 extract,4,4,0,0,260.5035,240.2715,215.87,345.601,57.97873687539827
+kansas,60,262,double crop-soy; 120 lbs of n/acre,b_k_amac,mg/kg,Ammonium acetate extract,4,0,4,0,,,,,
+kansas,60,262,double crop-soy; 120 lbs of n/acre,b_pmn_am_mgkg,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,4,4,0,0,53.375,51.825,41.775,68.075,10.886995300204125
+kansas,60,262,double crop-soy; 120 lbs of n/acre,d_h3a_no3,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,4,4,0,0,4.15,4.65,2.6,4.7,1.03440804327886
+kansas,60,263,summer covercrop before sorghum; 0 nitrogen,b_soc,%,Total Carbon - Inorganic Carbon with Dry Combustion,4,4,0,0,1.6196557547500001,1.638229779,1.455424085,1.746739376,0.12106872267928355
+kansas,60,263,summer covercrop before sorghum; 0 nitrogen,b_total_n,%,Dry Combustion,4,4,0,0,0.15439218700000001,0.153952751,0.145007835,0.164655411,0.008393004672326315
+kansas,60,263,summer covercrop before sorghum; 0 nitrogen,b_ph,unitless,1:2 water,4,4,0,0,5.4925,5.475,5.42,5.6,0.0763216876123686
+kansas,60,263,summer covercrop before sorghum; 0 nitrogen,b_p_m3,mg/kg,Mehlich 3 extract,4,4,0,0,21.196875,21.704900000000002,16.6929,24.6848,3.315420556907775
+kansas,60,263,summer covercrop before sorghum; 0 nitrogen,b_p_olsen,mg/kg,Olsen extract,4,0,4,0,,,,,
+kansas,60,263,summer covercrop before sorghum; 0 nitrogen,b_k_m3,mg/kg,Mehlich 3 extract,4,4,0,0,326.9785,306.3985,260.007,435.11,77.33478917235976
+kansas,60,263,summer covercrop before sorghum; 0 nitrogen,b_k_amac,mg/kg,Ammonium acetate extract,4,0,4,0,,,,,
+kansas,60,263,summer covercrop before sorghum; 0 nitrogen,b_pmn_am_mgkg,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,4,4,0,0,58.087500000000006,61.575,39.125,70.075,13.875660644932672
+kansas,60,263,summer covercrop before sorghum; 0 nitrogen,d_h3a_no3,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,4,4,0,0,3.3499999999999996,3.2,2.4,4.6,1.0376254944182253
+kansas,60,264,summer covercrop before sorghum; 120 lbs of n/acre,b_soc,%,Total Carbon - Inorganic Carbon with Dry Combustion,4,4,0,0,1.6598316665,1.6076198019999999,1.561575693,1.862511369,0.13720295238722854
+kansas,60,264,summer covercrop before sorghum; 120 lbs of n/acre,b_total_n,%,Dry Combustion,4,4,0,0,0.15850994625,0.155523678,0.152390053,0.170602376,0.008198044496061338
+kansas,60,264,summer covercrop before sorghum; 120 lbs of n/acre,b_ph,unitless,1:2 water,4,4,0,0,5.27,5.265000000000001,5.24,5.31,0.03162277660168359
+kansas,60,264,summer covercrop before sorghum; 120 lbs of n/acre,b_p_m3,mg/kg,Mehlich 3 extract,4,4,0,0,17.35605,18.29215,13.349,19.4909,2.8272452723455035
+kansas,60,264,summer covercrop before sorghum; 120 lbs of n/acre,b_p_olsen,mg/kg,Olsen extract,4,0,4,0,,,,,
+kansas,60,264,summer covercrop before sorghum; 120 lbs of n/acre,b_k_m3,mg/kg,Mehlich 3 extract,4,4,0,0,355.4215,334.0235,301.978,451.661,66.71633609294403
+kansas,60,264,summer covercrop before sorghum; 120 lbs of n/acre,b_k_amac,mg/kg,Ammonium acetate extract,4,0,4,0,,,,,
+kansas,60,264,summer covercrop before sorghum; 120 lbs of n/acre,b_pmn_am_mgkg,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,4,4,0,0,58.15,57.900000000000006,47.575,69.225,9.800892816473402
+kansas,60,264,summer covercrop before sorghum; 120 lbs of n/acre,d_h3a_no3,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,4,4,0,0,3.675,3.2,2.7,5.6,1.3047988350699886

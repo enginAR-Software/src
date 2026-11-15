@@ -1,0 +1,180 @@
+{
+  "software_version": "0.4.0",
+  "status": "completed",
+  "created_at_utc": "2026-11-15T00:22:29.661706+00:00",
+  "source": {
+    "dataset": "napeshm",
+    "version": 1,
+    "doi": "https://doi.org/10.15482/USDA.ADC/25632270",
+    "license": {
+      "value": 1,
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "metadata_sha256": "1e15b96e2a2d3b711c2444be6f93526bbcdc2bd12d40eb7199d59e9e8ce5c442",
+    "files": [
+      {
+        "file": "NAPESHM_public_dataset_06032024.zip",
+        "size": 4994407,
+        "md5": "b6a0a7cd8123c556c82a0d3384084a83",
+        "sha256": "1b4a6eba11d27b88aee83a1fb844eea91919599ee64652e37d988059c14a029a"
+      }
+    ]
+  },
+  "config_sha256": "37eeaea312dcaa7bc2d8b6ad801a1c0e6cc6b6ba19b9afeb1d57dd58f55683f6",
+  "pilots_sha256": "09acfdd8a082a82d673ff7641ad505896b6e41cd4f1b2aea02eec2a1d840be66",
+  "link_resolution": {
+    "soil": "plot",
+    "management": "treatment",
+    "weather": "site_grid_cell"
+  },
+  "weather_requests": [
+    {
+      "sitecode": "USKS01",
+      "receipt": {
+        "request": {
+          "sitecode": "USKS01",
+          "latitude": 39.123775,
+          "longitude": -96.636037,
+          "kind": "historical",
+          "scenario": null,
+          "model": null,
+          "start": "2016-05-12",
+          "end": "2018-10-31",
+          "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CPRECTOTCORR&community=AG&longitude=-96.636037&latitude=39.123775&start=20160512&end=20181031&format=JSON&time-standard=UTC"
+        },
+        "sha256": "29bd8af0fafed52031529f3bdfa8068b8ef2a5c083a422661442e1c4374b03b4",
+        "fetched_at_utc": "2026-11-15T00:12:29.058055+00:00",
+        "api_header": {
+          "title": "NASA/POWER Source Native Resolution Daily Data",
+          "api": {
+            "version": "v2.10.3",
+            "name": "POWER Daily API"
+          },
+          "sources": [
+            "MERRA2",
+            "POWER"
+          ],
+          "fill_value": -999.0,
+          "time_standard": "UTC",
+          "start": "20160512",
+          "end": "20181031"
+        },
+        "coordinate_source": {
+          "dataset": "napeshm",
+          "version": 1,
+          "doi": "https://doi.org/10.15482/USDA.ADC/25632270",
+          "license": {
+            "value": 1,
+            "name": "CC BY 4.0",
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+          },
+          "metadata_sha256": "1e15b96e2a2d3b711c2444be6f93526bbcdc2bd12d40eb7199d59e9e8ce5c442",
+          "files": [
+            {
+              "file": "NAPESHM_public_dataset_06032024.zip",
+              "size": 4994407,
+              "md5": "b6a0a7cd8123c556c82a0d3384084a83",
+              "sha256": "1b4a6eba11d27b88aee83a1fb844eea91919599ee64652e37d988059c14a029a"
+            }
+          ]
+        },
+        "reported_geometry": {
+          "type": "Point",
+          "coordinates": [
+            -96.636,
+            39.124,
+            389.95
+          ]
+        }
+      },
+      "transfer": "cached"
+    },
+    {
+      "sitecode": "USOR03",
+      "receipt": {
+        "request": {
+          "sitecode": "USOR03",
+          "latitude": 45.721236,
+          "longitude": -118.624501,
+          "kind": "historical",
+          "scenario": null,
+          "model": null,
+          "start": "2018-03-25",
+          "end": "2019-07-15",
+          "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CPRECTOTCORR&community=AG&longitude=-118.624501&latitude=45.721236&start=20180325&end=20190715&format=JSON&time-standard=UTC"
+        },
+        "sha256": "6d10bf597ff75462100e055d405d5c536afe6cf1dcad3b23a5a5c3a69df180cd",
+        "fetched_at_utc": "2026-11-15T00:12:34.496612+00:00",
+        "api_header": {
+          "title": "NASA/POWER Source Native Resolution Daily Data",
+          "api": {
+            "version": "v2.10.3",
+            "name": "POWER Daily API"
+          },
+          "sources": [
+            "MERRA2",
+            "POWER"
+          ],
+          "fill_value": -999.0,
+          "time_standard": "UTC",
+          "start": "20180325",
+          "end": "20190715"
+        },
+        "coordinate_source": {
+          "dataset": "napeshm",
+          "version": 1,
+          "doi": "https://doi.org/10.15482/USDA.ADC/25632270",
+          "license": {
+            "value": 1,
+            "name": "CC BY 4.0",
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+          },
+          "metadata_sha256": "1e15b96e2a2d3b711c2444be6f93526bbcdc2bd12d40eb7199d59e9e8ce5c442",
+          "files": [
+            {
+              "file": "NAPESHM_public_dataset_06032024.zip",
+              "size": 4994407,
+              "md5": "b6a0a7cd8123c556c82a0d3384084a83",
+              "sha256": "1b4a6eba11d27b88aee83a1fb844eea91919599ee64652e37d988059c14a029a"
+            }
+          ]
+        },
+        "reported_geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.625,
+            45.721,
+            857.61
+          ]
+        }
+      },
+      "transfer": "cached"
+    }
+  ],
+  "target_campaign_year": 2019,
+  "readiness": {
+    "aligned_soil_plots": 12,
+    "unlinked_soil_plots": 24,
+    "source_seasons": 26,
+    "source_soil_plots": 36,
+    "linked_weather_groups": 1,
+    "weather_groups": [
+      "USOR03:2018-10-15:2019-04-14"
+    ],
+    "aligned_rows_with_complete_weather": 12,
+    "unlinked_reasons": {
+      "sampling_date_missing": 24
+    },
+    "dynamic_soil_model_ready": false,
+    "reasons": [
+      "Single-campaign soil targets: no before/after soil measurements per plot.",
+      "Crop yields and nutrient removal amounts are not identified from harvest residue percentages.",
+      "P/K amendment amounts and N fixation/losses are unresolved.",
+      "Management dates are treatment-level; exact plot sampling times and experimental blocks are unresolved.",
+      "Shared site weather must not be treated as independent climate observations per plot."
+    ],
+    "feature_timing": "Only complete days strictly before soil sampling; targets are not initial soil features.",
+    "nutrient_scope": "Explicit documented N subtotal only; zero subtotal is not proof of zero total fertilizer input."
+  }
+}

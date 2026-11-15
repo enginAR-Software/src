@@ -1,0 +1,8 @@
+{
+  "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer?f=json",
+  "operation": "service_metadata",
+  "sha256": "8e24029371f9d49e3f93907c110180db6bd0c71cb800f263f6e9aa35094fb847",
+  "bytes": 4880,
+  "fetched_at_utc": "2026-11-15T00:53:45.029773+00:00",
+  "source": "USDA NASS Cropland Data Layer / CroplandCROS"
+}

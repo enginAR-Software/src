@@ -1,0 +1,10 @@
+treatmentid,status,sampling_date,season_id
+259,sampling_date_missing,,
+260,sampling_date_missing,,
+261,sampling_date_missing,,
+262,sampling_date_missing,,
+263,sampling_date_missing,,
+264,sampling_date_missing,,
+438,linked_treatment_sampling_event,2019-04-15,USOR03:438:2018-10-15:winter_wheat
+439,linked_treatment_sampling_event,2019-04-15,USOR03:439:2018-10-15:winter_wheat
+440,linked_treatment_sampling_event,2019-04-15,USOR03:440:2018-10-15:winter_wheat

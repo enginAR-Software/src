@@ -1,0 +1,186 @@
+{
+  "source": "USDA NASS CDL / CroplandCROS",
+  "downloaded_count": 20,
+  "provenance": [
+    {
+      "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer?f=json",
+      "operation": "service_metadata",
+      "sha256": "8e24029371f9d49e3f93907c110180db6bd0c71cb800f263f6e9aa35094fb847",
+      "bytes": 4880,
+      "fetched_at_utc": "2026-11-15T00:53:45.029773+00:00",
+      "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+      "transfer": "downloaded"
+    },
+    {
+      "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/rasterAttributeTable?f=json",
+      "operation": "rasterAttributeTable",
+      "sha256": "8b5cec2ff965a2d1f7f1205111b3a0fbe3cce5ed82cb0ef6a446ae304fe0b699",
+      "bytes": 38504,
+      "fetched_at_utc": "2026-11-15T00:53:49.701256+00:00",
+      "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+      "transfer": "downloaded"
+    },
+    {
+      "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/query?f=json&where=Year+%3D+2018+AND+Category+%3D+1&outFields=OBJECTID%2CName%2CYear&returnGeometry=false",
+      "operation": "query",
+      "sha256": "045ea6a8a89df70039393ef78fc1fb2bd85c2219ebb65265b646bf499dcc7491",
+      "bytes": 362,
+      "fetched_at_utc": "2026-11-15T00:53:53.996328+00:00",
+      "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+      "transfer": "downloaded"
+    },
+    {
+      "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/getSamples?f=json&geometryType=esriGeometryMultipoint&geometry=%7B%22points%22%3A%5B%5B-118.644501%2C45.701236%5D%2C%5B-118.634501%2C45.701236%5D%2C%5B-118.624501%2C45.701236%5D%2C%5B-118.614501%2C45.701236%5D%2C%5B-118.604501%2C45.701236%5D%2C%5B-118.644501%2C45.711236%5D%2C%5B-118.634501%2C45.711236%5D%2C%5B-118.624501%2C45.711236%5D%2C%5B-118.614501%2C45.711236%5D%2C%5B-118.604501%2C45.711236%5D%2C%5B-118.644501%2C45.721236%5D%2C%5B-118.634501%2C45.721236%5D%2C%5B-118.624501%2C45.721236%5D%2C%5B-118.614501%2C45.721236%5D%2C%5B-118.604501%2C45.721236%5D%2C%5B-118.644501%2C45.731236%5D%2C%5B-118.634501%2C45.731236%5D%2C%5B-118.624501%2C45.731236%5D%2C%5B-118.614501%2C45.731236%5D%2C%5B-118.604501%2C45.731236%5D%2C%5B-118.644501%2C45.741236%5D%2C%5B-118.634501%2C45.741236%5D%2C%5B-118.624501%2C45.741236%5D%2C%5B-118.614501%2C45.741236%5D%2C%5B-118.604501%2C45.741236%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&mosaicRule=%7B%22mosaicMethod%22%3A%22esriMosaicLockRaster%22%2C%22lockRasterIds%22%3A%5B2%5D%2C%22where%22%3A%22Year+%3D+2018%22%7D&returnFirstValueOnly=true&interpolation=RSP_NearestNeighbor&outFields=Year%2CName%2COBJECTID",
+      "operation": "getSamples",
+      "sha256": "70efcafd7ef87267705005a7b353a44ec429307dc7deb818ccae923e77281763",
+      "bytes": 5651,
+      "fetched_at_utc": "2026-11-15T00:53:58.285527+00:00",
+      "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+      "transfer": "downloaded"
+    },
+    {
+      "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/getSamples?f=json&geometryType=esriGeometryMultipoint&geometry=%7B%22points%22%3A%5B%5B-96.656037%2C39.103775%5D%2C%5B-96.646037%2C39.103775%5D%2C%5B-96.636037%2C39.103775%5D%2C%5B-96.626037%2C39.103775%5D%2C%5B-96.616037%2C39.103775%5D%2C%5B-96.656037%2C39.113775%5D%2C%5B-96.646037%2C39.113775%5D%2C%5B-96.636037%2C39.113775%5D%2C%5B-96.626037%2C39.113775%5D%2C%5B-96.616037%2C39.113775%5D%2C%5B-96.656037%2C39.123775%5D%2C%5B-96.646037%2C39.123775%5D%2C%5B-96.636037%2C39.123775%5D%2C%5B-96.626037%2C39.123775%5D%2C%5B-96.616037%2C39.123775%5D%2C%5B-96.656037%2C39.133775%5D%2C%5B-96.646037%2C39.133775%5D%2C%5B-96.636037%2C39.133775%5D%2C%5B-96.626037%2C39.133775%5D%2C%5B-96.616037%2C39.133775%5D%2C%5B-96.656037%2C39.143775%5D%2C%5B-96.646037%2C39.143775%5D%2C%5B-96.636037%2C39.143775%5D%2C%5B-96.626037%2C39.143775%5D%2C%5B-96.616037%2C39.143775%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&mosaicRule=%7B%22mosaicMethod%22%3A%22esriMosaicLockRaster%22%2C%22lockRasterIds%22%3A%5B2%5D%2C%22where%22%3A%22Year+%3D+2018%22%7D&returnFirstValueOnly=true&interpolation=RSP_NearestNeighbor&outFields=Year%2CName%2COBJECTID",
+      "operation": "getSamples",
+      "sha256": "37f60bc1590f337cbb888d30cc80b1e9d01d18a5a1a76d462c303d2d76686cac",
+      "bytes": 5810,
+      "fetched_at_utc": "2026-11-15T00:54:02.813056+00:00",
+      "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+      "transfer": "downloaded"
+    },
+    {
+      "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/query?f=json&where=Year+%3D+2019+AND+Category+%3D+1&outFields=OBJECTID%2CName%2CYear&returnGeometry=false",
+      "operation": "query",
+      "sha256": "ea756ca101d28de82a27ba5aa9f3f6cded88b0ae117a577c85ecc57fdbed1677",
+      "bytes": 362,
+      "fetched_at_utc": "2026-11-15T00:54:07.089565+00:00",
+      "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+      "transfer": "downloaded"
+    },
+    {
+      "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/getSamples?f=json&geometryType=esriGeometryMultipoint&geometry=%7B%22points%22%3A%5B%5B-118.644501%2C45.701236%5D%2C%5B-118.634501%2C45.701236%5D%2C%5B-118.624501%2C45.701236%5D%2C%5B-118.614501%2C45.701236%5D%2C%5B-118.604501%2C45.701236%5D%2C%5B-118.644501%2C45.711236%5D%2C%5B-118.634501%2C45.711236%5D%2C%5B-118.624501%2C45.711236%5D%2C%5B-118.614501%2C45.711236%5D%2C%5B-118.604501%2C45.711236%5D%2C%5B-118.644501%2C45.721236%5D%2C%5B-118.634501%2C45.721236%5D%2C%5B-118.624501%2C45.721236%5D%2C%5B-118.614501%2C45.721236%5D%2C%5B-118.604501%2C45.721236%5D%2C%5B-118.644501%2C45.731236%5D%2C%5B-118.634501%2C45.731236%5D%2C%5B-118.624501%2C45.731236%5D%2C%5B-118.614501%2C45.731236%5D%2C%5B-118.604501%2C45.731236%5D%2C%5B-118.644501%2C45.741236%5D%2C%5B-118.634501%2C45.741236%5D%2C%5B-118.624501%2C45.741236%5D%2C%5B-118.614501%2C45.741236%5D%2C%5B-118.604501%2C45.741236%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&mosaicRule=%7B%22mosaicMethod%22%3A%22esriMosaicLockRaster%22%2C%22lockRasterIds%22%3A%5B1%5D%2C%22where%22%3A%22Year+%3D+2019%22%7D&returnFirstValueOnly=true&interpolation=RSP_NearestNeighbor&outFields=Year%2CName%2COBJECTID",
+      "operation": "getSamples",
+      "sha256": "c3c2cd2948ff5cbe3646b919afee4056c3537dcc45f04dcfa4ddc8fb06019025",
+      "bytes": 5652,
+      "fetched_at_utc": "2026-11-15T00:54:11.356627+00:00",
+      "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+      "transfer": "downloaded"
+    },
+    {
+      "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/getSamples?f=json&geometryType=esriGeometryMultipoint&geometry=%7B%22points%22%3A%5B%5B-96.656037%2C39.103775%5D%2C%5B-96.646037%2C39.103775%5D%2C%5B-96.636037%2C39.103775%5D%2C%5B-96.626037%2C39.103775%5D%2C%5B-96.616037%2C39.103775%5D%2C%5B-96.656037%2C39.113775%5D%2C%5B-96.646037%2C39.113775%5D%2C%5B-96.636037%2C39.113775%5D%2C%5B-96.626037%2C39.113775%5D%2C%5B-96.616037%2C39.113775%5D%2C%5B-96.656037%2C39.123775%5D%2C%5B-96.646037%2C39.123775%5D%2C%5B-96.636037%2C39.123775%5D%2C%5B-96.626037%2C39.123775%5D%2C%5B-96.616037%2C39.123775%5D%2C%5B-96.656037%2C39.133775%5D%2C%5B-96.646037%2C39.133775%5D%2C%5B-96.636037%2C39.133775%5D%2C%5B-96.626037%2C39.133775%5D%2C%5B-96.616037%2C39.133775%5D%2C%5B-96.656037%2C39.143775%5D%2C%5B-96.646037%2C39.143775%5D%2C%5B-96.636037%2C39.143775%5D%2C%5B-96.626037%2C39.143775%5D%2C%5B-96.616037%2C39.143775%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&mosaicRule=%7B%22mosaicMethod%22%3A%22esriMosaicLockRaster%22%2C%22lockRasterIds%22%3A%5B1%5D%2C%22where%22%3A%22Year+%3D+2019%22%7D&returnFirstValueOnly=true&interpolation=RSP_NearestNeighbor&outFields=Year%2CName%2COBJECTID",
+      "operation": "getSamples",
+      "sha256": "a11143e7613cfe555fb70067880104af5c2761d9215d60f06779063f34d98a3d",
+      "bytes": 5809,
+      "fetched_at_utc": "2026-11-15T00:54:15.656399+00:00",
+      "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+      "transfer": "downloaded"
+    },
+    {
+      "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/query?f=json&where=Year+%3D+2020+AND+Category+%3D+1&outFields=OBJECTID%2CName%2CYear&returnGeometry=false",
+      "operation": "query",
+      "sha256": "728c69485c3d8a070524799f525c901d8a3393a68fbb953343c2b71a0d7680fc",
+      "bytes": 363,
+      "fetched_at_utc": "2026-11-15T00:54:19.893454+00:00",
+      "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+      "transfer": "downloaded"
+    },
+    {
+      "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/getSamples?f=json&geometryType=esriGeometryMultipoint&geometry=%7B%22points%22%3A%5B%5B-118.644501%2C45.701236%5D%2C%5B-118.634501%2C45.701236%5D%2C%5B-118.624501%2C45.701236%5D%2C%5B-118.614501%2C45.701236%5D%2C%5B-118.604501%2C45.701236%5D%2C%5B-118.644501%2C45.711236%5D%2C%5B-118.634501%2C45.711236%5D%2C%5B-118.624501%2C45.711236%5D%2C%5B-118.614501%2C45.711236%5D%2C%5B-118.604501%2C45.711236%5D%2C%5B-118.644501%2C45.721236%5D%2C%5B-118.634501%2C45.721236%5D%2C%5B-118.624501%2C45.721236%5D%2C%5B-118.614501%2C45.721236%5D%2C%5B-118.604501%2C45.721236%5D%2C%5B-118.644501%2C45.731236%5D%2C%5B-118.634501%2C45.731236%5D%2C%5B-118.624501%2C45.731236%5D%2C%5B-118.614501%2C45.731236%5D%2C%5B-118.604501%2C45.731236%5D%2C%5B-118.644501%2C45.741236%5D%2C%5B-118.634501%2C45.741236%5D%2C%5B-118.624501%2C45.741236%5D%2C%5B-118.614501%2C45.741236%5D%2C%5B-118.604501%2C45.741236%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&mosaicRule=%7B%22mosaicMethod%22%3A%22esriMosaicLockRaster%22%2C%22lockRasterIds%22%3A%5B35%5D%2C%22where%22%3A%22Year+%3D+2020%22%7D&returnFirstValueOnly=true&interpolation=RSP_NearestNeighbor&outFields=Year%2CName%2COBJECTID",
+      "operation": "getSamples",
+      "sha256": "3907c4c965665976f36278704b023cb34af85397d0b74cfd172bf2ac161914b1",
+      "bytes": 5700,
+      "fetched_at_utc": "2026-11-15T00:54:24.198483+00:00",
+      "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+      "transfer": "downloaded"
+    },
+    {
+      "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/getSamples?f=json&geometryType=esriGeometryMultipoint&geometry=%7B%22points%22%3A%5B%5B-96.656037%2C39.103775%5D%2C%5B-96.646037%2C39.103775%5D%2C%5B-96.636037%2C39.103775%5D%2C%5B-96.626037%2C39.103775%5D%2C%5B-96.616037%2C39.103775%5D%2C%5B-96.656037%2C39.113775%5D%2C%5B-96.646037%2C39.113775%5D%2C%5B-96.636037%2C39.113775%5D%2C%5B-96.626037%2C39.113775%5D%2C%5B-96.616037%2C39.113775%5D%2C%5B-96.656037%2C39.123775%5D%2C%5B-96.646037%2C39.123775%5D%2C%5B-96.636037%2C39.123775%5D%2C%5B-96.626037%2C39.123775%5D%2C%5B-96.616037%2C39.123775%5D%2C%5B-96.656037%2C39.133775%5D%2C%5B-96.646037%2C39.133775%5D%2C%5B-96.636037%2C39.133775%5D%2C%5B-96.626037%2C39.133775%5D%2C%5B-96.616037%2C39.133775%5D%2C%5B-96.656037%2C39.143775%5D%2C%5B-96.646037%2C39.143775%5D%2C%5B-96.636037%2C39.143775%5D%2C%5B-96.626037%2C39.143775%5D%2C%5B-96.616037%2C39.143775%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&mosaicRule=%7B%22mosaicMethod%22%3A%22esriMosaicLockRaster%22%2C%22lockRasterIds%22%3A%5B35%5D%2C%22where%22%3A%22Year+%3D+2020%22%7D&returnFirstValueOnly=true&interpolation=RSP_NearestNeighbor&outFields=Year%2CName%2COBJECTID",
+      "operation": "getSamples",
+      "sha256": "cb799328be73a01e44f4a0158092b56f506c330c46e5fe00aa984f74c44f3a4e",
+      "bytes": 5860,
+      "fetched_at_utc": "2026-11-15T00:54:28.538821+00:00",
+      "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+      "transfer": "downloaded"
+    },
+    {
+      "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/query?f=json&where=Year+%3D+2021+AND+Category+%3D+1&outFields=OBJECTID%2CName%2CYear&returnGeometry=false",
+      "operation": "query",
+      "sha256": "cc74b1e0ab43a47e9c766e7164a1fccd2c8fb888ab39602379631933f25653c9",
+      "bytes": 363,
+      "fetched_at_utc": "2026-11-15T00:54:37.890267+00:00",
+      "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+      "transfer": "downloaded"
+    },
+    {
+      "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/getSamples?f=json&geometryType=esriGeometryMultipoint&geometry=%7B%22points%22%3A%5B%5B-118.644501%2C45.701236%5D%2C%5B-118.634501%2C45.701236%5D%2C%5B-118.624501%2C45.701236%5D%2C%5B-118.614501%2C45.701236%5D%2C%5B-118.604501%2C45.701236%5D%2C%5B-118.644501%2C45.711236%5D%2C%5B-118.634501%2C45.711236%5D%2C%5B-118.624501%2C45.711236%5D%2C%5B-118.614501%2C45.711236%5D%2C%5B-118.604501%2C45.711236%5D%2C%5B-118.644501%2C45.721236%5D%2C%5B-118.634501%2C45.721236%5D%2C%5B-118.624501%2C45.721236%5D%2C%5B-118.614501%2C45.721236%5D%2C%5B-118.604501%2C45.721236%5D%2C%5B-118.644501%2C45.731236%5D%2C%5B-118.634501%2C45.731236%5D%2C%5B-118.624501%2C45.731236%5D%2C%5B-118.614501%2C45.731236%5D%2C%5B-118.604501%2C45.731236%5D%2C%5B-118.644501%2C45.741236%5D%2C%5B-118.634501%2C45.741236%5D%2C%5B-118.624501%2C45.741236%5D%2C%5B-118.614501%2C45.741236%5D%2C%5B-118.604501%2C45.741236%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&mosaicRule=%7B%22mosaicMethod%22%3A%22esriMosaicLockRaster%22%2C%22lockRasterIds%22%3A%5B36%5D%2C%22where%22%3A%22Year+%3D+2021%22%7D&returnFirstValueOnly=true&interpolation=RSP_NearestNeighbor&outFields=Year%2CName%2COBJECTID",
+      "operation": "getSamples",
+      "sha256": "9f8032642b431570c40dcb8f4214d6cb5139e0c47066a34fabbce8ada7e85a3f",
+      "bytes": 5701,
+      "fetched_at_utc": "2026-11-15T00:54:42.365295+00:00",
+      "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+      "transfer": "downloaded"
+    },
+    {
+      "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/getSamples?f=json&geometryType=esriGeometryMultipoint&geometry=%7B%22points%22%3A%5B%5B-96.656037%2C39.103775%5D%2C%5B-96.646037%2C39.103775%5D%2C%5B-96.636037%2C39.103775%5D%2C%5B-96.626037%2C39.103775%5D%2C%5B-96.616037%2C39.103775%5D%2C%5B-96.656037%2C39.113775%5D%2C%5B-96.646037%2C39.113775%5D%2C%5B-96.636037%2C39.113775%5D%2C%5B-96.626037%2C39.113775%5D%2C%5B-96.616037%2C39.113775%5D%2C%5B-96.656037%2C39.123775%5D%2C%5B-96.646037%2C39.123775%5D%2C%5B-96.636037%2C39.123775%5D%2C%5B-96.626037%2C39.123775%5D%2C%5B-96.616037%2C39.123775%5D%2C%5B-96.656037%2C39.133775%5D%2C%5B-96.646037%2C39.133775%5D%2C%5B-96.636037%2C39.133775%5D%2C%5B-96.626037%2C39.133775%5D%2C%5B-96.616037%2C39.133775%5D%2C%5B-96.656037%2C39.143775%5D%2C%5B-96.646037%2C39.143775%5D%2C%5B-96.636037%2C39.143775%5D%2C%5B-96.626037%2C39.143775%5D%2C%5B-96.616037%2C39.143775%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&mosaicRule=%7B%22mosaicMethod%22%3A%22esriMosaicLockRaster%22%2C%22lockRasterIds%22%3A%5B36%5D%2C%22where%22%3A%22Year+%3D+2021%22%7D&returnFirstValueOnly=true&interpolation=RSP_NearestNeighbor&outFields=Year%2CName%2COBJECTID",
+      "operation": "getSamples",
+      "sha256": "722c44a62b238745363e81bb4680dc56762e9857bf1ba65332f1844f8d0f607a",
+      "bytes": 5859,
+      "fetched_at_utc": "2026-11-15T00:54:46.666800+00:00",
+      "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+      "transfer": "downloaded"
+    },
+    {
+      "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/query?f=json&where=Year+%3D+2022+AND+Category+%3D+1&outFields=OBJECTID%2CName%2CYear&returnGeometry=false",
+      "operation": "query",
+      "sha256": "a56f9ebdfa7a4ed77e27ab4994e419f3431afa0e6ccd82a2bed3f5b2b4795a48",
+      "bytes": 363,
+      "fetched_at_utc": "2026-11-15T00:54:50.890943+00:00",
+      "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+      "transfer": "downloaded"
+    },
+    {
+      "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/getSamples?f=json&geometryType=esriGeometryMultipoint&geometry=%7B%22points%22%3A%5B%5B-118.644501%2C45.701236%5D%2C%5B-118.634501%2C45.701236%5D%2C%5B-118.624501%2C45.701236%5D%2C%5B-118.614501%2C45.701236%5D%2C%5B-118.604501%2C45.701236%5D%2C%5B-118.644501%2C45.711236%5D%2C%5B-118.634501%2C45.711236%5D%2C%5B-118.624501%2C45.711236%5D%2C%5B-118.614501%2C45.711236%5D%2C%5B-118.604501%2C45.711236%5D%2C%5B-118.644501%2C45.721236%5D%2C%5B-118.634501%2C45.721236%5D%2C%5B-118.624501%2C45.721236%5D%2C%5B-118.614501%2C45.721236%5D%2C%5B-118.604501%2C45.721236%5D%2C%5B-118.644501%2C45.731236%5D%2C%5B-118.634501%2C45.731236%5D%2C%5B-118.624501%2C45.731236%5D%2C%5B-118.614501%2C45.731236%5D%2C%5B-118.604501%2C45.731236%5D%2C%5B-118.644501%2C45.741236%5D%2C%5B-118.634501%2C45.741236%5D%2C%5B-118.624501%2C45.741236%5D%2C%5B-118.614501%2C45.741236%5D%2C%5B-118.604501%2C45.741236%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&mosaicRule=%7B%22mosaicMethod%22%3A%22esriMosaicLockRaster%22%2C%22lockRasterIds%22%3A%5B37%5D%2C%22where%22%3A%22Year+%3D+2022%22%7D&returnFirstValueOnly=true&interpolation=RSP_NearestNeighbor&outFields=Year%2CName%2COBJECTID",
+      "operation": "getSamples",
+      "sha256": "69daa48348dbea5cd6af855ffacad330c00df26f3e087cb06c9e58233ce15f25",
+      "bytes": 5701,
+      "fetched_at_utc": "2026-11-15T00:54:55.147560+00:00",
+      "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+      "transfer": "downloaded"
+    },
+    {
+      "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/getSamples?f=json&geometryType=esriGeometryMultipoint&geometry=%7B%22points%22%3A%5B%5B-96.656037%2C39.103775%5D%2C%5B-96.646037%2C39.103775%5D%2C%5B-96.636037%2C39.103775%5D%2C%5B-96.626037%2C39.103775%5D%2C%5B-96.616037%2C39.103775%5D%2C%5B-96.656037%2C39.113775%5D%2C%5B-96.646037%2C39.113775%5D%2C%5B-96.636037%2C39.113775%5D%2C%5B-96.626037%2C39.113775%5D%2C%5B-96.616037%2C39.113775%5D%2C%5B-96.656037%2C39.123775%5D%2C%5B-96.646037%2C39.123775%5D%2C%5B-96.636037%2C39.123775%5D%2C%5B-96.626037%2C39.123775%5D%2C%5B-96.616037%2C39.123775%5D%2C%5B-96.656037%2C39.133775%5D%2C%5B-96.646037%2C39.133775%5D%2C%5B-96.636037%2C39.133775%5D%2C%5B-96.626037%2C39.133775%5D%2C%5B-96.616037%2C39.133775%5D%2C%5B-96.656037%2C39.143775%5D%2C%5B-96.646037%2C39.143775%5D%2C%5B-96.636037%2C39.143775%5D%2C%5B-96.626037%2C39.143775%5D%2C%5B-96.616037%2C39.143775%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&mosaicRule=%7B%22mosaicMethod%22%3A%22esriMosaicLockRaster%22%2C%22lockRasterIds%22%3A%5B37%5D%2C%22where%22%3A%22Year+%3D+2022%22%7D&returnFirstValueOnly=true&interpolation=RSP_NearestNeighbor&outFields=Year%2CName%2COBJECTID",
+      "operation": "getSamples",
+      "sha256": "b5b50835831085d08c21c10cd606b6f90aa828051eb8c7d9547d0ca49fee0549",
+      "bytes": 5861,
+      "fetched_at_utc": "2026-11-15T00:54:59.392665+00:00",
+      "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+      "transfer": "downloaded"
+    },
+    {
+      "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/query?f=json&where=Year+%3D+2023+AND+Category+%3D+1&outFields=OBJECTID%2CName%2CYear&returnGeometry=false",
+      "operation": "query",
+      "sha256": "4a072f94c4f8c18dfee6b2bb57abe68919cdfd1f06b93fe4dce2e1cf5e5cbdce",
+      "bytes": 363,
+      "fetched_at_utc": "2026-11-15T00:55:03.646468+00:00",
+      "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+      "transfer": "downloaded"
+    },
+    {
+      "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/getSamples?f=json&geometryType=esriGeometryMultipoint&geometry=%7B%22points%22%3A%5B%5B-118.644501%2C45.701236%5D%2C%5B-118.634501%2C45.701236%5D%2C%5B-118.624501%2C45.701236%5D%2C%5B-118.614501%2C45.701236%5D%2C%5B-118.604501%2C45.701236%5D%2C%5B-118.644501%2C45.711236%5D%2C%5B-118.634501%2C45.711236%5D%2C%5B-118.624501%2C45.711236%5D%2C%5B-118.614501%2C45.711236%5D%2C%5B-118.604501%2C45.711236%5D%2C%5B-118.644501%2C45.721236%5D%2C%5B-118.634501%2C45.721236%5D%2C%5B-118.624501%2C45.721236%5D%2C%5B-118.614501%2C45.721236%5D%2C%5B-118.604501%2C45.721236%5D%2C%5B-118.644501%2C45.731236%5D%2C%5B-118.634501%2C45.731236%5D%2C%5B-118.624501%2C45.731236%5D%2C%5B-118.614501%2C45.731236%5D%2C%5B-118.604501%2C45.731236%5D%2C%5B-118.644501%2C45.741236%5D%2C%5B-118.634501%2C45.741236%5D%2C%5B-118.624501%2C45.741236%5D%2C%5B-118.614501%2C45.741236%5D%2C%5B-118.604501%2C45.741236%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&mosaicRule=%7B%22mosaicMethod%22%3A%22esriMosaicLockRaster%22%2C%22lockRasterIds%22%3A%5B38%5D%2C%22where%22%3A%22Year+%3D+2023%22%7D&returnFirstValueOnly=true&interpolation=RSP_NearestNeighbor&outFields=Year%2CName%2COBJECTID",
+      "operation": "getSamples",
+      "sha256": "a91db899461816193b44651a2e55c2fb90ac2c57bad303f48621095841730545",
+      "bytes": 5702,
+      "fetched_at_utc": "2026-11-15T00:55:07.907436+00:00",
+      "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+      "transfer": "downloaded"
+    },
+    {
+      "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/getSamples?f=json&geometryType=esriGeometryMultipoint&geometry=%7B%22points%22%3A%5B%5B-96.656037%2C39.103775%5D%2C%5B-96.646037%2C39.103775%5D%2C%5B-96.636037%2C39.103775%5D%2C%5B-96.626037%2C39.103775%5D%2C%5B-96.616037%2C39.103775%5D%2C%5B-96.656037%2C39.113775%5D%2C%5B-96.646037%2C39.113775%5D%2C%5B-96.636037%2C39.113775%5D%2C%5B-96.626037%2C39.113775%5D%2C%5B-96.616037%2C39.113775%5D%2C%5B-96.656037%2C39.123775%5D%2C%5B-96.646037%2C39.123775%5D%2C%5B-96.636037%2C39.123775%5D%2C%5B-96.626037%2C39.123775%5D%2C%5B-96.616037%2C39.123775%5D%2C%5B-96.656037%2C39.133775%5D%2C%5B-96.646037%2C39.133775%5D%2C%5B-96.636037%2C39.133775%5D%2C%5B-96.626037%2C39.133775%5D%2C%5B-96.616037%2C39.133775%5D%2C%5B-96.656037%2C39.143775%5D%2C%5B-96.646037%2C39.143775%5D%2C%5B-96.636037%2C39.143775%5D%2C%5B-96.626037%2C39.143775%5D%2C%5B-96.616037%2C39.143775%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&mosaicRule=%7B%22mosaicMethod%22%3A%22esriMosaicLockRaster%22%2C%22lockRasterIds%22%3A%5B38%5D%2C%22where%22%3A%22Year+%3D+2023%22%7D&returnFirstValueOnly=true&interpolation=RSP_NearestNeighbor&outFields=Year%2CName%2COBJECTID",
+      "operation": "getSamples",
+      "sha256": "249fb9dd4cda4c8f3dee0c68769d779eb453d9e702c59294bbdb2f0f5ab81ad3",
+      "bytes": 5861,
+      "fetched_at_utc": "2026-11-15T00:55:12.226713+00:00",
+      "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+      "transfer": "downloaded"
+    }
+  ]
+}

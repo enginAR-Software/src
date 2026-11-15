@@ -1,0 +1,21 @@
+parcel_id,region,longitude,latitude,observed_years,observed_sequence,reason
+USKS01:r0:c0,USKS01,-96.656037,39.103775,2018-2023,Other Hay/Non Alfalfa → Other Hay/Non Alfalfa → Other Hay/Non Alfalfa → Other Hay/Non Alfalfa → Other Hay/Non Alfalfa → Grassland/Pasture,En az bir yıl tarım dışı veya sınıfsız
+USKS01:r0:c1,USKS01,-96.646037,39.103775,2018-2023,Deciduous Forest → Soybeans → Corn → Soybeans → Corn → Soybeans,En az bir yıl tarım dışı veya sınıfsız
+USKS01:r0:c2,USKS01,-96.636037,39.103775,2018-2023,Corn → Soybeans → Developed/Open Space → Soybeans → Corn → Soybeans,En az bir yıl tarım dışı veya sınıfsız
+USKS01:r0:c3,USKS01,-96.626037,39.103775,2018-2023,Deciduous Forest → Deciduous Forest → Grassland/Pasture → Deciduous Forest → Deciduous Forest → Deciduous Forest,En az bir yıl tarım dışı veya sınıfsız
+USKS01:r0:c4,USKS01,-96.616037,39.103775,2018-2023,Grassland/Pasture → Grassland/Pasture → Grassland/Pasture → Grassland/Pasture → Grassland/Pasture → Grassland/Pasture,En az bir yıl tarım dışı veya sınıfsız
+USKS01:r1:c0,USKS01,-96.656037,39.113775,2018-2023,Deciduous Forest → Deciduous Forest → Grassland/Pasture → Deciduous Forest → Deciduous Forest → Deciduous Forest,En az bir yıl tarım dışı veya sınıfsız
+USKS01:r1:c1,USKS01,-96.646037,39.113775,2018-2023,Deciduous Forest → Deciduous Forest → Deciduous Forest → Deciduous Forest → Deciduous Forest → Deciduous Forest,En az bir yıl tarım dışı veya sınıfsız
+USKS01:r2:c0,USKS01,-96.656037,39.123775,2018-2023,Open Water → Open Water → Deciduous Forest → Open Water → Open Water → Open Water,En az bir yıl tarım dışı veya sınıfsız
+USKS01:r2:c1,USKS01,-96.646037,39.123775,2018-2023,Grassland/Pasture → Grassland/Pasture → Grassland/Pasture → Grassland/Pasture → Grassland/Pasture → Grassland/Pasture,En az bir yıl tarım dışı veya sınıfsız
+USKS01:r2:c3,USKS01,-96.626037,39.123775,2018-2023,Soybeans → Sorghum → Corn → Soybeans → Sod/Grass Seed → Sod/Grass Seed,En az bir yıl tarım dışı veya sınıfsız
+USKS01:r2:c4,USKS01,-96.616037,39.123775,2018-2023,Developed/Low Intensity → Grassland/Pasture → Developed/Low Intensity → Developed/Open Space → Developed/Open Space → Developed/Open Space,En az bir yıl tarım dışı veya sınıfsız
+USKS01:r3:c1,USKS01,-96.646037,39.133775,2018-2023,Deciduous Forest → Deciduous Forest → Deciduous Forest → Grassland/Pasture → Deciduous Forest → Grassland/Pasture,En az bir yıl tarım dışı veya sınıfsız
+USKS01:r4:c0,USKS01,-96.656037,39.143775,2018-2023,Developed/Low Intensity → Developed/Low Intensity → Developed/Med Intensity → Developed/Low Intensity → Developed/Low Intensity → Developed/Low Intensity,En az bir yıl tarım dışı veya sınıfsız
+USKS01:r4:c1,USKS01,-96.646037,39.143775,2018-2023,Open Water → Open Water → Open Water → Open Water → Open Water → Open Water,En az bir yıl tarım dışı veya sınıfsız
+USKS01:r4:c2,USKS01,-96.636037,39.143775,2018-2023,Grassland/Pasture → Grassland/Pasture → Soybeans → Grassland/Pasture → Grassland/Pasture → Grassland/Pasture,En az bir yıl tarım dışı veya sınıfsız
+USKS01:r4:c4,USKS01,-96.616037,39.143775,2018-2023,Herbaceous Wetlands → Grassland/Pasture → Deciduous Forest → Grassland/Pasture → Grassland/Pasture → Grassland/Pasture,En az bir yıl tarım dışı veya sınıfsız
+USOR03:r0:c0,USOR03,-118.644501,45.701236,2018-2023,Shrubland → Grassland/Pasture → Grassland/Pasture → Grassland/Pasture → Grassland/Pasture → Grassland/Pasture,En az bir yıl tarım dışı veya sınıfsız
+USOR03:r3:c1,USOR03,-118.634501,45.731236,2018-2023,Shrubland → Shrubland → Shrubland → Shrubland → Shrubland → Shrubland,En az bir yıl tarım dışı veya sınıfsız
+USOR03:r4:c3,USOR03,-118.614501,45.741236,2018-2023,Fallow/Idle Cropland → Shrubland → Fallow/Idle Cropland → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland,En az bir yıl tarım dışı veya sınıfsız
+USOR03:r4:c4,USOR03,-118.604501,45.741236,2018-2023,Grassland/Pasture → Grassland/Pasture → Other Hay/Non Alfalfa → Grassland/Pasture → Grassland/Pasture → Grassland/Pasture,En az bir yıl tarım dışı veya sınıfsız

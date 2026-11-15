@@ -1,0 +1,6 @@
+{
+  "sites": ["USOR03", "USKS01"],
+  "baseline": [2015, 2024],
+  "future": [2040, 2049],
+  "scenario": "ssp245"
+}

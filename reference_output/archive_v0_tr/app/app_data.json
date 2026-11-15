@@ -1,0 +1,2170 @@
+{
+ "satellite": {},
+ "satellite_output": null,
+ "yields": {},
+ "yield_output": null,
+ "future": {},
+ "goal": "Kuzey Amerika'da yetiştirilen buğdayın iklim değişikliğine bağlı olarak ve çeşitli verilere bakılarak göç edeceği en uygun bölgeyi kestirmek; izlediği yol boyunca parsellere ayrılan bölgeler için ekonomik anlamda en verimli ekim rotasyonunu hesaplayan matematiksel bir model eğitmek; çiftçiye her yıl ne zaman ve hangi ürünü ekeceğini söyleyerek işini kolaylaştırmak.",
+ "generated": "2026-11-15 02:56 UTC",
+ "components": [
+  {
+   "key": "A",
+   "component": "Buğdayın iklim değişikliğiyle kayacağı en uygun bölge",
+   "status": "veri_bekleniyor",
+   "status_tr": "Veri bekleniyor",
+   "produced": "Hücre bazında referans → gelecek iklim farkı hesaplandı; kayma vektörü için eğitilmiş model gerekli",
+   "next": "python3 -m fieldshift_data corridor --online (koridor ızgarasını NASA ve USDA'dan indirir)"
+  },
+  {
+   "key": "B",
+   "component": "Yol boyunca parsellere ayırma",
+   "status": "calisiyor",
+   "status_tr": "Çalışıyor",
+   "produced": "30 pilot parsel + 0 göç koridoru parseli; 20 pilot nokta tarım dışı",
+   "next": "Koridor parselleri için önce corridor --online (model eğitilmeli)."
+  },
+  {
+   "key": "C",
+   "component": "Parsel başına ekonomik açıdan en verimli rotasyon",
+   "status": "calisiyor",
+   "status_tr": "Çalışıyor",
+   "produced": "Kâr optimizasyonu ve 3 strateji hesaplandı",
+   "next": "config/economics_inputs.csv'yi kaynaklarıyla doldurun veya FIELDSHIFT_NASS_KEY ile economics --online çalıştırın; iklim→verim modeli için: yield-model --online (NASS anahtarı gerekir)"
+  },
+  {
+   "key": "D",
+   "component": "Eğitilmiş matematiksel model",
+   "status": "egitim_verisi_yetersiz",
+   "status_tr": "Eğitim verisi yetersiz",
+   "produced": "Farklı iklimli hücre sayısı 2 < 12; Buğday görülen hücre 2 < 3; Buğdaysız tarım hücresi 2 < 3",
+   "next": "corridor --online ile en az 12 farklı iklimli hücre"
+  },
+  {
+   "key": "E",
+   "component": "Her yıl ne ve ne zaman ekileceği",
+   "status": "calisiyor",
+   "status_tr": "Çalışıyor",
+   "produced": "Ekim gereken 54 bölge-ürün-yılın 30 tanesinde tam pencere, 7 tanesinde yalnız başlangıç veya düşük güven; kuralı olmayan ürün: Dbl Crop WinWht/Soybeans, Triticale",
+   "next": "Kaynak eşikleri config/crop_calendar.json'da; yerel toprak sıcaklığıyla doğrulayın"
+  }
+ ],
+ "plan_years": [
+  2027,
+  2028,
+  2029,
+  2030,
+  2031,
+  2032
+ ],
+ "regions": {
+  "USKS01": {
+   "name": "Kansas pilot (Riley, Manhattan yakını)",
+   "short": "Kansas",
+   "pilot": true,
+   "lon": -96.63048144444446,
+   "lat": 39.12710833333333,
+   "allowed": [
+    "Corn",
+    "Soybeans",
+    "Sorghum",
+    "Winter Wheat"
+   ],
+   "inputs": {
+    "Corn": {
+     "yield": 101.09,
+     "price": 4.93,
+     "cost": 521.48,
+     "unit": "BU",
+     "yield_source": "K-State KFMA (Kansas Farm Management Association), sulanmayan mısır, tüm çiftlikler, 2020–2024 ortalaması — Dikeman, 'Crop Profitability' sunumu: https://www.agmanager.info/sites/default/files/pdf/6_Dikeman_CropProfitability_2.pdf",
+     "price_source": "K-State KFMA (Kansas Farm Management Association), sulanmayan mısır, tüm çiftlikler, 2020–2024 ortalaması — Dikeman, 'Crop Profitability' sunumu: https://www.agmanager.info/sites/default/files/pdf/6_Dikeman_CropProfitability_2.pdf",
+     "cost_source": "K-State KFMA (Kansas Farm Management Association), sulanmayan mısır, tüm çiftlikler, 2020–2024 ortalaması — Dikeman, 'Crop Profitability' sunumu: https://www.agmanager.info/sites/default/files/pdf/6_Dikeman_CropProfitability_2.pdf; TOTAL EXPENSE = değişken giderler + vergi/amortisman + fırsat maliyeti (gübre dahil). Kansas geneli; Riley ilçesine özgü değil."
+    },
+    "Soybeans": {
+     "yield": 34.85,
+     "price": 11.64,
+     "cost": 418.29,
+     "unit": "BU",
+     "yield_source": "K-State KFMA (Kansas Farm Management Association), sulanmayan soya, tüm çiftlikler, 2020–2024 ortalaması — Dikeman, 'Crop Profitability' sunumu: https://www.agmanager.info/sites/default/files/pdf/6_Dikeman_CropProfitability_2.pdf",
+     "price_source": "K-State KFMA (Kansas Farm Management Association), sulanmayan soya, tüm çiftlikler, 2020–2024 ortalaması — Dikeman, 'Crop Profitability' sunumu: https://www.agmanager.info/sites/default/files/pdf/6_Dikeman_CropProfitability_2.pdf",
+     "cost_source": "K-State KFMA (Kansas Farm Management Association), sulanmayan soya, tüm çiftlikler, 2020–2024 ortalaması — Dikeman, 'Crop Profitability' sunumu: https://www.agmanager.info/sites/default/files/pdf/6_Dikeman_CropProfitability_2.pdf; TOTAL EXPENSE = değişken giderler + vergi/amortisman + fırsat maliyeti (gübre dahil). Kansas geneli; Riley ilçesine özgü değil."
+    },
+    "Winter Wheat": {
+     "yield": 50.97,
+     "price": 6.15,
+     "cost": 326.37,
+     "unit": "BU",
+     "yield_source": "K-State KFMA (Kansas Farm Management Association), sulanmayan buğday, tüm çiftlikler, 2020–2024 ortalaması — Dikeman, 'Crop Profitability' sunumu: https://www.agmanager.info/sites/default/files/pdf/6_Dikeman_CropProfitability_2.pdf",
+     "price_source": "K-State KFMA (Kansas Farm Management Association), sulanmayan buğday, tüm çiftlikler, 2020–2024 ortalaması — Dikeman, 'Crop Profitability' sunumu: https://www.agmanager.info/sites/default/files/pdf/6_Dikeman_CropProfitability_2.pdf",
+     "cost_source": "K-State KFMA (Kansas Farm Management Association), sulanmayan buğday, tüm çiftlikler, 2020–2024 ortalaması — Dikeman, 'Crop Profitability' sunumu: https://www.agmanager.info/sites/default/files/pdf/6_Dikeman_CropProfitability_2.pdf; TOTAL EXPENSE = değişken giderler + vergi/amortisman + fırsat maliyeti (gübre dahil). Kansas geneli; Riley ilçesine özgü değil."
+    },
+    "Sorghum": {
+     "yield": 77.7,
+     "price": 5.06,
+     "cost": 338.14,
+     "unit": "BU",
+     "yield_source": "K-State KFMA (Kansas Farm Management Association), sulanmayan dane sorgum, tüm çiftlikler, 2020–2024 ortalaması — Dikeman, 'Crop Profitability' sunumu: https://www.agmanager.info/sites/default/files/pdf/6_Dikeman_CropProfitability_2.pdf",
+     "price_source": "K-State KFMA (Kansas Farm Management Association), sulanmayan dane sorgum, tüm çiftlikler, 2020–2024 ortalaması — Dikeman, 'Crop Profitability' sunumu: https://www.agmanager.info/sites/default/files/pdf/6_Dikeman_CropProfitability_2.pdf",
+     "cost_source": "K-State KFMA (Kansas Farm Management Association), sulanmayan dane sorgum, tüm çiftlikler, 2020–2024 ortalaması — Dikeman, 'Crop Profitability' sunumu: https://www.agmanager.info/sites/default/files/pdf/6_Dikeman_CropProfitability_2.pdf; TOTAL EXPENSE = değişken giderler + vergi/amortisman + fırsat maliyeti (gübre dahil). Kansas geneli; Riley ilçesine özgü değil."
+    }
+   },
+   "fallow_rule": null
+  },
+  "USOR03": {
+   "name": "Oregon pilot (Umatilla, Pendleton yakını)",
+   "short": "Oregon",
+   "pilot": true,
+   "lon": -118.624501,
+   "lat": 45.71980742857143,
+   "allowed": [
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Peas",
+    "Spring Wheat"
+   ],
+   "inputs": {
+    "Spring Wheat": {
+     "yield": null,
+     "price": null,
+     "cost": null,
+     "unit": "BU",
+     "yield_source": "",
+     "price_source": "",
+     "cost_source": ""
+    },
+    "Winter Wheat": {
+     "yield": 60.2,
+     "price": 7.046,
+     "cost": 336.0,
+     "unit": "BU",
+     "yield_source": "USDA NASS Oregon Annual Statistical Bulletin 2024, s.18 'Winter Wheat ... Oregon: 2014-2023' tablosu, eyalet geneli 2019–2023 ortalaması (68,0; 64,0; 45,0; 68,0; 56,0 bu/acre): https://data.nass.usda.gov/Statistics_by_State/Oregon/Publications/Annual_Statistical_Bulletin/2024/OR_ANN_2024.pdf",
+     "price_source": "USDA NASS Oregon Annual Statistical Bulletin 2024, s.18, pazarlama yılı ortalama fiyatı 2019–2023 ortalaması (5,73; 5,90; 8,71; 8,87; 6,02 $/bu): https://data.nass.usda.gov/Statistics_by_State/Oregon/Publications/Annual_Statistical_Bulletin/2024/OR_ANN_2024.pdf",
+     "cost_source": "Oregon State University Enterprise Budget AEB 0064 (Nisan 2021), nadas sonrası kışlık buğday, doğrudan ekim, 10–14 inç yağış kuşağı: tüm giderler 336 $/acre (2020 fiyatları). Pendleton daha yağışlı (yaklaşık 16 inç); bütçe nadas yılı giderlerini içeriyorsa nadas maliyetiyle kısmen çift sayım olabilir: https://agsci.oregonstate.edu/sites/agscid7/files/oaeb/pdf/aeb0064.pdf"
+    },
+    "Peas": {
+     "yield": null,
+     "price": null,
+     "cost": null,
+     "unit": "LB",
+     "yield_source": null,
+     "price_source": null,
+     "cost_source": null
+    }
+   },
+   "fallow_rule": {
+    "max_years_without_fallow": 2,
+    "source": "USDA ARS, Williams (CBARC Pendleton): bölgede rotasyonlar yağış kuşaklarına karşılık gelir — 13 inç altı buğday–nadas, 13–18 inç buğday–yazlık tahıl–nadas, 18 inç üstü yıllık ekim. Pendleton (CBARC) 73 yıllık ortalama ürün yılı yağışı 406 mm (yaklaşık 16 inç; Machado ve diğ. 2007). Bu nedenle en fazla 2 yıl nadassız. https://www.ars.usda.gov/ARSUserFiles/6112/soilLossFromLongtermWinter.pdf ; https://agsci.oregonstate.edu/sites/agscid7/files/cbarc/attachments/still2340.pdf"
+   }
+  }
+ },
+ "parcels": [
+  {
+   "id": "USKS01:r1:c2",
+   "region": "USKS01",
+   "site": "USKS01",
+   "kind": "pilot",
+   "lon": -96.636037,
+   "lat": 39.113775,
+   "observed": [
+    "Soybeans",
+    "Sorghum",
+    "Soybeans",
+    "Soybeans",
+    "Soybeans",
+    "Soybeans"
+   ],
+   "observed_years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+   ],
+   "previous": "Soybeans",
+   "initial_run": 6,
+   "current": [
+    "Soybeans",
+    "Soybeans",
+    "Soybeans",
+    "Soybeans",
+    "Sorghum",
+    "Soybeans"
+   ]
+  },
+  {
+   "id": "USKS01:r1:c3",
+   "region": "USKS01",
+   "site": "USKS01",
+   "kind": "pilot",
+   "lon": -96.626037,
+   "lat": 39.113775,
+   "observed": [
+    "Soybeans",
+    "Corn",
+    "Soybeans",
+    "Corn",
+    "Soybeans",
+    "Corn"
+   ],
+   "observed_years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+   ],
+   "previous": "Corn",
+   "initial_run": 6,
+   "current": [
+    "Corn",
+    "Soybeans",
+    "Corn",
+    "Soybeans",
+    "Corn",
+    "Soybeans"
+   ]
+  },
+  {
+   "id": "USKS01:r1:c4",
+   "region": "USKS01",
+   "site": "USKS01",
+   "kind": "pilot",
+   "lon": -96.616037,
+   "lat": 39.113775,
+   "observed": [
+    "Corn",
+    "Soybeans",
+    "Corn",
+    "Soybeans",
+    "Corn",
+    "Soybeans"
+   ],
+   "observed_years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+   ],
+   "previous": "Soybeans",
+   "initial_run": 6,
+   "current": [
+    "Soybeans",
+    "Corn",
+    "Soybeans",
+    "Corn",
+    "Soybeans",
+    "Corn"
+   ]
+  },
+  {
+   "id": "USKS01:r2:c2",
+   "region": "USKS01",
+   "site": "USKS01",
+   "kind": "pilot",
+   "lon": -96.636037,
+   "lat": 39.123775,
+   "observed": [
+    "Soybeans",
+    "Sorghum",
+    "Winter Wheat",
+    "Corn",
+    "Dbl Crop WinWht/Soybeans",
+    "Corn"
+   ],
+   "observed_years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+   ],
+   "previous": "Corn",
+   "initial_run": 6,
+   "current": [
+    "Corn",
+    "Dbl Crop WinWht/Soybeans",
+    "Corn",
+    "Soybeans",
+    "Sorghum",
+    "Winter Wheat"
+   ]
+  },
+  {
+   "id": "USKS01:r3:c0",
+   "region": "USKS01",
+   "site": "USKS01",
+   "kind": "pilot",
+   "lon": -96.656037,
+   "lat": 39.133775,
+   "observed": [
+    "Soybeans",
+    "Corn",
+    "Soybeans",
+    "Corn",
+    "Soybeans",
+    "Corn"
+   ],
+   "observed_years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+   ],
+   "previous": "Corn",
+   "initial_run": 6,
+   "current": [
+    "Corn",
+    "Soybeans",
+    "Corn",
+    "Soybeans",
+    "Corn",
+    "Soybeans"
+   ]
+  },
+  {
+   "id": "USKS01:r3:c2",
+   "region": "USKS01",
+   "site": "USKS01",
+   "kind": "pilot",
+   "lon": -96.636037,
+   "lat": 39.133775,
+   "observed": [
+    "Corn",
+    "Soybeans",
+    "Corn",
+    "Soybeans",
+    "Corn",
+    "Soybeans"
+   ],
+   "observed_years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+   ],
+   "previous": "Soybeans",
+   "initial_run": 6,
+   "current": [
+    "Soybeans",
+    "Corn",
+    "Soybeans",
+    "Corn",
+    "Soybeans",
+    "Corn"
+   ]
+  },
+  {
+   "id": "USKS01:r3:c3",
+   "region": "USKS01",
+   "site": "USKS01",
+   "kind": "pilot",
+   "lon": -96.626037,
+   "lat": 39.133775,
+   "observed": [
+    "Soybeans",
+    "Alfalfa",
+    "Alfalfa",
+    "Alfalfa",
+    "Alfalfa",
+    "Alfalfa"
+   ],
+   "observed_years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+   ],
+   "previous": "Alfalfa",
+   "initial_run": 6,
+   "current": [
+    "Alfalfa",
+    "Alfalfa",
+    "Alfalfa",
+    "Soybeans",
+    "Alfalfa",
+    "Alfalfa"
+   ]
+  },
+  {
+   "id": "USKS01:r3:c4",
+   "region": "USKS01",
+   "site": "USKS01",
+   "kind": "pilot",
+   "lon": -96.616037,
+   "lat": 39.133775,
+   "observed": [
+    "Soybeans",
+    "Corn",
+    "Soybeans",
+    "Corn",
+    "Soybeans",
+    "Corn"
+   ],
+   "observed_years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+   ],
+   "previous": "Corn",
+   "initial_run": 6,
+   "current": [
+    "Corn",
+    "Soybeans",
+    "Corn",
+    "Soybeans",
+    "Corn",
+    "Soybeans"
+   ]
+  },
+  {
+   "id": "USKS01:r4:c3",
+   "region": "USKS01",
+   "site": "USKS01",
+   "kind": "pilot",
+   "lon": -96.626037,
+   "lat": 39.143775,
+   "observed": [
+    "Soybeans",
+    "Soybeans",
+    "Sorghum",
+    "Soybeans",
+    "Sorghum",
+    "Soybeans"
+   ],
+   "observed_years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+   ],
+   "previous": "Soybeans",
+   "initial_run": 6,
+   "current": [
+    "Soybeans",
+    "Sorghum",
+    "Soybeans",
+    "Soybeans",
+    "Soybeans",
+    "Sorghum"
+   ]
+  },
+  {
+   "id": "USOR03:r0:c1",
+   "region": "USOR03",
+   "site": "USOR03",
+   "kind": "pilot",
+   "lon": -118.634501,
+   "lat": 45.701236,
+   "observed": [
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat"
+   ],
+   "observed_years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+   ],
+   "previous": "Winter Wheat",
+   "initial_run": 1,
+   "current": [
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland"
+   ]
+  },
+  {
+   "id": "USOR03:r0:c2",
+   "region": "USOR03",
+   "site": "USOR03",
+   "kind": "pilot",
+   "lon": -118.624501,
+   "lat": 45.701236,
+   "observed": [
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat"
+   ],
+   "observed_years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+   ],
+   "previous": "Winter Wheat",
+   "initial_run": 1,
+   "current": [
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland"
+   ]
+  },
+  {
+   "id": "USOR03:r0:c3",
+   "region": "USOR03",
+   "site": "USOR03",
+   "kind": "pilot",
+   "lon": -118.614501,
+   "lat": 45.701236,
+   "observed": [
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat"
+   ],
+   "observed_years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+   ],
+   "previous": "Winter Wheat",
+   "initial_run": 1,
+   "current": [
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland"
+   ]
+  },
+  {
+   "id": "USOR03:r0:c4",
+   "region": "USOR03",
+   "site": "USOR03",
+   "kind": "pilot",
+   "lon": -118.604501,
+   "lat": 45.701236,
+   "observed": [
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat"
+   ],
+   "observed_years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+   ],
+   "previous": "Winter Wheat",
+   "initial_run": 1,
+   "current": [
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland"
+   ]
+  },
+  {
+   "id": "USOR03:r1:c0",
+   "region": "USOR03",
+   "site": "USOR03",
+   "kind": "pilot",
+   "lon": -118.644501,
+   "lat": 45.711236,
+   "observed": [
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland"
+   ],
+   "observed_years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+   ],
+   "previous": "Fallow/Idle Cropland",
+   "initial_run": 0,
+   "current": [
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat"
+   ]
+  },
+  {
+   "id": "USOR03:r1:c1",
+   "region": "USOR03",
+   "site": "USOR03",
+   "kind": "pilot",
+   "lon": -118.634501,
+   "lat": 45.711236,
+   "observed": [
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland"
+   ],
+   "observed_years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+   ],
+   "previous": "Fallow/Idle Cropland",
+   "initial_run": 0,
+   "current": [
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat"
+   ]
+  },
+  {
+   "id": "USOR03:r1:c2",
+   "region": "USOR03",
+   "site": "USOR03",
+   "kind": "pilot",
+   "lon": -118.624501,
+   "lat": 45.711236,
+   "observed": [
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat"
+   ],
+   "observed_years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+   ],
+   "previous": "Winter Wheat",
+   "initial_run": 1,
+   "current": [
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland"
+   ]
+  },
+  {
+   "id": "USOR03:r1:c3",
+   "region": "USOR03",
+   "site": "USOR03",
+   "kind": "pilot",
+   "lon": -118.614501,
+   "lat": 45.711236,
+   "observed": [
+    "Peas",
+    "Winter Wheat",
+    "Peas",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat"
+   ],
+   "observed_years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+   ],
+   "previous": "Winter Wheat",
+   "initial_run": 1,
+   "current": [
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Peas",
+    "Winter Wheat",
+    "Peas"
+   ]
+  },
+  {
+   "id": "USOR03:r1:c4",
+   "region": "USOR03",
+   "site": "USOR03",
+   "kind": "pilot",
+   "lon": -118.604501,
+   "lat": 45.711236,
+   "observed": [
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland"
+   ],
+   "observed_years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+   ],
+   "previous": "Fallow/Idle Cropland",
+   "initial_run": 0,
+   "current": [
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat"
+   ]
+  },
+  {
+   "id": "USOR03:r2:c0",
+   "region": "USOR03",
+   "site": "USOR03",
+   "kind": "pilot",
+   "lon": -118.644501,
+   "lat": 45.721236,
+   "observed": [
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland"
+   ],
+   "observed_years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+   ],
+   "previous": "Fallow/Idle Cropland",
+   "initial_run": 0,
+   "current": [
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat"
+   ]
+  },
+  {
+   "id": "USOR03:r2:c1",
+   "region": "USOR03",
+   "site": "USOR03",
+   "kind": "pilot",
+   "lon": -118.634501,
+   "lat": 45.721236,
+   "observed": [
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland"
+   ],
+   "observed_years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+   ],
+   "previous": "Fallow/Idle Cropland",
+   "initial_run": 0,
+   "current": [
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat"
+   ]
+  },
+  {
+   "id": "USOR03:r2:c2",
+   "region": "USOR03",
+   "site": "USOR03",
+   "kind": "pilot",
+   "lon": -118.624501,
+   "lat": 45.721236,
+   "observed": [
+    "Peas",
+    "Winter Wheat",
+    "Spring Wheat",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat"
+   ],
+   "observed_years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+   ],
+   "previous": "Winter Wheat",
+   "initial_run": 1,
+   "current": [
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Peas",
+    "Winter Wheat",
+    "Spring Wheat"
+   ]
+  },
+  {
+   "id": "USOR03:r2:c3",
+   "region": "USOR03",
+   "site": "USOR03",
+   "kind": "pilot",
+   "lon": -118.614501,
+   "lat": 45.721236,
+   "observed": [
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat"
+   ],
+   "observed_years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+   ],
+   "previous": "Winter Wheat",
+   "initial_run": 1,
+   "current": [
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland"
+   ]
+  },
+  {
+   "id": "USOR03:r2:c4",
+   "region": "USOR03",
+   "site": "USOR03",
+   "kind": "pilot",
+   "lon": -118.604501,
+   "lat": 45.721236,
+   "observed": [
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Winter Wheat",
+    "Fallow/Idle Cropland"
+   ],
+   "observed_years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+   ],
+   "previous": "Fallow/Idle Cropland",
+   "initial_run": 0,
+   "current": [
+    "Winter Wheat",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland"
+   ]
+  },
+  {
+   "id": "USOR03:r3:c0",
+   "region": "USOR03",
+   "site": "USOR03",
+   "kind": "pilot",
+   "lon": -118.644501,
+   "lat": 45.731236,
+   "observed": [
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat"
+   ],
+   "observed_years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+   ],
+   "previous": "Winter Wheat",
+   "initial_run": 1,
+   "current": [
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland"
+   ]
+  },
+  {
+   "id": "USOR03:r3:c2",
+   "region": "USOR03",
+   "site": "USOR03",
+   "kind": "pilot",
+   "lon": -118.624501,
+   "lat": 45.731236,
+   "observed": [
+    "Winter Wheat",
+    "Peas",
+    "Winter Wheat",
+    "Peas",
+    "Winter Wheat",
+    "Triticale"
+   ],
+   "observed_years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+   ],
+   "previous": "Triticale",
+   "initial_run": 6,
+   "current": [
+    "Peas",
+    "Winter Wheat",
+    "Triticale",
+    "Winter Wheat",
+    "Peas",
+    "Winter Wheat"
+   ]
+  },
+  {
+   "id": "USOR03:r3:c3",
+   "region": "USOR03",
+   "site": "USOR03",
+   "kind": "pilot",
+   "lon": -118.614501,
+   "lat": 45.731236,
+   "observed": [
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat"
+   ],
+   "observed_years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+   ],
+   "previous": "Winter Wheat",
+   "initial_run": 1,
+   "current": [
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland"
+   ]
+  },
+  {
+   "id": "USOR03:r3:c4",
+   "region": "USOR03",
+   "site": "USOR03",
+   "kind": "pilot",
+   "lon": -118.604501,
+   "lat": 45.731236,
+   "observed": [
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Winter Wheat",
+    "Fallow/Idle Cropland"
+   ],
+   "observed_years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+   ],
+   "previous": "Fallow/Idle Cropland",
+   "initial_run": 0,
+   "current": [
+    "Winter Wheat",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland"
+   ]
+  },
+  {
+   "id": "USOR03:r4:c0",
+   "region": "USOR03",
+   "site": "USOR03",
+   "kind": "pilot",
+   "lon": -118.644501,
+   "lat": 45.741236,
+   "observed": [
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland"
+   ],
+   "observed_years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+   ],
+   "previous": "Fallow/Idle Cropland",
+   "initial_run": 0,
+   "current": [
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat"
+   ]
+  },
+  {
+   "id": "USOR03:r4:c1",
+   "region": "USOR03",
+   "site": "USOR03",
+   "kind": "pilot",
+   "lon": -118.634501,
+   "lat": 45.741236,
+   "observed": [
+    "Alfalfa",
+    "Alfalfa",
+    "Other Hay/Non Alfalfa",
+    "Alfalfa",
+    "Alfalfa",
+    "Alfalfa"
+   ],
+   "observed_years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+   ],
+   "previous": "Alfalfa",
+   "initial_run": 6,
+   "current": [
+    "Alfalfa",
+    "Alfalfa",
+    "Alfalfa",
+    "Alfalfa",
+    "Alfalfa",
+    "Other Hay/Non Alfalfa"
+   ]
+  },
+  {
+   "id": "USOR03:r4:c2",
+   "region": "USOR03",
+   "site": "USOR03",
+   "kind": "pilot",
+   "lon": -118.624501,
+   "lat": 45.741236,
+   "observed": [
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland"
+   ],
+   "observed_years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+   ],
+   "previous": "Fallow/Idle Cropland",
+   "initial_run": 0,
+   "current": [
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat",
+    "Fallow/Idle Cropland",
+    "Winter Wheat"
+   ]
+  }
+ ],
+ "windows": {
+  "USKS01": {
+   "Alfalfa": {
+    "2027": {
+     "start": null,
+     "end": null,
+     "status": "ekim_yok",
+     "basis": null,
+     "detail": "Çok yıllık yem bitkisi; her yıl ekim yapılmaz."
+    },
+    "2028": {
+     "start": null,
+     "end": null,
+     "status": "ekim_yok",
+     "basis": null,
+     "detail": "Çok yıllık yem bitkisi; her yıl ekim yapılmaz."
+    },
+    "2029": {
+     "start": null,
+     "end": null,
+     "status": "ekim_yok",
+     "basis": null,
+     "detail": "Çok yıllık yem bitkisi; her yıl ekim yapılmaz."
+    },
+    "2030": {
+     "start": null,
+     "end": null,
+     "status": "ekim_yok",
+     "basis": null,
+     "detail": "Çok yıllık yem bitkisi; her yıl ekim yapılmaz."
+    },
+    "2031": {
+     "start": null,
+     "end": null,
+     "status": "ekim_yok",
+     "basis": null,
+     "detail": "Çok yıllık yem bitkisi; her yıl ekim yapılmaz."
+    },
+    "2032": {
+     "start": null,
+     "end": null,
+     "status": "ekim_yok",
+     "basis": null,
+     "detail": "Çok yıllık yem bitkisi; her yıl ekim yapılmaz."
+    }
+   },
+   "Corn": {
+    "2027": {
+     "start": "2027-03-23",
+     "end": "2027-07-27",
+     "status": "ok",
+     "basis": "NASA projeksiyonu 2027",
+     "detail": "Sonbahar kesimi 2027-11-14"
+    },
+    "2028": {
+     "start": "2028-03-24",
+     "end": "2028-07-26",
+     "status": "ok",
+     "basis": "NASA projeksiyon normali 2015–2024",
+     "detail": "Sonbahar kesimi 2028-11-13"
+    },
+    "2029": {
+     "start": "2029-03-24",
+     "end": "2029-07-26",
+     "status": "ok",
+     "basis": "NASA projeksiyon normali 2015–2024",
+     "detail": "Sonbahar kesimi 2029-11-13"
+    },
+    "2030": {
+     "start": "2030-03-24",
+     "end": "2030-07-26",
+     "status": "ok",
+     "basis": "NASA projeksiyon normali 2015–2024",
+     "detail": "Sonbahar kesimi 2030-11-13"
+    },
+    "2031": {
+     "start": "2031-03-24",
+     "end": "2031-07-26",
+     "status": "ok",
+     "basis": "NASA projeksiyon normali 2015–2024",
+     "detail": "Sonbahar kesimi 2031-11-13"
+    },
+    "2032": {
+     "start": "2032-03-24",
+     "end": "2032-07-26",
+     "status": "ok",
+     "basis": "NASA projeksiyon normali 2015–2024",
+     "detail": "Sonbahar kesimi 2032-11-13"
+    }
+   },
+   "Dbl Crop WinWht/Soybeans": {
+    "2027": {
+     "start": null,
+     "end": null,
+     "status": "kural_yok",
+     "basis": null,
+     "detail": "Bu ürün için ekim kuralı yapılandırılmadı"
+    },
+    "2028": {
+     "start": null,
+     "end": null,
+     "status": "kural_yok",
+     "basis": null,
+     "detail": "Bu ürün için ekim kuralı yapılandırılmadı"
+    },
+    "2029": {
+     "start": null,
+     "end": null,
+     "status": "kural_yok",
+     "basis": null,
+     "detail": "Bu ürün için ekim kuralı yapılandırılmadı"
+    },
+    "2030": {
+     "start": null,
+     "end": null,
+     "status": "kural_yok",
+     "basis": null,
+     "detail": "Bu ürün için ekim kuralı yapılandırılmadı"
+    },
+    "2031": {
+     "start": null,
+     "end": null,
+     "status": "kural_yok",
+     "basis": null,
+     "detail": "Bu ürün için ekim kuralı yapılandırılmadı"
+    },
+    "2032": {
+     "start": null,
+     "end": null,
+     "status": "kural_yok",
+     "basis": null,
+     "detail": "Bu ürün için ekim kuralı yapılandırılmadı"
+    }
+   },
+   "Sorghum": {
+    "2027": {
+     "start": "2027-04-14",
+     "end": "2027-08-01",
+     "status": "ok",
+     "basis": "NASA projeksiyonu 2027",
+     "detail": "Sonbahar kesimi 2027-11-14"
+    },
+    "2028": {
+     "start": "2028-04-22",
+     "end": "2028-07-31",
+     "status": "ok",
+     "basis": "NASA projeksiyon normali 2015–2024",
+     "detail": "Sonbahar kesimi 2028-11-13"
+    },
+    "2029": {
+     "start": "2029-04-22",
+     "end": "2029-07-31",
+     "status": "ok",
+     "basis": "NASA projeksiyon normali 2015–2024",
+     "detail": "Sonbahar kesimi 2029-11-13"
+    },
+    "2030": {
+     "start": "2030-04-22",
+     "end": "2030-07-31",
+     "status": "ok",
+     "basis": "NASA projeksiyon normali 2015–2024",
+     "detail": "Sonbahar kesimi 2030-11-13"
+    },
+    "2031": {
+     "start": "2031-04-22",
+     "end": "2031-07-31",
+     "status": "ok",
+     "basis": "NASA projeksiyon normali 2015–2024",
+     "detail": "Sonbahar kesimi 2031-11-13"
+    },
+    "2032": {
+     "start": "2032-04-22",
+     "end": "2032-07-31",
+     "status": "ok",
+     "basis": "NASA projeksiyon normali 2015–2024",
+     "detail": "Sonbahar kesimi 2032-11-13"
+    }
+   },
+   "Soybeans": {
+    "2027": {
+     "start": "2027-04-06",
+     "end": "2027-07-17",
+     "status": "ok",
+     "basis": "NASA projeksiyonu 2027",
+     "detail": "Sonbahar kesimi 2027-11-14"
+    },
+    "2028": {
+     "start": "2028-04-06",
+     "end": "2028-07-16",
+     "status": "ok",
+     "basis": "NASA projeksiyon normali 2015–2024",
+     "detail": "Sonbahar kesimi 2028-11-13"
+    },
+    "2029": {
+     "start": "2029-04-06",
+     "end": "2029-07-16",
+     "status": "ok",
+     "basis": "NASA projeksiyon normali 2015–2024",
+     "detail": "Sonbahar kesimi 2029-11-13"
+    },
+    "2030": {
+     "start": "2030-04-06",
+     "end": "2030-07-16",
+     "status": "ok",
+     "basis": "NASA projeksiyon normali 2015–2024",
+     "detail": "Sonbahar kesimi 2030-11-13"
+    },
+    "2031": {
+     "start": "2031-04-06",
+     "end": "2031-07-16",
+     "status": "ok",
+     "basis": "NASA projeksiyon normali 2015–2024",
+     "detail": "Sonbahar kesimi 2031-11-13"
+    },
+    "2032": {
+     "start": "2032-04-06",
+     "end": "2032-07-16",
+     "status": "ok",
+     "basis": "NASA projeksiyon normali 2015–2024",
+     "detail": "Sonbahar kesimi 2032-11-13"
+    }
+   },
+   "Winter Wheat": {
+    "2027": {
+     "start": "2026-10-11",
+     "end": "2026-10-25",
+     "status": "ok",
+     "basis": "NASA projeksiyon normali 2015–2024; 24 gün (Aralık sonu) yılların %80'inden azından",
+     "detail": "Ekim 2026 sonbaharı; hasat yılı 2027"
+    },
+    "2028": {
+     "start": "2027-10-11",
+     "end": "2027-10-25",
+     "status": "ok",
+     "basis": "NASA projeksiyon normali 2015–2024; 24 gün (Aralık sonu) yılların %80'inden azından (gerçek yıl eksik: 2027 Ağustos–Aralık günleri eksik (5 gün))",
+     "detail": "Ekim 2027 sonbaharı; hasat yılı 2028"
+    },
+    "2029": {
+     "start": "2028-10-11",
+     "end": "2028-10-25",
+     "status": "ok",
+     "basis": "NASA projeksiyon normali 2015–2024; 24 gün (Aralık sonu) yılların %80'inden azından",
+     "detail": "Ekim 2028 sonbaharı; hasat yılı 2029"
+    },
+    "2030": {
+     "start": "2029-10-11",
+     "end": "2029-10-25",
+     "status": "ok",
+     "basis": "NASA projeksiyon normali 2015–2024; 24 gün (Aralık sonu) yılların %80'inden azından",
+     "detail": "Ekim 2029 sonbaharı; hasat yılı 2030"
+    },
+    "2031": {
+     "start": "2030-10-11",
+     "end": "2030-10-25",
+     "status": "ok",
+     "basis": "NASA projeksiyon normali 2015–2024; 24 gün (Aralık sonu) yılların %80'inden azından",
+     "detail": "Ekim 2030 sonbaharı; hasat yılı 2031"
+    },
+    "2032": {
+     "start": "2031-10-11",
+     "end": "2031-10-25",
+     "status": "ok",
+     "basis": "NASA projeksiyon normali 2015–2024; 24 gün (Aralık sonu) yılların %80'inden azından",
+     "detail": "Ekim 2031 sonbaharı; hasat yılı 2032"
+    }
+   }
+  },
+  "USOR03": {
+   "Alfalfa": {
+    "2027": {
+     "start": null,
+     "end": null,
+     "status": "ekim_yok",
+     "basis": null,
+     "detail": "Çok yıllık yem bitkisi; her yıl ekim yapılmaz."
+    },
+    "2028": {
+     "start": null,
+     "end": null,
+     "status": "ekim_yok",
+     "basis": null,
+     "detail": "Çok yıllık yem bitkisi; her yıl ekim yapılmaz."
+    },
+    "2029": {
+     "start": null,
+     "end": null,
+     "status": "ekim_yok",
+     "basis": null,
+     "detail": "Çok yıllık yem bitkisi; her yıl ekim yapılmaz."
+    },
+    "2030": {
+     "start": null,
+     "end": null,
+     "status": "ekim_yok",
+     "basis": null,
+     "detail": "Çok yıllık yem bitkisi; her yıl ekim yapılmaz."
+    },
+    "2031": {
+     "start": null,
+     "end": null,
+     "status": "ekim_yok",
+     "basis": null,
+     "detail": "Çok yıllık yem bitkisi; her yıl ekim yapılmaz."
+    },
+    "2032": {
+     "start": null,
+     "end": null,
+     "status": "ekim_yok",
+     "basis": null,
+     "detail": "Çok yıllık yem bitkisi; her yıl ekim yapılmaz."
+    }
+   },
+   "Fallow/Idle Cropland": {
+    "2027": {
+     "start": null,
+     "end": null,
+     "status": "ekim_yok",
+     "basis": null,
+     "detail": "Nadas yılında ekim yapılmaz."
+    },
+    "2028": {
+     "start": null,
+     "end": null,
+     "status": "ekim_yok",
+     "basis": null,
+     "detail": "Nadas yılında ekim yapılmaz."
+    },
+    "2029": {
+     "start": null,
+     "end": null,
+     "status": "ekim_yok",
+     "basis": null,
+     "detail": "Nadas yılında ekim yapılmaz."
+    },
+    "2030": {
+     "start": null,
+     "end": null,
+     "status": "ekim_yok",
+     "basis": null,
+     "detail": "Nadas yılında ekim yapılmaz."
+    },
+    "2031": {
+     "start": null,
+     "end": null,
+     "status": "ekim_yok",
+     "basis": null,
+     "detail": "Nadas yılında ekim yapılmaz."
+    },
+    "2032": {
+     "start": null,
+     "end": null,
+     "status": "ekim_yok",
+     "basis": null,
+     "detail": "Nadas yılında ekim yapılmaz."
+    }
+   },
+   "Other Hay/Non Alfalfa": {
+    "2027": {
+     "start": null,
+     "end": null,
+     "status": "ekim_yok",
+     "basis": null,
+     "detail": "Çok yıllık yem bitkisi; her yıl ekim yapılmaz."
+    },
+    "2028": {
+     "start": null,
+     "end": null,
+     "status": "ekim_yok",
+     "basis": null,
+     "detail": "Çok yıllık yem bitkisi; her yıl ekim yapılmaz."
+    },
+    "2029": {
+     "start": null,
+     "end": null,
+     "status": "ekim_yok",
+     "basis": null,
+     "detail": "Çok yıllık yem bitkisi; her yıl ekim yapılmaz."
+    },
+    "2030": {
+     "start": null,
+     "end": null,
+     "status": "ekim_yok",
+     "basis": null,
+     "detail": "Çok yıllık yem bitkisi; her yıl ekim yapılmaz."
+    },
+    "2031": {
+     "start": null,
+     "end": null,
+     "status": "ekim_yok",
+     "basis": null,
+     "detail": "Çok yıllık yem bitkisi; her yıl ekim yapılmaz."
+    },
+    "2032": {
+     "start": null,
+     "end": null,
+     "status": "ekim_yok",
+     "basis": null,
+     "detail": "Çok yıllık yem bitkisi; her yıl ekim yapılmaz."
+    }
+   },
+   "Peas": {
+    "2027": {
+     "start": "2027-01-26",
+     "end": null,
+     "status": "dusuk_guven",
+     "basis": "NASA projeksiyonu 2027",
+     "detail": "Sıcaklık eşiği kış ortasında geçiliyor; bu bölgede ekim zamanını toprak işlenebilirliği ve don riski belirler. Yerel takvimle doğrulayın."
+    },
+    "2028": {
+     "start": "2028-02-07",
+     "end": null,
+     "status": "dusuk_guven",
+     "basis": "NASA projeksiyon normali 2015–2024",
+     "detail": "Sıcaklık eşiği kış ortasında geçiliyor; bu bölgede ekim zamanını toprak işlenebilirliği ve don riski belirler. Yerel takvimle doğrulayın."
+    },
+    "2029": {
+     "start": "2029-02-07",
+     "end": null,
+     "status": "dusuk_guven",
+     "basis": "NASA projeksiyon normali 2015–2024",
+     "detail": "Sıcaklık eşiği kış ortasında geçiliyor; bu bölgede ekim zamanını toprak işlenebilirliği ve don riski belirler. Yerel takvimle doğrulayın."
+    },
+    "2030": {
+     "start": "2030-02-07",
+     "end": null,
+     "status": "dusuk_guven",
+     "basis": "NASA projeksiyon normali 2015–2024",
+     "detail": "Sıcaklık eşiği kış ortasında geçiliyor; bu bölgede ekim zamanını toprak işlenebilirliği ve don riski belirler. Yerel takvimle doğrulayın."
+    },
+    "2031": {
+     "start": "2031-02-07",
+     "end": null,
+     "status": "dusuk_guven",
+     "basis": "NASA projeksiyon normali 2015–2024",
+     "detail": "Sıcaklık eşiği kış ortasında geçiliyor; bu bölgede ekim zamanını toprak işlenebilirliği ve don riski belirler. Yerel takvimle doğrulayın."
+    },
+    "2032": {
+     "start": "2032-02-07",
+     "end": null,
+     "status": "dusuk_guven",
+     "basis": "NASA projeksiyon normali 2015–2024",
+     "detail": "Sıcaklık eşiği kış ortasında geçiliyor; bu bölgede ekim zamanını toprak işlenebilirliği ve don riski belirler. Yerel takvimle doğrulayın."
+    }
+   },
+   "Spring Wheat": {
+    "2027": {
+     "start": "2027-01-21",
+     "end": null,
+     "status": "dusuk_guven",
+     "basis": "NASA projeksiyonu 2027",
+     "detail": "Sıcaklık eşiği kış ortasında geçiliyor; bu bölgede ekim zamanını toprak işlenebilirliği ve don riski belirler. Yerel takvimle doğrulayın."
+    },
+    "2028": {
+     "start": null,
+     "end": null,
+     "status": "pencere_yok",
+     "basis": "NASA projeksiyon normali 2015–2024",
+     "detail": "Eşik arama başlangıcında (2028-01-10) zaten aşılmış; search_from daha erken olmalı"
+    },
+    "2029": {
+     "start": null,
+     "end": null,
+     "status": "pencere_yok",
+     "basis": "NASA projeksiyon normali 2015–2024",
+     "detail": "Eşik arama başlangıcında (2029-01-10) zaten aşılmış; search_from daha erken olmalı"
+    },
+    "2030": {
+     "start": null,
+     "end": null,
+     "status": "pencere_yok",
+     "basis": "NASA projeksiyon normali 2015–2024",
+     "detail": "Eşik arama başlangıcında (2030-01-10) zaten aşılmış; search_from daha erken olmalı"
+    },
+    "2031": {
+     "start": null,
+     "end": null,
+     "status": "pencere_yok",
+     "basis": "NASA projeksiyon normali 2015–2024",
+     "detail": "Eşik arama başlangıcında (2031-01-10) zaten aşılmış; search_from daha erken olmalı"
+    },
+    "2032": {
+     "start": null,
+     "end": null,
+     "status": "pencere_yok",
+     "basis": "NASA projeksiyon normali 2015–2024",
+     "detail": "Eşik arama başlangıcında (2032-01-10) zaten aşılmış; search_from daha erken olmalı"
+    }
+   },
+   "Triticale": {
+    "2027": {
+     "start": null,
+     "end": null,
+     "status": "kural_yok",
+     "basis": null,
+     "detail": "Bu ürün için ekim kuralı yapılandırılmadı"
+    },
+    "2028": {
+     "start": null,
+     "end": null,
+     "status": "kural_yok",
+     "basis": null,
+     "detail": "Bu ürün için ekim kuralı yapılandırılmadı"
+    },
+    "2029": {
+     "start": null,
+     "end": null,
+     "status": "kural_yok",
+     "basis": null,
+     "detail": "Bu ürün için ekim kuralı yapılandırılmadı"
+    },
+    "2030": {
+     "start": null,
+     "end": null,
+     "status": "kural_yok",
+     "basis": null,
+     "detail": "Bu ürün için ekim kuralı yapılandırılmadı"
+    },
+    "2031": {
+     "start": null,
+     "end": null,
+     "status": "kural_yok",
+     "basis": null,
+     "detail": "Bu ürün için ekim kuralı yapılandırılmadı"
+    },
+    "2032": {
+     "start": null,
+     "end": null,
+     "status": "kural_yok",
+     "basis": null,
+     "detail": "Bu ürün için ekim kuralı yapılandırılmadı"
+    }
+   },
+   "Winter Wheat": {
+    "2027": {
+     "start": "2026-10-06",
+     "end": "2026-10-20",
+     "status": "ok",
+     "basis": "NASA projeksiyon normali 2015–2024; 24 gün (Aralık sonu) yılların %80'inden azından",
+     "detail": "Ekim 2026 sonbaharı; hasat yılı 2027"
+    },
+    "2028": {
+     "start": "2027-10-06",
+     "end": "2027-10-20",
+     "status": "ok",
+     "basis": "NASA projeksiyon normali 2015–2024; 24 gün (Aralık sonu) yılların %80'inden azından (gerçek yıl eksik: 2027 Ağustos–Aralık günleri eksik (5 gün))",
+     "detail": "Ekim 2027 sonbaharı; hasat yılı 2028"
+    },
+    "2029": {
+     "start": "2028-10-06",
+     "end": "2028-10-20",
+     "status": "ok",
+     "basis": "NASA projeksiyon normali 2015–2024; 24 gün (Aralık sonu) yılların %80'inden azından",
+     "detail": "Ekim 2028 sonbaharı; hasat yılı 2029"
+    },
+    "2030": {
+     "start": "2029-10-06",
+     "end": "2029-10-20",
+     "status": "ok",
+     "basis": "NASA projeksiyon normali 2015–2024; 24 gün (Aralık sonu) yılların %80'inden azından",
+     "detail": "Ekim 2029 sonbaharı; hasat yılı 2030"
+    },
+    "2031": {
+     "start": "2030-10-06",
+     "end": "2030-10-20",
+     "status": "ok",
+     "basis": "NASA projeksiyon normali 2015–2024; 24 gün (Aralık sonu) yılların %80'inden azından",
+     "detail": "Ekim 2030 sonbaharı; hasat yılı 2031"
+    },
+    "2032": {
+     "start": "2031-10-06",
+     "end": "2031-10-20",
+     "status": "ok",
+     "basis": "NASA projeksiyon normali 2015–2024; 24 gün (Aralık sonu) yılların %80'inden azından",
+     "detail": "Ekim 2031 sonbaharı; hasat yılı 2032"
+    }
+   }
+  }
+ },
+ "calendar": {
+  "Corn": {
+   "type": "spring",
+   "season_days": 110
+  },
+  "Soybeans": {
+   "type": "spring",
+   "season_days": 120
+  },
+  "Sorghum": {
+   "type": "spring",
+   "season_days": 105
+  },
+  "Spring Wheat": {
+   "type": "spring",
+   "season_days": null
+  },
+  "Winter Wheat": {
+   "type": "winter",
+   "season_days": null
+  },
+  "Fallow/Idle Cropland": {
+   "type": "none",
+   "season_days": null
+  },
+  "Peas": {
+   "type": "spring",
+   "season_days": null
+  },
+  "Alfalfa": {
+   "type": "none",
+   "season_days": null
+  },
+  "Other Hay/Non Alfalfa": {
+   "type": "none",
+   "season_days": null
+  }
+ },
+ "p_removal": {
+  "Corn": {
+   "kg_p_per_ha": 31.46,
+   "systems": 27,
+   "min": 8.73,
+   "max": 70.83,
+   "source": "P-FLUX (Williams ve diğ. 2021) sistem ortalamalarının medyanı; P kaldırması verimle değişir"
+  },
+  "Soybeans": {
+   "kg_p_per_ha": 18.825000000000003,
+   "systems": 22,
+   "min": 3.09,
+   "max": 27.0,
+   "source": "P-FLUX (Williams ve diğ. 2021) sistem ortalamalarının medyanı; P kaldırması verimle değişir"
+  },
+  "Sorghum": {
+   "kg_p_per_ha": 16.98,
+   "systems": 1,
+   "min": 16.98,
+   "max": 16.98,
+   "source": "P-FLUX (Williams ve diğ. 2021) sistem ortalamalarının medyanı; P kaldırması verimle değişir"
+  },
+  "Winter Wheat": {
+   "kg_p_per_ha": 12.02,
+   "systems": 16,
+   "min": 1.0,
+   "max": 38.06,
+   "source": "P-FLUX (Williams ve diğ. 2021) sistem ortalamalarının medyanı; P kaldırması verimle değişir"
+  },
+  "Spring Wheat": {
+   "kg_p_per_ha": 30.53,
+   "systems": 3,
+   "min": 12.97,
+   "max": 30.69,
+   "source": "P-FLUX (Williams ve diğ. 2021) sistem ortalamalarının medyanı; P kaldırması verimle değişir"
+  },
+  "Canola": {
+   "kg_p_per_ha": 3.1,
+   "systems": 2,
+   "min": 2.73,
+   "max": 3.47,
+   "source": "P-FLUX (Williams ve diğ. 2021) sistem ortalamalarının medyanı; P kaldırması verimle değişir"
+  },
+  "Alfalfa": {
+   "kg_p_per_ha": 27.03333333333333,
+   "systems": 6,
+   "min": 10.72,
+   "max": 37.160000000000004,
+   "source": "P-FLUX (Williams ve diğ. 2021) sistem ortalamalarının medyanı; P kaldırması verimle değişir"
+  },
+  "Barley": {
+   "kg_p_per_ha": 26.47,
+   "systems": 4,
+   "min": 25.66,
+   "max": 31.22,
+   "source": "P-FLUX (Williams ve diğ. 2021) sistem ortalamalarının medyanı; P kaldırması verimle değişir"
+  }
+ },
+ "params": {
+  "max_consecutive": 2,
+  "min_wheat": 1,
+  "wheat_share": 0.5,
+  "p_price": 3.91,
+  "fallow_cost": 45.5,
+  "acres_per_ha": 2.4710538,
+  "rotation_effects": [
+   {
+    "region": "USOR03",
+    "previous": "Winter Wheat",
+    "crop": "Winter Wheat",
+    "yield_multiplier": 0.618,
+    "source": "Maaz ve diğ. (2017), Frontiers in Environmental Science 5:23, Tablo 4: Pacific Northwest denemelerinde tahıl (buğday dahil) sonrası kışlık buğday verimi = 0,79 × nadas sonrası verim − 695 kg/ha (n = 12). Oregon nadas sonrası verimi 60,2 bu/acre ≈ 4048 kg/ha ile çarpan = 0.618. Denemeler çoğunlukla 350 mm altı yıllardan; Pendleton (≈406 mm) daha yağışlı olduğundan gerçek kayıp daha küçük olabilir. https://doi.org/10.3389/fenvs.2017.00023"
+   },
+   {
+    "region": "USOR03",
+    "previous": "Spring Wheat",
+    "crop": "Winter Wheat",
+    "yield_multiplier": 0.618,
+    "source": "Maaz ve diğ. (2017), Frontiers in Environmental Science 5:23, Tablo 4: Pacific Northwest denemelerinde tahıl (buğday dahil) sonrası kışlık buğday verimi = 0,79 × nadas sonrası verim − 695 kg/ha (n = 12). Oregon nadas sonrası verimi 60,2 bu/acre ≈ 4048 kg/ha ile çarpan = 0.618. Denemeler çoğunlukla 350 mm altı yıllardan; Pendleton (≈406 mm) daha yağışlı olduğundan gerçek kayıp daha küçük olabilir. https://doi.org/10.3389/fenvs.2017.00023"
+   }
+  ]
+ },
+ "cells": [],
+ "corridor": {
+  "source": "pilot_sites_offline",
+  "source_note": "Koridor ızgarası önbellekte yok veya indirilemedi (Bu iklim isteği önbellekte yok. İlk indirme için --online kullanın.). Paketteki iki pilot alanla çalışıldı.",
+  "readiness": {
+   "cells_with_cropland": 2,
+   "distinct_climate_cells": 2,
+   "positive_cells": 2,
+   "negative_cells": 2,
+   "required": {
+    "cells": 12,
+    "positive": 3,
+    "negative": 3
+   },
+   "trained": false,
+   "reasons": [
+    "Farklı iklimli hücre sayısı 2 < 12",
+    "Buğday görülen hücre 2 < 3",
+    "Buğdaysız tarım hücresi 2 < 3"
+   ]
+  },
+  "validation": null,
+  "shift": null
+ },
+ "climate": [
+  {
+   "cell_id": "USOR03",
+   "metric": "Yıllık ort. sıcaklık (°C)",
+   "baseline_2015_2024": "12.88",
+   "future_2040_2049": "13.82",
+   "change": "0.95"
+  },
+  {
+   "cell_id": "USOR03",
+   "metric": "GDD, taban 0°C",
+   "baseline_2015_2024": "4702.77",
+   "future_2040_2049": "5049.24",
+   "change": "346.47"
+  },
+  {
+   "cell_id": "USOR03",
+   "metric": "Haz–Tem ort. Tmax (°C)",
+   "baseline_2015_2024": "29.69",
+   "future_2040_2049": "30.84",
+   "change": "1.15"
+  },
+  {
+   "cell_id": "USOR03",
+   "metric": "Yıllık yağış (mm)",
+   "baseline_2015_2024": "386.29",
+   "future_2040_2049": "413.65",
+   "change": "27.36"
+  },
+  {
+   "cell_id": "USOR03",
+   "metric": "Ekim–Haziran yağışı (mm)",
+   "baseline_2015_2024": "352.66",
+   "future_2040_2049": "377.21",
+   "change": "24.56"
+  },
+  {
+   "cell_id": "USKS01",
+   "metric": "Yıllık ort. sıcaklık (°C)",
+   "baseline_2015_2024": "15.2",
+   "future_2040_2049": "16.3",
+   "change": "1.1"
+  },
+  {
+   "cell_id": "USKS01",
+   "metric": "GDD, taban 0°C",
+   "baseline_2015_2024": "5572.95",
+   "future_2040_2049": "5958.08",
+   "change": "385.13"
+  },
+  {
+   "cell_id": "USKS01",
+   "metric": "Haz–Tem ort. Tmax (°C)",
+   "baseline_2015_2024": "33.16",
+   "future_2040_2049": "34.19",
+   "change": "1.02"
+  },
+  {
+   "cell_id": "USKS01",
+   "metric": "Yıllık yağış (mm)",
+   "baseline_2015_2024": "907.59",
+   "future_2040_2049": "909.98",
+   "change": "2.39"
+  },
+  {
+   "cell_id": "USKS01",
+   "metric": "Ekim–Haziran yağışı (mm)",
+   "baseline_2015_2024": "614.98",
+   "future_2040_2049": "622.33",
+   "change": "7.35"
+  }
+ ],
+ "planting_shift": [
+  {
+   "region": "USKS01",
+   "crop": "Soybeans",
+   "period": "2016–2024",
+   "years_used": "9",
+   "years_from_period_normal": "0",
+   "median_start_doy": "96",
+   "median_end_doy": "197",
+   "season": "ilkbahar"
+  },
+  {
+   "region": "USKS01",
+   "crop": "Soybeans",
+   "period": "2041–2049",
+   "years_used": "9",
+   "years_from_period_normal": "0",
+   "median_start_doy": "97",
+   "median_end_doy": "202",
+   "season": "ilkbahar"
+  },
+  {
+   "region": "USKS01",
+   "crop": "Winter Wheat",
+   "period": "2016–2024",
+   "years_used": "9",
+   "years_from_period_normal": "7",
+   "median_start_doy": "-81",
+   "median_end_doy": "-67",
+   "season": "sonbahar (önceki yıl)"
+  },
+  {
+   "region": "USKS01",
+   "crop": "Winter Wheat",
+   "period": "2041–2049",
+   "years_used": "9",
+   "years_from_period_normal": "8",
+   "median_start_doy": "-77",
+   "median_end_doy": "-63",
+   "season": "sonbahar (önceki yıl)"
+  },
+  {
+   "region": "USKS01",
+   "crop": "Sorghum",
+   "period": "2016–2024",
+   "years_used": "9",
+   "years_from_period_normal": "0",
+   "median_start_doy": "113",
+   "median_end_doy": "212",
+   "season": "ilkbahar"
+  },
+  {
+   "region": "USKS01",
+   "crop": "Sorghum",
+   "period": "2041–2049",
+   "years_used": "9",
+   "years_from_period_normal": "0",
+   "median_start_doy": "111",
+   "median_end_doy": "217",
+   "season": "ilkbahar"
+  },
+  {
+   "region": "USKS01",
+   "crop": "Corn",
+   "period": "2016–2024",
+   "years_used": "9",
+   "years_from_period_normal": "0",
+   "median_start_doy": "87",
+   "median_end_doy": "207",
+   "season": "ilkbahar"
+  },
+  {
+   "region": "USKS01",
+   "crop": "Corn",
+   "period": "2041–2049",
+   "years_used": "9",
+   "years_from_period_normal": "0",
+   "median_start_doy": "81",
+   "median_end_doy": "212",
+   "season": "ilkbahar"
+  },
+  {
+   "region": "USOR03",
+   "crop": "Winter Wheat",
+   "period": "2016–2024",
+   "years_used": "9",
+   "years_from_period_normal": "7",
+   "median_start_doy": "-86",
+   "median_end_doy": "-72",
+   "season": "sonbahar (önceki yıl)"
+  },
+  {
+   "region": "USOR03",
+   "crop": "Winter Wheat",
+   "period": "2041–2049",
+   "years_used": "9",
+   "years_from_period_normal": "8",
+   "median_start_doy": "-81",
+   "median_end_doy": "-67",
+   "season": "sonbahar (önceki yıl)"
+  },
+  {
+   "region": "USOR03",
+   "crop": "Peas",
+   "period": "2016–2024",
+   "years_used": "9",
+   "years_from_period_normal": "0",
+   "median_start_doy": "40",
+   "median_end_doy": "",
+   "season": "ilkbahar"
+  },
+  {
+   "region": "USOR03",
+   "crop": "Peas",
+   "period": "2041–2049",
+   "years_used": "9",
+   "years_from_period_normal": "0",
+   "median_start_doy": "29",
+   "median_end_doy": "",
+   "season": "ilkbahar"
+  },
+  {
+   "region": "USOR03",
+   "crop": "Spring Wheat",
+   "period": "2016–2024",
+   "years_used": "2",
+   "years_from_period_normal": "0",
+   "median_start_doy": "16.5",
+   "median_end_doy": "",
+   "season": "ilkbahar"
+  },
+  {
+   "region": "USOR03",
+   "crop": "Spring Wheat",
+   "period": "2041–2049",
+   "years_used": "0",
+   "years_from_period_normal": "0",
+   "median_start_doy": "",
+   "median_end_doy": "",
+   "season": "ilkbahar"
+  }
+ ],
+ "sources": [
+  {
+   "label": "Ekim eşikleri",
+   "text": "Corn: SDSU Extension: mısır için 3 günlük ortalama toprak sıcaklığı en az 50°F (10°C). https://extension.sdstate.edu/how-early-too-early-plant-row-crops, VARSAYIM: orta erkenci hibrit için 110 gün. Kaynakla doğrulanmadı; yerel çeşide göre değiştirin.; Soybeans: SDSU Extension: soya için düzgün çimlenme 3 günlük ortalama toprak sıcaklığı 55°F (12,8°C) ve üstü. https://extension.sdstate.edu/how-early-too-early-plant-row-crops, VARSAYIM: olgunluk grubu 3–4 için 120 gün. Kaynakla doğrulanmadı; yerel çeşide göre değiştirin.; Sorghum: Oregon State University EM 8794: toprak sıcaklığı 60–65°F (15,6–18,3°C) olunca ekin; alt sınır kullanıldı. https://extension.oregonstate.edu/catalog/pub/em-8794-dryland-cropping-systems-grain-sorghum, Oregon State University EM 8794: orta olgunlukta çeşitler 98–105 günde olgunlaşır; üst sınır kullanıldı.; Spring Wheat: SDSU Extension: yazlık buğday çimlenmesi için 3 günlük ortalama toprak sıcaklığı 34–36°F; 35°F (1,7°C) kullanıldı. https://extension.sdstate.edu/soil-temperature-planting-spring-crops, Kaynak eklenmedi; pencere sonu hesaplanmaz., Arama 10 Ocak'tan başlar (NEX-GDDP Aralık sonu boşlukları 3 günlük ortalamayı engellemesin diye).; Winter Wheat: Virginia Tech SPES-730: 1 Ocak'a kadar yaklaşık 700 GDD (iki kardeş); formül ((Tmax+Tmin)/2) − 32, yani °F tabanlı. 700 °F·gün ≈ 389 °C·gün (taban 0°C). Virginia kuralıdır; Kansas/Oregon için yerel doğrulama gerekir. https://aaec.vt.edu/content/dam/pubs_ext_vt_edu/spes/spes-730/SPES-730.pdf, Top Crop Manager (Ontario): optimum tarihten en fazla 10–14 gün önce ekin; 14 gün kullanıldı. https://www.topcropmanager.com/taking-fall-planting-conditions-in-stride-for-winter-wheat/, NEX-GDDP ensemble yanıtlarında Aralık sonu günleri sistematik olarak eksik. 20–31 Aralık arasında en fazla 3 eksik gün GDD toplamına katılmadan hesap sürer ve bu durum sonuçta yazılır. Eksik günler eklenmediği için en geç ekim tarihi gerçeğe göre en fazla birkaç gün erken çıkabilir.; Peas: NDSU Extension A1166 (Field Pea Production): tarla bezelyesi 40°F (4,4°C) toprak sıcaklığında çimlenir; University of Idaho: Kuzey Idaho ve Doğu Washington'da ekim derinliğinde toprak 40°F olmalı, yazlık buğdayla aynı dönemde ekilir. https://www.ag.ndsu.edu/agriculture/sites/default/files/2021-12/a1166.pdf, Kaynak eklenmedi; pencere sonu hesaplanmaz., Arama 10 Ocak'tan başlar (NEX-GDDP Aralık sonu boşlukları 3 günlük ortalamayı engellemesin diye)."
+  },
+  {
+   "label": "Fosfor gübresi fiyatı",
+   "text": "USDA AMS Illinois Production Cost Report fiyatları, farmdoc daily (Paulson ve diğ., 11 Ağustos 2026): DAP 912,22 $/ton, susuz amonyak 915,50 $/ton (7 Ağustos 2026). Hesap: DAP 18-46-0; P = %46 P2O5 × 0,4364 = 0,2008 kg P/kg DAP. DAP'ın azot değeri (0,18 × amonyakın kg N fiyatı) düşüldükten sonra kalan bedel P'ye bölünür: 3.91 $/kg P. https://farmdocdaily.illinois.edu/2026/08/fertilizer-and-fuel-prices-higher-heading-into-fall-2026.html"
+  },
+  {
+   "label": "Nadas maliyeti",
+   "text": "Oregon State University Enterprise Budget AEB 0045 (2014), Tablo 1: yaz nadası kurma ve bakım işlemleri (rotary mower, chisel plow, culti-weeder, herbisit) değişken nakit gideri 45,50 $/acre. Sabit giderler bu işlemlere dağıtılmamış; 2014 fiyatlarıdır. https://wpcdn.web.wsu.edu/extension/uploads/sites/54/2013/12/EnterpriseBudget_Camelina_Dryland_SpringFallow_OregonExt.pdf"
+  },
+  {
+   "label": "P kaldırması",
+   "text": "P-FLUX (Williams ve diğ. 2021), ürün başına sistem ortalamalarının medyanı. https://doi.org/10.15482/USDA.ADC/1523365"
+  },
+  {
+   "label": "Parseller",
+   "text": "USDA NASS Cropland Data Layer 2018–2023, 30 m (CroplandCROS)."
+  },
+  {
+   "label": "İklim",
+   "text": "NASA POWER, NEX-GDDP-CMIP6 ensemble, SSP2-4.5 günlük projeksiyon."
+  },
+  {
+   "label": "Nadas kuralı",
+   "text": "USDA ARS, Williams (CBARC Pendleton): bölgede rotasyonlar yağış kuşaklarına karşılık gelir — 13 inç altı buğday–nadas, 13–18 inç buğday–yazlık tahıl–nadas, 18 inç üstü yıllık ekim. Pendleton (CBARC) 73 yıllık ortalama ürün yılı yağışı 406 mm (yaklaşık 16 inç; Machado ve diğ. 2007). Bu nedenle en fazla 2 yıl nadassız. https://www.ars.usda.gov/ARSUserFiles/6112/soilLossFromLongtermWinter.pdf ; https://agsci.oregonstate.edu/sites/agscid7/files/cbarc/attachments/still2340.pdf"
+  },
+  {
+   "label": "Not",
+   "text": "Kansas değerleri KFMA eyalet geneli çiftlik kayıtlarıdır; Riley ilçesine özgü değildir."
+  },
+  {
+   "label": "Not",
+   "text": "KFMA ve OSU giderleri çiftliğin fiilen satın aldığı gübreyi içerir. Kâr hesabı buna ek olarak kaldırılan P'nin tamamının yerine konma maliyetini düşer; bu nedenle kâr ihtiyatlıdır (P kısmen çift sayılabilir)."
+  },
+  {
+   "label": "Not",
+   "text": "Oregon'da bezelye ve yazlık buğday için güncel resmî veri bulunamadı; bu ürünleri içeren planlar hesaplanmaz."
+  },
+  {
+   "label": "Not",
+   "text": "Kâr, fırsat maliyeti dahil ekonomik kârdır (yönetime net getiri); nakit kâr değildir."
+  }
+ ],
+ "limitations": [
+  "Mevcut rotasyon, 2018–2023 CDL dizisinin döngüsel devamı olarak varsayılır.",
+  "Bölge içindeki parseller aynı ilçe verimi, fiyatı ve maliyetini paylaşır; parsel farkı yalnız geçmiş ürün sırasından gelir.",
+  "Rotasyonun verime etkisi yalnız kaynaklı rotation_effects satırlarıyla hesaba girer; şu an Oregon'da buğdaydan sonra buğday (Maaz ve diğ. 2017) tanımlıdır.",
+  "Ekim pencereleri hava sıcaklığını toprak sıcaklığına vekil alır ve NEX-GDDP ensemble ortalamasına dayanır.",
+  "Bu araç karar desteğidir; çiftçinin ve yerel uzmanın yargısının yerine geçmez."
+ ]
+}

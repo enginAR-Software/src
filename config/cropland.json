@@ -1,0 +1,6 @@
+{
+  "sites": ["USOR03", "USKS01"],
+  "years": [2018, 2023],
+  "grid_side": 5,
+  "step_degrees": 0.01
+}

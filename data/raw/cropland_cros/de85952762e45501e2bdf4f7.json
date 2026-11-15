@@ -1,0 +1,1 @@
+{"objectIdFieldName":"OBJECTID","fields":[{"name":"OBJECTID","type":"esriFieldTypeOID","alias":"OBJECTID","domain":null},{"name":"Name","type":"esriFieldTypeString","alias":"Name","domain":null,"length":200},{"name":"Year","type":"esriFieldTypeInteger","alias":"Year","domain":null}],"features":[{"attributes":{"OBJECTID":38,"Name":"2023_30m_cdls","Year":2023}}]}

@@ -1,0 +1,109 @@
+pilot,siteid,label,treatment_a,treatment_b,indicator,unit,method,mean_a,mean_b,n_a,n_b,difference_b_minus_a,difference_unit,status
+oregon,101,Çizel → no-till,438,439,b_soc,%,Total Carbon - Inorganic Carbon with Dry Combustion,1.5871627055,1.72560884525,4,4,0.13844613975000009,percentage_points,descriptive_only
+oregon,101,Çizel → no-till,438,439,b_total_n,%,Dry Combustion,0.11500170100000001,0.13276007775,4,4,0.01775837675,percentage_points,descriptive_only
+oregon,101,Çizel → no-till,438,439,b_ph,unitless,1:2 water,4.9025,4.655,4,4,-0.2474999999999996,unitless,descriptive_only
+oregon,101,Çizel → no-till,438,439,b_p_m3,mg/kg,Mehlich 3 extract,54.53725,63.284625,4,4,8.747374999999998,mg/kg,descriptive_only
+oregon,101,Çizel → no-till,438,439,b_p_olsen,mg/kg,Olsen extract,,,0,0,,mg/kg,missing_measurement
+oregon,101,Çizel → no-till,438,439,b_k_m3,mg/kg,Mehlich 3 extract,742.2765,749.7347500000001,4,4,7.458250000000021,mg/kg,descriptive_only
+oregon,101,Çizel → no-till,438,439,b_k_amac,mg/kg,Ammonium acetate extract,,,0,0,,mg/kg,missing_measurement
+oregon,101,Çizel → no-till,438,439,b_pmn_am_mgkg,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,35.9726453488372,34.578197674418604,4,4,-1.3944476744185934,mg/kg,descriptive_only
+oregon,101,Çizel → no-till,438,439,d_h3a_no3,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,3.0250000000000004,8.675,4,4,5.65,mg N/kg,descriptive_only
+oregon,101,Çizel → pulluk,438,440,b_soc,%,Total Carbon - Inorganic Carbon with Dry Combustion,1.5871627055,1.473639561,4,4,-0.1135231445,percentage_points,descriptive_only
+oregon,101,Çizel → pulluk,438,440,b_total_n,%,Dry Combustion,0.11500170100000001,0.10939326525,4,4,-0.005608435750000015,percentage_points,descriptive_only
+oregon,101,Çizel → pulluk,438,440,b_ph,unitless,1:2 water,4.9025,5.0425,4,4,0.14000000000000057,unitless,descriptive_only
+oregon,101,Çizel → pulluk,438,440,b_p_m3,mg/kg,Mehlich 3 extract,54.53725,49.598524999999995,4,4,-4.938725000000005,mg/kg,descriptive_only
+oregon,101,Çizel → pulluk,438,440,b_p_olsen,mg/kg,Olsen extract,,,0,0,,mg/kg,missing_measurement
+oregon,101,Çizel → pulluk,438,440,b_k_m3,mg/kg,Mehlich 3 extract,742.2765,668.86675,4,4,-73.40975000000003,mg/kg,descriptive_only
+oregon,101,Çizel → pulluk,438,440,b_k_amac,mg/kg,Ammonium acetate extract,,,0,0,,mg/kg,missing_measurement
+oregon,101,Çizel → pulluk,438,440,b_pmn_am_mgkg,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,35.9726453488372,28.472645348837197,4,4,-7.5,mg/kg,descriptive_only
+oregon,101,Çizel → pulluk,438,440,d_h3a_no3,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,3.0250000000000004,4.35,4,4,1.3249999999999993,mg N/kg,descriptive_only
+oregon,101,Pulluk → no-till,440,439,b_soc,%,Total Carbon - Inorganic Carbon with Dry Combustion,1.473639561,1.72560884525,4,4,0.2519692842500001,percentage_points,descriptive_only
+oregon,101,Pulluk → no-till,440,439,b_total_n,%,Dry Combustion,0.10939326525,0.13276007775,4,4,0.023366812500000014,percentage_points,descriptive_only
+oregon,101,Pulluk → no-till,440,439,b_ph,unitless,1:2 water,5.0425,4.655,4,4,-0.3875000000000002,unitless,descriptive_only
+oregon,101,Pulluk → no-till,440,439,b_p_m3,mg/kg,Mehlich 3 extract,49.598524999999995,63.284625,4,4,13.686100000000003,mg/kg,descriptive_only
+oregon,101,Pulluk → no-till,440,439,b_p_olsen,mg/kg,Olsen extract,,,0,0,,mg/kg,missing_measurement
+oregon,101,Pulluk → no-till,440,439,b_k_m3,mg/kg,Mehlich 3 extract,668.86675,749.7347500000001,4,4,80.86800000000005,mg/kg,descriptive_only
+oregon,101,Pulluk → no-till,440,439,b_k_amac,mg/kg,Ammonium acetate extract,,,0,0,,mg/kg,missing_measurement
+oregon,101,Pulluk → no-till,440,439,b_pmn_am_mgkg,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,28.472645348837197,34.578197674418604,4,4,6.105552325581407,mg/kg,descriptive_only
+oregon,101,Pulluk → no-till,440,439,d_h3a_no3,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,4.35,8.675,4,4,4.325000000000001,mg N/kg,descriptive_only
+kansas,60,Nadas: 0 → 120 lb N/acre etiketli uygulama,259,260,b_soc,%,Total Carbon - Inorganic Carbon with Dry Combustion,1.49388787125,1.4152606325,4,4,-0.07862723875000022,percentage_points,descriptive_only
+kansas,60,Nadas: 0 → 120 lb N/acre etiketli uygulama,259,260,b_total_n,%,Dry Combustion,0.13935708975,0.136062525,4,4,-0.0032945647500000064,percentage_points,descriptive_only
+kansas,60,Nadas: 0 → 120 lb N/acre etiketli uygulama,259,260,b_ph,unitless,1:2 water,5.140000000000001,5.145,4,4,0.004999999999999005,unitless,descriptive_only
+kansas,60,Nadas: 0 → 120 lb N/acre etiketli uygulama,259,260,b_p_m3,mg/kg,Mehlich 3 extract,16.274,16.406175,4,4,0.13217500000000015,mg/kg,descriptive_only
+kansas,60,Nadas: 0 → 120 lb N/acre etiketli uygulama,259,260,b_p_olsen,mg/kg,Olsen extract,,,0,0,,mg/kg,missing_measurement
+kansas,60,Nadas: 0 → 120 lb N/acre etiketli uygulama,259,260,b_k_m3,mg/kg,Mehlich 3 extract,248.1295,231.727,4,4,-16.402500000000003,mg/kg,descriptive_only
+kansas,60,Nadas: 0 → 120 lb N/acre etiketli uygulama,259,260,b_k_amac,mg/kg,Ammonium acetate extract,,,0,0,,mg/kg,missing_measurement
+kansas,60,Nadas: 0 → 120 lb N/acre etiketli uygulama,259,260,b_pmn_am_mgkg,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,48.7875,37.9625,4,4,-10.825000000000003,mg/kg,descriptive_only
+kansas,60,Nadas: 0 → 120 lb N/acre etiketli uygulama,259,260,d_h3a_no3,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,2.8,2.625,4,4,-0.17499999999999982,mg N/kg,descriptive_only
+kansas,60,İkinci ürün soya: 0 → 120 lb N/acre etiketli uygulama,261,262,b_soc,%,Total Carbon - Inorganic Carbon with Dry Combustion,1.5643470095,1.60387358825,4,4,0.039526578749999874,percentage_points,descriptive_only
+kansas,60,İkinci ürün soya: 0 → 120 lb N/acre etiketli uygulama,261,262,b_total_n,%,Dry Combustion,0.147966202,0.151394397,4,4,0.0034281950000000228,percentage_points,descriptive_only
+kansas,60,İkinci ürün soya: 0 → 120 lb N/acre etiketli uygulama,261,262,b_ph,unitless,1:2 water,5.2075,5.255,4,4,0.04750000000000032,unitless,descriptive_only
+kansas,60,İkinci ürün soya: 0 → 120 lb N/acre etiketli uygulama,261,262,b_p_m3,mg/kg,Mehlich 3 extract,13.897749999999998,14.68435,4,4,0.7866000000000017,mg/kg,descriptive_only
+kansas,60,İkinci ürün soya: 0 → 120 lb N/acre etiketli uygulama,261,262,b_p_olsen,mg/kg,Olsen extract,,,0,0,,mg/kg,missing_measurement
+kansas,60,İkinci ürün soya: 0 → 120 lb N/acre etiketli uygulama,261,262,b_k_m3,mg/kg,Mehlich 3 extract,230.82125000000002,260.5035,4,4,29.682249999999954,mg/kg,descriptive_only
+kansas,60,İkinci ürün soya: 0 → 120 lb N/acre etiketli uygulama,261,262,b_k_amac,mg/kg,Ammonium acetate extract,,,0,0,,mg/kg,missing_measurement
+kansas,60,İkinci ürün soya: 0 → 120 lb N/acre etiketli uygulama,261,262,b_pmn_am_mgkg,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,54.325,53.375,4,4,-0.9500000000000028,mg/kg,descriptive_only
+kansas,60,İkinci ürün soya: 0 → 120 lb N/acre etiketli uygulama,261,262,d_h3a_no3,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,4.3999999999999995,4.15,4,4,-0.2499999999999991,mg N/kg,descriptive_only
+kansas,60,Örtü bitkisi: 0 → 120 lb N/acre etiketli uygulama,263,264,b_soc,%,Total Carbon - Inorganic Carbon with Dry Combustion,1.6196557547500001,1.6598316665,4,4,0.04017591174999979,percentage_points,descriptive_only
+kansas,60,Örtü bitkisi: 0 → 120 lb N/acre etiketli uygulama,263,264,b_total_n,%,Dry Combustion,0.15439218700000001,0.15850994625,4,4,0.0041177592499999915,percentage_points,descriptive_only
+kansas,60,Örtü bitkisi: 0 → 120 lb N/acre etiketli uygulama,263,264,b_ph,unitless,1:2 water,5.4925,5.27,4,4,-0.22250000000000014,unitless,descriptive_only
+kansas,60,Örtü bitkisi: 0 → 120 lb N/acre etiketli uygulama,263,264,b_p_m3,mg/kg,Mehlich 3 extract,21.196875,17.35605,4,4,-3.840824999999999,mg/kg,descriptive_only
+kansas,60,Örtü bitkisi: 0 → 120 lb N/acre etiketli uygulama,263,264,b_p_olsen,mg/kg,Olsen extract,,,0,0,,mg/kg,missing_measurement
+kansas,60,Örtü bitkisi: 0 → 120 lb N/acre etiketli uygulama,263,264,b_k_m3,mg/kg,Mehlich 3 extract,326.9785,355.4215,4,4,28.442999999999984,mg/kg,descriptive_only
+kansas,60,Örtü bitkisi: 0 → 120 lb N/acre etiketli uygulama,263,264,b_k_amac,mg/kg,Ammonium acetate extract,,,0,0,,mg/kg,missing_measurement
+kansas,60,Örtü bitkisi: 0 → 120 lb N/acre etiketli uygulama,263,264,b_pmn_am_mgkg,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,58.087500000000006,58.15,4,4,0.062499999999992895,mg/kg,descriptive_only
+kansas,60,Örtü bitkisi: 0 → 120 lb N/acre etiketli uygulama,263,264,d_h3a_no3,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,3.3499999999999996,3.675,4,4,0.3250000000000002,mg N/kg,descriptive_only
+kansas,60,0 N: nadas → ikinci ürün soya,259,261,b_soc,%,Total Carbon - Inorganic Carbon with Dry Combustion,1.49388787125,1.5643470095,4,4,0.07045913824999994,percentage_points,descriptive_only
+kansas,60,0 N: nadas → ikinci ürün soya,259,261,b_total_n,%,Dry Combustion,0.13935708975,0.147966202,4,4,0.008609112249999995,percentage_points,descriptive_only
+kansas,60,0 N: nadas → ikinci ürün soya,259,261,b_ph,unitless,1:2 water,5.140000000000001,5.2075,4,4,0.067499999999999,unitless,descriptive_only
+kansas,60,0 N: nadas → ikinci ürün soya,259,261,b_p_m3,mg/kg,Mehlich 3 extract,16.274,13.897749999999998,4,4,-2.3762500000000024,mg/kg,descriptive_only
+kansas,60,0 N: nadas → ikinci ürün soya,259,261,b_p_olsen,mg/kg,Olsen extract,,,0,0,,mg/kg,missing_measurement
+kansas,60,0 N: nadas → ikinci ürün soya,259,261,b_k_m3,mg/kg,Mehlich 3 extract,248.1295,230.82125000000002,4,4,-17.308249999999987,mg/kg,descriptive_only
+kansas,60,0 N: nadas → ikinci ürün soya,259,261,b_k_amac,mg/kg,Ammonium acetate extract,,,0,0,,mg/kg,missing_measurement
+kansas,60,0 N: nadas → ikinci ürün soya,259,261,b_pmn_am_mgkg,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,48.7875,54.325,4,4,5.537500000000001,mg/kg,descriptive_only
+kansas,60,0 N: nadas → ikinci ürün soya,259,261,d_h3a_no3,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,2.8,4.3999999999999995,4,4,1.5999999999999996,mg N/kg,descriptive_only
+kansas,60,0 N: nadas → örtü bitkisi,259,263,b_soc,%,Total Carbon - Inorganic Carbon with Dry Combustion,1.49388787125,1.6196557547500001,4,4,0.1257678835,percentage_points,descriptive_only
+kansas,60,0 N: nadas → örtü bitkisi,259,263,b_total_n,%,Dry Combustion,0.13935708975,0.15439218700000001,4,4,0.015035097250000018,percentage_points,descriptive_only
+kansas,60,0 N: nadas → örtü bitkisi,259,263,b_ph,unitless,1:2 water,5.140000000000001,5.4925,4,4,0.35249999999999915,unitless,descriptive_only
+kansas,60,0 N: nadas → örtü bitkisi,259,263,b_p_m3,mg/kg,Mehlich 3 extract,16.274,21.196875,4,4,4.922874999999998,mg/kg,descriptive_only
+kansas,60,0 N: nadas → örtü bitkisi,259,263,b_p_olsen,mg/kg,Olsen extract,,,0,0,,mg/kg,missing_measurement
+kansas,60,0 N: nadas → örtü bitkisi,259,263,b_k_m3,mg/kg,Mehlich 3 extract,248.1295,326.9785,4,4,78.84899999999999,mg/kg,descriptive_only
+kansas,60,0 N: nadas → örtü bitkisi,259,263,b_k_amac,mg/kg,Ammonium acetate extract,,,0,0,,mg/kg,missing_measurement
+kansas,60,0 N: nadas → örtü bitkisi,259,263,b_pmn_am_mgkg,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,48.7875,58.087500000000006,4,4,9.300000000000004,mg/kg,descriptive_only
+kansas,60,0 N: nadas → örtü bitkisi,259,263,d_h3a_no3,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,2.8,3.3499999999999996,4,4,0.5499999999999998,mg N/kg,descriptive_only
+kansas,60,0 N: ikinci ürün soya → örtü bitkisi,261,263,b_soc,%,Total Carbon - Inorganic Carbon with Dry Combustion,1.5643470095,1.6196557547500001,4,4,0.05530874525000007,percentage_points,descriptive_only
+kansas,60,0 N: ikinci ürün soya → örtü bitkisi,261,263,b_total_n,%,Dry Combustion,0.147966202,0.15439218700000001,4,4,0.006425985000000023,percentage_points,descriptive_only
+kansas,60,0 N: ikinci ürün soya → örtü bitkisi,261,263,b_ph,unitless,1:2 water,5.2075,5.4925,4,4,0.28500000000000014,unitless,descriptive_only
+kansas,60,0 N: ikinci ürün soya → örtü bitkisi,261,263,b_p_m3,mg/kg,Mehlich 3 extract,13.897749999999998,21.196875,4,4,7.299125,mg/kg,descriptive_only
+kansas,60,0 N: ikinci ürün soya → örtü bitkisi,261,263,b_p_olsen,mg/kg,Olsen extract,,,0,0,,mg/kg,missing_measurement
+kansas,60,0 N: ikinci ürün soya → örtü bitkisi,261,263,b_k_m3,mg/kg,Mehlich 3 extract,230.82125000000002,326.9785,4,4,96.15724999999998,mg/kg,descriptive_only
+kansas,60,0 N: ikinci ürün soya → örtü bitkisi,261,263,b_k_amac,mg/kg,Ammonium acetate extract,,,0,0,,mg/kg,missing_measurement
+kansas,60,0 N: ikinci ürün soya → örtü bitkisi,261,263,b_pmn_am_mgkg,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,54.325,58.087500000000006,4,4,3.762500000000003,mg/kg,descriptive_only
+kansas,60,0 N: ikinci ürün soya → örtü bitkisi,261,263,d_h3a_no3,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,4.3999999999999995,3.3499999999999996,4,4,-1.0499999999999998,mg N/kg,descriptive_only
+kansas,60,120 lb N/acre etiketi: nadas → ikinci ürün soya,260,262,b_soc,%,Total Carbon - Inorganic Carbon with Dry Combustion,1.4152606325,1.60387358825,4,4,0.18861295575000003,percentage_points,descriptive_only
+kansas,60,120 lb N/acre etiketi: nadas → ikinci ürün soya,260,262,b_total_n,%,Dry Combustion,0.136062525,0.151394397,4,4,0.015331872000000024,percentage_points,descriptive_only
+kansas,60,120 lb N/acre etiketi: nadas → ikinci ürün soya,260,262,b_ph,unitless,1:2 water,5.145,5.255,4,4,0.11000000000000032,unitless,descriptive_only
+kansas,60,120 lb N/acre etiketi: nadas → ikinci ürün soya,260,262,b_p_m3,mg/kg,Mehlich 3 extract,16.406175,14.68435,4,4,-1.7218250000000008,mg/kg,descriptive_only
+kansas,60,120 lb N/acre etiketi: nadas → ikinci ürün soya,260,262,b_p_olsen,mg/kg,Olsen extract,,,0,0,,mg/kg,missing_measurement
+kansas,60,120 lb N/acre etiketi: nadas → ikinci ürün soya,260,262,b_k_m3,mg/kg,Mehlich 3 extract,231.727,260.5035,4,4,28.77649999999997,mg/kg,descriptive_only
+kansas,60,120 lb N/acre etiketi: nadas → ikinci ürün soya,260,262,b_k_amac,mg/kg,Ammonium acetate extract,,,0,0,,mg/kg,missing_measurement
+kansas,60,120 lb N/acre etiketi: nadas → ikinci ürün soya,260,262,b_pmn_am_mgkg,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,37.9625,53.375,4,4,15.412500000000001,mg/kg,descriptive_only
+kansas,60,120 lb N/acre etiketi: nadas → ikinci ürün soya,260,262,d_h3a_no3,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,2.625,4.15,4,4,1.5250000000000004,mg N/kg,descriptive_only
+kansas,60,120 lb N/acre etiketi: nadas → örtü bitkisi,260,264,b_soc,%,Total Carbon - Inorganic Carbon with Dry Combustion,1.4152606325,1.6598316665,4,4,0.24457103400000002,percentage_points,descriptive_only
+kansas,60,120 lb N/acre etiketi: nadas → örtü bitkisi,260,264,b_total_n,%,Dry Combustion,0.136062525,0.15850994625,4,4,0.022447421250000016,percentage_points,descriptive_only
+kansas,60,120 lb N/acre etiketi: nadas → örtü bitkisi,260,264,b_ph,unitless,1:2 water,5.145,5.27,4,4,0.125,unitless,descriptive_only
+kansas,60,120 lb N/acre etiketi: nadas → örtü bitkisi,260,264,b_p_m3,mg/kg,Mehlich 3 extract,16.406175,17.35605,4,4,0.9498749999999987,mg/kg,descriptive_only
+kansas,60,120 lb N/acre etiketi: nadas → örtü bitkisi,260,264,b_p_olsen,mg/kg,Olsen extract,,,0,0,,mg/kg,missing_measurement
+kansas,60,120 lb N/acre etiketi: nadas → örtü bitkisi,260,264,b_k_m3,mg/kg,Mehlich 3 extract,231.727,355.4215,4,4,123.69449999999998,mg/kg,descriptive_only
+kansas,60,120 lb N/acre etiketi: nadas → örtü bitkisi,260,264,b_k_amac,mg/kg,Ammonium acetate extract,,,0,0,,mg/kg,missing_measurement
+kansas,60,120 lb N/acre etiketi: nadas → örtü bitkisi,260,264,b_pmn_am_mgkg,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,37.9625,58.15,4,4,20.1875,mg/kg,descriptive_only
+kansas,60,120 lb N/acre etiketi: nadas → örtü bitkisi,260,264,d_h3a_no3,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,2.625,3.675,4,4,1.0499999999999998,mg N/kg,descriptive_only
+kansas,60,120 lb N/acre etiketi: ikinci ürün soya → örtü bitkisi,262,264,b_soc,%,Total Carbon - Inorganic Carbon with Dry Combustion,1.60387358825,1.6598316665,4,4,0.05595807824999999,percentage_points,descriptive_only
+kansas,60,120 lb N/acre etiketi: ikinci ürün soya → örtü bitkisi,262,264,b_total_n,%,Dry Combustion,0.151394397,0.15850994625,4,4,0.007115549249999992,percentage_points,descriptive_only
+kansas,60,120 lb N/acre etiketi: ikinci ürün soya → örtü bitkisi,262,264,b_ph,unitless,1:2 water,5.255,5.27,4,4,0.01499999999999968,unitless,descriptive_only
+kansas,60,120 lb N/acre etiketi: ikinci ürün soya → örtü bitkisi,262,264,b_p_m3,mg/kg,Mehlich 3 extract,14.68435,17.35605,4,4,2.6716999999999995,mg/kg,descriptive_only
+kansas,60,120 lb N/acre etiketi: ikinci ürün soya → örtü bitkisi,262,264,b_p_olsen,mg/kg,Olsen extract,,,0,0,,mg/kg,missing_measurement
+kansas,60,120 lb N/acre etiketi: ikinci ürün soya → örtü bitkisi,262,264,b_k_m3,mg/kg,Mehlich 3 extract,260.5035,355.4215,4,4,94.918,mg/kg,descriptive_only
+kansas,60,120 lb N/acre etiketi: ikinci ürün soya → örtü bitkisi,262,264,b_k_amac,mg/kg,Ammonium acetate extract,,,0,0,,mg/kg,missing_measurement
+kansas,60,120 lb N/acre etiketi: ikinci ürün soya → örtü bitkisi,262,264,b_pmn_am_mgkg,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,53.375,58.15,4,4,4.774999999999999,mg/kg,descriptive_only
+kansas,60,120 lb N/acre etiketi: ikinci ürün soya → örtü bitkisi,262,264,d_h3a_no3,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,4.15,3.675,4,4,-0.47500000000000053,mg N/kg,descriptive_only

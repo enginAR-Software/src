@@ -1,0 +1,79 @@
+region,crop,plan_year,status,start,end,basis,detail
+USKS01,Alfalfa,2027,no_planting,,,,Perennial forage; not planted every year.
+USKS01,Corn,2027,ok,2027-03-23,2027-07-27,NASA projection 2027,Sonbahar kesimi 2027-11-14
+USKS01,Dbl Crop WinWht/Soybeans,2027,no_rule,,,,No planting rule configured for this crop
+USKS01,Sorghum,2027,ok,2027-04-14,2027-08-01,NASA projection 2027,Sonbahar kesimi 2027-11-14
+USKS01,Soybeans,2027,ok,2027-04-06,2027-07-17,NASA projection 2027,Sonbahar kesimi 2027-11-14
+USKS01,Winter Wheat,2027,ok,2026-10-11,2026-10-25,NASA projection normal 2015–2024; 24 days (late December) from fewer than 80% of years,Sown in autumn 2026; harvest year 2027
+USKS01,Alfalfa,2028,no_planting,,,,Perennial forage; not planted every year.
+USKS01,Corn,2028,ok,2028-03-24,2028-07-26,NASA projection normal 2015–2024,Sonbahar kesimi 2028-11-13
+USKS01,Dbl Crop WinWht/Soybeans,2028,no_rule,,,,No planting rule configured for this crop
+USKS01,Sorghum,2028,ok,2028-04-22,2028-07-31,NASA projection normal 2015–2024,Sonbahar kesimi 2028-11-13
+USKS01,Soybeans,2028,ok,2028-04-06,2028-07-16,NASA projection normal 2015–2024,Sonbahar kesimi 2028-11-13
+USKS01,Winter Wheat,2028,ok,2027-10-11,2027-10-25,NASA projection normal 2015–2024; 24 days (late December) from fewer than 80% of years (actual year incomplete: 2027 August–December days missing (5 days)),Sown in autumn 2027; harvest year 2028
+USKS01,Alfalfa,2029,no_planting,,,,Perennial forage; not planted every year.
+USKS01,Corn,2029,ok,2029-03-24,2029-07-26,NASA projection normal 2015–2024,Sonbahar kesimi 2029-11-13
+USKS01,Dbl Crop WinWht/Soybeans,2029,no_rule,,,,No planting rule configured for this crop
+USKS01,Sorghum,2029,ok,2029-04-22,2029-07-31,NASA projection normal 2015–2024,Sonbahar kesimi 2029-11-13
+USKS01,Soybeans,2029,ok,2029-04-06,2029-07-16,NASA projection normal 2015–2024,Sonbahar kesimi 2029-11-13
+USKS01,Winter Wheat,2029,ok,2028-10-11,2028-10-25,NASA projection normal 2015–2024; 24 days (late December) from fewer than 80% of years,Sown in autumn 2028; harvest year 2029
+USKS01,Alfalfa,2030,no_planting,,,,Perennial forage; not planted every year.
+USKS01,Corn,2030,ok,2030-03-24,2030-07-26,NASA projection normal 2015–2024,Sonbahar kesimi 2030-11-13
+USKS01,Dbl Crop WinWht/Soybeans,2030,no_rule,,,,No planting rule configured for this crop
+USKS01,Sorghum,2030,ok,2030-04-22,2030-07-31,NASA projection normal 2015–2024,Sonbahar kesimi 2030-11-13
+USKS01,Soybeans,2030,ok,2030-04-06,2030-07-16,NASA projection normal 2015–2024,Sonbahar kesimi 2030-11-13
+USKS01,Winter Wheat,2030,ok,2029-10-11,2029-10-25,NASA projection normal 2015–2024; 24 days (late December) from fewer than 80% of years,Sown in autumn 2029; harvest year 2030
+USKS01,Alfalfa,2031,no_planting,,,,Perennial forage; not planted every year.
+USKS01,Corn,2031,ok,2031-03-24,2031-07-26,NASA projection normal 2015–2024,Sonbahar kesimi 2031-11-13
+USKS01,Dbl Crop WinWht/Soybeans,2031,no_rule,,,,No planting rule configured for this crop
+USKS01,Sorghum,2031,ok,2031-04-22,2031-07-31,NASA projection normal 2015–2024,Sonbahar kesimi 2031-11-13
+USKS01,Soybeans,2031,ok,2031-04-06,2031-07-16,NASA projection normal 2015–2024,Sonbahar kesimi 2031-11-13
+USKS01,Winter Wheat,2031,ok,2030-10-11,2030-10-25,NASA projection normal 2015–2024; 24 days (late December) from fewer than 80% of years,Sown in autumn 2030; harvest year 2031
+USKS01,Alfalfa,2032,no_planting,,,,Perennial forage; not planted every year.
+USKS01,Corn,2032,ok,2032-03-24,2032-07-26,NASA projection normal 2015–2024,Sonbahar kesimi 2032-11-13
+USKS01,Dbl Crop WinWht/Soybeans,2032,no_rule,,,,No planting rule configured for this crop
+USKS01,Sorghum,2032,ok,2032-04-22,2032-07-31,NASA projection normal 2015–2024,Sonbahar kesimi 2032-11-13
+USKS01,Soybeans,2032,ok,2032-04-06,2032-07-16,NASA projection normal 2015–2024,Sonbahar kesimi 2032-11-13
+USKS01,Winter Wheat,2032,ok,2031-10-11,2031-10-25,NASA projection normal 2015–2024; 24 days (late December) from fewer than 80% of years,Sown in autumn 2031; harvest year 2032
+USOR03,Alfalfa,2027,no_planting,,,,Perennial forage; not planted every year.
+USOR03,Fallow/Idle Cropland,2027,no_planting,,,,No planting in a fallow year.
+USOR03,Other Hay/Non Alfalfa,2027,no_planting,,,,Perennial forage; not planted every year.
+USOR03,Peas,2027,low_confidence,2027-01-26,,NASA projection 2027,The temperature threshold is crossed in mid-winter; here planting time is set by soil workability and frost risk. Check with the local calendar.
+USOR03,Spring Wheat,2027,low_confidence,2027-01-21,,NASA projection 2027,The temperature threshold is crossed in mid-winter; here planting time is set by soil workability and frost risk. Check with the local calendar.
+USOR03,Triticale,2027,no_rule,,,,No planting rule configured for this crop
+USOR03,Winter Wheat,2027,ok,2026-10-06,2026-10-20,NASA projection normal 2015–2024; 24 days (late December) from fewer than 80% of years,Sown in autumn 2026; harvest year 2027
+USOR03,Alfalfa,2028,no_planting,,,,Perennial forage; not planted every year.
+USOR03,Fallow/Idle Cropland,2028,no_planting,,,,No planting in a fallow year.
+USOR03,Other Hay/Non Alfalfa,2028,no_planting,,,,Perennial forage; not planted every year.
+USOR03,Peas,2028,low_confidence,2028-02-07,,NASA projection normal 2015–2024,The temperature threshold is crossed in mid-winter; here planting time is set by soil workability and frost risk. Check with the local calendar.
+USOR03,Spring Wheat,2028,no_window,,,NASA projection normal 2015–2024,Threshold already exceeded at the search start (2028-01-10); search_from should be earlier
+USOR03,Triticale,2028,no_rule,,,,No planting rule configured for this crop
+USOR03,Winter Wheat,2028,ok,2027-10-06,2027-10-20,NASA projection normal 2015–2024; 24 days (late December) from fewer than 80% of years (actual year incomplete: 2027 August–December days missing (5 days)),Sown in autumn 2027; harvest year 2028
+USOR03,Alfalfa,2029,no_planting,,,,Perennial forage; not planted every year.
+USOR03,Fallow/Idle Cropland,2029,no_planting,,,,No planting in a fallow year.
+USOR03,Other Hay/Non Alfalfa,2029,no_planting,,,,Perennial forage; not planted every year.
+USOR03,Peas,2029,low_confidence,2029-02-07,,NASA projection normal 2015–2024,The temperature threshold is crossed in mid-winter; here planting time is set by soil workability and frost risk. Check with the local calendar.
+USOR03,Spring Wheat,2029,no_window,,,NASA projection normal 2015–2024,Threshold already exceeded at the search start (2029-01-10); search_from should be earlier
+USOR03,Triticale,2029,no_rule,,,,No planting rule configured for this crop
+USOR03,Winter Wheat,2029,ok,2028-10-06,2028-10-20,NASA projection normal 2015–2024; 24 days (late December) from fewer than 80% of years,Sown in autumn 2028; harvest year 2029
+USOR03,Alfalfa,2030,no_planting,,,,Perennial forage; not planted every year.
+USOR03,Fallow/Idle Cropland,2030,no_planting,,,,No planting in a fallow year.
+USOR03,Other Hay/Non Alfalfa,2030,no_planting,,,,Perennial forage; not planted every year.
+USOR03,Peas,2030,low_confidence,2030-02-07,,NASA projection normal 2015–2024,The temperature threshold is crossed in mid-winter; here planting time is set by soil workability and frost risk. Check with the local calendar.
+USOR03,Spring Wheat,2030,no_window,,,NASA projection normal 2015–2024,Threshold already exceeded at the search start (2030-01-10); search_from should be earlier
+USOR03,Triticale,2030,no_rule,,,,No planting rule configured for this crop
+USOR03,Winter Wheat,2030,ok,2029-10-06,2029-10-20,NASA projection normal 2015–2024; 24 days (late December) from fewer than 80% of years,Sown in autumn 2029; harvest year 2030
+USOR03,Alfalfa,2031,no_planting,,,,Perennial forage; not planted every year.
+USOR03,Fallow/Idle Cropland,2031,no_planting,,,,No planting in a fallow year.
+USOR03,Other Hay/Non Alfalfa,2031,no_planting,,,,Perennial forage; not planted every year.
+USOR03,Peas,2031,low_confidence,2031-02-07,,NASA projection normal 2015–2024,The temperature threshold is crossed in mid-winter; here planting time is set by soil workability and frost risk. Check with the local calendar.
+USOR03,Spring Wheat,2031,no_window,,,NASA projection normal 2015–2024,Threshold already exceeded at the search start (2031-01-10); search_from should be earlier
+USOR03,Triticale,2031,no_rule,,,,No planting rule configured for this crop
+USOR03,Winter Wheat,2031,ok,2030-10-06,2030-10-20,NASA projection normal 2015–2024; 24 days (late December) from fewer than 80% of years,Sown in autumn 2030; harvest year 2031
+USOR03,Alfalfa,2032,no_planting,,,,Perennial forage; not planted every year.
+USOR03,Fallow/Idle Cropland,2032,no_planting,,,,No planting in a fallow year.
+USOR03,Other Hay/Non Alfalfa,2032,no_planting,,,,Perennial forage; not planted every year.
+USOR03,Peas,2032,low_confidence,2032-02-07,,NASA projection normal 2015–2024,The temperature threshold is crossed in mid-winter; here planting time is set by soil workability and frost risk. Check with the local calendar.
+USOR03,Spring Wheat,2032,no_window,,,NASA projection normal 2015–2024,Threshold already exceeded at the search start (2032-01-10); search_from should be earlier
+USOR03,Triticale,2032,no_rule,,,,No planting rule configured for this crop
+USOR03,Winter Wheat,2032,ok,2031-10-06,2031-10-20,NASA projection normal 2015–2024; 24 days (late December) from fewer than 80% of years,Sown in autumn 2031; harvest year 2032

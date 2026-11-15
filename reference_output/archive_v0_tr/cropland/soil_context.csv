@@ -1,0 +1,325 @@
+context_id,euid,siteid,treatmentid,sitecode,indicator,interpretive_name,value,raw_value,unit,method,value_status
+USKS01,667,60,259,USKS01,b_soc,Organic Carbon,1.547349887,1.547349887,%,Total Carbon - Inorganic Carbon with Dry Combustion,numeric
+USKS01,667,60,259,USKS01,b_total_n,Total N,0.137865934,0.137865934,%,Dry Combustion,numeric
+USKS01,667,60,259,USKS01,b_ph,pH SWEL (1:2),5.24,5.24,unitless,1:2 water,numeric
+USKS01,667,60,259,USKS01,b_p_m3,P (M3),16.9892,16.9892,mg/kg,Mehlich 3 extract,numeric
+USKS01,667,60,259,USKS01,b_p_olsen,P (Olsen),,,mg/kg,Olsen extract,missing
+USKS01,667,60,259,USKS01,b_k_m3,K (M3),259.482,259.482,mg/kg,Mehlich 3 extract,numeric
+USKS01,667,60,259,USKS01,b_k_amac,K (NH4AOc),,,mg/kg,Ammonium acetate extract,missing
+USKS01,667,60,259,USKS01,b_pmn_am_mgkg,Potentially Mineralizable Nitrogen,60.575,60.575,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,numeric
+USKS01,667,60,259,USKS01,d_h3a_no3,NO3-N,2.3,2.3,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,numeric
+USKS01,668,60,259,USKS01,b_soc,Organic Carbon,1.570279997,1.570279997,%,Total Carbon - Inorganic Carbon with Dry Combustion,numeric
+USKS01,668,60,259,USKS01,b_total_n,Total N,0.145619239,0.145619239,%,Dry Combustion,numeric
+USKS01,668,60,259,USKS01,b_ph,pH SWEL (1:2),5.16,5.16,unitless,1:2 water,numeric
+USKS01,668,60,259,USKS01,b_p_m3,P (M3),15.822,15.822,mg/kg,Mehlich 3 extract,numeric
+USKS01,668,60,259,USKS01,b_p_olsen,P (Olsen),,,mg/kg,Olsen extract,missing
+USKS01,668,60,259,USKS01,b_k_m3,K (M3),264.816,264.816,mg/kg,Mehlich 3 extract,numeric
+USKS01,668,60,259,USKS01,b_k_amac,K (NH4AOc),,,mg/kg,Ammonium acetate extract,missing
+USKS01,668,60,259,USKS01,b_pmn_am_mgkg,Potentially Mineralizable Nitrogen,52.575,52.575,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,numeric
+USKS01,668,60,259,USKS01,d_h3a_no3,NO3-N,3.3,3.3,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,numeric
+USKS01,669,60,259,USKS01,b_soc,Organic Carbon,1.453529996,1.453529996,%,Total Carbon - Inorganic Carbon with Dry Combustion,numeric
+USKS01,669,60,259,USKS01,b_total_n,Total N,0.137565103,0.137565103,%,Dry Combustion,numeric
+USKS01,669,60,259,USKS01,b_ph,pH SWEL (1:2),5.05,5.05,unitless,1:2 water,numeric
+USKS01,669,60,259,USKS01,b_p_m3,P (M3),14.8327,14.8327,mg/kg,Mehlich 3 extract,numeric
+USKS01,669,60,259,USKS01,b_p_olsen,P (Olsen),,,mg/kg,Olsen extract,missing
+USKS01,669,60,259,USKS01,b_k_m3,K (M3),224.661,224.661,mg/kg,Mehlich 3 extract,numeric
+USKS01,669,60,259,USKS01,b_k_amac,K (NH4AOc),,,mg/kg,Ammonium acetate extract,missing
+USKS01,669,60,259,USKS01,b_pmn_am_mgkg,Potentially Mineralizable Nitrogen,37.675,37.675,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,numeric
+USKS01,669,60,259,USKS01,d_h3a_no3,NO3-N,2.4,2.4,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,numeric
+USKS01,670,60,259,USKS01,b_soc,Organic Carbon,1.404391605,1.404391605,%,Total Carbon - Inorganic Carbon with Dry Combustion,numeric
+USKS01,670,60,259,USKS01,b_total_n,Total N,0.136378083,0.136378083,%,Dry Combustion,numeric
+USKS01,670,60,259,USKS01,b_ph,pH SWEL (1:2),5.11,5.11,unitless,1:2 water,numeric
+USKS01,670,60,259,USKS01,b_p_m3,P (M3),17.4521,17.4521,mg/kg,Mehlich 3 extract,numeric
+USKS01,670,60,259,USKS01,b_p_olsen,P (Olsen),,,mg/kg,Olsen extract,missing
+USKS01,670,60,259,USKS01,b_k_m3,K (M3),243.559,243.559,mg/kg,Mehlich 3 extract,numeric
+USKS01,670,60,259,USKS01,b_k_amac,K (NH4AOc),,,mg/kg,Ammonium acetate extract,missing
+USKS01,670,60,259,USKS01,b_pmn_am_mgkg,Potentially Mineralizable Nitrogen,44.325,44.325,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,numeric
+USKS01,670,60,259,USKS01,d_h3a_no3,NO3-N,3.2,3.2,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,numeric
+USKS01,691,60,261,USKS01,b_soc,Organic Carbon,1.645632724,1.645632724,%,Total Carbon - Inorganic Carbon with Dry Combustion,numeric
+USKS01,691,60,261,USKS01,b_total_n,Total N,0.149107023,0.149107023,%,Dry Combustion,numeric
+USKS01,691,60,261,USKS01,b_ph,pH SWEL (1:2),4.99,4.99,unitless,1:2 water,numeric
+USKS01,691,60,261,USKS01,b_p_m3,P (M3),14.1555,14.1555,mg/kg,Mehlich 3 extract,numeric
+USKS01,691,60,261,USKS01,b_p_olsen,P (Olsen),,,mg/kg,Olsen extract,missing
+USKS01,691,60,261,USKS01,b_k_m3,K (M3),262.261,262.261,mg/kg,Mehlich 3 extract,numeric
+USKS01,691,60,261,USKS01,b_k_amac,K (NH4AOc),,,mg/kg,Ammonium acetate extract,missing
+USKS01,691,60,261,USKS01,b_pmn_am_mgkg,Potentially Mineralizable Nitrogen,58.075,58.075,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,numeric
+USKS01,691,60,261,USKS01,d_h3a_no3,NO3-N,3.6,3.6,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,numeric
+USKS01,692,60,261,USKS01,b_soc,Organic Carbon,1.563790563,1.563790563,%,Total Carbon - Inorganic Carbon with Dry Combustion,numeric
+USKS01,692,60,261,USKS01,b_total_n,Total N,0.147144154,0.147144154,%,Dry Combustion,numeric
+USKS01,692,60,261,USKS01,b_ph,pH SWEL (1:2),5.2,5.2,unitless,1:2 water,numeric
+USKS01,692,60,261,USKS01,b_p_m3,P (M3),13.1441,13.1441,mg/kg,Mehlich 3 extract,numeric
+USKS01,692,60,261,USKS01,b_p_olsen,P (Olsen),,,mg/kg,Olsen extract,missing
+USKS01,692,60,261,USKS01,b_k_m3,K (M3),234.593,234.593,mg/kg,Mehlich 3 extract,numeric
+USKS01,692,60,261,USKS01,b_k_amac,K (NH4AOc),,,mg/kg,Ammonium acetate extract,missing
+USKS01,692,60,261,USKS01,b_pmn_am_mgkg,Potentially Mineralizable Nitrogen,53.575,53.575,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,numeric
+USKS01,692,60,261,USKS01,d_h3a_no3,NO3-N,4.1,4.1,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,numeric
+USKS01,693,60,261,USKS01,b_soc,Organic Carbon,1.610169329,1.610169329,%,Total Carbon - Inorganic Carbon with Dry Combustion,numeric
+USKS01,693,60,261,USKS01,b_total_n,Total N,0.153539944,0.153539944,%,Dry Combustion,numeric
+USKS01,693,60,261,USKS01,b_ph,pH SWEL (1:2),5.08,5.08,unitless,1:2 water,numeric
+USKS01,693,60,261,USKS01,b_p_m3,P (M3),16.3467,16.3467,mg/kg,Mehlich 3 extract,numeric
+USKS01,693,60,261,USKS01,b_p_olsen,P (Olsen),,,mg/kg,Olsen extract,missing
+USKS01,693,60,261,USKS01,b_k_m3,K (M3),225.079,225.079,mg/kg,Mehlich 3 extract,numeric
+USKS01,693,60,261,USKS01,b_k_amac,K (NH4AOc),,,mg/kg,Ammonium acetate extract,missing
+USKS01,693,60,261,USKS01,b_pmn_am_mgkg,Potentially Mineralizable Nitrogen,56.075,56.075,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,numeric
+USKS01,693,60,261,USKS01,d_h3a_no3,NO3-N,4.6,4.6,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,numeric
+USKS01,694,60,261,USKS01,b_soc,Organic Carbon,1.437795422,1.437795422,%,Total Carbon - Inorganic Carbon with Dry Combustion,numeric
+USKS01,694,60,261,USKS01,b_total_n,Total N,0.142073687,0.142073687,%,Dry Combustion,numeric
+USKS01,694,60,261,USKS01,b_ph,pH SWEL (1:2),5.56,5.56,unitless,1:2 water,numeric
+USKS01,694,60,261,USKS01,b_p_m3,P (M3),11.9447,11.9447,mg/kg,Mehlich 3 extract,numeric
+USKS01,694,60,261,USKS01,b_p_olsen,P (Olsen),,,mg/kg,Olsen extract,missing
+USKS01,694,60,261,USKS01,b_k_m3,K (M3),201.352,201.352,mg/kg,Mehlich 3 extract,numeric
+USKS01,694,60,261,USKS01,b_k_amac,K (NH4AOc),,,mg/kg,Ammonium acetate extract,missing
+USKS01,694,60,261,USKS01,b_pmn_am_mgkg,Potentially Mineralizable Nitrogen,49.575,49.575,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,numeric
+USKS01,694,60,261,USKS01,d_h3a_no3,NO3-N,5.3,5.3,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,numeric
+USKS01,679,60,260,USKS01,b_soc,Organic Carbon,1.576167422,1.576167422,%,Total Carbon - Inorganic Carbon with Dry Combustion,numeric
+USKS01,679,60,260,USKS01,b_total_n,Total N,0.145381013,0.145381013,%,Dry Combustion,numeric
+USKS01,679,60,260,USKS01,b_ph,pH SWEL (1:2),5.1,5.1,unitless,1:2 water,numeric
+USKS01,679,60,260,USKS01,b_p_m3,P (M3),18.7393,18.7393,mg/kg,Mehlich 3 extract,numeric
+USKS01,679,60,260,USKS01,b_p_olsen,P (Olsen),,,mg/kg,Olsen extract,missing
+USKS01,679,60,260,USKS01,b_k_m3,K (M3),276.416,276.416,mg/kg,Mehlich 3 extract,numeric
+USKS01,679,60,260,USKS01,b_k_amac,K (NH4AOc),,,mg/kg,Ammonium acetate extract,missing
+USKS01,679,60,260,USKS01,b_pmn_am_mgkg,Potentially Mineralizable Nitrogen,41.725,41.725,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,numeric
+USKS01,679,60,260,USKS01,d_h3a_no3,NO3-N,2.5,2.5,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,numeric
+USKS01,680,60,260,USKS01,b_soc,Organic Carbon,1.343966999,1.343966999,%,Total Carbon - Inorganic Carbon with Dry Combustion,numeric
+USKS01,680,60,260,USKS01,b_total_n,Total N,0.125980704,0.125980704,%,Dry Combustion,numeric
+USKS01,680,60,260,USKS01,b_ph,pH SWEL (1:2),4.97,4.97,unitless,1:2 water,numeric
+USKS01,680,60,260,USKS01,b_p_m3,P (M3),15.7803,15.7803,mg/kg,Mehlich 3 extract,numeric
+USKS01,680,60,260,USKS01,b_p_olsen,P (Olsen),,,mg/kg,Olsen extract,missing
+USKS01,680,60,260,USKS01,b_k_m3,K (M3),250.219,250.219,mg/kg,Mehlich 3 extract,numeric
+USKS01,680,60,260,USKS01,b_k_amac,K (NH4AOc),,,mg/kg,Ammonium acetate extract,missing
+USKS01,680,60,260,USKS01,b_pmn_am_mgkg,Potentially Mineralizable Nitrogen,39.275,39.275,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,numeric
+USKS01,680,60,260,USKS01,d_h3a_no3,NO3-N,3.2,3.2,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,numeric
+USKS01,681,60,260,USKS01,b_soc,Organic Carbon,1.353538891,1.353538891,%,Total Carbon - Inorganic Carbon with Dry Combustion,numeric
+USKS01,681,60,260,USKS01,b_total_n,Total N,0.132774692,0.132774692,%,Dry Combustion,numeric
+USKS01,681,60,260,USKS01,b_ph,pH SWEL (1:2),5.3,5.3,unitless,1:2 water,numeric
+USKS01,681,60,260,USKS01,b_p_m3,P (M3),13.389,13.389,mg/kg,Mehlich 3 extract,numeric
+USKS01,681,60,260,USKS01,b_p_olsen,P (Olsen),,,mg/kg,Olsen extract,missing
+USKS01,681,60,260,USKS01,b_k_m3,K (M3),192.578,192.578,mg/kg,Mehlich 3 extract,numeric
+USKS01,681,60,260,USKS01,b_k_amac,K (NH4AOc),,,mg/kg,Ammonium acetate extract,missing
+USKS01,681,60,260,USKS01,b_pmn_am_mgkg,Potentially Mineralizable Nitrogen,35.075,35.075,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,numeric
+USKS01,681,60,260,USKS01,d_h3a_no3,NO3-N,2.7,2.7,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,numeric
+USKS01,682,60,260,USKS01,b_soc,Organic Carbon,1.387369218,1.387369218,%,Total Carbon - Inorganic Carbon with Dry Combustion,numeric
+USKS01,682,60,260,USKS01,b_total_n,Total N,0.140113691,0.140113691,%,Dry Combustion,numeric
+USKS01,682,60,260,USKS01,b_ph,pH SWEL (1:2),5.21,5.21,unitless,1:2 water,numeric
+USKS01,682,60,260,USKS01,b_p_m3,P (M3),17.7161,17.7161,mg/kg,Mehlich 3 extract,numeric
+USKS01,682,60,260,USKS01,b_p_olsen,P (Olsen),,,mg/kg,Olsen extract,missing
+USKS01,682,60,260,USKS01,b_k_m3,K (M3),207.695,207.695,mg/kg,Mehlich 3 extract,numeric
+USKS01,682,60,260,USKS01,b_k_amac,K (NH4AOc),,,mg/kg,Ammonium acetate extract,missing
+USKS01,682,60,260,USKS01,b_pmn_am_mgkg,Potentially Mineralizable Nitrogen,35.775,35.775,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,numeric
+USKS01,682,60,260,USKS01,d_h3a_no3,NO3-N,2.1,2.1,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,numeric
+USKS01,703,60,262,USKS01,b_soc,Organic Carbon,1.73846011,1.73846011,%,Total Carbon - Inorganic Carbon with Dry Combustion,numeric
+USKS01,703,60,262,USKS01,b_total_n,Total N,0.157024783,0.157024783,%,Dry Combustion,numeric
+USKS01,703,60,262,USKS01,b_ph,pH SWEL (1:2),5.2,5.2,unitless,1:2 water,numeric
+USKS01,703,60,262,USKS01,b_p_m3,P (M3),19.554,19.554,mg/kg,Mehlich 3 extract,numeric
+USKS01,703,60,262,USKS01,b_p_olsen,P (Olsen),,,mg/kg,Olsen extract,missing
+USKS01,703,60,262,USKS01,b_k_m3,K (M3),345.601,345.601,mg/kg,Mehlich 3 extract,numeric
+USKS01,703,60,262,USKS01,b_k_amac,K (NH4AOc),,,mg/kg,Ammonium acetate extract,missing
+USKS01,703,60,262,USKS01,b_pmn_am_mgkg,Potentially Mineralizable Nitrogen,68.075,68.075,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,numeric
+USKS01,703,60,262,USKS01,d_h3a_no3,NO3-N,4.7,4.7,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,numeric
+USKS01,704,60,262,USKS01,b_soc,Organic Carbon,1.678959864,1.678959864,%,Total Carbon - Inorganic Carbon with Dry Combustion,numeric
+USKS01,704,60,262,USKS01,b_total_n,Total N,0.155485306,0.155485306,%,Dry Combustion,numeric
+USKS01,704,60,262,USKS01,b_ph,pH SWEL (1:2),5.24,5.24,unitless,1:2 water,numeric
+USKS01,704,60,262,USKS01,b_p_m3,P (M3),12.3536,12.3536,mg/kg,Mehlich 3 extract,numeric
+USKS01,704,60,262,USKS01,b_p_olsen,P (Olsen),,,mg/kg,Olsen extract,missing
+USKS01,704,60,262,USKS01,b_k_m3,K (M3),244.284,244.284,mg/kg,Mehlich 3 extract,numeric
+USKS01,704,60,262,USKS01,b_k_amac,K (NH4AOc),,,mg/kg,Ammonium acetate extract,missing
+USKS01,704,60,262,USKS01,b_pmn_am_mgkg,Potentially Mineralizable Nitrogen,52.075,52.075,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,numeric
+USKS01,704,60,262,USKS01,d_h3a_no3,NO3-N,4.6,4.6,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,numeric
+USKS01,705,60,262,USKS01,b_soc,Organic Carbon,1.436490479,1.436490479,%,Total Carbon - Inorganic Carbon with Dry Combustion,numeric
+USKS01,705,60,262,USKS01,b_total_n,Total N,0.141237303,0.141237303,%,Dry Combustion,numeric
+USKS01,705,60,262,USKS01,b_ph,pH SWEL (1:2),5.52,5.52,unitless,1:2 water,numeric
+USKS01,705,60,262,USKS01,b_p_m3,P (M3),11.7902,11.7902,mg/kg,Mehlich 3 extract,numeric
+USKS01,705,60,262,USKS01,b_p_olsen,P (Olsen),,,mg/kg,Olsen extract,missing
+USKS01,705,60,262,USKS01,b_k_m3,K (M3),215.87,215.87,mg/kg,Mehlich 3 extract,numeric
+USKS01,705,60,262,USKS01,b_k_amac,K (NH4AOc),,,mg/kg,Ammonium acetate extract,missing
+USKS01,705,60,262,USKS01,b_pmn_am_mgkg,Potentially Mineralizable Nitrogen,41.775,41.775,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,numeric
+USKS01,705,60,262,USKS01,d_h3a_no3,NO3-N,4.7,4.7,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,numeric
+USKS01,706,60,262,USKS01,b_soc,Organic Carbon,1.5615839,1.5615839,%,Total Carbon - Inorganic Carbon with Dry Combustion,numeric
+USKS01,706,60,262,USKS01,b_total_n,Total N,0.151830196,0.151830196,%,Dry Combustion,numeric
+USKS01,706,60,262,USKS01,b_ph,pH SWEL (1:2),5.06,5.06,unitless,1:2 water,numeric
+USKS01,706,60,262,USKS01,b_p_m3,P (M3),15.0396,15.0396,mg/kg,Mehlich 3 extract,numeric
+USKS01,706,60,262,USKS01,b_p_olsen,P (Olsen),,,mg/kg,Olsen extract,missing
+USKS01,706,60,262,USKS01,b_k_m3,K (M3),236.259,236.259,mg/kg,Mehlich 3 extract,numeric
+USKS01,706,60,262,USKS01,b_k_amac,K (NH4AOc),,,mg/kg,Ammonium acetate extract,missing
+USKS01,706,60,262,USKS01,b_pmn_am_mgkg,Potentially Mineralizable Nitrogen,51.575,51.575,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,numeric
+USKS01,706,60,262,USKS01,d_h3a_no3,NO3-N,2.6,2.6,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,numeric
+USKS01,715,60,263,USKS01,b_soc,Organic Carbon,1.647191641,1.647191641,%,Total Carbon - Inorganic Carbon with Dry Combustion,numeric
+USKS01,715,60,263,USKS01,b_total_n,Total N,0.150991202,0.150991202,%,Dry Combustion,numeric
+USKS01,715,60,263,USKS01,b_ph,pH SWEL (1:2),5.47,5.47,unitless,1:2 water,numeric
+USKS01,715,60,263,USKS01,b_p_m3,P (M3),21.7699,21.7699,mg/kg,Mehlich 3 extract,numeric
+USKS01,715,60,263,USKS01,b_p_olsen,P (Olsen),,,mg/kg,Olsen extract,missing
+USKS01,715,60,263,USKS01,b_k_m3,K (M3),327.815,327.815,mg/kg,Mehlich 3 extract,numeric
+USKS01,715,60,263,USKS01,b_k_amac,K (NH4AOc),,,mg/kg,Ammonium acetate extract,missing
+USKS01,715,60,263,USKS01,b_pmn_am_mgkg,Potentially Mineralizable Nitrogen,56.575,56.575,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,numeric
+USKS01,715,60,263,USKS01,d_h3a_no3,NO3-N,3.8,3.8,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,numeric
+USKS01,716,60,263,USKS01,b_soc,Organic Carbon,1.746739376,1.746739376,%,Total Carbon - Inorganic Carbon with Dry Combustion,numeric
+USKS01,716,60,263,USKS01,b_total_n,Total N,0.164655411,0.164655411,%,Dry Combustion,numeric
+USKS01,716,60,263,USKS01,b_ph,pH SWEL (1:2),5.42,5.42,unitless,1:2 water,numeric
+USKS01,716,60,263,USKS01,b_p_m3,P (M3),24.6848,24.6848,mg/kg,Mehlich 3 extract,numeric
+USKS01,716,60,263,USKS01,b_p_olsen,P (Olsen),,,mg/kg,Olsen extract,missing
+USKS01,716,60,263,USKS01,b_k_m3,K (M3),435.11,435.11,mg/kg,Mehlich 3 extract,numeric
+USKS01,716,60,263,USKS01,b_k_amac,K (NH4AOc),,,mg/kg,Ammonium acetate extract,missing
+USKS01,716,60,263,USKS01,b_pmn_am_mgkg,Potentially Mineralizable Nitrogen,70.075,70.075,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,numeric
+USKS01,716,60,263,USKS01,d_h3a_no3,NO3-N,2.6,2.6,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,numeric
+USKS01,717,60,263,USKS01,b_soc,Organic Carbon,1.629267917,1.629267917,%,Total Carbon - Inorganic Carbon with Dry Combustion,numeric
+USKS01,717,60,263,USKS01,b_total_n,Total N,0.1569143,0.1569143,%,Dry Combustion,numeric
+USKS01,717,60,263,USKS01,b_ph,pH SWEL (1:2),5.6,5.6,unitless,1:2 water,numeric
+USKS01,717,60,263,USKS01,b_p_m3,P (M3),21.6399,21.6399,mg/kg,Mehlich 3 extract,numeric
+USKS01,717,60,263,USKS01,b_p_olsen,P (Olsen),,,mg/kg,Olsen extract,missing
+USKS01,717,60,263,USKS01,b_k_m3,K (M3),284.982,284.982,mg/kg,Mehlich 3 extract,numeric
+USKS01,717,60,263,USKS01,b_k_amac,K (NH4AOc),,,mg/kg,Ammonium acetate extract,missing
+USKS01,717,60,263,USKS01,b_pmn_am_mgkg,Potentially Mineralizable Nitrogen,66.575,66.575,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,numeric
+USKS01,717,60,263,USKS01,d_h3a_no3,NO3-N,4.6,4.6,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,numeric
+USKS01,718,60,263,USKS01,b_soc,Organic Carbon,1.455424085,1.455424085,%,Total Carbon - Inorganic Carbon with Dry Combustion,numeric
+USKS01,718,60,263,USKS01,b_total_n,Total N,0.145007835,0.145007835,%,Dry Combustion,numeric
+USKS01,718,60,263,USKS01,b_ph,pH SWEL (1:2),5.48,5.48,unitless,1:2 water,numeric
+USKS01,718,60,263,USKS01,b_p_m3,P (M3),16.6929,16.6929,mg/kg,Mehlich 3 extract,numeric
+USKS01,718,60,263,USKS01,b_p_olsen,P (Olsen),,,mg/kg,Olsen extract,missing
+USKS01,718,60,263,USKS01,b_k_m3,K (M3),260.007,260.007,mg/kg,Mehlich 3 extract,numeric
+USKS01,718,60,263,USKS01,b_k_amac,K (NH4AOc),,,mg/kg,Ammonium acetate extract,missing
+USKS01,718,60,263,USKS01,b_pmn_am_mgkg,Potentially Mineralizable Nitrogen,39.125,39.125,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,numeric
+USKS01,718,60,263,USKS01,d_h3a_no3,NO3-N,2.4,2.4,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,numeric
+USKS01,727,60,264,USKS01,b_soc,Organic Carbon,1.862511369,1.862511369,%,Total Carbon - Inorganic Carbon with Dry Combustion,numeric
+USKS01,727,60,264,USKS01,b_total_n,Total N,0.170602376,0.170602376,%,Dry Combustion,numeric
+USKS01,727,60,264,USKS01,b_ph,pH SWEL (1:2),5.24,5.24,unitless,1:2 water,numeric
+USKS01,727,60,264,USKS01,b_p_m3,P (M3),19.4909,19.4909,mg/kg,Mehlich 3 extract,numeric
+USKS01,727,60,264,USKS01,b_p_olsen,P (Olsen),,,mg/kg,Olsen extract,missing
+USKS01,727,60,264,USKS01,b_k_m3,K (M3),451.661,451.661,mg/kg,Mehlich 3 extract,numeric
+USKS01,727,60,264,USKS01,b_k_amac,K (NH4AOc),,,mg/kg,Ammonium acetate extract,missing
+USKS01,727,60,264,USKS01,b_pmn_am_mgkg,Potentially Mineralizable Nitrogen,63.075,63.075,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,numeric
+USKS01,727,60,264,USKS01,d_h3a_no3,NO3-N,5.6,5.6,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,numeric
+USKS01,728,60,264,USKS01,b_soc,Organic Carbon,1.5956095,1.5956095,%,Total Carbon - Inorganic Carbon with Dry Combustion,numeric
+USKS01,728,60,264,USKS01,b_total_n,Total N,0.152390053,0.152390053,%,Dry Combustion,numeric
+USKS01,728,60,264,USKS01,b_ph,pH SWEL (1:2),5.28,5.28,unitless,1:2 water,numeric
+USKS01,728,60,264,USKS01,b_p_m3,P (M3),19.1903,19.1903,mg/kg,Mehlich 3 extract,numeric
+USKS01,728,60,264,USKS01,b_p_olsen,P (Olsen),,,mg/kg,Olsen extract,missing
+USKS01,728,60,264,USKS01,b_k_m3,K (M3),346.657,346.657,mg/kg,Mehlich 3 extract,numeric
+USKS01,728,60,264,USKS01,b_k_amac,K (NH4AOc),,,mg/kg,Ammonium acetate extract,missing
+USKS01,728,60,264,USKS01,b_pmn_am_mgkg,Potentially Mineralizable Nitrogen,69.225,69.225,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,numeric
+USKS01,728,60,264,USKS01,d_h3a_no3,NO3-N,2.7,2.7,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,numeric
+USKS01,729,60,264,USKS01,b_soc,Organic Carbon,1.619630104,1.619630104,%,Total Carbon - Inorganic Carbon with Dry Combustion,numeric
+USKS01,729,60,264,USKS01,b_total_n,Total N,0.155291026,0.155291026,%,Dry Combustion,numeric
+USKS01,729,60,264,USKS01,b_ph,pH SWEL (1:2),5.25,5.25,unitless,1:2 water,numeric
+USKS01,729,60,264,USKS01,b_p_m3,P (M3),17.394,17.394,mg/kg,Mehlich 3 extract,numeric
+USKS01,729,60,264,USKS01,b_p_olsen,P (Olsen),,,mg/kg,Olsen extract,missing
+USKS01,729,60,264,USKS01,b_k_m3,K (M3),301.978,301.978,mg/kg,Mehlich 3 extract,numeric
+USKS01,729,60,264,USKS01,b_k_amac,K (NH4AOc),,,mg/kg,Ammonium acetate extract,missing
+USKS01,729,60,264,USKS01,b_pmn_am_mgkg,Potentially Mineralizable Nitrogen,52.725,52.725,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,numeric
+USKS01,729,60,264,USKS01,d_h3a_no3,NO3-N,3.2,3.2,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,numeric
+USKS01,730,60,264,USKS01,b_soc,Organic Carbon,1.561575693,1.561575693,%,Total Carbon - Inorganic Carbon with Dry Combustion,numeric
+USKS01,730,60,264,USKS01,b_total_n,Total N,0.15575633,0.15575633,%,Dry Combustion,numeric
+USKS01,730,60,264,USKS01,b_ph,pH SWEL (1:2),5.31,5.31,unitless,1:2 water,numeric
+USKS01,730,60,264,USKS01,b_p_m3,P (M3),13.349,13.349,mg/kg,Mehlich 3 extract,numeric
+USKS01,730,60,264,USKS01,b_p_olsen,P (Olsen),,,mg/kg,Olsen extract,missing
+USKS01,730,60,264,USKS01,b_k_m3,K (M3),321.39,321.39,mg/kg,Mehlich 3 extract,numeric
+USKS01,730,60,264,USKS01,b_k_amac,K (NH4AOc),,,mg/kg,Ammonium acetate extract,missing
+USKS01,730,60,264,USKS01,b_pmn_am_mgkg,Potentially Mineralizable Nitrogen,47.575,47.575,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,numeric
+USKS01,730,60,264,USKS01,d_h3a_no3,NO3-N,3.2,3.2,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,numeric
+USOR03,1448,101,440,USOR03,b_soc,Organic Carbon,1.24592,1.24592,%,Total Carbon - Inorganic Carbon with Dry Combustion,numeric
+USOR03,1448,101,440,USOR03,b_total_n,Total N,0.0832,0.0832,%,Dry Combustion,numeric
+USOR03,1448,101,440,USOR03,b_ph,pH SWEL (1:2),5.0,5.0,unitless,1:2 water,numeric
+USOR03,1448,101,440,USOR03,b_p_m3,P (M3),56.0849,56.0849,mg/kg,Mehlich 3 extract,numeric
+USOR03,1448,101,440,USOR03,b_p_olsen,P (Olsen),,,mg/kg,Olsen extract,missing
+USOR03,1448,101,440,USOR03,b_k_m3,K (M3),685.663,685.663,mg/kg,Mehlich 3 extract,numeric
+USOR03,1448,101,440,USOR03,b_k_amac,K (NH4AOc),,,mg/kg,Ammonium acetate extract,missing
+USOR03,1448,101,440,USOR03,b_pmn_am_mgkg,Potentially Mineralizable Nitrogen,25.5727906976744,25.5727906976744,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,numeric
+USOR03,1448,101,440,USOR03,d_h3a_no3,NO3-N,4.5,4.5,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,numeric
+USOR03,1440,101,438,USOR03,b_soc,Organic Carbon,1.54492,1.54492,%,Total Carbon - Inorganic Carbon with Dry Combustion,numeric
+USOR03,1440,101,438,USOR03,b_total_n,Total N,0.09778,0.09778,%,Dry Combustion,numeric
+USOR03,1440,101,438,USOR03,b_ph,pH SWEL (1:2),4.94,4.94,unitless,1:2 water,numeric
+USOR03,1440,101,438,USOR03,b_p_m3,P (M3),60.9121,60.9121,mg/kg,Mehlich 3 extract,numeric
+USOR03,1440,101,438,USOR03,b_p_olsen,P (Olsen),,,mg/kg,Olsen extract,missing
+USOR03,1440,101,438,USOR03,b_k_m3,K (M3),749.47,749.47,mg/kg,Mehlich 3 extract,numeric
+USOR03,1440,101,438,USOR03,b_k_amac,K (NH4AOc),,,mg/kg,Ammonium acetate extract,missing
+USOR03,1440,101,438,USOR03,b_pmn_am_mgkg,Potentially Mineralizable Nitrogen,39.5727906976744,39.5727906976744,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,numeric
+USOR03,1440,101,438,USOR03,d_h3a_no3,NO3-N,2.7,2.7,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,numeric
+USOR03,1444,101,439,USOR03,b_soc,Organic Carbon,1.62137,1.62137,%,Total Carbon - Inorganic Carbon with Dry Combustion,numeric
+USOR03,1444,101,439,USOR03,b_total_n,Total N,0.1136,0.1136,%,Dry Combustion,numeric
+USOR03,1444,101,439,USOR03,b_ph,pH SWEL (1:2),4.7,4.7,unitless,1:2 water,numeric
+USOR03,1444,101,439,USOR03,b_p_m3,P (M3),77.3387,77.3387,mg/kg,Mehlich 3 extract,numeric
+USOR03,1444,101,439,USOR03,b_p_olsen,P (Olsen),,,mg/kg,Olsen extract,missing
+USOR03,1444,101,439,USOR03,b_k_m3,K (M3),759.343,759.343,mg/kg,Mehlich 3 extract,numeric
+USOR03,1444,101,439,USOR03,b_k_amac,K (NH4AOc),,,mg/kg,Ammonium acetate extract,missing
+USOR03,1444,101,439,USOR03,b_pmn_am_mgkg,Potentially Mineralizable Nitrogen,24.9227906976744,24.9227906976744,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,numeric
+USOR03,1444,101,439,USOR03,d_h3a_no3,NO3-N,9.8,9.8,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,numeric
+USOR03,1449,101,440,USOR03,b_soc,Organic Carbon,1.68821,1.68821,%,Total Carbon - Inorganic Carbon with Dry Combustion,numeric
+USOR03,1449,101,440,USOR03,b_total_n,Total N,0.11341,0.11341,%,Dry Combustion,numeric
+USOR03,1449,101,440,USOR03,b_ph,pH SWEL (1:2),5.21,5.21,unitless,1:2 water,numeric
+USOR03,1449,101,440,USOR03,b_p_m3,P (M3),48.6655,48.6655,mg/kg,Mehlich 3 extract,numeric
+USOR03,1449,101,440,USOR03,b_p_olsen,P (Olsen),,,mg/kg,Olsen extract,missing
+USOR03,1449,101,440,USOR03,b_k_m3,K (M3),699.22,699.22,mg/kg,Mehlich 3 extract,numeric
+USOR03,1449,101,440,USOR03,b_k_amac,K (NH4AOc),,,mg/kg,Ammonium acetate extract,missing
+USOR03,1449,101,440,USOR03,b_pmn_am_mgkg,Potentially Mineralizable Nitrogen,35.9727906976744,35.9727906976744,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,numeric
+USOR03,1449,101,440,USOR03,d_h3a_no3,NO3-N,3.8,3.8,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,numeric
+USOR03,1441,101,438,USOR03,b_soc,Organic Carbon,1.52314,1.52314,%,Total Carbon - Inorganic Carbon with Dry Combustion,numeric
+USOR03,1441,101,438,USOR03,b_total_n,Total N,0.09997,0.09997,%,Dry Combustion,numeric
+USOR03,1441,101,438,USOR03,b_ph,pH SWEL (1:2),4.92,4.92,unitless,1:2 water,numeric
+USOR03,1441,101,438,USOR03,b_p_m3,P (M3),55.2859,55.2859,mg/kg,Mehlich 3 extract,numeric
+USOR03,1441,101,438,USOR03,b_p_olsen,P (Olsen),,,mg/kg,Olsen extract,missing
+USOR03,1441,101,438,USOR03,b_k_m3,K (M3),713.902,713.902,mg/kg,Mehlich 3 extract,numeric
+USOR03,1441,101,438,USOR03,b_k_amac,K (NH4AOc),,,mg/kg,Ammonium acetate extract,missing
+USOR03,1441,101,438,USOR03,b_pmn_am_mgkg,Potentially Mineralizable Nitrogen,31.6227906976744,31.6227906976744,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,numeric
+USOR03,1441,101,438,USOR03,d_h3a_no3,NO3-N,2.5,2.5,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,numeric
+USOR03,1445,101,439,USOR03,b_soc,Organic Carbon,1.8,1.8,%,Total Carbon - Inorganic Carbon with Dry Combustion,numeric
+USOR03,1445,101,439,USOR03,b_total_n,Total N,0.15,0.15,%,Dry Combustion,numeric
+USOR03,1445,101,439,USOR03,b_ph,pH SWEL (1:2),4.96,4.96,unitless,1:2 water,numeric
+USOR03,1445,101,439,USOR03,b_p_m3,P (M3),55.6946,55.6946,mg/kg,Mehlich 3 extract,numeric
+USOR03,1445,101,439,USOR03,b_p_olsen,P (Olsen),,,mg/kg,Olsen extract,missing
+USOR03,1445,101,439,USOR03,b_k_m3,K (M3),787.926,787.926,mg/kg,Mehlich 3 extract,numeric
+USOR03,1445,101,439,USOR03,b_k_amac,K (NH4AOc),,,mg/kg,Ammonium acetate extract,missing
+USOR03,1445,101,439,USOR03,b_pmn_am_mgkg,Potentially Mineralizable Nitrogen,37.65,37.65,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,numeric
+USOR03,1445,101,439,USOR03,d_h3a_no3,NO3-N,9.0,9.0,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,numeric
+USOR03,1442,101,438,USOR03,b_soc,Organic Carbon,1.69,1.69,%,Total Carbon - Inorganic Carbon with Dry Combustion,numeric
+USOR03,1442,101,438,USOR03,b_total_n,Total N,0.14,0.14,%,Dry Combustion,numeric
+USOR03,1442,101,438,USOR03,b_ph,pH SWEL (1:2),5.02,5.02,unitless,1:2 water,numeric
+USOR03,1442,101,438,USOR03,b_p_m3,P (M3),56.2848,56.2848,mg/kg,Mehlich 3 extract,numeric
+USOR03,1442,101,438,USOR03,b_p_olsen,P (Olsen),,,mg/kg,Olsen extract,missing
+USOR03,1442,101,438,USOR03,b_k_m3,K (M3),746.153,746.153,mg/kg,Mehlich 3 extract,numeric
+USOR03,1442,101,438,USOR03,b_k_amac,K (NH4AOc),,,mg/kg,Ammonium acetate extract,missing
+USOR03,1442,101,438,USOR03,b_pmn_am_mgkg,Potentially Mineralizable Nitrogen,37.6,37.6,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,numeric
+USOR03,1442,101,438,USOR03,d_h3a_no3,NO3-N,3.7,3.7,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,numeric
+USOR03,1450,101,440,USOR03,b_soc,Organic Carbon,1.52,1.52,%,Total Carbon - Inorganic Carbon with Dry Combustion,numeric
+USOR03,1450,101,440,USOR03,b_total_n,Total N,0.13,0.13,%,Dry Combustion,numeric
+USOR03,1450,101,440,USOR03,b_ph,pH SWEL (1:2),5.23,5.23,unitless,1:2 water,numeric
+USOR03,1450,101,440,USOR03,b_p_m3,P (M3),50.7705,50.7705,mg/kg,Mehlich 3 extract,numeric
+USOR03,1450,101,440,USOR03,b_p_olsen,P (Olsen),,,mg/kg,Olsen extract,missing
+USOR03,1450,101,440,USOR03,b_k_m3,K (M3),709.625,709.625,mg/kg,Mehlich 3 extract,numeric
+USOR03,1450,101,440,USOR03,b_k_amac,K (NH4AOc),,,mg/kg,Ammonium acetate extract,missing
+USOR03,1450,101,440,USOR03,b_pmn_am_mgkg,Potentially Mineralizable Nitrogen,26.15,26.15,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,numeric
+USOR03,1450,101,440,USOR03,d_h3a_no3,NO3-N,4.3,4.3,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,numeric
+USOR03,1446,101,439,USOR03,b_soc,Organic Carbon,1.652858044,1.652858044,%,Total Carbon - Inorganic Carbon with Dry Combustion,numeric
+USOR03,1446,101,439,USOR03,b_total_n,Total N,0.129588912,0.129588912,%,Dry Combustion,numeric
+USOR03,1446,101,439,USOR03,b_ph,pH SWEL (1:2),4.33,4.33,unitless,1:2 water,numeric
+USOR03,1446,101,439,USOR03,b_p_m3,P (M3),68.2808,68.2808,mg/kg,Mehlich 3 extract,numeric
+USOR03,1446,101,439,USOR03,b_p_olsen,P (Olsen),,,mg/kg,Olsen extract,missing
+USOR03,1446,101,439,USOR03,b_k_m3,K (M3),724.051,724.051,mg/kg,Mehlich 3 extract,numeric
+USOR03,1446,101,439,USOR03,b_k_amac,K (NH4AOc),,,mg/kg,Ammonium acetate extract,missing
+USOR03,1446,101,439,USOR03,b_pmn_am_mgkg,Potentially Mineralizable Nitrogen,33.845,33.845,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,numeric
+USOR03,1446,101,439,USOR03,d_h3a_no3,NO3-N,12.4,12.4,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,numeric
+USOR03,1443,101,438,USOR03,b_soc,Organic Carbon,1.590590822,1.590590822,%,Total Carbon - Inorganic Carbon with Dry Combustion,numeric
+USOR03,1443,101,438,USOR03,b_total_n,Total N,0.122256804,0.122256804,%,Dry Combustion,numeric
+USOR03,1443,101,438,USOR03,b_ph,pH SWEL (1:2),4.73,4.73,unitless,1:2 water,numeric
+USOR03,1443,101,438,USOR03,b_p_m3,P (M3),45.6662,45.6662,mg/kg,Mehlich 3 extract,numeric
+USOR03,1443,101,438,USOR03,b_p_olsen,P (Olsen),,,mg/kg,Olsen extract,missing
+USOR03,1443,101,438,USOR03,b_k_m3,K (M3),759.581,759.581,mg/kg,Mehlich 3 extract,numeric
+USOR03,1443,101,438,USOR03,b_k_amac,K (NH4AOc),,,mg/kg,Ammonium acetate extract,missing
+USOR03,1443,101,438,USOR03,b_pmn_am_mgkg,Potentially Mineralizable Nitrogen,35.095,35.095,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,numeric
+USOR03,1443,101,438,USOR03,d_h3a_no3,NO3-N,3.2,3.2,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,numeric
+USOR03,1451,101,440,USOR03,b_soc,Organic Carbon,1.440428244,1.440428244,%,Total Carbon - Inorganic Carbon with Dry Combustion,numeric
+USOR03,1451,101,440,USOR03,b_total_n,Total N,0.110963061,0.110963061,%,Dry Combustion,numeric
+USOR03,1451,101,440,USOR03,b_ph,pH SWEL (1:2),4.73,4.73,unitless,1:2 water,numeric
+USOR03,1451,101,440,USOR03,b_p_m3,P (M3),42.8732,42.8732,mg/kg,Mehlich 3 extract,numeric
+USOR03,1451,101,440,USOR03,b_p_olsen,P (Olsen),,,mg/kg,Olsen extract,missing
+USOR03,1451,101,440,USOR03,b_k_m3,K (M3),580.959,580.959,mg/kg,Mehlich 3 extract,numeric
+USOR03,1451,101,440,USOR03,b_k_amac,K (NH4AOc),,,mg/kg,Ammonium acetate extract,missing
+USOR03,1451,101,440,USOR03,b_pmn_am_mgkg,Potentially Mineralizable Nitrogen,26.195,26.195,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,numeric
+USOR03,1451,101,440,USOR03,d_h3a_no3,NO3-N,4.8,4.8,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,numeric
+USOR03,1447,101,439,USOR03,b_soc,Organic Carbon,1.828207337,1.828207337,%,Total Carbon - Inorganic Carbon with Dry Combustion,numeric
+USOR03,1447,101,439,USOR03,b_total_n,Total N,0.137851399,0.137851399,%,Dry Combustion,numeric
+USOR03,1447,101,439,USOR03,b_ph,pH SWEL (1:2),4.63,4.63,unitless,1:2 water,numeric
+USOR03,1447,101,439,USOR03,b_p_m3,P (M3),51.8244,51.8244,mg/kg,Mehlich 3 extract,numeric
+USOR03,1447,101,439,USOR03,b_p_olsen,P (Olsen),,,mg/kg,Olsen extract,missing
+USOR03,1447,101,439,USOR03,b_k_m3,K (M3),727.619,727.619,mg/kg,Mehlich 3 extract,numeric
+USOR03,1447,101,439,USOR03,b_k_amac,K (NH4AOc),,,mg/kg,Ammonium acetate extract,missing
+USOR03,1447,101,439,USOR03,b_pmn_am_mgkg,Potentially Mineralizable Nitrogen,41.895,41.895,mg/kg,NH4 measured after 7 day anaerobic incubation at 40C,numeric
+USOR03,1447,101,439,USOR03,d_h3a_no3,NO3-N,3.5,3.5,mg N/kg,Nitrate-nitrogen extracted using the H3A extractant,numeric

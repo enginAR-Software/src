@@ -1,0 +1,45 @@
+{
+  "request": {
+    "sitecode": "grid:c06_06",
+    "latitude": 42.5,
+    "longitude": -95.5,
+    "kind": "projection",
+    "scenario": "ssp245",
+    "model": "ensemble",
+    "start": "2040-01-01",
+    "end": "2044-12-31",
+    "url": "https://power.larc.nasa.gov/api/projection/daily/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CPRECTOTCORR&community=AG&longitude=-95.5&latitude=42.5&start=20400101&end=20441231&format=JSON&time-standard=UTC&scenario=ssp245&model=ensemble"
+  },
+  "sha256": "ffa3911af212974198c6b77300c10f3e25bc2405f650c0de4977dfbb053ec6ce",
+  "fetched_at_utc": "2026-11-15T02:19:27.097201+00:00",
+  "api_header": {
+    "title": "NASA/POWER WCRP/CMIP6 NEX-GDDP Downscaled Daily Data",
+    "api": {
+      "version": "v2.6.4-beta",
+      "name": "Climate Projection API"
+    },
+    "sources": [
+      "NEXGDDP"
+    ],
+    "model": "ensemble",
+    "scenarios": [
+      "ssp245"
+    ],
+    "time_standard": "utc",
+    "fill_value": -999,
+    "start": "20400101",
+    "end": "20441231"
+  },
+  "coordinate_source": {
+    "dataset": "corridor_grid",
+    "cell_id": "c06_06"
+  },
+  "reported_geometry": {
+    "type": "Point",
+    "coordinates": [
+      -95.5,
+      42.5,
+      401.87
+    ]
+  }
+}

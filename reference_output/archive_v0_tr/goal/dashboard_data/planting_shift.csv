@@ -1,0 +1,15 @@
+region,crop,period,years_used,years_from_period_normal,median_start_doy,median_end_doy,season
+USKS01,Winter Wheat,2016–2024,9,7,-81,-67,sonbahar (önceki yıl)
+USKS01,Winter Wheat,2041–2049,9,8,-77,-63,sonbahar (önceki yıl)
+USKS01,Sorghum,2016–2024,9,0,113,212,ilkbahar
+USKS01,Sorghum,2041–2049,9,0,111,217,ilkbahar
+USKS01,Corn,2016–2024,9,0,87,207,ilkbahar
+USKS01,Corn,2041–2049,9,0,81,212,ilkbahar
+USKS01,Soybeans,2016–2024,9,0,96,197,ilkbahar
+USKS01,Soybeans,2041–2049,9,0,97,202,ilkbahar
+USOR03,Winter Wheat,2016–2024,9,7,-86,-72,sonbahar (önceki yıl)
+USOR03,Winter Wheat,2041–2049,9,8,-81,-67,sonbahar (önceki yıl)
+USOR03,Peas,2016–2024,9,0,40,,ilkbahar
+USOR03,Peas,2041–2049,9,0,29,,ilkbahar
+USOR03,Spring Wheat,2016–2024,2,0,16.5,,ilkbahar
+USOR03,Spring Wheat,2041–2049,0,0,,,ilkbahar

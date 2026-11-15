@@ -1,0 +1,41 @@
+{
+  "feature_columns": [
+    "crop",
+    "tillage_category",
+    "cover_crop_category",
+    "residue_category",
+    "expected_days",
+    "mean_temperature_c",
+    "precipitation_mm",
+    "thermal_sum_above_base_c_days",
+    "frost_index_days",
+    "heat_index_days",
+    "documented_explicit_n_kg_ha",
+    "explicit_n_event_count",
+    "unresolved_amendment_count"
+  ],
+  "target_columns": [
+    "target_b_soc",
+    "target_b_total_n",
+    "target_b_ph",
+    "target_b_p_m3",
+    "target_b_p_olsen",
+    "target_b_k_m3",
+    "target_b_k_amac",
+    "target_b_pmn_am_mgkg",
+    "target_d_h3a_no3"
+  ],
+  "group_column": "weather_group",
+  "use_for_dynamic_model_training": false,
+  "metadata_columns": [
+    "euid",
+    "siteid",
+    "sitecode",
+    "treatmentid",
+    "season_id",
+    "sampling_date",
+    "feature_cutoff",
+    "weather_group"
+  ],
+  "note": "Candidate aligned table, not a validated training set. Do not split replicated weather groups randomly across train and test."
+}

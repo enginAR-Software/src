@@ -1,0 +1,8 @@
+{
+  "url": "https://quickstats.nass.usda.gov/api/api_GET/?short_desc=SOYBEANS+-+PRICE+RECEIVED%2C+MEASURED+IN+%24+%2F+BU&agg_level_desc=STATE&state_alpha=KS&year__GE=2014&year__LE=2023&source_desc=SURVEY&format=JSON&reference_period_desc=MARKETING+YEAR&freq_desc=ANNUAL",
+  "sha256": "33bc15265fe21b929c07b49d25a272cf99ab7cd655d71a18ced6a1961b4adbf3",
+  "fetched_at_utc": "2026-11-15T03:12:16.541782+00:00",
+  "source": "USDA NASS Quick Stats",
+  "series": "SOYBEANS - PRICE RECEIVED, MEASURED IN $ / BU",
+  "level": "STATE"
+}

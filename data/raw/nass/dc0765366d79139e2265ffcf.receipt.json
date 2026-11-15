@@ -1,0 +1,8 @@
+{
+  "url": "https://quickstats.nass.usda.gov/api/api_GET/?short_desc=WHEAT%2C+SPRING%2C+%28EXCL+DURUM%29+-+YIELD%2C+MEASURED+IN+BU+%2F+ACRE&agg_level_desc=COUNTY&state_alpha=OR&year__GE=2014&year__LE=2023&source_desc=SURVEY&format=JSON&county_name=UMATILLA",
+  "sha256": "d64f9f69e48171bcf3315de7056db3c4924b01d8371bfb7163d61c8fae21d24f",
+  "fetched_at_utc": "2026-11-15T03:13:44.864706+00:00",
+  "source": "USDA NASS Quick Stats",
+  "series": "WHEAT, SPRING, (EXCL DURUM) - YIELD, MEASURED IN BU / ACRE",
+  "level": "COUNTY"
+}

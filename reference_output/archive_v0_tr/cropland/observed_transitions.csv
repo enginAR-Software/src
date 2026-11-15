@@ -1,0 +1,251 @@
+sitecode,point_id,from_year,to_year,from_code,to_code,from_class,to_class
+USKS01,USKS01:r0:c0,2018,2019,37,37,Other Hay/Non Alfalfa,Other Hay/Non Alfalfa
+USKS01,USKS01:r0:c0,2019,2020,37,37,Other Hay/Non Alfalfa,Other Hay/Non Alfalfa
+USKS01,USKS01:r0:c0,2020,2021,37,37,Other Hay/Non Alfalfa,Other Hay/Non Alfalfa
+USKS01,USKS01:r0:c0,2021,2022,37,37,Other Hay/Non Alfalfa,Other Hay/Non Alfalfa
+USKS01,USKS01:r0:c0,2022,2023,37,176,Other Hay/Non Alfalfa,Grassland/Pasture
+USKS01,USKS01:r0:c1,2018,2019,141,5,Deciduous Forest,Soybeans
+USKS01,USKS01:r0:c1,2019,2020,5,1,Soybeans,Corn
+USKS01,USKS01:r0:c1,2020,2021,1,5,Corn,Soybeans
+USKS01,USKS01:r0:c1,2021,2022,5,1,Soybeans,Corn
+USKS01,USKS01:r0:c1,2022,2023,1,5,Corn,Soybeans
+USKS01,USKS01:r0:c2,2018,2019,1,5,Corn,Soybeans
+USKS01,USKS01:r0:c2,2019,2020,5,121,Soybeans,Developed/Open Space
+USKS01,USKS01:r0:c2,2020,2021,121,5,Developed/Open Space,Soybeans
+USKS01,USKS01:r0:c2,2021,2022,5,1,Soybeans,Corn
+USKS01,USKS01:r0:c2,2022,2023,1,5,Corn,Soybeans
+USKS01,USKS01:r0:c3,2018,2019,141,141,Deciduous Forest,Deciduous Forest
+USKS01,USKS01:r0:c3,2019,2020,141,176,Deciduous Forest,Grassland/Pasture
+USKS01,USKS01:r0:c3,2020,2021,176,141,Grassland/Pasture,Deciduous Forest
+USKS01,USKS01:r0:c3,2021,2022,141,141,Deciduous Forest,Deciduous Forest
+USKS01,USKS01:r0:c3,2022,2023,141,141,Deciduous Forest,Deciduous Forest
+USKS01,USKS01:r0:c4,2018,2019,176,176,Grassland/Pasture,Grassland/Pasture
+USKS01,USKS01:r0:c4,2019,2020,176,176,Grassland/Pasture,Grassland/Pasture
+USKS01,USKS01:r0:c4,2020,2021,176,176,Grassland/Pasture,Grassland/Pasture
+USKS01,USKS01:r0:c4,2021,2022,176,176,Grassland/Pasture,Grassland/Pasture
+USKS01,USKS01:r0:c4,2022,2023,176,176,Grassland/Pasture,Grassland/Pasture
+USKS01,USKS01:r1:c0,2018,2019,141,141,Deciduous Forest,Deciduous Forest
+USKS01,USKS01:r1:c0,2019,2020,141,176,Deciduous Forest,Grassland/Pasture
+USKS01,USKS01:r1:c0,2020,2021,176,141,Grassland/Pasture,Deciduous Forest
+USKS01,USKS01:r1:c0,2021,2022,141,141,Deciduous Forest,Deciduous Forest
+USKS01,USKS01:r1:c0,2022,2023,141,141,Deciduous Forest,Deciduous Forest
+USKS01,USKS01:r1:c1,2018,2019,141,141,Deciduous Forest,Deciduous Forest
+USKS01,USKS01:r1:c1,2019,2020,141,141,Deciduous Forest,Deciduous Forest
+USKS01,USKS01:r1:c1,2020,2021,141,141,Deciduous Forest,Deciduous Forest
+USKS01,USKS01:r1:c1,2021,2022,141,141,Deciduous Forest,Deciduous Forest
+USKS01,USKS01:r1:c1,2022,2023,141,141,Deciduous Forest,Deciduous Forest
+USKS01,USKS01:r1:c2,2018,2019,5,4,Soybeans,Sorghum
+USKS01,USKS01:r1:c2,2019,2020,4,5,Sorghum,Soybeans
+USKS01,USKS01:r1:c2,2020,2021,5,5,Soybeans,Soybeans
+USKS01,USKS01:r1:c2,2021,2022,5,5,Soybeans,Soybeans
+USKS01,USKS01:r1:c2,2022,2023,5,5,Soybeans,Soybeans
+USKS01,USKS01:r1:c3,2018,2019,5,1,Soybeans,Corn
+USKS01,USKS01:r1:c3,2019,2020,1,5,Corn,Soybeans
+USKS01,USKS01:r1:c3,2020,2021,5,1,Soybeans,Corn
+USKS01,USKS01:r1:c3,2021,2022,1,5,Corn,Soybeans
+USKS01,USKS01:r1:c3,2022,2023,5,1,Soybeans,Corn
+USKS01,USKS01:r1:c4,2018,2019,1,5,Corn,Soybeans
+USKS01,USKS01:r1:c4,2019,2020,5,1,Soybeans,Corn
+USKS01,USKS01:r1:c4,2020,2021,1,5,Corn,Soybeans
+USKS01,USKS01:r1:c4,2021,2022,5,1,Soybeans,Corn
+USKS01,USKS01:r1:c4,2022,2023,1,5,Corn,Soybeans
+USKS01,USKS01:r2:c0,2018,2019,111,111,Open Water,Open Water
+USKS01,USKS01:r2:c0,2019,2020,111,141,Open Water,Deciduous Forest
+USKS01,USKS01:r2:c0,2020,2021,141,111,Deciduous Forest,Open Water
+USKS01,USKS01:r2:c0,2021,2022,111,111,Open Water,Open Water
+USKS01,USKS01:r2:c0,2022,2023,111,111,Open Water,Open Water
+USKS01,USKS01:r2:c1,2018,2019,176,176,Grassland/Pasture,Grassland/Pasture
+USKS01,USKS01:r2:c1,2019,2020,176,176,Grassland/Pasture,Grassland/Pasture
+USKS01,USKS01:r2:c1,2020,2021,176,176,Grassland/Pasture,Grassland/Pasture
+USKS01,USKS01:r2:c1,2021,2022,176,176,Grassland/Pasture,Grassland/Pasture
+USKS01,USKS01:r2:c1,2022,2023,176,176,Grassland/Pasture,Grassland/Pasture
+USKS01,USKS01:r2:c2,2018,2019,5,4,Soybeans,Sorghum
+USKS01,USKS01:r2:c2,2019,2020,4,24,Sorghum,Winter Wheat
+USKS01,USKS01:r2:c2,2020,2021,24,1,Winter Wheat,Corn
+USKS01,USKS01:r2:c2,2021,2022,1,26,Corn,Dbl Crop WinWht/Soybeans
+USKS01,USKS01:r2:c2,2022,2023,26,1,Dbl Crop WinWht/Soybeans,Corn
+USKS01,USKS01:r2:c3,2018,2019,5,4,Soybeans,Sorghum
+USKS01,USKS01:r2:c3,2019,2020,4,1,Sorghum,Corn
+USKS01,USKS01:r2:c3,2020,2021,1,5,Corn,Soybeans
+USKS01,USKS01:r2:c3,2021,2022,5,59,Soybeans,Sod/Grass Seed
+USKS01,USKS01:r2:c3,2022,2023,59,59,Sod/Grass Seed,Sod/Grass Seed
+USKS01,USKS01:r2:c4,2018,2019,122,176,Developed/Low Intensity,Grassland/Pasture
+USKS01,USKS01:r2:c4,2019,2020,176,122,Grassland/Pasture,Developed/Low Intensity
+USKS01,USKS01:r2:c4,2020,2021,122,121,Developed/Low Intensity,Developed/Open Space
+USKS01,USKS01:r2:c4,2021,2022,121,121,Developed/Open Space,Developed/Open Space
+USKS01,USKS01:r2:c4,2022,2023,121,121,Developed/Open Space,Developed/Open Space
+USKS01,USKS01:r3:c0,2018,2019,5,1,Soybeans,Corn
+USKS01,USKS01:r3:c0,2019,2020,1,5,Corn,Soybeans
+USKS01,USKS01:r3:c0,2020,2021,5,1,Soybeans,Corn
+USKS01,USKS01:r3:c0,2021,2022,1,5,Corn,Soybeans
+USKS01,USKS01:r3:c0,2022,2023,5,1,Soybeans,Corn
+USKS01,USKS01:r3:c1,2018,2019,141,141,Deciduous Forest,Deciduous Forest
+USKS01,USKS01:r3:c1,2019,2020,141,141,Deciduous Forest,Deciduous Forest
+USKS01,USKS01:r3:c1,2020,2021,141,176,Deciduous Forest,Grassland/Pasture
+USKS01,USKS01:r3:c1,2021,2022,176,141,Grassland/Pasture,Deciduous Forest
+USKS01,USKS01:r3:c1,2022,2023,141,176,Deciduous Forest,Grassland/Pasture
+USKS01,USKS01:r3:c2,2018,2019,1,5,Corn,Soybeans
+USKS01,USKS01:r3:c2,2019,2020,5,1,Soybeans,Corn
+USKS01,USKS01:r3:c2,2020,2021,1,5,Corn,Soybeans
+USKS01,USKS01:r3:c2,2021,2022,5,1,Soybeans,Corn
+USKS01,USKS01:r3:c2,2022,2023,1,5,Corn,Soybeans
+USKS01,USKS01:r3:c3,2018,2019,5,36,Soybeans,Alfalfa
+USKS01,USKS01:r3:c3,2019,2020,36,36,Alfalfa,Alfalfa
+USKS01,USKS01:r3:c3,2020,2021,36,36,Alfalfa,Alfalfa
+USKS01,USKS01:r3:c3,2021,2022,36,36,Alfalfa,Alfalfa
+USKS01,USKS01:r3:c3,2022,2023,36,36,Alfalfa,Alfalfa
+USKS01,USKS01:r3:c4,2018,2019,5,1,Soybeans,Corn
+USKS01,USKS01:r3:c4,2019,2020,1,5,Corn,Soybeans
+USKS01,USKS01:r3:c4,2020,2021,5,1,Soybeans,Corn
+USKS01,USKS01:r3:c4,2021,2022,1,5,Corn,Soybeans
+USKS01,USKS01:r3:c4,2022,2023,5,1,Soybeans,Corn
+USKS01,USKS01:r4:c0,2018,2019,122,122,Developed/Low Intensity,Developed/Low Intensity
+USKS01,USKS01:r4:c0,2019,2020,122,123,Developed/Low Intensity,Developed/Med Intensity
+USKS01,USKS01:r4:c0,2020,2021,123,122,Developed/Med Intensity,Developed/Low Intensity
+USKS01,USKS01:r4:c0,2021,2022,122,122,Developed/Low Intensity,Developed/Low Intensity
+USKS01,USKS01:r4:c0,2022,2023,122,122,Developed/Low Intensity,Developed/Low Intensity
+USKS01,USKS01:r4:c1,2018,2019,111,111,Open Water,Open Water
+USKS01,USKS01:r4:c1,2019,2020,111,111,Open Water,Open Water
+USKS01,USKS01:r4:c1,2020,2021,111,111,Open Water,Open Water
+USKS01,USKS01:r4:c1,2021,2022,111,111,Open Water,Open Water
+USKS01,USKS01:r4:c1,2022,2023,111,111,Open Water,Open Water
+USKS01,USKS01:r4:c2,2018,2019,176,176,Grassland/Pasture,Grassland/Pasture
+USKS01,USKS01:r4:c2,2019,2020,176,5,Grassland/Pasture,Soybeans
+USKS01,USKS01:r4:c2,2020,2021,5,176,Soybeans,Grassland/Pasture
+USKS01,USKS01:r4:c2,2021,2022,176,176,Grassland/Pasture,Grassland/Pasture
+USKS01,USKS01:r4:c2,2022,2023,176,176,Grassland/Pasture,Grassland/Pasture
+USKS01,USKS01:r4:c3,2018,2019,5,5,Soybeans,Soybeans
+USKS01,USKS01:r4:c3,2019,2020,5,4,Soybeans,Sorghum
+USKS01,USKS01:r4:c3,2020,2021,4,5,Sorghum,Soybeans
+USKS01,USKS01:r4:c3,2021,2022,5,4,Soybeans,Sorghum
+USKS01,USKS01:r4:c3,2022,2023,4,5,Sorghum,Soybeans
+USKS01,USKS01:r4:c4,2018,2019,195,176,Herbaceous Wetlands,Grassland/Pasture
+USKS01,USKS01:r4:c4,2019,2020,176,141,Grassland/Pasture,Deciduous Forest
+USKS01,USKS01:r4:c4,2020,2021,141,176,Deciduous Forest,Grassland/Pasture
+USKS01,USKS01:r4:c4,2021,2022,176,176,Grassland/Pasture,Grassland/Pasture
+USKS01,USKS01:r4:c4,2022,2023,176,176,Grassland/Pasture,Grassland/Pasture
+USOR03,USOR03:r0:c0,2018,2019,152,176,Shrubland,Grassland/Pasture
+USOR03,USOR03:r0:c0,2019,2020,176,176,Grassland/Pasture,Grassland/Pasture
+USOR03,USOR03:r0:c0,2020,2021,176,176,Grassland/Pasture,Grassland/Pasture
+USOR03,USOR03:r0:c0,2021,2022,176,176,Grassland/Pasture,Grassland/Pasture
+USOR03,USOR03:r0:c0,2022,2023,176,176,Grassland/Pasture,Grassland/Pasture
+USOR03,USOR03:r0:c1,2018,2019,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r0:c1,2019,2020,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r0:c1,2020,2021,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r0:c1,2021,2022,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r0:c1,2022,2023,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r0:c2,2018,2019,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r0:c2,2019,2020,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r0:c2,2020,2021,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r0:c2,2021,2022,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r0:c2,2022,2023,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r0:c3,2018,2019,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r0:c3,2019,2020,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r0:c3,2020,2021,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r0:c3,2021,2022,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r0:c3,2022,2023,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r0:c4,2018,2019,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r0:c4,2019,2020,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r0:c4,2020,2021,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r0:c4,2021,2022,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r0:c4,2022,2023,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r1:c0,2018,2019,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r1:c0,2019,2020,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r1:c0,2020,2021,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r1:c0,2021,2022,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r1:c0,2022,2023,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r1:c1,2018,2019,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r1:c1,2019,2020,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r1:c1,2020,2021,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r1:c1,2021,2022,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r1:c1,2022,2023,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r1:c2,2018,2019,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r1:c2,2019,2020,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r1:c2,2020,2021,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r1:c2,2021,2022,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r1:c2,2022,2023,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r1:c3,2018,2019,53,24,Peas,Winter Wheat
+USOR03,USOR03:r1:c3,2019,2020,24,53,Winter Wheat,Peas
+USOR03,USOR03:r1:c3,2020,2021,53,24,Peas,Winter Wheat
+USOR03,USOR03:r1:c3,2021,2022,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r1:c3,2022,2023,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r1:c4,2018,2019,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r1:c4,2019,2020,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r1:c4,2020,2021,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r1:c4,2021,2022,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r1:c4,2022,2023,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r2:c0,2018,2019,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r2:c0,2019,2020,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r2:c0,2020,2021,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r2:c0,2021,2022,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r2:c0,2022,2023,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r2:c1,2018,2019,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r2:c1,2019,2020,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r2:c1,2020,2021,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r2:c1,2021,2022,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r2:c1,2022,2023,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r2:c2,2018,2019,53,24,Peas,Winter Wheat
+USOR03,USOR03:r2:c2,2019,2020,24,23,Winter Wheat,Spring Wheat
+USOR03,USOR03:r2:c2,2020,2021,23,24,Spring Wheat,Winter Wheat
+USOR03,USOR03:r2:c2,2021,2022,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r2:c2,2022,2023,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r2:c3,2018,2019,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r2:c3,2019,2020,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r2:c3,2020,2021,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r2:c3,2021,2022,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r2:c3,2022,2023,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r2:c4,2018,2019,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r2:c4,2019,2020,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r2:c4,2020,2021,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r2:c4,2021,2022,24,24,Winter Wheat,Winter Wheat
+USOR03,USOR03:r2:c4,2022,2023,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r3:c0,2018,2019,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r3:c0,2019,2020,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r3:c0,2020,2021,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r3:c0,2021,2022,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r3:c0,2022,2023,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r3:c1,2018,2019,152,152,Shrubland,Shrubland
+USOR03,USOR03:r3:c1,2019,2020,152,152,Shrubland,Shrubland
+USOR03,USOR03:r3:c1,2020,2021,152,152,Shrubland,Shrubland
+USOR03,USOR03:r3:c1,2021,2022,152,152,Shrubland,Shrubland
+USOR03,USOR03:r3:c1,2022,2023,152,152,Shrubland,Shrubland
+USOR03,USOR03:r3:c2,2018,2019,24,53,Winter Wheat,Peas
+USOR03,USOR03:r3:c2,2019,2020,53,24,Peas,Winter Wheat
+USOR03,USOR03:r3:c2,2020,2021,24,53,Winter Wheat,Peas
+USOR03,USOR03:r3:c2,2021,2022,53,24,Peas,Winter Wheat
+USOR03,USOR03:r3:c2,2022,2023,24,205,Winter Wheat,Triticale
+USOR03,USOR03:r3:c3,2018,2019,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r3:c3,2019,2020,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r3:c3,2020,2021,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r3:c3,2021,2022,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r3:c3,2022,2023,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r3:c4,2018,2019,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r3:c4,2019,2020,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r3:c4,2020,2021,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r3:c4,2021,2022,24,24,Winter Wheat,Winter Wheat
+USOR03,USOR03:r3:c4,2022,2023,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r4:c0,2018,2019,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r4:c0,2019,2020,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r4:c0,2020,2021,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r4:c0,2021,2022,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r4:c0,2022,2023,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r4:c1,2018,2019,36,36,Alfalfa,Alfalfa
+USOR03,USOR03:r4:c1,2019,2020,36,37,Alfalfa,Other Hay/Non Alfalfa
+USOR03,USOR03:r4:c1,2020,2021,37,36,Other Hay/Non Alfalfa,Alfalfa
+USOR03,USOR03:r4:c1,2021,2022,36,36,Alfalfa,Alfalfa
+USOR03,USOR03:r4:c1,2022,2023,36,36,Alfalfa,Alfalfa
+USOR03,USOR03:r4:c2,2018,2019,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r4:c2,2019,2020,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r4:c2,2020,2021,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r4:c2,2021,2022,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r4:c2,2022,2023,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r4:c3,2018,2019,61,152,Fallow/Idle Cropland,Shrubland
+USOR03,USOR03:r4:c3,2019,2020,152,61,Shrubland,Fallow/Idle Cropland
+USOR03,USOR03:r4:c3,2020,2021,61,61,Fallow/Idle Cropland,Fallow/Idle Cropland
+USOR03,USOR03:r4:c3,2021,2022,61,24,Fallow/Idle Cropland,Winter Wheat
+USOR03,USOR03:r4:c3,2022,2023,24,61,Winter Wheat,Fallow/Idle Cropland
+USOR03,USOR03:r4:c4,2018,2019,176,176,Grassland/Pasture,Grassland/Pasture
+USOR03,USOR03:r4:c4,2019,2020,176,37,Grassland/Pasture,Other Hay/Non Alfalfa
+USOR03,USOR03:r4:c4,2020,2021,37,176,Other Hay/Non Alfalfa,Grassland/Pasture
+USOR03,USOR03:r4:c4,2021,2022,176,176,Grassland/Pasture,Grassland/Pasture
+USOR03,USOR03:r4:c4,2022,2023,176,176,Grassland/Pasture,Grassland/Pasture

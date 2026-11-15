@@ -1,0 +1,386 @@
+{
+  "software_version": "0.6.0",
+  "mode": "live_network_empty_cache",
+  "started_at_utc": "2026-11-15T00:55:24.154191+00:00",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "pflux: gerçek indirme",
+      "status": "passed",
+      "evidence": {
+        "dataset": "pflux",
+        "version": 1,
+        "doi": "https://doi.org/10.15482/USDA.ADC/1523365",
+        "license": {
+          "value": 96,
+          "name": "U.S. Public Domain",
+          "url": "https://www.usa.gov/publicdomain/label/1.0/"
+        },
+        "metadata_sha256": "aa7badea1140cd3fe2ebd1a3154f23abc0a59c27b49e44d30e33c47e4cc2b81a",
+        "files": [
+          {
+            "file": "DataSourcesAndReferences.csv",
+            "size": 45384,
+            "md5": "307469c3ffb076258f4db84d424e9ca4",
+            "sha256": "309fef3f892f07ad86f25071850cbbc0f2e8346ca01cd7982c00792b50867fee"
+          },
+          {
+            "file": "PBudgetData.csv",
+            "size": 67501,
+            "md5": "ce25c5543acbef3432d781f9ae7a23a1",
+            "sha256": "684e10b4c3b6c078b180f8dc6e25191b03b9572b5682b40be82b99384cb76195"
+          }
+        ],
+        "acquisition": {
+          "fetched_at_utc": "2026-11-15T00:55:49.648140+00:00",
+          "api": "https://api.figshare.com/v2/articles/24855381/versions/1",
+          "source_version": 1,
+          "transfers": [
+            {
+              "file": "DataSourcesAndReferences.csv",
+              "status": "downloaded",
+              "bytes": 45384
+            },
+            {
+              "file": "PBudgetData.csv",
+              "status": "downloaded",
+              "bytes": 67501
+            }
+          ],
+          "downloaded_count": 2,
+          "cached_count": 0
+        }
+      }
+    },
+    {
+      "name": "napeshm: gerçek indirme",
+      "status": "passed",
+      "evidence": {
+        "dataset": "napeshm",
+        "version": 1,
+        "doi": "https://doi.org/10.15482/USDA.ADC/25632270",
+        "license": {
+          "value": 1,
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "metadata_sha256": "0ee4c604e6be832959076b4f38d94a18f0a259aefbe99f72ace323579bfa842a",
+        "files": [
+          {
+            "file": "NAPESHM_public_dataset_06032024.zip",
+            "size": 4994407,
+            "md5": "b6a0a7cd8123c556c82a0d3384084a83",
+            "sha256": "1b4a6eba11d27b88aee83a1fb844eea91919599ee64652e37d988059c14a029a"
+          }
+        ],
+        "acquisition": {
+          "fetched_at_utc": "2026-11-15T00:56:04.473642+00:00",
+          "api": "https://api.figshare.com/v2/articles/25632270/versions/1",
+          "source_version": 1,
+          "transfers": [
+            {
+              "file": "NAPESHM_public_dataset_06032024.zip",
+              "status": "downloaded",
+              "bytes": 4994407
+            }
+          ],
+          "downloaded_count": 1,
+          "cached_count": 0
+        }
+      }
+    },
+    {
+      "name": "gerçek dosyadan ön işleme ve pilot analizi",
+      "status": "passed",
+      "evidence": {
+        "pflux": {
+          "source_rows": 224,
+          "systems": 61,
+          "rotation_position_rows": 163,
+          "system_summary_rows": 61,
+          "wheat_systems": 23,
+          "wheat_systems_named_in_summary": 21,
+          "wheat_systems_from_rotation_only": 2,
+          "unmatched_reference_rows": 61,
+          "unmatched_rotation_reference_rows": 0,
+          "reference_footnotes": 11,
+          "nonnumeric_flux_rows": 1,
+          "tolerance_kg_p_ha_year": 0.03,
+          "agronomic_checks": {
+            "within_rounding": 59,
+            "missing": 2
+          },
+          "overall_checks": {
+            "within_rounding": 45,
+            "missing": 16
+          },
+          "notice": "Rotasyon sırası takvim yılı değildir. Bütçe bitkiye yarayışlı P stoku değildir; hidrologic_p_form korunmuştur."
+        },
+        "napeshm": {
+          "sites": 94,
+          "treatments": 508,
+          "soil_plots": 1453,
+          "soil_observed_sites": 93,
+          "wheat_flagged_sites": 40,
+          "wheat_sites_with_soil": 39,
+          "wheat_sites_without_soil": [
+            "USWA03"
+          ],
+          "wheat_phase_plots": 277,
+          "wheat_flagged_site_plots": 753,
+          "management_rows": 12643,
+          "management_invalid_links": 0,
+          "reserved_management_rows": 986,
+          "unparsed_indicator_values": 0,
+          "notice": "Kesitsel toprak göstergeleri; site_wheat alan düzeyindedir. Toplam N, mineral N değildir. Ölçüm yöntemleri ayrı tutuldu."
+        },
+        "pilot_analysis": {
+          "pilots": {
+            "oregon": {
+              "sitecode": "USOR03",
+              "label": "Oregon: kışlık buğday–bezelye, toprak işleme karşılaştırması",
+              "plot_count": 12,
+              "treatment_count": 3,
+              "crop_phase": "winter wheat",
+              "contrast_definitions": 3
+            },
+            "kansas": {
+              "sitecode": "USKS01",
+              "label": "Kansas: azot düzeyi, nadas, ikinci ürün ve örtü bitkisi",
+              "plot_count": 24,
+              "treatment_count": 6,
+              "crop_phase": "Sorghum",
+              "contrast_definitions": 9
+            }
+          },
+          "selected_plots": 36,
+          "indicator_rows": 324,
+          "summary_rows": 81,
+          "contrast_rows": 108,
+          "contrasts_with_values": 84,
+          "notice": "Ortalama farkları betimseldir. Nedensellik, eşleştirilmiş ölçüm, anlamlılık veya gelecek tahmini iddiası yoktur."
+        }
+      }
+    },
+    {
+      "name": "gerçek rotasyondan altı sezonluk plan",
+      "status": "passed",
+      "evidence": {
+        "system_id": "AAFC-Sys1",
+        "schedule": [
+          {
+            "plan_year": 2027,
+            "system_id": "AAFC-Sys1",
+            "source_rotation_position": 3,
+            "crop": "Wheat",
+            "source_mean_application_p": 4.9,
+            "source_mean_net_p": 1.8,
+            "cumulative_p_change_before": 0.0,
+            "cumulative_p_change_after": 1.8
+          },
+          {
+            "plan_year": 2028,
+            "system_id": "AAFC-Sys1",
+            "source_rotation_position": 1,
+            "crop": "Canola",
+            "source_mean_application_p": 3.6,
+            "source_mean_net_p": 0.4600000000000002,
+            "cumulative_p_change_before": 1.8,
+            "cumulative_p_change_after": 2.2600000000000002
+          },
+          {
+            "plan_year": 2029,
+            "system_id": "AAFC-Sys1",
+            "source_rotation_position": 2,
+            "crop": "Soybean",
+            "source_mean_application_p": 10.0,
+            "source_mean_net_p": 7.240000000000001,
+            "cumulative_p_change_before": 2.2600000000000002,
+            "cumulative_p_change_after": 9.500000000000002
+          },
+          {
+            "plan_year": 2030,
+            "system_id": "AAFC-Sys1",
+            "source_rotation_position": 3,
+            "crop": "Wheat",
+            "source_mean_application_p": 4.9,
+            "source_mean_net_p": 1.8,
+            "cumulative_p_change_before": 9.500000000000002,
+            "cumulative_p_change_after": 11.300000000000002
+          },
+          {
+            "plan_year": 2031,
+            "system_id": "AAFC-Sys1",
+            "source_rotation_position": 1,
+            "crop": "Canola",
+            "source_mean_application_p": 3.6,
+            "source_mean_net_p": 0.4600000000000002,
+            "cumulative_p_change_before": 11.300000000000002,
+            "cumulative_p_change_after": 11.760000000000003
+          },
+          {
+            "plan_year": 2032,
+            "system_id": "AAFC-Sys1",
+            "source_rotation_position": 2,
+            "crop": "Soybean",
+            "source_mean_application_p": 10.0,
+            "source_mean_net_p": 7.240000000000001,
+            "cumulative_p_change_before": 11.760000000000003,
+            "cumulative_p_change_after": 19.000000000000004
+          }
+        ],
+        "feasible_scenarios": 5
+      }
+    },
+    {
+      "name": "NASA POWER historical: gerçek HTTPS indirme",
+      "status": "passed",
+      "evidence": {
+        "request": {
+          "sitecode": "USOR03",
+          "latitude": 45.721236,
+          "longitude": -118.624501,
+          "kind": "historical",
+          "scenario": null,
+          "model": null,
+          "start": "2024-01-01",
+          "end": "2024-01-07",
+          "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CPRECTOTCORR&community=AG&longitude=-118.624501&latitude=45.721236&start=20240101&end=20240107&format=JSON&time-standard=UTC"
+        },
+        "sha256": "cced250e614d3c5cf0c5b0eb72e95cfe1bda675b0f73f98e8bc3e2e98ea6e3de",
+        "api_header": {
+          "title": "NASA/POWER Source Native Resolution Daily Data",
+          "api": {
+            "version": "v2.10.3",
+            "name": "POWER Daily API"
+          },
+          "sources": [
+            "MERRA2",
+            "POWER"
+          ],
+          "fill_value": -999.0,
+          "time_standard": "UTC",
+          "start": "20240101",
+          "end": "20240107"
+        },
+        "day_count": 7,
+        "transfer": "downloaded"
+      }
+    },
+    {
+      "name": "NASA POWER projection: gerçek HTTPS indirme",
+      "status": "passed",
+      "evidence": {
+        "request": {
+          "sitecode": "USOR03",
+          "latitude": 45.721236,
+          "longitude": -118.624501,
+          "kind": "projection",
+          "scenario": "ssp245",
+          "model": "ensemble",
+          "start": "2027-01-01",
+          "end": "2027-01-07",
+          "url": "https://power.larc.nasa.gov/api/projection/daily/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CPRECTOTCORR&community=AG&longitude=-118.624501&latitude=45.721236&start=20270101&end=20270107&format=JSON&time-standard=UTC&scenario=ssp245&model=ensemble"
+        },
+        "sha256": "8b9f3930f88db6de23a387da6c7cc5cc84927298f32e3d96381bcab2465286a8",
+        "api_header": {
+          "title": "NASA/POWER WCRP/CMIP6 NEX-GDDP Downscaled Daily Data",
+          "api": {
+            "version": "v2.6.4-beta",
+            "name": "Climate Projection API"
+          },
+          "sources": [
+            "NEXGDDP"
+          ],
+          "model": "ensemble",
+          "scenarios": [
+            "ssp245"
+          ],
+          "time_standard": "utc",
+          "fill_value": -999,
+          "start": "20270101",
+          "end": "20270107"
+        },
+        "day_count": 7,
+        "transfer": "downloaded"
+      }
+    },
+    {
+      "name": "aynı alan/sezon/örnekleme tarihi eşleştirmesi",
+      "status": "passed",
+      "evidence": {
+        "aligned_soil_plots": 12,
+        "unlinked_soil_plots": 24,
+        "source_seasons": 26,
+        "source_soil_plots": 36,
+        "linked_weather_groups": 1,
+        "weather_groups": [
+          "USOR03:2018-10-15:2019-04-14"
+        ],
+        "aligned_rows_with_complete_weather": 12,
+        "unlinked_reasons": {
+          "sampling_date_missing": 24
+        },
+        "dynamic_soil_model_ready": false,
+        "reasons": [
+          "Single-campaign soil targets: no before/after soil measurements per plot.",
+          "Crop yields and nutrient removal amounts are not identified from harvest residue percentages.",
+          "P/K amendment amounts and N fixation/losses are unresolved.",
+          "Management dates are treatment-level; exact plot sampling times and experimental blocks are unresolved.",
+          "Shared site weather must not be treated as independent climate observations per plot."
+        ],
+        "feature_timing": "Only complete days strictly before soil sampling; targets are not initial soil features.",
+        "nutrient_scope": "Explicit documented N subtotal only; zero subtotal is not proof of zero total fertilizer input."
+      }
+    },
+    {
+      "name": "USDA CDL: ürün sınıflandırması ve kaynak yılı",
+      "status": "passed",
+      "evidence": {
+        "sample_count": 25,
+        "year": 2019,
+        "center_code": 24,
+        "center_class": "Winter Wheat",
+        "provenance": [
+          {
+            "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer?f=json",
+            "operation": "service_metadata",
+            "sha256": "8e24029371f9d49e3f93907c110180db6bd0c71cb800f263f6e9aa35094fb847",
+            "bytes": 4880,
+            "fetched_at_utc": "2026-11-15T00:56:31.940894+00:00",
+            "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+            "transfer": "downloaded"
+          },
+          {
+            "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/rasterAttributeTable?f=json",
+            "operation": "rasterAttributeTable",
+            "sha256": "8b5cec2ff965a2d1f7f1205111b3a0fbe3cce5ed82cb0ef6a446ae304fe0b699",
+            "bytes": 38504,
+            "fetched_at_utc": "2026-11-15T00:56:36.320740+00:00",
+            "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+            "transfer": "downloaded"
+          },
+          {
+            "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/query?f=json&where=Year+%3D+2019+AND+Category+%3D+1&outFields=OBJECTID%2CName%2CYear&returnGeometry=false",
+            "operation": "query",
+            "sha256": "ea756ca101d28de82a27ba5aa9f3f6cded88b0ae117a577c85ecc57fdbed1677",
+            "bytes": 362,
+            "fetched_at_utc": "2026-11-15T00:56:40.571823+00:00",
+            "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+            "transfer": "downloaded"
+          },
+          {
+            "url": "https://pdi.scinet.usda.gov/image/rest/services/CDL_WM/ImageServer/getSamples?f=json&geometryType=esriGeometryMultipoint&geometry=%7B%22points%22%3A%5B%5B-118.644501%2C45.701236%5D%2C%5B-118.634501%2C45.701236%5D%2C%5B-118.624501%2C45.701236%5D%2C%5B-118.614501%2C45.701236%5D%2C%5B-118.604501%2C45.701236%5D%2C%5B-118.644501%2C45.711236%5D%2C%5B-118.634501%2C45.711236%5D%2C%5B-118.624501%2C45.711236%5D%2C%5B-118.614501%2C45.711236%5D%2C%5B-118.604501%2C45.711236%5D%2C%5B-118.644501%2C45.721236%5D%2C%5B-118.634501%2C45.721236%5D%2C%5B-118.624501%2C45.721236%5D%2C%5B-118.614501%2C45.721236%5D%2C%5B-118.604501%2C45.721236%5D%2C%5B-118.644501%2C45.731236%5D%2C%5B-118.634501%2C45.731236%5D%2C%5B-118.624501%2C45.731236%5D%2C%5B-118.614501%2C45.731236%5D%2C%5B-118.604501%2C45.731236%5D%2C%5B-118.644501%2C45.741236%5D%2C%5B-118.634501%2C45.741236%5D%2C%5B-118.624501%2C45.741236%5D%2C%5B-118.614501%2C45.741236%5D%2C%5B-118.604501%2C45.741236%5D%5D%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&mosaicRule=%7B%22mosaicMethod%22%3A%22esriMosaicLockRaster%22%2C%22lockRasterIds%22%3A%5B1%5D%2C%22where%22%3A%22Year+%3D+2019%22%7D&returnFirstValueOnly=true&interpolation=RSP_NearestNeighbor&outFields=Year%2CName%2COBJECTID",
+            "operation": "getSamples",
+            "sha256": "c3c2cd2948ff5cbe3646b919afee4056c3537dcc45f04dcfa4ddc8fb06019025",
+            "bytes": 5652,
+            "fetched_at_utc": "2026-11-15T00:56:45.045543+00:00",
+            "source": "USDA NASS Cropland Data Layer / CroplandCROS",
+            "transfer": "downloaded"
+          }
+        ]
+      }
+    }
+  ],
+  "finished_at_utc": "2026-11-15T00:56:45.057868+00:00"
+}

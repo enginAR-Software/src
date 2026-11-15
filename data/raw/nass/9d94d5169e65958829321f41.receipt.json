@@ -1,0 +1,8 @@
+{
+  "url": "https://quickstats.nass.usda.gov/api/api_GET/?short_desc=CORN%2C+GRAIN+-+YIELD%2C+MEASURED+IN+BU+%2F+ACRE&agg_level_desc=STATE&state_alpha=KS&year__GE=2014&year__LE=2023&source_desc=SURVEY&format=JSON",
+  "sha256": "df504cc62fadb62d0267207b8a23522274ae82034214476850f888ac070738b1",
+  "fetched_at_utc": "2026-11-15T03:13:48.659901+00:00",
+  "source": "USDA NASS Quick Stats",
+  "series": "CORN, GRAIN - YIELD, MEASURED IN BU / ACRE",
+  "level": "STATE"
+}

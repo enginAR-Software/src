@@ -1,0 +1,257 @@
+cdl_code,class_name,wheat_present
+0,Background,
+1,Corn,False
+2,Cotton,False
+3,Rice,False
+4,Sorghum,False
+5,Soybeans,False
+6,Sunflower,False
+7,,
+8,,
+9,,
+10,Peanuts,False
+11,Tobacco,False
+12,Sweet Corn,False
+13,Pop or Orn Corn,False
+14,Mint,False
+15,,
+16,,
+17,,
+18,,
+19,,
+20,,
+21,Barley,False
+22,Durum Wheat,True
+23,Spring Wheat,True
+24,Winter Wheat,True
+25,Other Small Grains,False
+26,Dbl Crop WinWht/Soybeans,True
+27,Rye,False
+28,Oats,False
+29,Millet,False
+30,Speltz,False
+31,Canola,False
+32,Flaxseed,False
+33,Safflower,False
+34,Rape Seed,False
+35,Mustard,False
+36,Alfalfa,False
+37,Other Hay/Non Alfalfa,False
+38,Camelina,False
+39,Buckwheat,False
+40,,
+41,Sugarbeets,False
+42,Dry Beans,False
+43,Potatoes,False
+44,Other Crops,False
+45,Sugarcane,False
+46,Sweet Potatoes,False
+47,Misc Vegs & Fruits,False
+48,Watermelons,False
+49,Onions,False
+50,Cucumbers,False
+51,Chick Peas,False
+52,Lentils,False
+53,Peas,False
+54,Tomatoes,False
+55,Caneberries,False
+56,Hops,False
+57,Herbs,False
+58,Clover/Wildflowers,False
+59,Sod/Grass Seed,False
+60,Switchgrass,False
+61,Fallow/Idle Cropland,False
+62,,
+63,Forest,False
+64,Shrubland,False
+65,Barren,False
+66,Cherries,False
+67,Peaches,False
+68,Apples,False
+69,Grapes,False
+70,Christmas Trees,False
+71,Other Tree Crops,False
+72,Citrus,False
+73,,
+74,Pecans,False
+75,Almonds,False
+76,Walnuts,False
+77,Pears,False
+78,,
+79,,
+80,,
+81,Clouds/No Data,False
+82,Developed,False
+83,Water,False
+84,,
+85,,
+86,,
+87,Wetlands,False
+88,Nonag/Undefined,False
+89,,
+90,,
+91,,
+92,Aquaculture,False
+93,,
+94,,
+95,,
+96,,
+97,,
+98,,
+99,,
+100,,
+101,,
+102,,
+103,,
+104,,
+105,,
+106,,
+107,,
+108,,
+109,,
+110,,
+111,Open Water,False
+112,Perennial Ice/Snow ,False
+113,,
+114,,
+115,,
+116,,
+117,,
+118,,
+119,,
+120,,
+121,Developed/Open Space,False
+122,Developed/Low Intensity,False
+123,Developed/Med Intensity,False
+124,Developed/High Intensity,False
+125,,
+126,,
+127,,
+128,,
+129,,
+130,,
+131,Barren,False
+132,,
+133,,
+134,,
+135,,
+136,,
+137,,
+138,,
+139,,
+140,,
+141,Deciduous Forest,False
+142,Evergreen Forest,False
+143,Mixed Forest,False
+144,,
+145,,
+146,,
+147,,
+148,,
+149,,
+150,,
+151,,
+152,Shrubland,False
+153,,
+154,,
+155,,
+156,,
+157,,
+158,,
+159,,
+160,,
+161,,
+162,,
+163,,
+164,,
+165,,
+166,,
+167,,
+168,,
+169,,
+170,,
+171,,
+172,,
+173,,
+174,,
+175,,
+176,Grassland/Pasture,False
+177,,
+178,,
+179,,
+180,,
+181,,
+182,,
+183,,
+184,,
+185,,
+186,,
+187,,
+188,,
+189,,
+190,Woody Wetlands,False
+191,,
+192,,
+193,,
+194,,
+195,Herbaceous Wetlands,False
+196,,
+197,,
+198,,
+199,,
+200,,
+201,,
+202,,
+203,,
+204,Pistachios,False
+205,Triticale,False
+206,Carrots,False
+207,Asparagus,False
+208,Garlic,False
+209,Cantaloupes,False
+210,Prunes,False
+211,Olives,False
+212,Oranges,False
+213,Honeydew Melons,False
+214,Broccoli,False
+215,Avocados,False
+216,Peppers,False
+217,Pomegranates,False
+218,Nectarines,False
+219,Greens,False
+220,Plums,False
+221,Strawberries,False
+222,Squash,False
+223,Apricots,False
+224,Vetch,False
+225,Dbl Crop WinWht/Corn,True
+226,Dbl Crop Oats/Corn,False
+227,Lettuce,False
+228,Dbl Crop Triticale/Corn,False
+229,Pumpkins,False
+230,Dbl Crop Lettuce/Durum Wht,True
+231,Dbl Crop Lettuce/Cantaloupe,False
+232,Dbl Crop Lettuce/Cotton,False
+233,Dbl Crop Lettuce/Barley,False
+234,Dbl Crop Durum Wht/Sorghum,True
+235,Dbl Crop Barley/Sorghum,False
+236,Dbl Crop WinWht/Sorghum,True
+237,Dbl Crop Barley/Corn,False
+238,Dbl Crop WinWht/Cotton,True
+239,Dbl Crop Soybeans/Cotton,False
+240,Dbl Crop Soybeans/Oats,False
+241,Dbl Crop Corn/Soybeans,False
+242,Blueberries,False
+243,Cabbage,False
+244,Cauliflower,False
+245,Celery,False
+246,Radishes,False
+247,Turnips,False
+248,Eggplants,False
+249,Gourds,False
+250,Cranberries,False
+251,,
+252,,
+253,,
+254,Dbl Crop Barley/Soybeans,False
+255,,

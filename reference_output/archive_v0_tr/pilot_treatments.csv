@@ -1,0 +1,10 @@
+pilot,treatmentid,siteid,sitecode,treat_no,eu_treat_desc,treatment_start_year,eu_tillage,eu_cover_crops,eu_nutr_rate,eu_nutr_type,eu_residue,crop_phase,eu_crop_cat,eu_crop_rot,eu_grazing,eu_irrigation,eu_other_trt,cash_crop_ct,cover_crop_ct,perennial_ct,plant_species_ct
+oregon,438,101,USOR03,1,winter-wheat_pea;chisel,1963,moderate,none,optimal,synthetic,none_removed,winter wheat,row_crop,2,none,none,,2,0,0,2
+oregon,439,101,USOR03,2,winter-wheat_pea;no-till,1963,minimum,none,optimal,synthetic,none_removed,winter wheat,row_crop,2,none,none,,2,0,0,2
+oregon,440,101,USOR03,3,winter-wheat_pea;plow,1963,intense,none,optimal,synthetic,none_removed,winter wheat,row_crop,2,none,none,,2,0,0,2
+kansas,259,60,USKS01,1,chemical fallow; 0 nitrogen,2007,minimum,none,none,synthetic,none_removed,Sorghum,row_crop,3,none,none,,3,0,0,3
+kansas,260,60,USKS01,2,chemical fallow; 120 lbs of n/acre,2007,minimum,none,optimal,synthetic,none_removed,Sorghum,row_crop,3,none,none,,3,0,0,3
+kansas,261,60,USKS01,3,double crop-soy; 0 nitrogen,2007,minimum,none,none,synthetic,none_removed,Sorghum,row_crop,3,none,none,,3,0,0,3
+kansas,262,60,USKS01,4,double crop-soy; 120 lbs of n/acre,2007,minimum,none,optimal,synthetic,none_removed,Sorghum,row_crop,3,none,none,,3,0,0,3
+kansas,263,60,USKS01,5,summer covercrop before sorghum; 0 nitrogen,2007,minimum,mix,none,synthetic,none_removed,Sorghum,row_crop,greater_than_3,none,none,,3,8,0,11
+kansas,264,60,USKS01,6,summer covercrop before sorghum; 120 lbs of n/acre,2007,minimum,mix,optimal,synthetic,none_removed,Sorghum,row_crop,greater_than_3,none,none,,3,8,0,11

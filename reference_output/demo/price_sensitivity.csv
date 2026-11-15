@@ -1,0 +1,7 @@
+price_factor,region,best_mean_profit,current_mean_profit,typical_best_sequence
+0.8,USKS01,-391.1,-815.0,Sorghum → Sorghum → Winter Wheat → Sorghum → Sorghum → Winter Wheat
+0.8,USOR03,-183.6,-259.8,Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat
+1.0,USKS01,48.8,-289.6,Sorghum → Sorghum → Winter Wheat → Sorghum → Sorghum → Winter Wheat
+1.0,USOR03,70.9,-24.4,Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat
+1.2,USKS01,496.6,235.9,Sorghum → Sorghum → Winter Wheat → Soybeans → Sorghum → Sorghum
+1.2,USOR03,327.6,211.1,Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat → Fallow/Idle Cropland → Winter Wheat

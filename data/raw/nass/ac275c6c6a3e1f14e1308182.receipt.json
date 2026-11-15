@@ -1,0 +1,8 @@
+{
+  "url": "https://quickstats.nass.usda.gov/api/api_GET/?short_desc=WHEAT+-+PRICE+RECEIVED%2C+MEASURED+IN+%24+%2F+BU&agg_level_desc=STATE&state_alpha=KS&year__GE=2014&year__LE=2023&source_desc=SURVEY&format=JSON&reference_period_desc=MARKETING+YEAR&freq_desc=ANNUAL",
+  "sha256": "4b4b917a01e173b657e9ddc4ae5241dc73ae861c66395a3054cb79c9e15167f0",
+  "fetched_at_utc": "2026-11-15T03:13:30.644722+00:00",
+  "source": "USDA NASS Quick Stats",
+  "series": "WHEAT - PRICE RECEIVED, MEASURED IN $ / BU",
+  "level": "STATE"
+}

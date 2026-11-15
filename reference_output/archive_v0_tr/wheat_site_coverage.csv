@@ -1,0 +1,41 @@
+siteid,sitecode,studyname,soil_plot_count,observed_treatment_count,has_soil_data
+19,MXEM01,Texcoco I,36,18,True
+20,MXEM02,Texcoco II,12,6,True
+22,MXGT01,"Irapuato I, Gto",9,9,True
+23,MXHG01,"Francisco I. Madero, HID",12,6,True
+26,MXOA01,"Santo Domingo Yanhuitlan, OAX",10,5,True
+31,MXSO01,"Navojoa, Son",13,13,True
+32,MXSO02,"Cajeme II, SON",30,10,True
+33,MXSO03,"Cajeme I, SON",28,14,True
+34,USAL01,Sand Mountain Tillage Study,32,8,True
+35,USAL02,Old Rotation,13,12,True
+42,USCA01,Century Experiment Wheat System,12,3,True
+45,USCO01,Walsh Dryland Agroecosystem Project,24,12,True
+46,USCO02,Stratton Dryland Agroecosystem Project,24,12,True
+47,USCO03,Sterling Dryland Agroecoesystem Project,24,12,True
+48,USCO04,Byers Colorado Long-Term Fertilizer/Biosolids Site,12,4,True
+57,USID01,Kimberly Long Term Manure Application Study,16,4,True
+60,USKS01,Intensifying a no-till wheat-sorghum-soybean rotation with double-crops and cover crops,24,6,True
+61,USKS02,Tillage intensity study,16,4,True
+62,USKY01,UKREC Long Term Tillage Trial,8,2,True
+63,USKY02,Grove F05,24,6,True
+68,USMI03,Biodiversity Gradient Experiment,32,8,True
+69,USMI04,Main Cropping System Experiment,32,8,True
+74,USMO01,Centralia Missouri Cropping System Research Site,36,4,True
+75,USMO02,Sanborn Field,16,16,True
+77,USMO04,Tillage and Cover Crop Management Systems,12,3,True
+79,USMT01,GRACEnet,24,8,True
+80,USMT02,Agronomics,16,4,True
+84,USND01,Soil Quality Management Study,24,8,True
+85,USND02,CREC Long Term Cropping Systems Study,18,6,True
+86,USNE01,HPAL Long-Term Soil Management Tillage Study,12,4,True
+99,USOR01,Columbia Basin Agricultural Research Center - Moro wheat,9,3,True
+101,USOR03,"Columbia Basin Agricultural Research Center72 - Wheat, Peas",12,3,True
+102,USOR04,Columbia Basin Agricultural Research Center73 - 1940 Residue Mngmt,16,4,True
+103,USPA01,Farming Systems Trial,24,8,True
+108,USSD02,SDaltrot,16,4,True
+115,USTX05,Central Texas Tillage Rotation and Fertility Study,32,8,True
+118,USVA01,Long-term Poultry Litter Rotation,12,3,True
+119,USWA01,"Long Term Biosolids Research Plots, GP-17",15,5,True
+120,USWA02,Jirava Long-Term Cropping Systems Study,16,4,True
+121,USWA03,No-till/conventional tillage Integrated Cropping Systems Research Project,0,0,False

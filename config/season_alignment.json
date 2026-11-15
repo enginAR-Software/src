@@ -1,0 +1,12 @@
+{
+  "soil_campaign_year": 2019,
+  "crop_aliases": {
+    "winter_wheat": ["winter wheat"],
+    "pea": ["pea, dry edible"],
+    "soybean": ["soybean"],
+    "sorghum": ["sorghum"]
+  },
+  "weather_index_base_c": 0,
+  "weather_index_heat_c": 35,
+  "notes": "Aliases reviewed against pinned NAPESHM v1 management descriptions. Indices describe weather, not crop damage or nutrient mineralization."
+}

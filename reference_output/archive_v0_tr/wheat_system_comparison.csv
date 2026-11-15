@@ -1,0 +1,24 @@
+location,system_id,system_name,contains_wheat_text,hydrologic_p_form,agronomic_calculated,agronomic_published,agronomic_difference,agronomic_check,overall_calculated,overall_published,overall_difference,overall_check,system_contains_wheat_text,wheat_evidence
+Agrifoods Canada,AAFC-Sys1,Canola-Soybean-Wheat,True,TP,3.3899999999999997,3.38,0.009999999999999787,within_rounding,3.1699999999999995,3.16,0.009999999999999343,within_rounding,True,system_name
+Agrifoods Canada,AAFC-Sys2,Wheat-Canola,True,TP,4.38,4.38,0.0,within_rounding,4.08,4.08,0.0,within_rounding,True,system_name
+Agrifoods Canada,AAFC-Sys3,Wheat-Hemp (oilseed),True,TP,2.7600000000000016,2.76,1.7763568394002505e-15,within_rounding,2.2800000000000016,2.28,1.7763568394002505e-15,within_rounding,True,system_name
+Agrifoods Canada,AAFC-Sys4,Organic small grains mixed farm with flexible rotation,False,TP,12.76,12.76,0.0,within_rounding,12.709999999999999,12.71,-1.7763568394002505e-15,within_rounding,True,rotation_crop_only
+Cook Agronomy Farm,CAF-Sys1,Spring wheat- Garbanzo-Winter wheat,True,DRP (incomplete),-1.129999999999999,-1.13,8.881784197001252e-16,within_rounding,,,,missing,True,system_name
+Eastern Corn Belt,ECB-Sys1,Corn-Soybean-Wheat,True,TP,4.240000000000002,4.24,1.7763568394002505e-15,within_rounding,2.260000000000002,2.26,2.220446049250313e-15,within_rounding,True,system_name
+Lower Chesapeake Bay,LCB-Sys1,Corn (rye cover crop)-Soybean-Wheat&soybean,True,Missing,-11.999999999999998,-12.0,1.7763568394002505e-15,within_rounding,,,,missing,True,system_name
+Lower Chesapeake Bay,LCB-Sys2,Corn (rye cover crop)-Soybean-Wheat&soybean,True,Missing,-11.499999999999998,-11.5,1.7763568394002505e-15,within_rounding,,,,missing,True,system_name
+Lower Chesapeake Bay,LCB-Sys4,Corn (rye cover crop)-Soybean-Wheat (vetch cover crop),True,TP,18.9,18.9,0.0,within_rounding,16.75,16.75,0.0,within_rounding,True,system_name
+Lower Chesapeake Bay,LCB-Sys5,Corn-Soybean-Wheat-Alfalfa-Alfalfa-Alfalfa (Corn/rye cover crop),True,Missing,2.200000000000003,2.2,2.6645352591003757e-15,within_rounding,,,,missing,True,system_name
+North Carolina State University,NC-Sys1,Pasture & Continuous corn,False,TP,23.4,23.4,0.0,within_rounding,20.619999999999997,20.62,-3.552713678800501e-15,within_rounding,True,rotation_crop_only
+North Carolina State University,NC-Sys3,Corn-Wheat-Soybean,True,TP,-4.729999999999999,-4.73,1.7763568394002505e-15,within_rounding,-5.009999999999999,-5.01,8.881784197001252e-16,within_rounding,True,system_name
+Northern Plains,NP-Sys1,Spring wheat-Corn-Soybean (with cover crops after spring wheat and interseeded in corn),True,DRP,3.870000000000001,3.87,8.881784197001252e-16,within_rounding,3.870000000000001,,,missing,True,system_name
+Northern Plains,NP-Sys2,Spring wheat-Corn-Soybean (no cover crops),True,DRP,3.6300000000000026,3.63,2.6645352591003757e-15,within_rounding,3.6300000000000026,,,missing,True,system_name
+Southern Plains,SP-Sys2,Continuous winter wheat,True,TP,-1.0599999999999996,-1.07,0.010000000000000453,within_rounding,-2.5999999999999996,-2.61,0.010000000000000231,within_rounding,True,system_name
+Southern Plains,SP-Sys3,Continuous winter wheat,True,TP,-0.3899999999999997,-0.4,0.010000000000000342,within_rounding,-2.6499999999999995,-2.65,4.440892098500626e-16,within_rounding,True,system_name
+Texas Gulf,TG-Sys1,Corn-Corn-Wheat,True,TP,6.899999999999999,6.9,-1.7763568394002505e-15,within_rounding,5.769999999999999,5.77,-8.881784197001252e-16,within_rounding,True,system_name
+Texas Gulf,TG-Sys2,Corn-Corn-Wheat,True,TP,113.03999999999999,113.04,-1.4210854715202004e-14,within_rounding,111.08,111.08,0.0,within_rounding,True,system_name
+Texas Gulf,TG-Sys3,Corn-Corn-Wheat,True,TP,64.53,64.53,0.0,within_rounding,62.57,62.57,0.0,within_rounding,True,system_name
+"USDA-ARS, Idaho",USDA-ID-Sys1,Wheat-Potato-Barley-Sugarbeet,True,Missing,270.50000000000006,270.5,5.684341886080802e-14,within_rounding,,,,missing,True,system_name
+"USDA-ARS, Idaho",USDA-ID-Sys2,Wheat-Potato-Barley-Sugarbeet,True,Missing,7.239999999999998,7.24,-1.7763568394002505e-15,within_rounding,,,,missing,True,system_name
+"University of Waterloo, Ontario",UWO-Sys2,Corn-Soybean-Wheat,True,TP,3.780000000000001,3.78,1.3322676295501878e-15,within_rounding,3.1500000000000012,3.15,1.3322676295501878e-15,within_rounding,True,system_name
+"University of Waterloo, Ontario",UWO-Sys3,Corn-Soybean-Wheat,True,TP,-0.5900000000000034,-0.59,-3.4416913763379853e-15,within_rounding,-0.9700000000000034,-0.97,-3.4416913763379853e-15,within_rounding,True,system_name

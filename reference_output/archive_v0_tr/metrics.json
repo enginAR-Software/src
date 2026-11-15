@@ -1,0 +1,69 @@
+{
+  "pflux": {
+    "source_rows": 224,
+    "systems": 61,
+    "rotation_position_rows": 163,
+    "system_summary_rows": 61,
+    "wheat_systems": 23,
+    "wheat_systems_named_in_summary": 21,
+    "wheat_systems_from_rotation_only": 2,
+    "unmatched_reference_rows": 61,
+    "unmatched_rotation_reference_rows": 0,
+    "reference_footnotes": 11,
+    "nonnumeric_flux_rows": 1,
+    "tolerance_kg_p_ha_year": 0.03,
+    "agronomic_checks": {
+      "within_rounding": 59,
+      "missing": 2
+    },
+    "overall_checks": {
+      "within_rounding": 45,
+      "missing": 16
+    },
+    "notice": "Rotasyon sırası takvim yılı değildir. Bütçe bitkiye yarayışlı P stoku değildir; hidrologic_p_form korunmuştur."
+  },
+  "napeshm": {
+    "sites": 94,
+    "treatments": 508,
+    "soil_plots": 1453,
+    "soil_observed_sites": 93,
+    "wheat_flagged_sites": 40,
+    "wheat_sites_with_soil": 39,
+    "wheat_sites_without_soil": [
+      "USWA03"
+    ],
+    "wheat_phase_plots": 277,
+    "wheat_flagged_site_plots": 753,
+    "management_rows": 12643,
+    "management_invalid_links": 0,
+    "reserved_management_rows": 986,
+    "unparsed_indicator_values": 0,
+    "notice": "Kesitsel toprak göstergeleri; site_wheat alan düzeyindedir. Toplam N, mineral N değildir. Ölçüm yöntemleri ayrı tutuldu."
+  },
+  "pilot_analysis": {
+    "pilots": {
+      "oregon": {
+        "sitecode": "USOR03",
+        "label": "Oregon: kışlık buğday–bezelye, toprak işleme karşılaştırması",
+        "plot_count": 12,
+        "treatment_count": 3,
+        "crop_phase": "winter wheat",
+        "contrast_definitions": 3
+      },
+      "kansas": {
+        "sitecode": "USKS01",
+        "label": "Kansas: azot düzeyi, nadas, ikinci ürün ve örtü bitkisi",
+        "plot_count": 24,
+        "treatment_count": 6,
+        "crop_phase": "Sorghum",
+        "contrast_definitions": 9
+      }
+    },
+    "selected_plots": 36,
+    "indicator_rows": 324,
+    "summary_rows": 81,
+    "contrast_rows": 108,
+    "contrasts_with_values": 84,
+    "notice": "Ortalama farkları betimseldir. Nedensellik, eşleştirilmiş ölçüm, anlamlılık veya gelecek tahmini iddiası yoktur."
+  }
+}
